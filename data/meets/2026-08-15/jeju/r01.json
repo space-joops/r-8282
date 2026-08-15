@@ -192,56 +192,56 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T17:10:05+09:00",
+  "generatedAt": "2026-08-15T17:13:10+09:00",
   "model": {
    "statVersion": "v1",
-   "aiModel": null
+   "aiModel": "haiku"
   },
   "rankings": [
    {
     "gateNo": 3,
-    "score": 0.82,
-    "winProb": 0.3394,
-    "briefComment": "1년 승률 20% · 입상률 60%",
+    "score": 0.79,
+    "winProb": 0.3053,
+    "briefComment": "승률 20%·입상률 60%, 암3세 변수 존재",
     "predictedRank": 1
    },
    {
     "gateNo": 1,
     "score": 0.7714,
-    "winProb": 0.2853,
-    "briefComment": "1년 승률 29% · 입상률 43%",
+    "winProb": 0.2857,
+    "briefComment": "경험 풍부, 승률 29% 안정적",
     "predictedRank": 2
    },
    {
     "gateNo": 4,
-    "score": 0.625,
-    "winProb": 0.1691,
-    "briefComment": "1년 승률 25% · 입상률 38%",
+    "score": 0.675,
+    "winProb": 0.2025,
+    "briefComment": "승률 25%, 예측보다 우수한 근래 성적",
     "predictedRank": 3
    },
    {
     "gateNo": 2,
     "score": 0.5741,
-    "winProb": 0.141,
-    "briefComment": "1년 승률 11% · 입상률 56%",
+    "winProb": 0.1412,
+    "briefComment": "입상률 56% 높지만 승률 11% 저조",
     "predictedRank": 4
    },
    {
     "gateNo": 6,
     "score": 0.2667,
-    "winProb": 0.047,
-    "briefComment": "1년 승률 0% · 입상률 50%",
+    "winProb": 0.0471,
+    "briefComment": "경험 부족, 승리 기록 없음",
     "predictedRank": 5
    },
    {
     "gateNo": 5,
     "score": 0.0,
-    "winProb": 0.0181,
-    "briefComment": "1년 승률 0% · 입상률 30%",
+    "winProb": 0.0182,
+    "briefComment": "10회 무승리, 경쟁력 약함",
     "predictedRank": 6
    }
   ],
-  "aiCommentary": null,
+  "aiCommentary": "**섬바람소리**의 높은 입상률(60%)이 1순위 평가의 기초이나, 20% 승률과 암3세 경험 부족을 감안하면 실현도 불확실함. **화산폭풍**은 25% 승률로 근래 성적이 예측(17%)을 상회하며 상향 조정이 정당함. 단거리(1000m)에서는 스피드 우위와 폭발력이 결정적이므로, 각 마의 단거리 실적과 조교사 관리 방향이 중요함.",
   "confidence": "medium",
   "topPicks": {
    "win": 3,

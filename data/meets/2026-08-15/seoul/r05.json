@@ -192,56 +192,56 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T17:10:05+09:00",
+  "generatedAt": "2026-08-15T17:13:10+09:00",
   "model": {
    "statVersion": "v1",
-   "aiModel": null
+   "aiModel": "haiku"
   },
   "rankings": [
    {
     "gateNo": 5,
     "score": 0.8993,
-    "winProb": 0.3856,
-    "briefComment": "1년 승률 33% · 입상률 67% · 레이팅 50",
+    "winProb": 0.3735,
+    "briefComment": "3살 진보마, 1400m 미흡",
     "predictedRank": 1
    },
    {
     "gateNo": 1,
-    "score": 0.8646,
-    "winProb": 0.3406,
-    "briefComment": "1년 승률 33% · 입상률 56% · 레이팅 52",
+    "score": 0.8846,
+    "winProb": 0.3544,
+    "briefComment": "최고 레이팅 52, 체중 안정",
     "predictedRank": 2
    },
    {
     "gateNo": 2,
     "score": 0.5805,
-    "winProb": 0.1235,
-    "briefComment": "1년 승률 18% · 입상률 55% · 레이팅 49",
+    "winProb": 0.1196,
+    "briefComment": "승률 18%, 변동성 높음",
     "predictedRank": 3
    },
    {
     "gateNo": 3,
-    "score": 0.5217,
-    "winProb": 0.1001,
-    "briefComment": "1년 승률 12% · 입상률 62% · 레이팅 47",
+    "score": 0.5517,
+    "winProb": 0.1079,
+    "briefComment": "입상률 62%, 우승력 약",
     "predictedRank": 4
    },
    {
     "gateNo": 4,
-    "score": 0.2101,
-    "winProb": 0.0329,
-    "briefComment": "1년 승률 8% · 입상률 42% · 레이팅 45",
+    "score": 0.1701,
+    "winProb": 0.0276,
+    "briefComment": "+5kg 부담, 6살 노령",
     "predictedRank": 5
    },
    {
     "gateNo": 6,
     "score": 0.0312,
-    "winProb": 0.0174,
-    "briefComment": "1년 승률 0% · 입상률 40% · 레이팅 43",
+    "winProb": 0.0168,
+    "briefComment": "1년 무승리, 하락세",
     "predictedRank": 6
    }
   ],
-  "aiCommentary": null,
+  "aiCommentary": "**청룡비상** 대 **불꽃심장**의 양강 구도. 청룡비상은 3살이나 최근 입상률 67%로 성숙도 높고, 불꽃심장은 52 레이팅 최고 평가에 체중 안정으로 신뢰성 우수. 1400m 중거리 경주에서 초반 페이스 선점과 스태미나 조절이 관건이며, 적토마꿈의 체중 +5kg는 조련 부담의 신호로 상위권 진출 어려움. 우레폭풍은 62% 입상률로 안정적이나 우승력 약해 조마권 가능성.",
   "confidence": "medium",
   "topPicks": {
    "win": 5,
