@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Entry } from "@/lib/types";
 import { formatPercent } from "@/lib/format";
 
@@ -12,10 +13,30 @@ export function EntryTable({ entries }: { entries: Entry[] }) {
               <th className="py-2 pr-2 font-medium">번</th>
               <th className="py-2 pr-2 font-medium">마명</th>
               <th className="py-2 pr-2 font-medium">성/연령</th>
-              <th className="py-2 pr-2 font-medium">레이팅</th>
-              <th className="py-2 pr-2 font-medium">부담</th>
-              <th className="py-2 pr-2 font-medium">마체중</th>
-              <th className="py-2 pr-2 font-medium">1년 성적</th>
+              <th
+                className="cursor-help py-2 pr-2 font-medium underline decoration-dotted underline-offset-2"
+                title="한국마사회가 매기는 능력 점수 — 높을수록 강함, 미부여는 '-'"
+              >
+                레이팅
+              </th>
+              <th
+                className="cursor-help py-2 pr-2 font-medium underline decoration-dotted underline-offset-2"
+                title="부담중량 — 말이 짊어지는 총 무게(기수+장구). 무거울수록 불리"
+              >
+                부담
+              </th>
+              <th
+                className="cursor-help py-2 pr-2 font-medium underline decoration-dotted underline-offset-2"
+                title="당일 아침 몸무게. 괄호는 직전 경주 대비 증감 — 급변(±8kg↑)은 컨디션 신호"
+              >
+                마체중
+              </th>
+              <th
+                className="cursor-help py-2 pr-2 font-medium underline decoration-dotted underline-offset-2"
+                title="최근 1년 출전·1착 횟수와 승률"
+              >
+                1년 성적
+              </th>
               <th className="py-2 pr-2 font-medium">기수</th>
               <th className="py-2 font-medium">조교사</th>
             </tr>
@@ -79,6 +100,13 @@ export function EntryTable({ entries }: { entries: Entry[] }) {
           </tbody>
         </table>
       </div>
+      <p className="mt-3 text-xs text-muted">
+        용어가 낯설다면{" "}
+        <Link href="/guide" className="text-brand hover:underline">
+          경마 용어 가이드
+        </Link>
+        를 참고하세요.
+      </p>
     </section>
   );
 }

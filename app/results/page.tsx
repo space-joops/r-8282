@@ -80,7 +80,10 @@ export default async function ResultsPage() {
       )}
 
       <p className="text-xs text-muted">
-        단승 적중 = 단승 픽이 1위 · 연승 적중 = 단승 픽이 3위 이내
+        단승 적중 = 단승 픽이 1위 · 연승 적중 = 단승 픽이 3위 이내 ·{" "}
+        <Link href="/guide" className="text-brand hover:underline">
+          용어 가이드
+        </Link>
       </p>
     </div>
   );

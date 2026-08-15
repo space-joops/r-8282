@@ -20,7 +20,10 @@ export function PredictionPanel({ prediction, entries }: Props) {
     <section className="rounded-xl border border-border bg-surface p-4">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-semibold">AI·통계 예측</h2>
-        <span className="rounded-full bg-brand-soft px-2 py-0.5 text-xs font-medium text-brand">
+        <span
+          className="cursor-help rounded-full bg-brand-soft px-2 py-0.5 text-xs font-medium text-brand"
+          title="예측 1위와 2위의 승률 격차 기준 — 높음(뚜렷한 우세)/보통/낮음(혼전)"
+        >
           {CONFIDENCE_LABEL[prediction.confidence]}
         </span>
       </div>
@@ -48,7 +51,10 @@ export function PredictionPanel({ prediction, entries }: Props) {
                 <span className="text-muted">{r.predictedRank}위</span>{" "}
                 {r.gateNo}번 {horseName(r.gateNo)}
               </span>
-              <span className="tabular-nums text-muted">
+              <span
+                className="cursor-help tabular-nums text-muted"
+                title="모델이 추정한 1착 확률 — 경주 내 합계 100%"
+              >
                 {formatPercent(r.winProb)}
               </span>
             </div>

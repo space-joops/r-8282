@@ -58,6 +58,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/results" className="text-muted hover:text-foreground">
                 적중률
               </Link>
+              <Link href="/guide" className="text-muted hover:text-foreground">
+                가이드
+              </Link>
               <Link href="/about" className="text-muted hover:text-foreground">
                 소개
               </Link>
