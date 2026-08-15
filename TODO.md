@@ -13,16 +13,22 @@
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **PR [#26](https://github.com/space-joops/r-8282/pull/26) 머지** (용어 가이드, #25) — 사용자 리뷰·머지 대기
-2. **8/16(일) 저녁**: `make results DATE=2026-08-16` → diff 검토 → 커밋·push
-   → 첫 실예측 적중률이 /results에 공개됨. 결과가 '순위 미확정'으로 남으면 다음날 `--refresh`로 재실행
-3. 다음 주말부터 정규 리듬: 금·토·일 아침 `make predict DATE=$(date +%F) FLAGS="--ai-model haiku"` / 저녁 `make results DATE=…` (상세: 이슈 #23)
+1. **PR 2건 머지** — [#26](https://github.com/space-joops/r-8282/pull/26)(용어 가이드) + [#27](https://github.com/space-joops/r-8282/pull/27)(운영 자동화).
+   ⚠️ **#27은 일요일 07:30 전에 머지 필요** — systemd 타이머가 main의 `scripts/ops.sh`를 실행하므로, 머지 전엔 자동 실행이 실패한다
+2. **8/16(일)**: #27 머지돼 있으면 타이머가 자동 처리 (07:33 예측 스킵 확인, 19:30 결과+첫 적중률 공개).
+   수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
+3. 자동화 로그 확인 습관: `journalctl --user -u kyongma-predict -u kyongma-results -e`
+
+## 자동화 상태 (2026-08-15 설치)
+
+- systemd user timer 활성: 예측 금토일 07:30 / 결과 금토일 19:30+월 10:00 (`Persistent=true`, linger 활성)
+- 파이프라인 쓰기는 멱등 — 변경 없는 재실행은 커밋 없음
+- 해제: `systemctl --user disable --now kyongma-predict.timer kyongma-results.timer`
 
 ## 백로그 (우선순위순)
 
 | 이슈 | 내용 | 규모 |
 |---|---|---|
-| [#23](https://github.com/space-joops/r-8282/issues/23) | 운영 자동화 구현 — systemd timer 또는 GitHub Actions cron 중 택1 결정 필요 (사용자 결정 사항) — **다음 작업 추천** | 중 |
 | [#24](https://github.com/space-joops/r-8282/issues/24) | 경량 ML 모델 — 과거 데이터 축적 → 백테스트 → 조건부 로짓 v2. 학습 데이터(history.sqlite) 백업 방안도 함께 결정 | 대 |
 | [#19](https://github.com/space-joops/r-8282/issues/19) | 검색엔진 등록 — **사용자 수동 작업** (콘솔 등록 → env 추가) | 소 |
 
