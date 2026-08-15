@@ -112,9 +112,13 @@ def _load_races(meet_dir: Path) -> dict[str, list[dict]]:
 def rebuild_meet_and_index(*, data_dir: Path = DATA_DIR) -> None:
     """data/meets/**의 경주 파일에서 meet.json과 index.json을 재생성한다."""
     meets_dir = data_dir / "meets"
+    meets_dir.mkdir(parents=True, exist_ok=True)
     meet_dates = sorted(
         (d.name for d in meets_dir.iterdir() if d.is_dir()), reverse=True
     )
+    if not meet_dates:
+        logger.warning("개최일 데이터가 없어 index/meet 재생성을 건너뜁니다")
+        return
 
     for date in meet_dates:
         meet_dir = meets_dir / date

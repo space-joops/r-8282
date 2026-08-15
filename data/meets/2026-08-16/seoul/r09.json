@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 9,
+ "startTimeKst": "17:25",
+ "distanceM": 1800,
+ "grade": "1등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0051756",
+   "horseName": "대성스타",
+   "age": 4,
+   "sex": "수",
+   "rating": 822.0,
+   "jockey": {
+    "id": "080405",
+    "name": "김용근",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070306",
+    "name": "홍윤화",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 3,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0050997",
+   "horseName": "베스트레이스",
+   "age": 4,
+   "sex": "수",
+   "rating": 947.0,
+   "jockey": {
+    "id": "080361",
+    "name": "최범현",
+    "winRate1y": 0.165
+   },
+   "trainer": {
+    "id": "070264",
+    "name": "박지헌",
+    "winRate1y": 0.105
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 3,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0054048",
+   "horseName": "파워군주",
+   "age": 5,
+   "sex": "수",
+   "rating": 820.0,
+   "jockey": {
+    "id": "080473",
+    "name": "김정준",
+    "winRate1y": 0.082
+   },
+   "trainer": {
+    "id": "070179",
+    "name": "송문길",
+    "winRate1y": 0.124
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0051083",
+   "horseName": "머스킷데이",
+   "age": 4,
+   "sex": "수",
+   "rating": 810.0,
+   "jockey": {
+    "id": "080476",
+    "name": "장추열",
+    "winRate1y": 0.152
+   },
+   "trainer": {
+    "id": "070225",
+    "name": "문병기",
+    "winRate1y": 0.144
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 3,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0046657",
+   "horseName": "자이언트스텝",
+   "age": 5,
+   "sex": "수",
+   "rating": 910.0,
+   "jockey": {
+    "id": "08A059",
+    "name": "루이스",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070179",
+    "name": "송문길",
+    "winRate1y": 0.124
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "1412323",
+   "horseName": "트라움킹",
+   "age": 5,
+   "sex": "수",
+   "rating": 770.0,
+   "jockey": {
+    "id": "080513",
+    "name": "송재철",
+    "winRate1y": 0.095
+   },
+   "trainer": {
+    "id": "070197",
+    "name": "이준철",
+    "winRate1y": 0.165
+   },
+   "weightCarriedKg": 52.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -2.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051286",
+   "horseName": "강나루",
+   "age": 4,
+   "sex": "수",
+   "rating": 8414.0,
+   "jockey": {
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.116
+   },
+   "trainer": {
+    "id": "070248",
+    "name": "함완식",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0051573",
+   "horseName": "노프라블럼",
+   "age": 4,
+   "sex": "거",
+   "rating": 840.0,
+   "jockey": {
+    "id": "080547",
+    "name": "이용호",
+    "winRate1y": 0.068
+   },
+   "trainer": {
+    "id": "070200",
+    "name": "최용건",
+    "winRate1y": 0.142
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 4,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0045999",
+   "horseName": "제타마스터",
+   "age": 6,
+   "sex": "거",
+   "rating": 835.0,
+   "jockey": {
+    "id": "080562",
+    "name": "이동하",
+    "winRate1y": 0.177
+   },
+   "trainer": {
+    "id": "070290",
+    "name": "문세영",
+    "winRate1y": 0.071
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 2,
+    "seconds": 3,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0050004",
+   "horseName": "글라디우스",
+   "age": 5,
+   "sex": "암",
+   "rating": 1040.0,
+   "jockey": {
+    "id": "080487",
+    "name": "임기원",
+    "winRate1y": 0.086
+   },
+   "trainer": {
+    "id": "070174",
+    "name": "강성오",
+    "winRate1y": 0.129
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0045183",
+   "horseName": "지모션",
+   "age": 6,
+   "sex": "거",
+   "rating": 840.0,
+   "jockey": {
+    "id": "080578",
+    "name": "김효정",
+    "winRate1y": 0.083
+   },
+   "trainer": {
+    "id": "070244",
+    "name": "리카디",
+    "winRate1y": 0.199
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 4,
+    "score": 0.5862,
+    "winProb": 0.1768,
+    "briefComment": "최고 입상률, 체중증가 신호 긍정",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 2,
+    "score": 0.5348,
+    "winProb": 0.1471,
+    "briefComment": "고레이팅 검증마, 안정 플레이",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 8,
+    "score": 0.5316,
+    "winProb": 0.1455,
+    "briefComment": "최고 승률 마, 감량 계획적",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 7,
+    "score": 0.4799,
+    "winProb": 0.1209,
+    "briefComment": "레이팅 오류 의심, 실적 부진",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 1,
+    "score": 0.418,
+    "winProb": 0.097,
+    "briefComment": "중위권 마, 입상 기대",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 9,
+    "score": 0.397,
+    "winProb": 0.09,
+    "briefComment": "경험 풍부, 중위권 안정성",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 11,
+    "score": 0.2989,
+    "winProb": 0.0634,
+    "briefComment": "경험 풍부 거마, 기대 낮음",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 5,
+    "score": 0.2121,
+    "winProb": 0.0465,
+    "briefComment": "고레이팅 미발휘, 조정 중",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 6,
+    "score": 0.17,
+    "winProb": 0.04,
+    "briefComment": "저레이팅, 약점 노출",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 10,
+    "score": 0.1695,
+    "winProb": 0.0399,
+    "briefComment": "신마 고레이팅, 입상 안정적",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 3,
+    "score": 0.116,
+    "winProb": 0.033,
+    "briefComment": "출전 경험 부족, 전개 미정",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**머스킷데이**(4번)가 중위권 레이팅에 88% 입상률로 가장 안정적이며, **노프라블럼**(8번)도 50% 승률로 검증된 강자. **베스트레이스**(2번)는 947의 고레이팅과 38% 승률로 탑 클래스. 다만 **강나루**(7번)의 레이팅 8414.0은 데이터 오류로 추정되며(다른 말들 770~1040 범위), 실제 12% 승률과 괴리 있음. **글라디우스**(10번)는 1040의 최고 레이팅에 83% 입상률로 신마 치고 안정적이나 1위 부재로 저평가된 것 같음.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 4,
+   "place": [
+    4,
+    2,
+    8
+   ],
+   "exacta": [
+    4,
+    2
+   ]
+  }
+ },
+ "result": null
+}

@@ -1,0 +1,335 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 6,
+ "startTimeKst": "14:50",
+ "distanceM": 1400,
+ "grade": "혼4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0061827",
+   "horseName": "럭키링맨",
+   "age": 3,
+   "sex": "수",
+   "rating": 361.0,
+   "jockey": {
+    "id": "080603",
+    "name": "김태희",
+    "winRate1y": 0.064
+   },
+   "trainer": {
+    "id": "070197",
+    "name": "이준철",
+    "winRate1y": 0.165
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0055894",
+   "horseName": "남산블랙",
+   "age": 4,
+   "sex": "수",
+   "rating": 451.0,
+   "jockey": {
+    "id": "080530",
+    "name": "정정희",
+    "winRate1y": 0.124
+   },
+   "trainer": {
+    "id": "070244",
+    "name": "리카디",
+    "winRate1y": 0.199
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0051618",
+   "horseName": "브리도트로피",
+   "age": 4,
+   "sex": "수",
+   "rating": 440.0,
+   "jockey": {
+    "id": "080617",
+    "name": "코지",
+    "winRate1y": 0.14
+   },
+   "trainer": {
+    "id": "070293",
+    "name": "정하백",
+    "winRate1y": 0.13
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 5
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0055087",
+   "horseName": "창창삭스",
+   "age": 5,
+   "sex": "수",
+   "rating": 503.0,
+   "jockey": {
+    "id": "",
+    "name": "(-2)권중석",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070314",
+    "name": "한만달",
+    "winRate1y": 0.0
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 4
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0047127",
+   "horseName": "손에손잡고",
+   "age": 5,
+   "sex": "암",
+   "rating": 430.0,
+   "jockey": {
+    "id": "080608",
+    "name": "오수철",
+    "winRate1y": 0.018
+   },
+   "trainer": {
+    "id": "070247",
+    "name": "이동국",
+    "winRate1y": 0.052
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0060704",
+   "horseName": "남산록",
+   "age": 3,
+   "sex": "수",
+   "rating": 461.0,
+   "jockey": {
+    "id": "080405",
+    "name": "김용근",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070174",
+    "name": "강성오",
+    "winRate1y": 0.129
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0053972",
+   "horseName": "문학대세",
+   "age": 3,
+   "sex": "암",
+   "rating": 361.0,
+   "jockey": {
+    "id": "",
+    "name": "(-1)우인철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.088
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0045888",
+   "horseName": "스터닝레이디",
+   "age": 6,
+   "sex": "암",
+   "rating": 400.0,
+   "jockey": {
+    "id": "08A059",
+    "name": "루이스",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070165",
+    "name": "서인석",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 6,
+    "score": 0.6594,
+    "winProb": 0.2244,
+    "briefComment": "안정적 1순위주, 컨디션 양호",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 7,
+    "score": 0.64,
+    "winProb": 0.2094,
+    "briefComment": "최근 25% 승률, 경량화 스피드 강점",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 3,
+    "score": 0.6282,
+    "winProb": 0.2008,
+    "briefComment": "입상률 58% 안정성 우수",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 2,
+    "score": 0.4575,
+    "winProb": 0.1091,
+    "briefComment": "레이팅 대비 입상 부진 신호",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 4,
+    "score": 0.4516,
+    "winProb": 0.1069,
+    "briefComment": "고레이팅도 1년 0승, 기수변경 우려",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 5,
+    "score": 0.3812,
+    "winProb": 0.0831,
+    "briefComment": "평범한 실적, 중위권 경합",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 8,
+    "score": 0.1371,
+    "winProb": 0.0348,
+    "briefComment": "0승 부진, 암6 나이 우려",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 1,
+    "score": 0.1096,
+    "winProb": 0.0315,
+    "briefComment": "최약마, -5kg 경량화도 입상 어려움",
+    "predictedRank": 8
+   }
+  ],
+  "aiCommentary": "**남산록**과 **브리도트로피** 중심의 구도로 두 마 모두 안정성이 높습니다. 주목할 점은 **문학대세**의 최근 1년 25% 승률로, 레이팅 대비 실제 폼이 우수하나 기수 변경이 변수입니다. **창창삭스**는 최고 레이팅(503)에도 불구하고 1년 간 0승 기록과 기수 변경(-2)이 복합적 우려입니다. 1400m 중거리에서 상위권 포지셔닝 경합이 치열할 것으로 예상됩니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 6,
+   "place": [
+    6,
+    7,
+    3
+   ],
+   "exacta": [
+    6,
+    7
+   ]
+  }
+ },
+ "result": null
+}

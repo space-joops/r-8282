@@ -3,459 +3,396 @@
  "date": "2026-08-15",
  "track": "seoul",
  "raceNo": 1,
- "startTimeKst": "10:40",
- "distanceM": 1200,
+ "startTimeKst": "12:55",
+ "distanceM": 1000,
  "grade": "국6등급",
  "canceled": false,
- "ageCond": "연령오픈",
- "weather": "맑음",
- "trackCond": "건조 (함수율 8%)",
+ "ageCond": "2세",
+ "weather": null,
+ "trackCond": "건조 (3%)",
  "entries": [
   {
    "gateNo": 1,
-   "horseId": "0051234",
-   "horseName": "바람의질주",
-   "age": 3,
-   "sex": "수",
-   "rating": 32,
+   "horseId": "0056677",
+   "horseName": "루움축제",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080101",
-    "name": "김민준",
-    "winRate1y": 0.142
+    "id": "080405",
+    "name": "김용근",
+    "winRate1y": 0.109
    },
    "trainer": {
-    "id": "070201",
-    "name": "박성호",
-    "winRate1y": 0.118
+    "id": "070146",
+    "name": "안병기",
+    "winRate1y": 0.116
    },
-   "weightCarriedKg": 57,
-   "bodyWeightKg": 478,
-   "bodyWeightDiffKg": 4,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 482.0,
+   "bodyWeightDiffKg": 6.0,
    "record1y": {
-    "starts": 8,
-    "wins": 1,
-    "seconds": 2,
-    "thirds": 1
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-26",
-     "track": "seoul",
-     "finishPos": 2,
-     "entryCount": 10,
-     "distanceM": 1200,
-     "timeSec": 74.8
-    },
-    {
-     "date": "2026-06-28",
-     "track": "seoul",
-     "finishPos": 5,
-     "entryCount": 11,
-     "distanceM": 1000,
-     "timeSec": 62.1
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
    "gateNo": 2,
-   "horseId": "0052871",
-   "horseName": "황금돌풍",
-   "age": 4,
-   "sex": "거",
-   "rating": 35,
+   "horseId": "0056213",
+   "horseName": "라온폴리스",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080115",
-    "name": "이서연",
-    "winRate1y": 0.181
+    "id": "080476",
+    "name": "장추열",
+    "winRate1y": 0.152
    },
    "trainer": {
-    "id": "070188",
-    "name": "최영래",
-    "winRate1y": 0.135
+    "id": "070304",
+    "name": "이강서",
+    "winRate1y": 0.375
    },
-   "weightCarriedKg": 58,
-   "bodyWeightKg": 492,
-   "bodyWeightDiffKg": -2,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 472.0,
+   "bodyWeightDiffKg": 3.0,
    "record1y": {
-    "starts": 10,
-    "wins": 2,
-    "seconds": 1,
-    "thirds": 3
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-19",
-     "track": "seoul",
-     "finishPos": 1,
-     "entryCount": 9,
-     "distanceM": 1200,
-     "timeSec": 73.9
-    },
-    {
-     "date": "2026-06-21",
-     "track": "seoul",
-     "finishPos": 3,
-     "entryCount": 12,
-     "distanceM": 1300,
-     "timeSec": 80.5
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
    "gateNo": 3,
-   "horseId": "0049920",
-   "horseName": "새벽함성",
-   "age": 3,
+   "horseId": "0056774",
+   "horseName": "수미강자",
+   "age": 2,
    "sex": "암",
-   "rating": 28,
+   "rating": null,
    "jockey": {
-    "id": "080122",
-    "name": "정우성",
+    "id": "080513",
+    "name": "송재철",
     "winRate1y": 0.095
    },
    "trainer": {
-    "id": "070215",
-    "name": "한지훈",
-    "winRate1y": 0.102
+    "id": "070247",
+    "name": "이동국",
+    "winRate1y": 0.052
    },
-   "weightCarriedKg": 55,
-   "bodyWeightKg": 455,
-   "bodyWeightDiffKg": 0,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 482.0,
+   "bodyWeightDiffKg": 15.0,
    "record1y": {
-    "starts": 6,
+    "starts": 1,
     "wins": 0,
-    "seconds": 1,
-    "thirds": 1
+    "seconds": 0,
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-26",
-     "track": "seoul",
-     "finishPos": 6,
-     "entryCount": 10,
-     "distanceM": 1200,
-     "timeSec": 76.2
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
    "gateNo": 4,
-   "horseId": "0053310",
-   "horseName": "천둥소리",
-   "age": 4,
-   "sex": "수",
-   "rating": 33,
+   "horseId": "0055348",
+   "horseName": "시티오브드림",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080098",
-    "name": "오세훈",
-    "winRate1y": 0.156
+    "id": "080624",
+    "name": "루이스",
+    "winRate1y": 0.089
    },
    "trainer": {
-    "id": "070201",
-    "name": "박성호",
-    "winRate1y": 0.118
+    "id": "070164",
+    "name": "박재우",
+    "winRate1y": 0.081
    },
-   "weightCarriedKg": 57.5,
-   "bodyWeightKg": 501,
-   "bodyWeightDiffKg": 6,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 445.0,
+   "bodyWeightDiffKg": 4.0,
    "record1y": {
-    "starts": 9,
-    "wins": 2,
+    "starts": 1,
+    "wins": 0,
     "seconds": 0,
-    "thirds": 2
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-12",
-     "track": "seoul",
-     "finishPos": 1,
-     "entryCount": 8,
-     "distanceM": 1200,
-     "timeSec": 74.1
-    },
-    {
-     "date": "2026-06-14",
-     "track": "seoul",
-     "finishPos": 4,
-     "entryCount": 10,
-     "distanceM": 1400,
-     "timeSec": 88.3
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
    "gateNo": 5,
-   "horseId": "0050788",
-   "horseName": "은빛파도",
-   "age": 5,
-   "sex": "거",
-   "rating": 30,
+   "horseId": "0055285",
+   "horseName": "화이트선더",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080130",
-    "name": "강다현",
-    "winRate1y": 0.088
+    "id": "080617",
+    "name": "코지",
+    "winRate1y": 0.14
    },
    "trainer": {
-    "id": "070230",
-    "name": "임채원",
-    "winRate1y": 0.091
+    "id": "070200",
+    "name": "최용건",
+    "winRate1y": 0.142
    },
-   "weightCarriedKg": 56,
-   "bodyWeightKg": 468,
-   "bodyWeightDiffKg": -5,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 457.0,
+   "bodyWeightDiffKg": 7.0,
    "record1y": {
-    "starts": 11,
-    "wins": 1,
-    "seconds": 2,
-    "thirds": 1
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-08-01",
-     "track": "seoul",
-     "finishPos": 7,
-     "entryCount": 12,
-     "distanceM": 1200,
-     "timeSec": 76.8
-    },
-    {
-     "date": "2026-07-05",
-     "track": "seoul",
-     "finishPos": 2,
-     "entryCount": 9,
-     "distanceM": 1000,
-     "timeSec": 61.7
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
-   "jockeyChanged": true
+   "jockeyChanged": false
   },
   {
    "gateNo": 6,
-   "horseId": "0054102",
-   "horseName": "질풍노도",
-   "age": 3,
-   "sex": "수",
-   "rating": 27,
+   "horseId": "0055655",
+   "horseName": "쏘아라타타",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080144",
-    "name": "윤재호",
-    "winRate1y": 0.071
+    "id": "080602",
+    "name": "임다빈",
+    "winRate1y": 0.063
    },
    "trainer": {
-    "id": "070188",
-    "name": "최영래",
-    "winRate1y": 0.135
+    "id": "070181",
+    "name": "이관호",
+    "winRate1y": 0.09
    },
-   "weightCarriedKg": 55.5,
-   "bodyWeightKg": 460,
-   "bodyWeightDiffKg": 2,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 412.0,
+   "bodyWeightDiffKg": 6.0,
    "record1y": {
-    "starts": 5,
+    "starts": 0,
     "wins": 0,
     "seconds": 0,
-    "thirds": 2
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-19",
-     "track": "seoul",
-     "finishPos": 5,
-     "entryCount": 9,
-     "distanceM": 1000,
-     "timeSec": 62.9
-    }
-   ],
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
    "gateNo": 7,
-   "horseId": "0048455",
-   "horseName": "푸른창공",
-   "age": 6,
-   "sex": "거",
-   "rating": 31,
+   "horseId": "0055485",
+   "horseName": "퀸즈임팩트",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
    "jockey": {
-    "id": "080077",
-    "name": "송민재",
-    "winRate1y": 0.124
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.179
    },
    "trainer": {
-    "id": "070152",
-    "name": "곽태영",
-    "winRate1y": 0.108
+    "id": "070164",
+    "name": "박재우",
+    "winRate1y": 0.081
    },
-   "weightCarriedKg": 56.5,
-   "bodyWeightKg": 485,
-   "bodyWeightDiffKg": 1,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 464.0,
+   "bodyWeightDiffKg": 12.0,
    "record1y": {
-    "starts": 12,
-    "wins": 1,
-    "seconds": 3,
-    "thirds": 2
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
-   "recentRuns": [
-    {
-     "date": "2026-07-26",
-     "track": "seoul",
-     "finishPos": 3,
-     "entryCount": 10,
-     "distanceM": 1200,
-     "timeSec": 75.3
-    },
-    {
-     "date": "2026-06-28",
-     "track": "seoul",
-     "finishPos": 2,
-     "entryCount": 11,
-     "distanceM": 1200,
-     "timeSec": 74.6
-    }
-   ],
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0056259",
+   "horseName": "브릴리언트",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080547",
+    "name": "이용호",
+    "winRate1y": 0.068
+   },
+   "trainer": {
+    "id": "070165",
+    "name": "서인석",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 427.0,
+   "bodyWeightDiffKg": 6.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0055740",
+   "horseName": "블루호라이즌",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080533",
+    "name": "조상범",
+    "winRate1y": 0.028
+   },
+   "trainer": {
+    "id": "070265",
+    "name": "토니",
+    "winRate1y": 0.119
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 425.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0055833",
+   "horseName": "풀스윙",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.116
+   },
+   "trainer": {
+    "id": "070166",
+    "name": "심승태",
+    "winRate1y": 0.047
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 422.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   }
  ],
- "prediction": {
-  "generatedAt": "2026-08-14T21:00:00+09:00",
-  "model": {
-   "statVersion": "v1",
-   "aiModel": "claude-sonnet-5"
-  },
-  "rankings": [
-   {
-    "gateNo": 2,
-    "predictedRank": 1,
-    "score": 0.82,
-    "winProb": 0.31,
-    "briefComment": "최근 동거리 1착, 기수 승률 최상위"
-   },
-   {
-    "gateNo": 4,
-    "predictedRank": 2,
-    "score": 0.76,
-    "winProb": 0.24,
-    "briefComment": "직전 우승마, 마체중 증가는 관찰 필요"
-   },
-   {
-    "gateNo": 7,
-    "predictedRank": 3,
-    "score": 0.68,
-    "winProb": 0.17,
-    "briefComment": "동거리 연속 입상, 꾸준한 노장"
-   },
-   {
-    "gateNo": 1,
-    "predictedRank": 4,
-    "score": 0.55,
-    "winProb": 0.11,
-    "briefComment": "직전 2착이나 상대 강화"
-   },
-   {
-    "gateNo": 5,
-    "predictedRank": 5,
-    "score": 0.44,
-    "winProb": 0.08,
-    "briefComment": "기수 변경·체중 감소 겹쳐 불안"
-   },
-   {
-    "gateNo": 3,
-    "predictedRank": 6,
-    "score": 0.35,
-    "winProb": 0.05,
-    "briefComment": "입상 경험 부족"
-   },
-   {
-    "gateNo": 6,
-    "predictedRank": 7,
-    "score": 0.3,
-    "winProb": 0.04,
-    "briefComment": "거리 연장 검증 안 됨"
-   }
-  ],
-  "aiCommentary": "2번 **황금돌풍**이 동거리 최근 1착 기록과 기수 이서연의 높은 승률을 앞세워 중심축입니다. 4번 천둥소리가 대항마이나 6kg 마체중 증가가 변수입니다. 복병은 7번 푸른창공 — 동거리 연속 입상으로 복승 안정권입니다.",
-  "confidence": "medium",
-  "topPicks": {
-   "win": 2,
-   "place": [
-    2,
-    4,
-    7
-   ],
-   "exacta": [
-    2,
-    4
-   ]
-  }
- },
+ "prediction": null,
  "result": {
-  "fetchedAt": "2026-08-15T11:05:00+09:00",
+  "fetchedAt": "2026-08-15T18:54:40+09:00",
   "order": [
    {
     "finishPos": 1,
-    "gateNo": 2,
-    "horseName": "황금돌풍",
-    "timeSec": 73.7,
+    "gateNo": 5,
+    "horseName": "화이트선더",
+    "timeSec": 61.3,
     "margin": null
    },
    {
     "finishPos": 2,
-    "gateNo": 7,
-    "horseName": "푸른창공",
-    "timeSec": 74.2,
-    "margin": "3"
+    "gateNo": 4,
+    "horseName": "시티오브드림",
+    "timeSec": 61.9,
+    "margin": null
    },
    {
     "finishPos": 3,
-    "gateNo": 4,
-    "horseName": "천둥소리",
-    "timeSec": 74.4,
-    "margin": "1.5"
+    "gateNo": 2,
+    "horseName": "라온폴리스",
+    "timeSec": 62.2,
+    "margin": null
    },
    {
     "finishPos": 4,
-    "gateNo": 1,
-    "horseName": "바람의질주",
-    "timeSec": 75.0,
-    "margin": "3.5"
+    "gateNo": 7,
+    "horseName": "퀸즈임팩트",
+    "timeSec": 62.6,
+    "margin": null
    },
    {
     "finishPos": 5,
-    "gateNo": 3,
-    "horseName": "새벽함성",
-    "timeSec": 75.9,
-    "margin": "5"
+    "gateNo": 1,
+    "horseName": "루움축제",
+    "timeSec": 62.7,
+    "margin": null
    },
    {
     "finishPos": 6,
-    "gateNo": 6,
-    "horseName": "질풍노도",
-    "timeSec": 76.3,
-    "margin": "2"
+    "gateNo": 9,
+    "horseName": "블루호라이즌",
+    "timeSec": 62.9,
+    "margin": null
    },
    {
     "finishPos": 7,
-    "gateNo": 5,
-    "horseName": "은빛파도",
-    "timeSec": 77.1,
-    "margin": "4"
+    "gateNo": 8,
+    "horseName": "브릴리언트",
+    "timeSec": 63.1,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 3,
+    "horseName": "수미강자",
+    "timeSec": 63.9,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 10,
+    "horseName": "풀스윙",
+    "timeSec": 64.1,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 6,
+    "horseName": "쏘아라타타",
+    "timeSec": 64.6,
+    "margin": null
    }
   ],
   "payouts": {
-   "win": 4.2,
+   "win": 2.1,
    "place": [
-    1.6,
-    2.1,
-    1.9
+    1.2,
+    2.0,
+    1.5
    ]
   }
  }

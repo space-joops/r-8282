@@ -1,9 +1,10 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-08-15T17:22:50+09:00",
+ "updatedAt": "2026-08-15T19:18:24+09:00",
  "latestMeetDate": "2026-08-15",
- "nextMeetDate": null,
+ "nextMeetDate": "2026-08-16",
  "meetDates": [
+  "2026-08-16",
   "2026-08-15"
  ]
 }

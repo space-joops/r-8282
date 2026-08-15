@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from urllib.parse import unquote
 
 from dotenv import load_dotenv
 
@@ -22,6 +23,13 @@ def service_key() -> str:
             "KRA_SERVICE_KEY가 설정되지 않았습니다. "
             "pipeline/.env.example을 .env로 복사해 인증키를 넣으세요."
         )
+    # data.go.kr 'Encoding' 키(%2B…)를 넣어도 동작하도록 디코딩.
+    # httpx가 전송 시 다시 인코딩하므로 원본(Decoding) 키가 필요하다.
+    while "%" in key:
+        decoded = unquote(key)
+        if decoded == key:
+            break
+        key = decoded
     return key
 
 

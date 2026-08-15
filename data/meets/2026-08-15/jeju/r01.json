@@ -3,37 +3,37 @@
  "date": "2026-08-15",
  "track": "jeju",
  "raceNo": 1,
- "startTimeKst": "11:00",
- "distanceM": 1000,
- "grade": "제5",
+ "startTimeKst": "12:30",
+ "distanceM": 900,
+ "grade": "제6등급",
  "canceled": false,
- "ageCond": "연령오픈",
+ "ageCond": "4세이하",
  "weather": null,
- "trackCond": null,
+ "trackCond": "건조 (5%)",
  "entries": [
   {
    "gateNo": 1,
-   "horseId": "0092140",
-   "horseName": "한라준마",
-   "age": 4,
-   "sex": "수",
+   "horseId": "3107367",
+   "horseName": "킹메이커",
+   "age": 3,
+   "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "고은비",
-    "winRate1y": null
+    "id": "003073",
+    "name": "김다영",
+    "winRate1y": 0.035
    },
    "trainer": {
-    "id": "",
-    "name": "부현석",
-    "winRate1y": null
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.048
    },
    "weightCarriedKg": 55.0,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightKg": 265.0,
+   "bodyWeightDiffKg": 5.0,
    "record1y": {
-    "starts": 7,
-    "wins": 2,
+    "starts": 3,
+    "wins": 0,
     "seconds": 1,
     "thirds": 0
    },
@@ -43,29 +43,29 @@
   },
   {
    "gateNo": 2,
-   "horseId": "0093555",
-   "horseName": "돌하르방",
-   "age": 5,
-   "sex": "거",
+   "horseId": "3104696",
+   "horseName": "마천루",
+   "age": 4,
+   "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "양치훈",
-    "winRate1y": null
+    "id": "003055",
+    "name": "장우성",
+    "winRate1y": 0.067
    },
    "trainer": {
-    "id": "",
-    "name": "김탐라",
-    "winRate1y": null
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.064
    },
-   "weightCarriedKg": 56.0,
+   "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
    "bodyWeightDiffKg": null,
    "record1y": {
-    "starts": 9,
-    "wins": 1,
-    "seconds": 2,
-    "thirds": 2
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
    "recentRuns": [],
    "scratched": false,
@@ -73,29 +73,29 @@
   },
   {
    "gateNo": 3,
-   "horseId": "0091877",
-   "horseName": "섬바람소리",
-   "age": 3,
-   "sex": "암",
+   "horseId": "3109227",
+   "horseName": "새벽강자",
+   "age": 2,
+   "sex": "거",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "문세라",
-    "winRate1y": null
+    "id": "003070",
+    "name": "전현준",
+    "winRate1y": 0.117
    },
    "trainer": {
-    "id": "",
-    "name": "부현석",
-    "winRate1y": null
+    "id": "002029",
+    "name": "이준호",
+    "winRate1y": 0.116
    },
-   "weightCarriedKg": 53.0,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 295.0,
+   "bodyWeightDiffKg": -7.0,
    "record1y": {
-    "starts": 5,
-    "wins": 1,
-    "seconds": 1,
-    "thirds": 1
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
    },
    "recentRuns": [],
    "scratched": false,
@@ -103,29 +103,29 @@
   },
   {
    "gateNo": 4,
-   "horseId": "0094012",
-   "horseName": "화산폭풍",
-   "age": 4,
-   "sex": "수",
+   "horseId": "3107446",
+   "horseName": "곤룡포",
+   "age": 3,
+   "sex": "거",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "홍기표",
-    "winRate1y": null
+    "id": "003061",
+    "name": "곽용남",
+    "winRate1y": 0.028
    },
    "trainer": {
-    "id": "",
-    "name": "오설록",
-    "winRate1y": null
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.064
    },
-   "weightCarriedKg": 55.5,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 255.0,
+   "bodyWeightDiffKg": 6.0,
    "record1y": {
-    "starts": 8,
-    "wins": 2,
+    "starts": 7,
+    "wins": 0,
     "seconds": 0,
-    "thirds": 1
+    "thirds": 0
    },
    "recentRuns": [],
    "scratched": false,
@@ -133,29 +133,29 @@
   },
   {
    "gateNo": 5,
-   "horseId": "0092966",
-   "horseName": "감귤향기",
-   "age": 6,
-   "sex": "암",
+   "horseId": "3107322",
+   "horseName": "넘버원",
+   "age": 3,
+   "sex": "수",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "강해일",
-    "winRate1y": null
+    "id": "003095",
+    "name": "박재희",
+    "winRate1y": 0.05
    },
    "trainer": {
-    "id": "",
-    "name": "김탐라",
-    "winRate1y": null
+    "id": "002028",
+    "name": "박병진",
+    "winRate1y": 0.064
    },
-   "weightCarriedKg": 54.0,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 257.0,
+   "bodyWeightDiffKg": -3.0,
    "record1y": {
-    "starts": 10,
+    "starts": 9,
     "wins": 0,
-    "seconds": 1,
-    "thirds": 2
+    "seconds": 0,
+    "thirds": 0
    },
    "recentRuns": [],
    "scratched": false,
@@ -163,28 +163,118 @@
   },
   {
    "gateNo": 6,
-   "horseId": "0093208",
-   "horseName": "백록담별",
+   "horseId": "3107462",
+   "horseName": "비상특급",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003092",
+    "name": "이성민",
+    "winRate1y": 0.09
+   },
+   "trainer": {
+    "id": "002026",
+    "name": "고영덕",
+    "winRate1y": 0.134
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 270.0,
+   "bodyWeightDiffKg": -9.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3104234",
+   "horseName": "흑룡스타",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003082",
+    "name": "김홍권",
+    "winRate1y": 0.141
+   },
+   "trainer": {
+    "id": "002028",
+    "name": "박병진",
+    "winRate1y": 0.064
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 285.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3108253",
+   "horseName": "행복나루",
    "age": 3,
    "sex": "수",
    "rating": null,
    "jockey": {
-    "id": "",
-    "name": "임바다",
-    "winRate1y": null
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.111
    },
    "trainer": {
-    "id": "",
-    "name": "오설록",
-    "winRate1y": null
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.103
    },
-   "weightCarriedKg": 53.5,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 253.0,
+   "bodyWeightDiffKg": 2.0,
    "record1y": {
-    "starts": 4,
+    "starts": 0,
     "wins": 0,
-    "seconds": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "3107602",
+   "horseName": "색달파워",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003087",
+    "name": "임재광",
+    "winRate1y": 0.175
+   },
+   "trainer": {
+    "id": "002023",
+    "name": "한상배",
+    "winRate1y": 0.04
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 272.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
     "thirds": 0
    },
    "recentRuns": [],
@@ -192,70 +282,81 @@
    "jockeyChanged": false
   }
  ],
- "prediction": {
-  "generatedAt": "2026-08-15T17:13:10+09:00",
-  "model": {
-   "statVersion": "v1",
-   "aiModel": "haiku"
-  },
-  "rankings": [
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-08-15T18:54:40+09:00",
+  "order": [
    {
+    "finishPos": 1,
     "gateNo": 3,
-    "score": 0.79,
-    "winProb": 0.3053,
-    "briefComment": "승률 20%·입상률 60%, 암3세 변수 존재",
-    "predictedRank": 1
+    "horseName": "새벽강자",
+    "timeSec": 74.3,
+    "margin": null
    },
    {
+    "finishPos": 2,
     "gateNo": 1,
-    "score": 0.7714,
-    "winProb": 0.2857,
-    "briefComment": "경험 풍부, 승률 29% 안정적",
-    "predictedRank": 2
+    "horseName": "킹메이커",
+    "timeSec": 76.0,
+    "margin": null
    },
    {
-    "gateNo": 4,
-    "score": 0.675,
-    "winProb": 0.2025,
-    "briefComment": "승률 25%, 예측보다 우수한 근래 성적",
-    "predictedRank": 3
-   },
-   {
-    "gateNo": 2,
-    "score": 0.5741,
-    "winProb": 0.1412,
-    "briefComment": "입상률 56% 높지만 승률 11% 저조",
-    "predictedRank": 4
-   },
-   {
+    "finishPos": 3,
     "gateNo": 6,
-    "score": 0.2667,
-    "winProb": 0.0471,
-    "briefComment": "경험 부족, 승리 기록 없음",
-    "predictedRank": 5
+    "horseName": "비상특급",
+    "timeSec": 76.6,
+    "margin": null
    },
    {
+    "finishPos": 4,
+    "gateNo": 8,
+    "horseName": "행복나루",
+    "timeSec": 76.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
     "gateNo": 5,
-    "score": 0.0,
-    "winProb": 0.0182,
-    "briefComment": "10회 무승리, 경쟁력 약함",
-    "predictedRank": 6
+    "horseName": "넘버원",
+    "timeSec": 77.5,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "색달파워",
+    "timeSec": 78.3,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 4,
+    "horseName": "곤룡포",
+    "timeSec": 78.8,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 7,
+    "horseName": "흑룡스타",
+    "timeSec": 80.0,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 2,
+    "horseName": "마천루",
+    "timeSec": 80.3,
+    "margin": null
    }
   ],
-  "aiCommentary": "**섬바람소리**의 높은 입상률(60%)이 1순위 평가의 기초이나, 20% 승률과 암3세 경험 부족을 감안하면 실현도 불확실함. **화산폭풍**은 25% 승률로 근래 성적이 예측(17%)을 상회하며 상향 조정이 정당함. 단거리(1000m)에서는 스피드 우위와 폭발력이 결정적이므로, 각 마의 단거리 실적과 조교사 관리 방향이 중요함.",
-  "confidence": "medium",
-  "topPicks": {
-   "win": 3,
+  "payouts": {
+   "win": 1.2,
    "place": [
-    3,
-    1,
-    4
-   ],
-   "exacta": [
-    3,
-    1
+    1.0,
+    1.4,
+    5.0
    ]
   }
- },
- "result": null
+ }
 }

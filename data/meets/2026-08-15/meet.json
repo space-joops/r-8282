@@ -9,24 +9,90 @@
    "races": [
     {
      "raceNo": 1,
-     "startTimeKst": "10:40",
-     "distanceM": 1200,
+     "startTimeKst": "12:55",
+     "distanceM": 1000,
      "grade": "국6등급",
      "raceName": null,
-     "entryCount": 7,
-     "hasPrediction": true,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "13:45",
+     "distanceM": 1400,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "14:35",
+     "distanceM": 1300,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "15:25",
+     "distanceM": 1300,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
      "hasResult": true,
      "canceled": false
     },
     {
      "raceNo": 5,
-     "startTimeKst": "13:05",
-     "distanceM": 1400,
-     "grade": "국4",
+     "startTimeKst": "16:15",
+     "distanceM": 1200,
+     "grade": "국5등급",
      "raceName": null,
-     "entryCount": 6,
-     "hasPrediction": true,
-     "hasResult": false,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "17:05",
+     "distanceM": 1700,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 7,
+     "startTimeKst": "18:25",
+     "distanceM": 1800,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 9,
+     "startTimeKst": "19:25",
+     "distanceM": 1400,
+     "grade": "국4등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
      "canceled": false
     }
    ]
@@ -38,13 +104,79 @@
    "races": [
     {
      "raceNo": 1,
-     "startTimeKst": "11:00",
-     "distanceM": 1000,
-     "grade": "제5",
+     "startTimeKst": "12:30",
+     "distanceM": 900,
+     "grade": "제6등급",
      "raceName": null,
-     "entryCount": 6,
-     "hasPrediction": true,
-     "hasResult": false,
+     "entryCount": 9,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "13:20",
+     "distanceM": 900,
+     "grade": "제6등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "14:10",
+     "distanceM": 1000,
+     "grade": "제5등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "15:00",
+     "distanceM": 1110,
+     "grade": "제4등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 5,
+     "startTimeKst": "15:50",
+     "distanceM": 1200,
+     "grade": "제4등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "16:40",
+     "distanceM": 1300,
+     "grade": "제3등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 7,
+     "startTimeKst": "17:45",
+     "distanceM": 1610,
+     "grade": "제1등급",
+     "raceName": null,
+     "entryCount": 8,
+     "hasPrediction": false,
+     "hasResult": true,
      "canceled": false
     }
    ]

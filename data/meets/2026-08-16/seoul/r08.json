@@ -1,0 +1,335 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 8,
+ "startTimeKst": "16:30",
+ "distanceM": 1200,
+ "grade": "혼OPEN",
+ "canceled": false,
+ "ageCond": "남3/북2",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0055781",
+   "horseName": "메이저퓨리",
+   "age": 2,
+   "sex": "수",
+   "rating": 356.0,
+   "jockey": {
+    "id": "080476",
+    "name": "장추열",
+    "winRate1y": 0.152
+   },
+   "trainer": {
+    "id": "070170",
+    "name": "김동균",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 2,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0061544",
+   "horseName": "스피어스",
+   "age": 2,
+   "sex": "수",
+   "rating": 391.0,
+   "jockey": {
+    "id": "080486",
+    "name": "이혁",
+    "winRate1y": 0.099
+   },
+   "trainer": {
+    "id": "070174",
+    "name": "강성오",
+    "winRate1y": 0.129
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0061135",
+   "horseName": "사우스카니발",
+   "age": 3,
+   "sex": "수",
+   "rating": 518.0,
+   "jockey": {
+    "id": "080550",
+    "name": "조재로",
+    "winRate1y": 0.141
+   },
+   "trainer": {
+    "id": "070165",
+    "name": "서인석",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 3,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0062074",
+   "horseName": "꿈의연속",
+   "age": 2,
+   "sex": "수",
+   "rating": 5012.0,
+   "jockey": {
+    "id": "080582",
+    "name": "빅투아르",
+    "winRate1y": 0.142
+   },
+   "trainer": {
+    "id": "070244",
+    "name": "리카디",
+    "winRate1y": 0.199
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0061577",
+   "horseName": "호프케이",
+   "age": 2,
+   "sex": "수",
+   "rating": 4910.0,
+   "jockey": {
+    "id": "080562",
+    "name": "이동하",
+    "winRate1y": 0.177
+   },
+   "trainer": {
+    "id": "070225",
+    "name": "문병기",
+    "winRate1y": 0.144
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0061530",
+   "horseName": "사우디삭스",
+   "age": 2,
+   "sex": "수",
+   "rating": 370.0,
+   "jockey": {
+    "id": "080530",
+    "name": "정정희",
+    "winRate1y": 0.124
+   },
+   "trainer": {
+    "id": "070244",
+    "name": "리카디",
+    "winRate1y": 0.199
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0061455",
+   "horseName": "마이티세이버",
+   "age": 2,
+   "sex": "수",
+   "rating": 380.0,
+   "jockey": {
+    "id": "080625",
+    "name": "안드레",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070160",
+    "name": "서홍수",
+    "winRate1y": 0.075
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0055586",
+   "horseName": "골든벤투스",
+   "age": 2,
+   "sex": "수",
+   "rating": 290.0,
+   "jockey": {
+    "id": "080361",
+    "name": "최범현",
+    "winRate1y": 0.165
+   },
+   "trainer": {
+    "id": "070165",
+    "name": "서인석",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 3.5,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 4,
+    "score": 0.885,
+    "winProb": 0.3741,
+    "briefComment": "레이팅 압도적, 경험 부족 위험",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 5,
+    "score": 0.8041,
+    "winProb": 0.2802,
+    "briefComment": "2경주 1승, 안정적 상위후보",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 1,
+    "score": 0.602,
+    "winProb": 0.1361,
+    "briefComment": "2승 2경주 완주, 체중증가 우려",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 3,
+    "score": 0.4169,
+    "winProb": 0.0703,
+    "briefComment": "3경주 1승, 중위권 경쟁력",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 8,
+    "score": 0.2805,
+    "winProb": 0.0432,
+    "briefComment": "체중+3.5kg, 컨디션 적신호",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 2,
+    "score": 0.2654,
+    "winProb": 0.0409,
+    "briefComment": "1승 무, 입상률 100% 도박성",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 7,
+    "score": 0.1892,
+    "winProb": 0.0312,
+    "briefComment": "2경주 무승리, 입상률 50%",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 6,
+    "score": 0.1163,
+    "winProb": 0.024,
+    "briefComment": "3경주 무승리, 약세 예상",
+    "predictedRank": 8
+   }
+  ],
+  "aiCommentary": "레이팅 5012의 **꿈의연속**이 통계적으로 압도하나, 1경주만의 극도로 제한된 기록이 신뢰도를 떨어뜨린다. **호프케이**(레이팅 4910)는 2경주 50% 승률로 더 견고한 경험을 갖추고 있어 조합 리스크 측면에서 우월하다. **메이저퓨리**는 2승 2경주의 완벽한 성적 반면 +2.5kg 체중 증가가 부담이며, **골든벤투스**의 +3.5kg은 장거리에서의 컨디션 악화를 시사한다. 1200m 단거리에서 빠른 발동이 주요변수가 될 전망이다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 4,
+   "place": [
+    4,
+    5,
+    1
+   ],
+   "exacta": [
+    4,
+    5
+   ]
+  }
+ },
+ "result": null
+}

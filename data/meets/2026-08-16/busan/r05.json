@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 5,
+ "startTimeKst": "15:15",
+ "distanceM": 2000,
+ "grade": "2등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0046827",
+   "horseName": "그레이보스",
+   "age": 5,
+   "sex": "수",
+   "rating": 661.0,
+   "jockey": {
+    "id": "080566",
+    "name": "최은경",
+    "winRate1y": 0.097
+   },
+   "trainer": {
+    "id": "070136",
+    "name": "민장기",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0044686",
+   "horseName": "비제이치프",
+   "age": 7,
+   "sex": "거",
+   "rating": 790.0,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.121
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.135
+   },
+   "weightCarriedKg": 58.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 13,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0045317",
+   "horseName": "구디",
+   "age": 6,
+   "sex": "거",
+   "rating": 691.0,
+   "jockey": {
+    "id": "080607",
+    "name": "윤형석",
+    "winRate1y": 0.023
+   },
+   "trainer": {
+    "id": "070180",
+    "name": "안우성",
+    "winRate1y": 0.05
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0050992",
+   "horseName": "여수슈퍼스타",
+   "age": 4,
+   "sex": "암",
+   "rating": 710.0,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070223",
+    "name": "강은석",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 3,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053504",
+   "horseName": "닥터크리스",
+   "age": 3,
+   "sex": "수",
+   "rating": 691.0,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.232
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.123
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 10,
+    "wins": 4,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0046685",
+   "horseName": "운주챌린지",
+   "age": 5,
+   "sex": "암",
+   "rating": 694.0,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 13,
+    "wins": 1,
+    "seconds": 5,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051510",
+   "horseName": "스톰파이터",
+   "age": 4,
+   "sex": "수",
+   "rating": 662.0,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0046715",
+   "horseName": "원더풀케이랜",
+   "age": 5,
+   "sex": "암",
+   "rating": 720.0,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.192
+   },
+   "trainer": {
+    "id": "070194",
+    "name": "토마스",
+    "winRate1y": 0.163
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0047464",
+   "horseName": "닥터캡틴",
+   "age": 5,
+   "sex": "수",
+   "rating": 751.0,
+   "jockey": {
+    "id": "080564",
+    "name": "이효식",
+    "winRate1y": 0.088
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.123
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 4
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0047334",
+   "horseName": "그레이트보이",
+   "age": 5,
+   "sex": "거",
+   "rating": 701.0,
+   "jockey": {
+    "id": "080431",
+    "name": "이성재",
+    "winRate1y": 0.059
+   },
+   "trainer": {
+    "id": "070194",
+    "name": "토마스",
+    "winRate1y": 0.163
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 9,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0046863",
+   "horseName": "포스트맨",
+   "age": 5,
+   "sex": "수",
+   "rating": 721.0,
+   "jockey": {
+    "id": "080403",
+    "name": "김어수",
+    "winRate1y": 0.05
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 5,
+    "score": 0.7569,
+    "winProb": 0.245,
+    "briefComment": "40% 승률. 안정성 최고 평가",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 4,
+    "score": 0.6915,
+    "winProb": 0.1939,
+    "briefComment": "3승 우수 성과. 상위권 확정",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 8,
+    "score": 0.5533,
+    "winProb": 0.1184,
+    "briefComment": "레이팅 높으나 경험 6경주",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 10,
+    "score": 0.5118,
+    "winProb": 0.1021,
+    "briefComment": "2승 기록. 중상위권 경합",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 6,
+    "score": 0.4052,
+    "winProb": 0.0698,
+    "briefComment": "1승만이나 62% 입상률 꾸준",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 2,
+    "score": 0.3916,
+    "winProb": 0.0665,
+    "briefComment": "레이팅 높으나 0승 이상",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 9,
+    "score": 0.3578,
+    "winProb": 0.0589,
+    "briefComment": "0승 심각. 5세 고령 위험",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 11,
+    "score": 0.3263,
+    "winProb": 0.0526,
+    "briefComment": "1승만. 중위권 이하",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 7,
+    "score": 0.2729,
+    "winProb": 0.0435,
+    "briefComment": "10% 승률. 중위권 수준",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 3,
+    "score": 0.1339,
+    "winProb": 0.0265,
+    "briefComment": "0승 부진. 경쟁력 약함",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 1,
+    "score": 0.0936,
+    "winProb": 0.0229,
+    "briefComment": "0승. 최하위권 경쟁력",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**닥터크리스**의 1년 40% 승률과 70% 입상률은 이 경주의 가장 신뢰할 수 있는 성과로, 1위 판정이 합리적입니다. **여수슈퍼스타**의 실질 3승(9전 3-1-2)도 상위권 경합력을 뒷받침하며, 4세 암말의 성장세를 감안할 가치가 있습니다. 다만 **닥터캡틴**은 레이팅 751의 높은 평가에도 불구하고 12전 0승이라는 심각한 부진을 보였으므로, 점수 조정이 필요합니다. 2000m 중거리에서의 스태미너 우위가 경합의 주요 변수가 될 것입니다.",
+  "confidence": "high",
+  "topPicks": {
+   "win": 5,
+   "place": [
+    5,
+    4,
+    8
+   ],
+   "exacta": [
+    5,
+    4
+   ]
+  }
+ },
+ "result": null
+}

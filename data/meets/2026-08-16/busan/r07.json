@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 7,
+ "startTimeKst": "16:55",
+ "distanceM": 1400,
+ "grade": "국4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0051392",
+   "horseName": "로드투스프링",
+   "age": 4,
+   "sex": "암",
+   "rating": 461.0,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "070132",
+    "name": "이정표",
+    "winRate1y": 0.088
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 10,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0051512",
+   "horseName": "해운대파워",
+   "age": 4,
+   "sex": "거",
+   "rating": 450.0,
+   "jockey": {
+    "id": "",
+    "name": "(-2)남정혁",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070141",
+    "name": "이상영",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0050869",
+   "horseName": "모닝듀",
+   "age": 4,
+   "sex": "거",
+   "rating": 373.0,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0053651",
+   "horseName": "정문파피아노",
+   "age": 3,
+   "sex": "거",
+   "rating": 444.0,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.232
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.135
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053556",
+   "horseName": "챔프의사랑",
+   "age": 3,
+   "sex": "암",
+   "rating": 360.0,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.192
+   },
+   "trainer": {
+    "id": "070302",
+    "name": "손병철",
+    "winRate1y": 0.038
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0054111",
+   "horseName": "보령의쾌속",
+   "age": 3,
+   "sex": "암",
+   "rating": 390.0,
+   "jockey": {
+    "id": "080401",
+    "name": "김동영",
+    "winRate1y": 0.039
+   },
+   "trainer": {
+    "id": "070128",
+    "name": "임금만",
+    "winRate1y": 0.094
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051422",
+   "horseName": "윈드미르",
+   "age": 4,
+   "sex": "거",
+   "rating": 449.0,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.121
+   },
+   "trainer": {
+    "id": "070176",
+    "name": "구영준",
+    "winRate1y": 0.071
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "1412327",
+   "horseName": "진주빛",
+   "age": 5,
+   "sex": "암",
+   "rating": 400.0,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070129",
+    "name": "최기홍",
+    "winRate1y": 0.116
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0051822",
+   "horseName": "대길히어로",
+   "age": 4,
+   "sex": "수",
+   "rating": 371.0,
+   "jockey": {
+    "id": "080564",
+    "name": "이효식",
+    "winRate1y": 0.088
+   },
+   "trainer": {
+    "id": "070223",
+    "name": "강은석",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 4,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0053475",
+   "horseName": "희망단비",
+   "age": 3,
+   "sex": "암",
+   "rating": 390.0,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070173",
+    "name": "구민성",
+    "winRate1y": 0.119
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0051054",
+   "horseName": "섀클선",
+   "age": 4,
+   "sex": "거",
+   "rating": 440.0,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070263",
+    "name": "양영남",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 7,
+    "score": 0.8484,
+    "winProb": 0.2525,
+    "briefComment": "최근 연승·표본 작음",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 4,
+    "score": 0.7162,
+    "winProb": 0.1575,
+    "briefComment": "안정적 전력·부담중량 무거움",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 6,
+    "score": 0.6433,
+    "winProb": 0.1214,
+    "briefComment": "높은 입상률·표본 부족",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 5,
+    "score": 0.6365,
+    "winProb": 0.1185,
+    "briefComment": "극소수 출전·상승세",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 1,
+    "score": 0.5229,
+    "winProb": 0.079,
+    "briefComment": "최고 레이팅·경험 충분·입상 부진",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 2,
+    "score": 0.4832,
+    "winProb": 0.0685,
+    "briefComment": "기수 변경 이후 회복 중",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 11,
+    "score": 0.4502,
+    "winProb": 0.0609,
+    "briefComment": "부담중량 최중·입상 가능",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 10,
+    "score": 0.4042,
+    "winProb": 0.0517,
+    "briefComment": "입상률 안정적·우위 약함",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 8,
+    "score": 0.316,
+    "winProb": 0.0377,
+    "briefComment": "고연령·최근 무승리",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 9,
+    "score": 0.2978,
+    "winProb": 0.0353,
+    "briefComment": "입상률 높으나 승리 드물다",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 3,
+    "score": 0.0954,
+    "winProb": 0.0172,
+    "briefComment": "경험 부족·폼 불안정",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "레이팅 최고(461)의 **로드투스프링**과 최근 연승 중인 **윈드미르**가 주도권을 놓고 경쟁할 전망. 부담중량이 무거운 57kg 군(4,7,11번)이 1400m 거리에서 어떻게 작용할지가 변수. 기수 변경 부담의 **해운대파워**와 경험 부족의 말들을 제외하면 1,4,7번의 우위가 명확하며, 이들 중 **정문파피아노**가 가장 균형 잡힌 상대.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 7,
+   "place": [
+    7,
+    4,
+    6
+   ],
+   "exacta": [
+    7,
+    4
+   ]
+  }
+ },
+ "result": null
+}
