@@ -1,0 +1,16 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 2,
+ "startTimeKst": "11:00",
+ "distanceM": 1300,
+ "grade": "국6등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [],
+ "prediction": null,
+ "result": null
+}

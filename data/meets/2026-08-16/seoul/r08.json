@@ -1,0 +1,335 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 8,
+ "startTimeKst": "16:30",
+ "distanceM": 1200,
+ "grade": "혼OPEN",
+ "canceled": false,
+ "ageCond": "남3/북2",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 7,
+   "horseId": "0055781",
+   "horseName": "메이저퓨리",
+   "age": 2,
+   "sex": "수",
+   "rating": 35.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "김동균",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 33,
+   "horseId": "0061135",
+   "horseName": "사우스카니발",
+   "age": 3,
+   "sex": "수",
+   "rating": 51.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서인석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 34,
+   "horseId": "0055586",
+   "horseName": "골든벤투스",
+   "age": 2,
+   "sex": "수",
+   "rating": 29.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서인석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 130,
+   "horseId": "0061577",
+   "horseName": "호프케이",
+   "age": 2,
+   "sex": "수",
+   "rating": 49.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문병기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 163,
+   "horseId": "0061455",
+   "horseName": "마이티세이버",
+   "age": 2,
+   "sex": "수",
+   "rating": 38.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서홍수",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 181,
+   "horseId": "0061544",
+   "horseName": "스피어스",
+   "age": 2,
+   "sex": "수",
+   "rating": 39.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "강성오",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 203,
+   "horseId": "0062074",
+   "horseName": "꿈의연속",
+   "age": 2,
+   "sex": "수",
+   "rating": 50.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "리카디",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 204,
+   "horseId": "0061530",
+   "horseName": "사우디삭스",
+   "age": 2,
+   "sex": "수",
+   "rating": 37.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "리카디",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 203,
+    "score": 0.9848,
+    "winProb": 0.3808,
+    "briefComment": "압도적 성적, 최강 후보",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 7,
+    "score": 0.7715,
+    "winProb": 0.1778,
+    "briefComment": "완벽한 2승, 능력 과소평가",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 130,
+    "score": 0.7697,
+    "winProb": 0.1766,
+    "briefComment": "입상률 100%, 안정적 2번마",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 33,
+    "score": 0.7133,
+    "winProb": 0.1444,
+    "briefComment": "경험 풍부하나 승률 기대 미충족",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 181,
+    "score": 0.4182,
+    "winProb": 0.0503,
+    "briefComment": "입상 경험 있음, 승리 미흡",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 34,
+    "score": 0.2667,
+    "winProb": 0.0293,
+    "briefComment": "레이팅 최저, 입상률 50%",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 163,
+    "score": 0.203,
+    "winProb": 0.0233,
+    "briefComment": "승리 경험 없음, 약력",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 204,
+    "score": 0.1212,
+    "winProb": 0.0174,
+    "briefComment": "리카디 조교도 이 말은 약함",
+    "predictedRank": 8
+   }
+  ],
+  "aiCommentary": "**꿈의연속**의 완벽한 1년 성적(1-1)과 높은 레이팅(50) 모두가 최강 위치를 뒷받침합니다. 모델 1위 평가(score 0.98)는 타당하며, **호프케이**의 입상률 100%도 신뢰할 만합니다. 다만 **메이저퓨리**가 100% 승률(2-2)임에도 레이팅 35로 저평가된 점과, **사우스카니발**이 높은 레이팅(51) 대비 33% 승률(1-3)로 기대치에 못 미친 점이 주목됩니다. 기수 미정 상황에서는 최종 배치에 따라 전개가 크게 달라질 수 있습니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 203,
+   "place": [
+    203,
+    7,
+    130
+   ],
+   "exacta": [
+    203,
+    7
+   ]
+  }
+ },
+ "result": null
+}

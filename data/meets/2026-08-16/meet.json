@@ -1,0 +1,207 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "tracks": [
+  {
+   "track": "seoul",
+   "trackName": "서울",
+   "meetCode": 1,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "10:35",
+     "distanceM": 1200,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 13,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "11:00",
+     "distanceM": 1300,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 0,
+     "hasPrediction": false,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "12:05",
+     "distanceM": 1300,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 3,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "13:10",
+     "distanceM": 1400,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 5,
+     "startTimeKst": "14:00",
+     "distanceM": 1400,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "14:50",
+     "distanceM": 1400,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 14,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 7,
+     "startTimeKst": "15:40",
+     "distanceM": 1600,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 8,
+     "startTimeKst": "16:30",
+     "distanceM": 1200,
+     "grade": "혼OPEN",
+     "raceName": null,
+     "entryCount": 8,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 9,
+     "startTimeKst": "17:25",
+     "distanceM": 1800,
+     "grade": "1등급",
+     "raceName": null,
+     "entryCount": 16,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 10,
+     "startTimeKst": "17:55",
+     "distanceM": 1200,
+     "grade": "국4등급",
+     "raceName": null,
+     "entryCount": 14,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    }
+   ]
+  },
+  {
+   "track": "busan",
+   "trackName": "부산경남",
+   "meetCode": 3,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "11:25",
+     "distanceM": 1600,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "12:45",
+     "distanceM": 1300,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "13:35",
+     "distanceM": 1600,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "14:25",
+     "distanceM": 1600,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 5,
+     "startTimeKst": "15:15",
+     "distanceM": 2000,
+     "grade": "2등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "16:05",
+     "distanceM": 1200,
+     "grade": "혼OPEN",
+     "raceName": null,
+     "entryCount": 9,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    },
+    {
+     "raceNo": 7,
+     "startTimeKst": "16:55",
+     "distanceM": 1400,
+     "grade": "국4등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": true,
+     "hasResult": false,
+     "canceled": false
+    }
+   ]
+  }
+ ]
+}

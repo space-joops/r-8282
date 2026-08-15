@@ -1,0 +1,441 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 2,
+ "startTimeKst": "12:45",
+ "distanceM": 1300,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0055587",
+   "horseName": "프라임제니",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "진겸",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이상영",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0054174",
+   "horseName": "밤토리밤밤",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "정도윤",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "라이스",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0051703",
+   "horseName": "아리온태양",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "윤형석",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "하무선",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0050971",
+   "horseName": "정문펠릭스",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "채상현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "라이스",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0051821",
+   "horseName": "플라잉레이스",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-2)남정혁",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구현완",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0045757",
+   "horseName": "벨로시랩터",
+   "age": 6,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-1)김성현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최기홍",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 19,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0047272",
+   "horseName": "오크리지",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "전진구",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "박재호",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "",
+   "horseName": "원더풀라크",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이성재",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "토마스",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": null,
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0053848",
+   "horseName": "클러치러너",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서승운",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문현철",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0053624",
+   "horseName": "스카이넥스",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "최시대",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "백광열",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0050723",
+   "horseName": "도로시퀸",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "신윤섭",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최기홍",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 1,
+    "score": 0.96,
+    "winProb": 0.5855,
+    "briefComment": "신인마 1출 1승, 부담경량·기수조교 우수",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 8,
+    "score": 0.53,
+    "winProb": 0.1261,
+    "briefComment": "신마, 기수·조교사 경험 있으나 성적 미상",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 10,
+    "score": 0.34,
+    "winProb": 0.064,
+    "briefComment": "20% 승률·60% 입상, 부담최고 제약",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 2,
+    "score": 0.24,
+    "winProb": 0.0447,
+    "briefComment": "무승리 경험마, 입상률은 양호",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 9,
+    "score": 0.175,
+    "winProb": 0.0355,
+    "briefComment": "12% 승률, 부담 중상 감안시 무난",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 5,
+    "score": 0.1,
+    "winProb": 0.0271,
+    "briefComment": "무승리, 기수변경 신호 부정적",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 11,
+    "score": 0.1,
+    "winProb": 0.0271,
+    "briefComment": "무승리도 입상률 25%, 단거리 적응 관건",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 3,
+    "score": 0.08,
+    "winProb": 0.0253,
+    "briefComment": "진급마, 무승리·부담중량 불리",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 4,
+    "score": 0.08,
+    "winProb": 0.0253,
+    "briefComment": "경험 풍부도 미승리, 변별력 낮음",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 6,
+    "score": 0.0211,
+    "winProb": 0.0205,
+    "briefComment": "19출 무승리·나이, 기수변경도 악재",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 7,
+    "score": 0.0,
+    "winProb": 0.019,
+    "briefComment": "5세 고령마, 9출 무승리",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**프라임제니**가 신인마로 완벽한 기록(1출 1승)을 보유하며 통계 우위가 명확하나, 표본 1마리로 인한 신뢰도 제약이 있습니다. **원더풀라크**는 신마이면서 2위 평가를 받았으나 실제 성적 기반이 없어 변수성이 큼. **스카이넥스**는 50% 이상의 입상률로 안정성이 높지만 56.5kg 최고 부담이 단거리에서 부담. 1300m 단거리이면서 신인·신마 비율이 높아 상위권 예측의 불확실성이 높으나, 하위권 무승리 말들은 통계 순위가 타당합니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 1,
+   "place": [
+    1,
+    8,
+    10
+   ],
+   "exacta": [
+    1,
+    8
+   ]
+  }
+ },
+ "result": null
+}

@@ -1,0 +1,409 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 7,
+ "startTimeKst": "15:40",
+ "distanceM": 1600,
+ "grade": "혼4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 25,
+   "horseId": "0046963",
+   "horseName": "참좋은질주",
+   "age": 5,
+   "sex": "암",
+   "rating": 44.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "정호익",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 69,
+   "horseId": "0051823",
+   "horseName": "위버멘쉬",
+   "age": 4,
+   "sex": "암",
+   "rating": 38.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최용건",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 83,
+   "horseId": "0054308",
+   "horseName": "용비교",
+   "age": 3,
+   "sex": "암",
+   "rating": 43.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이신우",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 129,
+   "horseId": "0052882",
+   "horseName": "러브인서울",
+   "age": 3,
+   "sex": "암",
+   "rating": 48.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문병기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 3,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 142,
+   "horseId": "0047185",
+   "horseName": "러브오마인",
+   "age": 5,
+   "sex": "암",
+   "rating": 38.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "전승규",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 195,
+   "horseId": "0053224",
+   "horseName": "라온피날레",
+   "age": 3,
+   "sex": "암",
+   "rating": 47.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이강서",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 2,
+    "seconds": 3,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 234,
+   "horseId": "0046818",
+   "horseName": "성실대로",
+   "age": 5,
+   "sex": "암",
+   "rating": 43.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "심승태",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 13,
+    "wins": 0,
+    "seconds": 3,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 255,
+   "horseId": "0057306",
+   "horseName": "우와운",
+   "age": 3,
+   "sex": "암",
+   "rating": 38.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "홍윤화",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 259,
+   "horseId": "1411884",
+   "horseName": "카일리",
+   "age": 5,
+   "sex": "암",
+   "rating": 36.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "신삼영",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 313,
+   "horseId": "0046702",
+   "horseName": "어메이징스타",
+   "age": 5,
+   "sex": "암",
+   "rating": 41.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이동국",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 129,
+    "score": 0.9556,
+    "winProb": 0.4223,
+    "briefComment": "레이팅 최고, 승률 43% 압도적, 안정적 1순위",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 195,
+    "score": 0.8389,
+    "winProb": 0.2783,
+    "briefComment": "입상률 86% 최고, 안정적 입상력, 2,3위 경험豊富",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 83,
+    "score": 0.5367,
+    "winProb": 0.0946,
+    "briefComment": "출주 10회 경험豊富, 승률 20% 일관성 검증 필요",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 69,
+    "score": 0.3667,
+    "winProb": 0.0515,
+    "briefComment": "암4 나이, 입상률 33% 저조, 상대적 약세",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 234,
+    "score": 0.3141,
+    "winProb": 0.0427,
+    "briefComment": "5세 암, 나이 많고 승리 부재, 약화 신호",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 25,
+    "score": 0.2222,
+    "winProb": 0.0308,
+    "briefComment": "3세 신마, 출주 경험 전무, 높은 불확실성",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 313,
+    "score": 0.1389,
+    "winProb": 0.0228,
+    "briefComment": "5세 암, 5출 0승리, 실력 의문",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 255,
+    "score": 0.1333,
+    "winProb": 0.0224,
+    "briefComment": "3세 암, 출주 4회 미경험, 차별성 없음",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 142,
+    "score": 0.0867,
+    "winProb": 0.019,
+    "briefComment": "5세 암, 13출 만에 승리 0회, 한계 노출",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 259,
+    "score": 0.0311,
+    "winProb": 0.0155,
+    "briefComment": "5세 암, 10출 0승리, 성적 정체",
+    "predictedRank": 10
+   }
+  ],
+  "aiCommentary": "**러브인서울**(129)이 레이팅 48.0·승률 43%로 압도적 우위를 점하며 통계 모델의 1위 예측이 정당합니다. **라온피날레**(195)는 입상률 86%의 높은 안정성으로 2번 마 자리를 확보했고, 이 둘의 상위 진출이 거의 확정에 가깝습니다. 3강마 이하는 **용비교**(83), **위버멘쉬**(69), **성실대로**(234) 순으로 예상되나 각각 성적·경험·나이 면에서 약점이 있어 혼전이 예상됩니다. 기수·부담중량이 미정인 상태로 최종 평가는 이 변수들에 따라 조정 필요합니다.",
+  "confidence": "high",
+  "topPicks": {
+   "win": 129,
+   "place": [
+    129,
+    195,
+    83
+   ],
+   "exacta": [
+    129,
+    195
+   ]
+  }
+ },
+ "result": null
+}

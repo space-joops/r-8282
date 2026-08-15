@@ -1,0 +1,392 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-15",
+ "track": "seoul",
+ "raceNo": 5,
+ "startTimeKst": "16:15",
+ "distanceM": 1200,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": "건조 (3%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0046749",
+   "horseName": "분당쓰나미",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080533",
+    "name": "조상범",
+    "winRate1y": 0.028
+   },
+   "trainer": {
+    "id": "070199",
+    "name": "조현수",
+    "winRate1y": 0.049
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 480.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0051369",
+   "horseName": "나인스피어",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080618",
+    "name": "권중석",
+    "winRate1y": 0.075
+   },
+   "trainer": {
+    "id": "070293",
+    "name": "정하백",
+    "winRate1y": 0.13
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 431.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0045704",
+   "horseName": "정성바이스",
+   "age": 6,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.116
+   },
+   "trainer": {
+    "id": "070182",
+    "name": "전승규",
+    "winRate1y": 0.103
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 446.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0053086",
+   "horseName": "스톰체이서",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070170",
+    "name": "김동균",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": 440.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0051941",
+   "horseName": "마천월드",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080473",
+    "name": "김정준",
+    "winRate1y": 0.082
+   },
+   "trainer": {
+    "id": "070096",
+    "name": "서범석",
+    "winRate1y": 0.093
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 476.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "1412051",
+   "horseName": "퀸아비게일",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.232
+   },
+   "trainer": {
+    "id": "070170",
+    "name": "김동균",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 465.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0053241",
+   "horseName": "카오스",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080617",
+    "name": "코지",
+    "winRate1y": 0.14
+   },
+   "trainer": {
+    "id": "070161",
+    "name": "신삼영",
+    "winRate1y": 0.061
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 485.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0053776",
+   "horseName": "세븐카이저",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080625",
+    "name": "안드레",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070117",
+    "name": "박윤규",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 506.0,
+   "bodyWeightDiffKg": -6.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0051606",
+   "horseName": "마이티아미",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070199",
+    "name": "조현수",
+    "winRate1y": 0.049
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 444.0,
+   "bodyWeightDiffKg": -6.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0050640",
+   "horseName": "터보차지",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080599",
+    "name": "김태현",
+    "winRate1y": 0.024
+   },
+   "trainer": {
+    "id": "070175",
+    "name": "강환민",
+    "winRate1y": 0.073
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 474.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-08-15T18:08:02+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 8,
+    "horseName": "세븐카이저",
+    "timeSec": 74.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 7,
+    "horseName": "카오스",
+    "timeSec": 74.5,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 2,
+    "horseName": "나인스피어",
+    "timeSec": 75.9,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 10,
+    "horseName": "터보차지",
+    "timeSec": 76.0,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 9,
+    "horseName": "마이티아미",
+    "timeSec": 76.0,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 4,
+    "horseName": "스톰체이서",
+    "timeSec": 76.0,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "퀸아비게일",
+    "timeSec": 76.1,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 3,
+    "horseName": "정성바이스",
+    "timeSec": 76.3,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 5,
+    "horseName": "마천월드",
+    "timeSec": 76.5,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 1,
+    "horseName": "분당쓰나미",
+    "timeSec": 76.7,
+    "margin": null
+   }
+  ],
+  "payouts": null
+ }
+}

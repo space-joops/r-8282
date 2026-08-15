@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 7,
+ "startTimeKst": "16:55",
+ "distanceM": 1400,
+ "grade": "국4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0051392",
+   "horseName": "로드투스프링",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "전진구",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이정표",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0051512",
+   "horseName": "해운대파워",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-2)남정혁",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이상영",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0050869",
+   "horseName": "모닝듀",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서강주",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "권승주",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0053651",
+   "horseName": "정문파피아노",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서승운",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "라이스",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053556",
+   "horseName": "챔프의사랑",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "진겸",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "손병철",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0054111",
+   "horseName": "보령의쾌속",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "김동영",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "임금만",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051422",
+   "horseName": "윈드미르",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "다나카",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구영준",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "1412327",
+   "horseName": "진주빛",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "다실바",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최기홍",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0051822",
+   "horseName": "대길히어로",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이효식",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "강은석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 4,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0053475",
+   "horseName": "희망단비",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "정도윤",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구민성",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 11,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0051054",
+   "horseName": "섀클선",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "박재이",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "양영남",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 5,
+    "score": 1.0,
+    "winProb": 0.2851,
+    "briefComment": "극소 경험(3출), 신뢰도 낮음",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 6,
+    "score": 0.95,
+    "winProb": 0.2385,
+    "briefComment": "5번과 동일 스펙, 과도 평가 우려",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 7,
+    "score": 0.95,
+    "winProb": 0.2385,
+    "briefComment": "외국 기수, 극소 경험",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 4,
+    "score": 0.645,
+    "winProb": 0.0802,
+    "briefComment": "가장 경험 많은 거4 우승급",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 10,
+    "score": 0.4109,
+    "winProb": 0.0348,
+    "briefComment": "3세 치고 11경주 경험 풍부",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 9,
+    "score": 0.355,
+    "winProb": 0.0285,
+    "briefComment": "12경주 경험, 다목표 구성",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 1,
+    "score": 0.346,
+    "winProb": 0.0276,
+    "briefComment": "암4 10경주 경험, 안정적 성적 구성",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 11,
+    "score": 0.3291,
+    "winProb": 0.026,
+    "briefComment": "낮은 입상률, 하위권 타당",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 2,
+    "score": 0.26,
+    "winProb": 0.0203,
+    "briefComment": "기수 변경(-2) 마이너스 요인",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 8,
+    "score": 0.1257,
+    "winProb": 0.0126,
+    "briefComment": "암5 무승리, 한계 표현",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 3,
+    "score": 0.0,
+    "winProb": 0.008,
+    "briefComment": "무승리 기록, 개선 신호 부재",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "통계 모델이 상위권 3마(5, 6, 7번)를 동일하게 score 1.00으로 평가했으나, 이들 모두 3경주의 극소 경험만 보유하고 있어 신뢰도가 낮습니다. 반면 **정문파피아노**는 8경주-2-2-1의 풍부한 경험과 25% 승률로 현재 평가보다 상향 재검토가 필요합니다. **로드투스프링**(10경주), **희망단비**(11경주 3세)는 경험 있는 마들로서 중거리(1400m) 경주의 안정성과 페이스 주도권 측면에서 재평가 대상입니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 5,
+   "place": [
+    5,
+    6,
+    7
+   ],
+   "exacta": [
+    5,
+    6
+   ]
+  }
+ },
+ "result": null
+}

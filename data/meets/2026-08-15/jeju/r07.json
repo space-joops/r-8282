@@ -1,0 +1,318 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-15",
+ "track": "jeju",
+ "raceNo": 7,
+ "startTimeKst": "17:45",
+ "distanceM": 1610,
+ "grade": "제1등급",
+ "canceled": false,
+ "ageCond": "2세이상",
+ "weather": null,
+ "trackCond": "다습 (10%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3015530",
+   "horseName": "번개왕자",
+   "age": 13,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.041
+   },
+   "trainer": {
+    "id": "002041",
+    "name": "윤호상",
+    "winRate1y": 0.029
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 297.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3103760",
+   "horseName": "백록천하",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003080",
+    "name": "문현진",
+    "winRate1y": 0.168
+   },
+   "trainer": {
+    "id": "002028",
+    "name": "박병진",
+    "winRate1y": 0.064
+   },
+   "weightCarriedKg": 52.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3018909",
+   "horseName": "오라드림",
+   "age": 7,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "002026",
+    "name": "고영덕",
+    "winRate1y": 0.134
+   },
+   "weightCarriedKg": 62.0,
+   "bodyWeightKg": 300.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3108671",
+   "horseName": "소문그대로",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003087",
+    "name": "임재광",
+    "winRate1y": 0.175
+   },
+   "trainer": {
+    "id": "002031",
+    "name": "심도연",
+    "winRate1y": 0.164
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 271.0,
+   "bodyWeightDiffKg": 9.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 7,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3103231",
+   "horseName": "대왕조",
+   "age": 7,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003058",
+    "name": "한영민",
+    "winRate1y": 0.085
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.08
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3101705",
+   "horseName": "멘탈",
+   "age": 7,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003089",
+    "name": "박성광",
+    "winRate1y": 0.266
+   },
+   "trainer": {
+    "id": "002034",
+    "name": "이태용",
+    "winRate1y": 0.228
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 280.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3014773",
+   "horseName": "새벽바람",
+   "age": 15,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003082",
+    "name": "김홍권",
+    "winRate1y": 0.141
+   },
+   "trainer": {
+    "id": "002033",
+    "name": "강영진",
+    "winRate1y": 0.114
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 282.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3104093",
+   "horseName": "새벽질주",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003081",
+    "name": "김준호",
+    "winRate1y": 0.151
+   },
+   "trainer": {
+    "id": "002036",
+    "name": "강태종",
+    "winRate1y": 0.131
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 276.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-08-15T18:08:02+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 4,
+    "horseName": "소문그대로",
+    "timeSec": 131.9,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 8,
+    "horseName": "새벽질주",
+    "timeSec": 131.9,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "새벽바람",
+    "timeSec": 132.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "오라드림",
+    "timeSec": 132.5,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "대왕조",
+    "timeSec": 132.9,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 2,
+    "horseName": "백록천하",
+    "timeSec": 133.2,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 1,
+    "horseName": "번개왕자",
+    "timeSec": 133.8,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 6,
+    "horseName": "멘탈",
+    "timeSec": 134.4,
+    "margin": null
+   }
+  ],
+  "payouts": null
+ }
+}

@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 4,
+ "startTimeKst": "13:10",
+ "distanceM": 1400,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 11,
+   "horseId": "0046648",
+   "horseName": "스페셜포스",
+   "age": 5,
+   "sex": "암",
+   "rating": 23.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "임채덕",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 68,
+   "horseId": "0054543",
+   "horseName": "인스파이어",
+   "age": 3,
+   "sex": "수",
+   "rating": 27.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최용건",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 85,
+   "horseId": "0052905",
+   "horseName": "클로버원",
+   "age": 3,
+   "sex": "수",
+   "rating": 28.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서인석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 3,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 112,
+   "horseId": "0052908",
+   "horseName": "핫피버",
+   "age": 3,
+   "sex": "암",
+   "rating": 28.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "토니",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 222,
+   "horseId": "0052844",
+   "horseName": "글로벌카드",
+   "age": 3,
+   "sex": "수",
+   "rating": 25.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이준철",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 285,
+   "horseId": "0051778",
+   "horseName": "와달비",
+   "age": 4,
+   "sex": "거",
+   "rating": 28.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이동국",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 298,
+   "horseId": "0052973",
+   "horseName": "온누리빛",
+   "age": 3,
+   "sex": "암",
+   "rating": 27.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "안병기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 305,
+   "horseId": "0053705",
+   "horseName": "위즈포인트",
+   "age": 3,
+   "sex": "수",
+   "rating": 30.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "홍윤화",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 318,
+   "horseId": "0053420",
+   "horseName": "위즈드림",
+   "age": 3,
+   "sex": "암",
+   "rating": 29.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "전승규",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 342,
+   "horseId": "0047535",
+   "horseName": "안양쓰나미",
+   "age": 5,
+   "sex": "암",
+   "rating": 23.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "조현수",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 368,
+   "horseId": "0051126",
+   "horseName": "스터닝스텝",
+   "age": 4,
+   "sex": "암",
+   "rating": 24.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서인석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 85,
+    "score": 0.727,
+    "winProb": 0.2599,
+    "briefComment": "1년 33% 승률, 통계 수치상 최우선",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 305,
+    "score": 0.65,
+    "winProb": 0.1974,
+    "briefComment": "최고 레이팅, 100% 입상률 강력",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 318,
+    "score": 0.609,
+    "winProb": 0.1705,
+    "briefComment": "3살 암말, 20% 승률 양호",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 285,
+    "score": 0.4548,
+    "winProb": 0.0983,
+    "briefComment": "거거 말, 12% 승률 합리적",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 298,
+    "score": 0.3048,
+    "winProb": 0.0575,
+    "briefComment": "3살 암말, 43% 입상률 긍정신호",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 112,
+    "score": 0.2974,
+    "winProb": 0.056,
+    "briefComment": "3살 암말, 진행 중",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 68,
+    "score": 0.2905,
+    "winProb": 0.0547,
+    "briefComment": "입상률 높으나 무승리, 복승 고려",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 222,
+    "score": 0.2286,
+    "winProb": 0.0438,
+    "briefComment": "50% 입상률, 무승리",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 368,
+    "score": 0.0476,
+    "winProb": 0.023,
+    "briefComment": "7출 무승무입, 극약",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 11,
+    "score": 0.0,
+    "winProb": 0.0194,
+    "briefComment": "정체 5살, 극약",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 342,
+    "score": 0.0,
+    "winProb": 0.0194,
+    "briefComment": "10출 무승무입, 극약",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**클로버원**의 통계 1위 평가가 가장 설득력 있으나, **위즈포인트**의 1년 100% 입상률은 과소평가된 신호입니다. 레이팅 30(최고)과 완벽한 입상 기록을 종합하면 상위 2개 축은 클로버원·위즈포인트로 압축되고, **위즈드림** 등 3살 암말들의 신체 변화에 따른 상승세 가능성이 변수입니다. 정체된 말들(스페셜포스·안양쓰나미·스터닝스텝)은 극도로 약평가되어야 하며, 입상률 높은 후보들(인스파이어·글로벌카드)은 2~3위 복승 조합으로만 고려 권장입니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 85,
+   "place": [
+    85,
+    305,
+    318
+   ],
+   "exacta": [
+    85,
+    305
+   ]
+  }
+ },
+ "result": null
+}

@@ -1,0 +1,505 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 1,
+ "startTimeKst": "10:35",
+ "distanceM": 1200,
+ "grade": "국6등급",
+ "canceled": false,
+ "ageCond": "2세",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 28,
+   "horseId": "",
+   "horseName": "스톰보이",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "전승규",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": null,
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 67,
+   "horseId": "",
+   "horseName": "네가있어설레",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최용건",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": null,
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 78,
+   "horseId": "0055540",
+   "horseName": "서귀메니퀸",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "박지헌",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 128,
+   "horseId": "0055270",
+   "horseName": "인투더갤럭시",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문병기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 158,
+   "horseId": "",
+   "horseName": "스타에이아이",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "홍윤화",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": null,
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 162,
+   "horseId": "0055557",
+   "horseName": "이클립스골든",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서홍수",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 189,
+   "horseId": "0055918",
+   "horseName": "봉봉티아라",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "토니",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 199,
+   "horseId": "0055304",
+   "horseName": "유니콘에이스",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "리카디",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 200,
+   "horseId": "0055760",
+   "horseName": "지비에이스",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "리카디",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 237,
+   "horseId": "0056231",
+   "horseName": "원더그레이스",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "안병기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 244,
+   "horseId": "0055282",
+   "horseName": "세븐포스",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이관호",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 312,
+   "horseId": "0055189",
+   "horseName": "볼스터",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "정호익",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 356,
+   "horseId": "0055549",
+   "horseName": "이안스타",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "함완식",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 162,
+    "score": 0.7,
+    "winProb": 0.2015,
+    "briefComment": "입상률 100%, 안정적 상태",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 237,
+    "score": 0.56,
+    "winProb": 0.1222,
+    "briefComment": "2승 기록, 가장 우수한 성적",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 67,
+    "score": 0.5,
+    "winProb": 0.0986,
+    "briefComment": "초출 기대, 극도 불확실",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 158,
+    "score": 0.5,
+    "winProb": 0.0986,
+    "briefComment": "데이터 전무, 초출 예상",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 28,
+    "score": 0.46,
+    "winProb": 0.0855,
+    "briefComment": "기수 미정, 성적 정보 부족",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 312,
+    "score": 0.34,
+    "winProb": 0.0557,
+    "briefComment": "2승 기록, 과소평가 가능",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 78,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "1승 후 미출전, 불안정",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 128,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "1승 기록 후 침체 신호",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 189,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "초출 또는 미경험, 미지수",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 199,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "1승, 리카디 조교 계획",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 200,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "199번과 동일 조교, 유사 평가",
+    "predictedRank": 11
+   },
+   {
+    "gateNo": 244,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "1승만, 극 초심자 수준",
+    "predictedRank": 12
+   },
+   {
+    "gateNo": 356,
+    "score": 0.3,
+    "winProb": 0.0483,
+    "briefComment": "1승만 기록, 미흡",
+    "predictedRank": 13
+   }
+  ],
+  "aiCommentary": "2세마 신마급 경주로 경험이 매우 제한적입니다. **이클립스골든**(162)은 2경주 모두 입상한 안정성을 보이지만 샘플이 작습니다. **원더그레이스**(237)는 2승을 기록한 가장 좋은 성적이나 출전 기회가 제한적입니다. **볼스터**(312)도 2승으로 score 0.30 대비 과소평가된 것으로 보입니다. 전반적으로 상위권 3~5마의 격차가 작아 변수 경주가 될 가능성이 높습니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 162,
+   "place": [
+    162,
+    237,
+    67
+   ],
+   "exacta": [
+    162,
+    237
+   ]
+  }
+ },
+ "result": null
+}

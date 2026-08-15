@@ -1,0 +1,150 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "seoul",
+ "raceNo": 3,
+ "startTimeKst": "12:05",
+ "distanceM": 1300,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 40,
+   "horseId": "0051110",
+   "horseName": "신한에이스",
+   "age": 4,
+   "sex": "암",
+   "rating": 26.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "서인석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 64,
+   "horseId": "0051853",
+   "horseName": "용비킹",
+   "age": 4,
+   "sex": "수",
+   "rating": 24.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이신우",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 179,
+   "horseId": "0053629",
+   "horseName": "프리메로",
+   "age": 3,
+   "sex": "거",
+   "rating": 34.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "강성오",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 179,
+    "score": 1.0,
+    "winProb": 0.9381,
+    "briefComment": "압도 우위, 안정적 성적 축적",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 40,
+    "score": 0.0833,
+    "winProb": 0.0355,
+    "briefComment": "최근 1년 무승리(0/8), 입상률 저조",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 64,
+    "score": 0.0,
+    "winProb": 0.0264,
+    "briefComment": "레이팅 최하(24), 경험 부족",
+    "predictedRank": 3
+   }
+  ],
+  "aiCommentary": "**프리메로**의 34 레이팅과 67% 입상률이 **신한에이스**, **용비킹**과 현격한 격차를 보입니다. 거3 거세마의 안정적 주행과 1-2-3 입상 경험이 풍부하여 단거리 1300m에서도 전개 우위를 점할 공산이 큽니다. 기수·마체중 미정 요소와 출전 마필 수 적음(3마)을 감안하면, 통계 모델의 94% 승률 예측은 상대평가 신뢰도 범위 내입니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 179,
+   "place": [
+    179,
+    40,
+    64
+   ],
+   "exacta": [
+    179,
+    40
+   ]
+  }
+ },
+ "result": null
+}

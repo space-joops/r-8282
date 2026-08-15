@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 4,
+ "startTimeKst": "14:25",
+ "distanceM": 1600,
+ "grade": "혼4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0058202",
+   "horseName": "미스터나인",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이효식",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구민성",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0047401",
+   "horseName": "벌교사랑",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "조용배",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 15,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0051645",
+   "horseName": "희망군주",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "채상현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "이정표",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0051246",
+   "horseName": "플래시파크",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "다실바",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최기홍",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0061860",
+   "horseName": "토함산닌자",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "정도윤",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "백광열",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0051088",
+   "horseName": "탐라퍼스트",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "진겸",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문현철",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0054219",
+   "horseName": "포트모어",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서승운",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구민성",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 3,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0053500",
+   "horseName": "성실드림",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "최은경",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "방동석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 6,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0058201",
+   "horseName": "스마트러너",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서강주",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "김도현",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0051717",
+   "horseName": "석세스카우",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "박재이",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "민장기",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0051060",
+   "horseName": "월드톱티어",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-2)남정혁",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "손병직",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 8,
+    "score": 0.8367,
+    "winProb": 0.2563,
+    "briefComment": "소표본 높은 승률, 미검증",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 7,
+    "score": 0.8133,
+    "winProb": 0.2357,
+    "briefComment": "안정적 3승 기수, 기수 우수",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 11,
+    "score": 0.7156,
+    "winProb": 0.1663,
+    "briefComment": "기수변경 불안, 입상력 있음",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 4,
+    "score": 0.66,
+    "winProb": 0.1363,
+    "briefComment": "최중량 56.5kg 핸디캡",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 10,
+    "score": 0.55,
+    "winProb": 0.092,
+    "briefComment": "장기전 우승력 8%, 낮음",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 3,
+    "score": 0.26,
+    "winProb": 0.0327,
+    "briefComment": "1승 10전, 평이한 경력",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 6,
+    "score": 0.2,
+    "winProb": 0.0264,
+    "briefComment": "무승 8전, 보합 수준",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 2,
+    "score": 0.0533,
+    "winProb": 0.0156,
+    "briefComment": "장년 노산, 우승력 거의 없음",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 1,
+    "score": 0.0,
+    "winProb": 0.0129,
+    "briefComment": "무승 5전, 신뢰도 부족",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 5,
+    "score": 0.0,
+    "winProb": 0.0129,
+    "briefComment": "2살 신인, 경험 전무",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 9,
+    "score": 0.0,
+    "winProb": 0.0129,
+    "briefComment": "신인 2전, 실력 미지수",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**성실드림**이 통계 1순위지만 6전 소표본(33% 승률)으로 신뢰도 낮고, 어린 3살이 1600m 중거리에서 안정적인지 의문. **포트모어**는 12전 3승으로 경험 풍부하고 기수-조교사 조합도 안정적이며, 55kg 부담중량도 무난. **월드톱티어**는 입상률 44%로 높지만 기수변경(-2)이 큰 불안정 요소로 작용. **플래시파크**는 부담중량 56.5kg(최중량)이 1600m에서 적지 않은 핸디캡. 전체적으로 포트모어의 안정성과 월드톱티어의 상승력, 성실드림의 youth 펌프 사이 삼각 구도가 경주의 핵심.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 8,
+   "place": [
+    8,
+    7,
+    11
+   ],
+   "exacta": [
+    8,
+    7
+   ]
+  }
+ },
+ "result": null
+}

@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-16",
+ "track": "busan",
+ "raceNo": 1,
+ "startTimeKst": "11:25",
+ "distanceM": 1600,
+ "grade": "국6등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0053636",
+   "horseName": "스위트맨",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "다실바",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "강형곤",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0054180",
+   "horseName": "메타월드",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "하무선",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0053506",
+   "horseName": "오아시스챔프",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "채상현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "양영남",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0051726",
+   "horseName": "월드하니",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "유광희",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "조용배",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 21,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0052443",
+   "horseName": "루피너스",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-3)손경민",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "박재호",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0053232",
+   "horseName": "슈퍼크라운",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "정도윤",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "문현철",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0047474",
+   "horseName": "원더풀윈드",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이효식",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "강은석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0053883",
+   "horseName": "바이럴히트",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "박재이",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "방동석",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0054208",
+   "horseName": "리버런",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이성재",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "임성실",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0053704",
+   "horseName": "샤이니코리아",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "서강주",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "구영준",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0053036",
+   "horseName": "한강브라보",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-2)남정혁",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "안우성",
+    "winRate1y": null
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 1,
+    "score": 0.7,
+    "winProb": 0.2509,
+    "briefComment": "유일 입상 경험, 이 경주 최유력",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 9,
+    "score": 0.5,
+    "winProb": 0.1228,
+    "briefComment": "입상 경험 있음, 상대적 유력",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 8,
+    "score": 0.4429,
+    "winProb": 0.1002,
+    "briefComment": "암말, 입상 경험 있음",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 10,
+    "score": 0.425,
+    "winProb": 0.094,
+    "briefComment": "2위 입상 경험, 안정적",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 4,
+    "score": 0.3476,
+    "winProb": 0.0713,
+    "briefComment": "21출 1입상, 매우 저조",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 2,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "8출 무입상, 약한 성적",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 3,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "7출 무입상, 약한 성적",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 5,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "9출 무입상, 기수변경 신호",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 6,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "신마, 미숙함",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 7,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "12출 무입상, 약함",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 11,
+    "score": 0.3,
+    "winProb": 0.0601,
+    "briefComment": "6출 무입상, 기수변경",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "국6등급 매우 약한 필드로, **스위트맨**만 유일하게 입상 경험(40%)을 보유. 나머지는 대부분 무입상으로 저조한 성적. 기수변경 말들(**루피너스**, **한강브라보**)도 과거 성적이 더욱 저조하여 큰 기대는 어려움. 저등급 경주의 높은 불확실성으로, 통계 모델 예측의 정확도도 낮을 가능성 높음.",
+  "confidence": "low",
+  "topPicks": {
+   "win": 1,
+   "place": [
+    1,
+    9,
+    8
+   ],
+   "exacta": [
+    1,
+    9
+   ]
+  }
+ },
+ "result": null
+}
