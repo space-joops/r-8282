@@ -9,14 +9,13 @@
 - 프로덕션 라이브: https://kyongmapick.vercel.app — **8/16(일) 서울 10·부경 7경주 사전 예측 배포됨**
 - 파이프라인: 승인 API 전부 통합됨 (출전표정보·기수/조교사 성적·확정배당율·날씨/주로). AI학습용_경주계획(API154)만 미승인
 - 적중률: 아직 0경주 평가 — **8/16 결과 반영이 첫 실적**
-- 8/15 결과: 15경주 반영됨, **서울 8·10경주 미확정 잔존**
+- 8/15 결과: 전 17경주 확정 반영 완료 (2026-08-15 저녁)
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
 1. **8/16(일) 저녁**: `make results DATE=2026-08-16` → diff 검토 → 커밋·push
    → 첫 실예측 적중률이 /results에 공개됨. 결과가 '순위 미확정'으로 남으면 다음날 `--refresh`로 재실행
-2. **8/15 잔여 결과**: `cd pipeline && uv run kra-predict results --date 2026-08-15 --refresh` → 서울 8·10경주 확정 반영 → 커밋·push
-3. 다음 주말부터 정규 리듬: 금·토·일 아침 `make predict DATE=$(date +%F) FLAGS="--ai-model haiku"` / 저녁 `make results DATE=…` (상세: 이슈 #23)
+2. 다음 주말부터 정규 리듬: 금·토·일 아침 `make predict DATE=$(date +%F) FLAGS="--ai-model haiku"` / 저녁 `make results DATE=…` (상세: 이슈 #23)
 
 ## 백로그 (우선순위순)
 

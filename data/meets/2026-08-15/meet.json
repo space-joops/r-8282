@@ -85,12 +85,34 @@
      "canceled": false
     },
     {
+     "raceNo": 8,
+     "startTimeKst": "18:55",
+     "distanceM": 1600,
+     "grade": "2등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
      "raceNo": 9,
      "startTimeKst": "19:25",
      "distanceM": 1400,
      "grade": "국4등급",
      "raceName": null,
      "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 10,
+     "startTimeKst": "19:55",
+     "distanceM": 1200,
+     "grade": "혼3등급",
+     "raceName": null,
+     "entryCount": 8,
      "hasPrediction": false,
      "hasResult": true,
      "canceled": false

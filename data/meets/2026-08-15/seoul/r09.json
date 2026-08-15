@@ -344,8 +344,78 @@
  ],
  "prediction": null,
  "result": {
-  "fetchedAt": "2026-08-15T18:54:40+09:00",
+  "fetchedAt": "2026-08-15T21:16:59+09:00",
   "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "원평강자",
+    "timeSec": 87.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 7,
+    "horseName": "남산미남",
+    "timeSec": 87.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 11,
+    "horseName": "베스트선",
+    "timeSec": 88.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 10,
+    "horseName": "퀸다이아",
+    "timeSec": 88.3,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 6,
+    "horseName": "한우리",
+    "timeSec": 88.6,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 4,
+    "horseName": "컴플리트브로",
+    "timeSec": 88.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 9,
+    "horseName": "무제한급",
+    "timeSec": 89.2,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 1,
+    "horseName": "레드드래곤",
+    "timeSec": 89.4,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 8,
+    "horseName": "굿카보",
+    "timeSec": 96.0,
+    "margin": null
+   },
+   {
+    "finishPos": 92,
+    "gateNo": 2,
+    "horseName": "라온스나이퍼",
+    "timeSec": null,
+    "margin": null
+   },
    {
     "finishPos": 94,
     "gateNo": 5,
@@ -355,8 +425,12 @@
    }
   ],
   "payouts": {
-   "win": 1.5,
-   "place": null
+   "win": 4.3,
+   "place": [
+    2.1,
+    3.8,
+    7.3
+   ]
   }
  }
 }
