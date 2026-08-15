@@ -23,13 +23,22 @@ data.go.kr KRA API ─→ 수집(fetch) ─→ 통계 스코어링 ─→ AI 보
 
 ## 운영 절차
 
+**자동 운영(권장)** — 우분투 노트북 systemd user timer:
+
 ```bash
-# 1) 개최 전날: 예측 생성 (pipeline/.env에 KRA_SERVICE_KEY 필요)
+scripts/install-automation.sh   # 최초 1회: 금토일 아침 예측·저녁 결과 타이머 설치
+journalctl --user -u kyongma-predict -u kyongma-results -e   # 로그 확인
+```
+
+**수동 실행**:
+
+```bash
+# 1) 개최일 아침: 예측 생성 (pipeline/.env에 KRA_SERVICE_KEY 필요)
 make predict DATE=2026-08-22          # FLAGS="--no-ai" 통계 단독, FLAGS="--ai-model haiku"
 git diff data/ && git add data/ && git commit -m "data: 8/22 예측" && git push
 
 # 2) 경마일 저녁: 결과 반영 + 적중률 갱신
-make results DATE=2026-08-22
+make results DATE=2026-08-22 FLAGS=--refresh
 git add data/ && git commit -m "data: 8/22 결과" && git push
 
 # 검증

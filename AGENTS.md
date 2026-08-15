@@ -61,11 +61,17 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - 1 이슈 = 1 브랜치(`feat/…`, `chore/…`) = 1 PR, PR 본문에 `Closes #N`
 - 작업 단위별 커밋 유지
 
-## 운영 절차 (수동, 비용 0원)
+## 운영 절차 (비용 0원)
 
-1. 개최 전날(보통 금) `make predict DATE=…` → `data/` diff 검토 → 커밋·push (Vercel 자동 배포)
-2. 당일 아침 기수 변경 확인 시 재실행 후 재커밋
-3. 경마일 저녁 `make results DATE=…` → 커밋·push
+**자동 (기본)**: systemd user timer가 노트북에서 실행 — 설치는 `scripts/install-automation.sh`
+- `kyongma-predict.timer`: 금·토·일 07:30 예측 생성 → 변경 시 자동 커밋·push
+- `kyongma-results.timer`: 금·토·일 19:30 + 월 10:00 결과 반영(오늘+어제 스윕, `--refresh`)
+- 로그: `journalctl --user -u kyongma-predict -u kyongma-results -e`
+- 파이프라인 쓰기는 멱등(`write_json_if_changed` — 휘발성 타임스탬프 무시)이라 변경 없는 재실행은 커밋을 만들지 않는다
+
+**수동 (보완)**: 노트북이 꺼져 있었으면 `Persistent=true`로 부팅 후 자동 보충되지만, 직접 돌릴 땐
+1. `make predict DATE=…` → `data/` diff 검토 → 커밋·push
+2. `make results DATE=… FLAGS=--refresh` → 커밋·push (캐시가 미확정 결과를 물고 있으므로 --refresh)
 
 ## 배포 (Vercel)
 

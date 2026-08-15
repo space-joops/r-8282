@@ -1,0 +1,11 @@
+[Unit]
+Description=경마픽 결과 — 금·토·일 저녁 + 월요일 오전(주말 미확정 스윕)
+
+[Timer]
+OnCalendar=Fri,Sat,Sun 19:30
+OnCalendar=Mon 10:00
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

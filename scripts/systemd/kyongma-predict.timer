@@ -1,0 +1,10 @@
+[Unit]
+Description=경마픽 예측 — 금·토·일 아침 (경주는 보통 10:30 이후 시작)
+
+[Timer]
+OnCalendar=Fri,Sat,Sun 07:30
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

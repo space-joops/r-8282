@@ -66,6 +66,34 @@ def atomic_write_json(path: Path, obj: dict) -> None:
         raise
 
 
+# 재실행 때마다 갱신되는 타임스탬프 — 이것만 다르면 '변경 없음'으로 본다
+VOLATILE_KEYS = {"updatedAt", "fetchedAt", "generatedAt"}
+
+
+def _strip_volatile(obj):
+    if isinstance(obj, dict):
+        return {
+            k: _strip_volatile(v) for k, v in obj.items() if k not in VOLATILE_KEYS
+        }
+    if isinstance(obj, list):
+        return [_strip_volatile(v) for v in obj]
+    return obj
+
+
+def write_json_if_changed(path: Path, obj: dict) -> bool:
+    """휘발성 타임스탬프 외 내용이 같으면 쓰지 않는다 (cron 재실행 멱등성 —
+    변경 없는 날 자동 커밋이 생기지 않도록). 썼으면 True."""
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text("utf-8"))
+        except (OSError, json.JSONDecodeError):
+            existing = None
+        if existing is not None and _strip_volatile(existing) == _strip_volatile(obj):
+            return False
+    atomic_write_json(path, obj)
+    return True
+
+
 def race_path(data_dir: Path, date: str, track: str, race_no: int) -> Path:
     return data_dir / "meets" / date / track / f"r{race_no:02d}.json"
 
@@ -89,7 +117,7 @@ def emit_races(
             if race.get("result") is None and existing.get("result") is not None:
                 race = {**race, "result": existing["result"]}
         _assert_valid("race", race, label)
-        atomic_write_json(path, race)
+        write_json_if_changed(path, race)
         written.append(label)
     return written, skipped
 
@@ -147,7 +175,7 @@ def rebuild_meet_and_index(*, data_dir: Path = DATA_DIR) -> None:
             )
         meet = {"schemaVersion": 1, "date": date, "tracks": tracks}
         _assert_valid("meet", meet, f"meet {date}")
-        atomic_write_json(meet_dir / "meet.json", meet)
+        write_json_if_changed(meet_dir / "meet.json", meet)
 
     today = datetime.now(KST).date()
     past = [d for d in meet_dates if date_cls.fromisoformat(d) <= today]
@@ -160,7 +188,7 @@ def rebuild_meet_and_index(*, data_dir: Path = DATA_DIR) -> None:
         "meetDates": meet_dates,
     }
     _assert_valid("index", index, "index")
-    atomic_write_json(data_dir / "index.json", index)
+    write_json_if_changed(data_dir / "index.json", index)
 
 
 def validate_tree(*, data_dir: Path = DATA_DIR) -> list[str]:

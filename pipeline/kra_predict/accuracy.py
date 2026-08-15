@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 
 from kra_predict.config import DATA_DIR, TRACKS
-from kra_predict.emit import atomic_write_json, now_kst_iso, validation_errors
+from kra_predict.emit import now_kst_iso, validation_errors, write_json_if_changed
 
 
 def _race_files(data_dir: Path):
@@ -94,5 +94,5 @@ def recompute_accuracy(*, data_dir: Path = DATA_DIR) -> dict:
     errors = validation_errors("accuracy", stats)
     if errors:
         raise ValueError(f"accuracy 스키마 오류: {errors[:3]}")
-    atomic_write_json(data_dir / "stats" / "accuracy.json", stats)
+    write_json_if_changed(data_dir / "stats" / "accuracy.json", stats)
     return stats
