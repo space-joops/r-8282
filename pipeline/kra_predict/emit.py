@@ -100,10 +100,11 @@ def race_path(data_dir: Path, date: str, track: str, race_no: int) -> Path:
 
 def emit_races(
     races: list[dict], *, data_dir: Path = DATA_DIR, force: bool = False
-) -> tuple[list[str], list[str]]:
-    """경주 파일을 쓴다. 반환: (기록한 라벨, 건너뛴 라벨)."""
+) -> tuple[list[str], list[str], int]:
+    """경주 파일을 쓴다. 반환: (기록한 라벨, 건너뛴 라벨, 실제 변경된 파일 수)."""
     written: list[str] = []
     skipped: list[str] = []
+    changed = 0
     for race in races:
         label = f"{race['track']} {race['raceNo']}경주"
         path = race_path(data_dir, race["date"], race["track"], race["raceNo"])
@@ -117,9 +118,10 @@ def emit_races(
             if race.get("result") is None and existing.get("result") is not None:
                 race = {**race, "result": existing["result"]}
         _assert_valid("race", race, label)
-        write_json_if_changed(path, race)
+        if write_json_if_changed(path, race):
+            changed += 1
         written.append(label)
-    return written, skipped
+    return written, skipped, changed
 
 
 def _load_races(meet_dir: Path) -> dict[str, list[dict]]:

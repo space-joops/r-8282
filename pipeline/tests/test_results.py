@@ -82,8 +82,8 @@ def test_apply_results_sets_result_and_keeps_prediction(tmp_path):
             ]
         },
     }
-    applied, canceled = apply_results(bundle, data_dir=tmp_path)
-    assert applied == 1 and canceled == 0
+    applied, canceled, changed = apply_results(bundle, data_dir=tmp_path)
+    assert applied == 1 and canceled == 0 and changed == 1
 
     saved = json.loads(race_path(tmp_path, DATE, "seoul", 5).read_text("utf-8"))
     assert saved["prediction"] == original_prediction  # prediction 불변
@@ -99,8 +99,8 @@ def test_apply_results_cancel_flag(tmp_path):
             "seoul": [_result_row(5, 1, "말1", 1, noraceFlag="1")]
         },
     }
-    applied, canceled = apply_results(bundle, data_dir=tmp_path)
-    assert applied == 0 and canceled == 1
+    applied, canceled, changed = apply_results(bundle, data_dir=tmp_path)
+    assert applied == 0 and canceled == 1 and changed == 1
     saved = json.loads(race_path(tmp_path, DATE, "seoul", 5).read_text("utf-8"))
     assert saved["canceled"] is True
     assert saved["result"] is None
@@ -118,7 +118,7 @@ def test_apply_results_backfills_unknown_race(tmp_path):
             ]
         },
     }
-    applied, _ = apply_results(bundle, data_dir=tmp_path)
+    applied, _, _ = apply_results(bundle, data_dir=tmp_path)
     assert applied == 1
     saved = json.loads(race_path(tmp_path, DATE, "busan", 3).read_text("utf-8"))
     assert len(saved["entries"]) == 2

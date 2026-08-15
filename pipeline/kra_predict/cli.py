@@ -11,7 +11,7 @@ import re
 
 import typer
 
-from kra_predict import config
+from kra_predict import config, telemetry
 from kra_predict.api.client import KraClient
 from kra_predict.accuracy import recompute_accuracy
 from kra_predict.emit import (
@@ -101,38 +101,56 @@ def predict(
     ),
 ) -> None:
     """개최일 데이터를 수집·스코어링해 data/에 예측을 기록한다."""
-    client = make_client(fixtures, refresh)
-    try:
-        bundle = fetch_meet_bundle(client, date)
-    finally:
-        client.close()
+    # --fixtures(오프라인 테스트)는 운영 이력에 남기지 않는다
+    with telemetry.track("predict", date, enabled=not fixtures) as run:
+        client = make_client(fixtures, refresh)
+        try:
+            bundle = fetch_meet_bundle(client, date)
+        finally:
+            client.close()
 
-    races = assemble_races(bundle)
-    if not races:
-        typer.echo("경주 편성이 없습니다 — 개최일이 맞는지 확인하세요.")
-        raise typer.Exit(1)
+        races = assemble_races(bundle)
+        if not races:
+            run.status = "no_races"
+            typer.echo("경주 편성이 없습니다 — 개최일이 맞는지 확인하세요.")
+            raise typer.Exit(1)
 
-    generated_at = now_kst_iso()
-    for race in races:
-        if race["entries"]:
-            race["prediction"] = build_prediction(
-                race["entries"], race_date=race["date"], generated_at=generated_at
-            )
+        generated_at = now_kst_iso()
+        for race in races:
+            if race["entries"]:
+                race["prediction"] = build_prediction(
+                    race["entries"], race_date=race["date"], generated_at=generated_at
+                )
 
-    if not no_ai:
-        from kra_predict.ai import enrich_predictions
+        ok = fallback = 0
+        if not no_ai:
+            from kra_predict.ai import enrich_predictions
 
-        ok, fallback = enrich_predictions(races, model=ai_model or None)
-        typer.echo(f"AI 분석: 성공 {ok}경주 · 통계 단독 폴백 {fallback}경주")
+            ok, fallback = enrich_predictions(races, model=ai_model or None)
+            typer.echo(f"AI 분석: 성공 {ok}경주 · 통계 단독 폴백 {fallback}경주")
 
-    written, skipped = emit_races(races, force=force)
-    rebuild_meet_and_index()
+        written, skipped, changed = emit_races(races, force=force)
+        rebuild_meet_and_index()
 
-    with_pred = sum(1 for r in races if r["prediction"] is not None)
-    typer.echo(f"예측 생성 {with_pred}/{len(races)}경주 · 기록 {len(written)}건")
-    if skipped:
-        typer.echo(f"건너뜀(결과 확정): {', '.join(skipped)}")
-    typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
+        with_pred = sum(1 for r in races if r["prediction"] is not None)
+        run.status = "success" if changed else "no_change"
+        run.metrics = {
+            "racesTotal": len(races),
+            "withPrediction": with_pred,
+            "aiOk": ok,
+            "aiFallback": fallback,
+            "written": len(written),
+            "skippedFinal": len(skipped),
+            "changed": changed,
+            "httpCalls": client.http_calls,
+        }
+        typer.echo(
+            f"예측 생성 {with_pred}/{len(races)}경주 · 기록 {len(written)}건 "
+            f"(변경 {changed}건)"
+        )
+        if skipped:
+            typer.echo(f"건너뜀(결과 확정): {', '.join(skipped)}")
+        typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
 
 
 @app.command()
@@ -142,22 +160,35 @@ def results(
     refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
 ) -> None:
     """경주 결과를 data/에 반영하고 적중률을 재계산한다 (prediction 불변)."""
-    client = make_client(fixtures, refresh)
-    try:
-        bundle = fetch_results_bundle(client, date)
-    finally:
-        client.close()
+    with telemetry.track("results", date, enabled=not fixtures) as run:
+        client = make_client(fixtures, refresh)
+        try:
+            bundle = fetch_results_bundle(client, date)
+        finally:
+            client.close()
 
-    applied, canceled = apply_results(bundle)
-    rebuild_meet_and_index()
-    stats = recompute_accuracy()
+        applied, canceled, changed = apply_results(bundle)
+        rebuild_meet_and_index()
+        stats = recompute_accuracy()
 
-    typer.echo(f"결과 반영 {applied}경주 · 취소 {canceled}경주")
-    typer.echo(
-        f"누적 적중률: 단승 {stats['overall']['winRate']:.1%} · "
-        f"연승 {stats['overall']['placeRate']:.1%} ({stats['overall']['races']}경주)"
-    )
-    typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
+        run.status = "success" if changed else "no_change"
+        run.metrics = {
+            "applied": applied,
+            "canceled": canceled,
+            "changed": changed,
+            "httpCalls": client.http_calls,
+            "accuracy": {
+                "races": stats["overall"]["races"],
+                "winRate": stats["overall"]["winRate"],
+                "placeRate": stats["overall"]["placeRate"],
+            },
+        }
+        typer.echo(f"결과 반영 {applied}경주 · 취소 {canceled}경주 (변경 {changed}건)")
+        typer.echo(
+            f"누적 적중률: 단승 {stats['overall']['winRate']:.1%} · "
+            f"연승 {stats['overall']['placeRate']:.1%} ({stats['overall']['races']}경주)"
+        )
+        typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
 
 
 @app.command()

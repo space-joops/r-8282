@@ -35,8 +35,9 @@ def test_emit_and_rebuild_and_validate(tmp_path):
     races = _build_races()
     assert len(races) == 3  # 서울 2 + 제주 1
 
-    written, skipped = emit_races(races, data_dir=tmp_path)
+    written, skipped, changed = emit_races(races, data_dir=tmp_path)
     assert len(written) == 3 and skipped == []
+    assert changed == 3
 
     # accuracy.json은 검증 대상이므로 최소 골격을 둔다
     stats_dir = tmp_path / "stats"
@@ -91,15 +92,15 @@ def test_result_protected_without_force(tmp_path):
     # force 없이 재-emit → 건너뛰고 파일 불변
     modified = [dict(r) for r in races if r["track"] == "seoul" and r["raceNo"] == 1]
     modified[0]["prediction"] = None
-    written, skipped = emit_races(modified, data_dir=tmp_path)
-    assert written == [] and skipped == ["seoul 1경주"]
+    written, skipped, changed = emit_races(modified, data_dir=tmp_path)
+    assert written == [] and skipped == ["seoul 1경주"] and changed == 0
     after = json.loads(path.read_text("utf-8"))
     assert after["prediction"] == original_prediction
     assert after["result"] is not None
 
     # force면 덮어쓰되 새 조립본에 결과가 없으면 기존 결과 보존
-    written, skipped = emit_races(modified, data_dir=tmp_path, force=True)
-    assert written == ["seoul 1경주"]
+    written, skipped, changed = emit_races(modified, data_dir=tmp_path, force=True)
+    assert written == ["seoul 1경주"] and changed == 1
     after = json.loads(path.read_text("utf-8"))
     assert after["prediction"] is None
     assert after["result"] is not None  # 기존 결과 보존

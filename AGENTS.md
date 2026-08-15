@@ -73,6 +73,15 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 1. `make predict DATE=…` → `data/` diff 검토 → 커밋·push
 2. `make results DATE=… FLAGS=--refresh` → 커밋·push (캐시가 미확정 결과를 물고 있으므로 --refresh)
 
+## 관리자 기능 (/admin) — Supabase는 여기에만 사용
+
+- **사이트 코어는 완전 정적 유지.** `/admin`이 유일한 동적 라우트(`force-dynamic`)이며, `proxy.ts`가 Basic Auth(env `ADMIN_PASSWORD`)로 게이트한다 — matcher가 /admin만 잡아 공개 경로 비용 영향 없음
+- 텔레메트리: predict/results 실행이 Supabase `kyongma_ops_runs`에 기록됨(`pipeline/kra_predict/telemetry.py`, fail-soft). 스키마는 `supabase/schema.sql` — RLS 활성·정책 없음 = service 키 전용
+- Supabase 조회는 서버에서 service 키로만 — `NEXT_PUBLIC_` 키를 만들지 말 것
+- 타이머 일정 상수(`components/admin/schedule.ts`)의 원천은 `scripts/systemd/*.timer` — 타이머 변경 시 함께 갱신
+- 필요 env — Vercel: `ADMIN_PASSWORD`, `SUPABASE_URL`, `SUPABASE_SERVICE_KEY` / 노트북 `pipeline/.env`: `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`
+- `new Date()` 렌더링 금지 규칙의 예외: /admin은 동적 렌더이므로 요청 시각 사용 허용
+
 ## 배포 (Vercel)
 
 - 프로젝트: `kyongmapick` (ppabams-projects, Hobby) — 프로덕션 https://kyongmapick.vercel.app
