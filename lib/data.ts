@@ -3,11 +3,13 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import {
   accuracyStatsSchema,
+  backtestSchema,
   dataIndexSchema,
   meetSchema,
   raceFileSchema,
   trackSlugSchema,
   type AccuracyStats,
+  type Backtest,
   type DataIndex,
   type Meet,
   type RaceFile,
@@ -43,6 +45,16 @@ export const getRace = cache(
 
 export const getAccuracy = cache(async (): Promise<AccuracyStats> => {
   return accuracyStatsSchema.parse(await readJson("stats", "accuracy.json"));
+});
+
+/** 백테스트 결과 — 아직 생성 전이면 null */
+export const getBacktest = cache(async (): Promise<Backtest | null> => {
+  try {
+    return backtestSchema.parse(await readJson("stats", "backtest.json"));
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw error;
+  }
 });
 
 export interface RaceRef {

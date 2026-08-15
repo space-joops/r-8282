@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    { url: `${SITE_URL}/model`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${SITE_URL}/guide`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/about`, changeFrequency: "monthly", priority: 0.3 },
     ...index.meetDates.map((date) => ({

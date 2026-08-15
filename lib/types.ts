@@ -172,6 +172,44 @@ export const accuracyBucketSchema = z.object({
 });
 export type AccuracyBucket = z.infer<typeof accuracyBucketSchema>;
 
+export const backtestMetricSchema = z.object({
+  races: z.number().int().nonnegative(),
+  winHits: z.number().int().nonnegative(),
+  winRate: z.number().min(0).max(1),
+  placeHits: z.number().int().nonnegative(),
+  placeRate: z.number().min(0).max(1),
+  top3ExactHits: z.number().int().nonnegative(),
+  logLoss: z.number().nullable(),
+  roiWin: z.number().nullable(),
+  roiPlace: z.number().nullable(),
+});
+export type BacktestMetric = z.infer<typeof backtestMetricSchema>;
+
+export const backtestModelSchema = z.object({
+  version: z.string(),
+  generatedAt: z.string(),
+  periodFrom: dateStr,
+  periodTo: dateStr,
+  note: z.string(),
+  overall: backtestMetricSchema,
+  byTrack: z.record(trackSlugSchema, backtestMetricSchema),
+  byConfidence: z.object({
+    high: backtestMetricSchema,
+    medium: backtestMetricSchema,
+    low: backtestMetricSchema,
+  }),
+  monthly: z.array(
+    backtestMetricSchema.extend({ month: z.string().regex(/^\d{4}-\d{2}$/) }),
+  ),
+});
+export type BacktestModel = z.infer<typeof backtestModelSchema>;
+
+export const backtestSchema = z.object({
+  schemaVersion: z.literal(1),
+  models: z.array(backtestModelSchema),
+});
+export type Backtest = z.infer<typeof backtestSchema>;
+
 export const accuracyStatsSchema = z.object({
   schemaVersion: z.literal(1),
   updatedAt: z.string(),
