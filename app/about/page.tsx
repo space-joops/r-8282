@@ -4,6 +4,7 @@ import { SITE_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "소개",
   description: `${SITE_NAME} 서비스 소개 — 데이터 출처, 예측 방식, 이용 시 유의사항`,
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

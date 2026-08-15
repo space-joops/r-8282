@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "적중률 추적",
   description:
     "AI·통계 예측의 누적 적중률 — 단승·연승 적중률과 개최일별 기록을 투명하게 공개합니다",
+  alternates: { canonical: "/results" },
 };
 
 export default async function ResultsPage() {

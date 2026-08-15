@@ -18,6 +18,7 @@ export async function generateMetadata({
   return {
     title: `${formatFullDateKo(date)} 경마 일정·예측`,
     description: `${formatFullDateKo(date)} 서울·부산경남·제주 경마 경주 일정, 출전표와 AI 예측`,
+    alternates: { canonical: `/races/${date}` },
   };
 }
 

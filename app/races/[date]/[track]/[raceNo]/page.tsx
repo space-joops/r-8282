@@ -5,6 +5,7 @@ import { PredictionPanel } from "@/components/race/PredictionPanel";
 import { ResultTable } from "@/components/race/ResultTable";
 import { getRace, listAllRaces } from "@/lib/data";
 import { formatDateKo, formatRaceLabel } from "@/lib/format";
+import { JsonLd, sportsEventJsonLd } from "@/lib/seo";
 import { TRACKS } from "@/lib/tracks";
 import { trackSlugSchema } from "@/lib/types";
 
@@ -30,9 +31,17 @@ async function loadRace(params: Props["params"]) {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const race = await loadRace(params);
   const label = formatRaceLabel(race.track, race.raceNo);
+  const topPick = race.prediction
+    ? race.entries.find(
+        (e) => e.gateNo === race.prediction?.topPicks.win,
+      )?.horseName
+    : undefined;
   return {
     title: `${formatDateKo(race.date)} ${label} 예측·출전표`,
-    description: `${formatDateKo(race.date)} ${label}(${race.distanceM}m, ${race.grade}) 출전표와 AI·통계 예측${race.result ? ", 경주 결과" : ""}`,
+    description: `${formatDateKo(race.date)} ${label}(${race.distanceM}m, ${race.grade}) 출전표와 AI·통계 예측${topPick ? ` — 단승 추천 ${topPick}` : ""}${race.result ? ", 경주 결과" : ""}`,
+    alternates: {
+      canonical: `/races/${race.date}/${race.track}/${race.raceNo}`,
+    },
   };
 }
 
@@ -41,6 +50,7 @@ export default async function RacePage({ params }: Props) {
 
   return (
     <div className="space-y-4">
+      <JsonLd data={sportsEventJsonLd(race)} />
       <header>
         <p className="text-sm text-muted">
           <Link href={`/races/${race.date}`} className="hover:text-brand">

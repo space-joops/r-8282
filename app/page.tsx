@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { RaceCard } from "@/components/race/RaceCard";
 import { getAccuracy, getDataIndex, getMeet, getRace } from "@/lib/data";
 import { formatFullDateKo, formatPercent, formatRaceLabel } from "@/lib/format";
+import { JsonLd, webSiteJsonLd } from "@/lib/seo";
 import { TRACKS } from "@/lib/tracks";
 import type { Meet } from "@/lib/types";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default async function Home() {
   const index = await getDataIndex();
@@ -13,6 +19,7 @@ export default async function Home() {
 
   return (
     <div className="space-y-8">
+      <JsonLd data={webSiteJsonLd()} />
       <section>
         <h1 className="text-2xl font-bold">
           {formatFullDateKo(meet.date)} 경마
