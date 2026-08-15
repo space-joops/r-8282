@@ -1,0 +1,71 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 1,
+      "hrnm": "불꽃심장",
+      "hrWeg": 505,
+      "indec": 3,
+      "lstPtinDy": "20260720"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 2,
+      "hrnm": "달빛추격자",
+      "hrWeg": 489,
+      "indec": -1,
+      "lstPtinDy": "20260720"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 3,
+      "hrnm": "우레폭풍",
+      "hrWeg": 472,
+      "indec": 0,
+      "lstPtinDy": "20260706"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 4,
+      "hrnm": "적토마꿈",
+      "hrWeg": 496,
+      "indec": 5,
+      "lstPtinDy": "20260720"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 5,
+      "hrnm": "청룡비상",
+      "hrWeg": 466,
+      "indec": 2,
+      "lstPtinDy": "20260727"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 5,
+      "pthrNo": 6,
+      "hrnm": "노을달리기",
+      "hrWeg": 451,
+      "indec": -4,
+      "lstPtinDy": "20260706"
+     }
+    ]
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 6
+  }
+ }
+}

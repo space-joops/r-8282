@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "서울",
+     "hrno": "0048455",
+     "hrnm": "푸른창공",
+     "lstPtinDt": "20260726",
+     "loyPtinTcnt": 12,
+     "loyFcmTcnt": 1,
+     "loyScmTcnt": 3,
+     "loyTcmTcnt": 2,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

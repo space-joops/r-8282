@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "서울",
+     "hrno": "0049415",
+     "hrnm": "청룡비상",
+     "lstPtinDt": "20260727",
+     "loyPtinTcnt": 6,
+     "loyFcmTcnt": 2,
+     "loyScmTcnt": 2,
+     "loyTcmTcnt": 0,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

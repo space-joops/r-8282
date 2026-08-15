@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "제주",
+     "hrno": "0093208",
+     "hrnm": "백록담별",
+     "lstPtinDt": "20260801",
+     "loyPtinTcnt": 4,
+     "loyFcmTcnt": 0,
+     "loyScmTcnt": 2,
+     "loyTcmTcnt": 0,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

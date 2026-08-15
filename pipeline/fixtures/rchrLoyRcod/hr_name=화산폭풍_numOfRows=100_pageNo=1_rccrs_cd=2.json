@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "제주",
+     "hrno": "0094012",
+     "hrnm": "화산폭풍",
+     "lstPtinDt": "20260718",
+     "loyPtinTcnt": 8,
+     "loyFcmTcnt": 2,
+     "loyScmTcnt": 0,
+     "loyTcmTcnt": 1,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

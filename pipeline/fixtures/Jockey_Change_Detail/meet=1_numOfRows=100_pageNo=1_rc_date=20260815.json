@@ -1,0 +1,32 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "meet": "서울",
+     "rcDate": "20260815",
+     "rcNo": 1,
+     "chulNo": 5,
+     "seq": 1,
+     "hrName": "은빛파도",
+     "hrNo": "0050788",
+     "jkBefName": "박태산",
+     "jkBef": "080200",
+     "jkAftName": "강다현",
+     "jkAft": "080130",
+     "befBudam": 56,
+     "aftBudam": 56,
+     "reason": "기수 부상",
+     "openTime": "08:30"
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

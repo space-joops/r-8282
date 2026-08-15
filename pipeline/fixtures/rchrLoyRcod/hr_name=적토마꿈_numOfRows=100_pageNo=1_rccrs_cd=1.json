@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "서울",
+     "hrno": "0045677",
+     "hrnm": "적토마꿈",
+     "lstPtinDt": "20260720",
+     "loyPtinTcnt": 12,
+     "loyFcmTcnt": 1,
+     "loyScmTcnt": 1,
+     "loyTcmTcnt": 3,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}
