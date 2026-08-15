@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -56,6 +57,14 @@ export default function AboutPage() {
           </li>
         </ul>
       </section>
+
+      <p className="text-sm text-muted">
+        경마 용어가 낯설다면{" "}
+        <Link href="/guide" className="text-brand hover:underline">
+          경마 용어 가이드
+        </Link>
+        를 먼저 읽어보세요.
+      </p>
     </article>
   );
 }
