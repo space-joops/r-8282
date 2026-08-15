@@ -1,14 +1,18 @@
-"""통계 스코어링 v1 — 결정적 가중 선형 모델.
+"""통계 스코어링 — v1(수작업 가중) + v2(학습 가중, 조건부 로짓).
 
-엔트리별 피처를 경주 내 min-max 정규화 후 가중합 → softmax로 winProb.
-결측 피처는 해당 엔트리에서 제외하고 가중치를 재정규화한다.
-가중치는 추후 AI학습용_경주결과(API155) 데이터로 캘리브레이션 예정.
+공통: 엔트리별 피처를 경주 내 min-max 정규화 후 선형 결합 → softmax로 winProb.
+- v1: 결측 피처는 가중치 재정규화로 제외, 고정 온도 softmax
+- v2: weights_v2.json(조건부 로짓 MLE 학습 계수)이 존재하면 자동 활성.
+  결측은 0.5(중립) 대치, 계수에 온도가 흡수됨. 파일이 없으면 v1 폴백
 """
 
 from __future__ import annotations
 
+import json
 import math
 from datetime import date as date_cls
+from functools import lru_cache
+from pathlib import Path
 
 STAT_VERSION = "v1"
 
@@ -23,6 +27,21 @@ WEIGHTS = {
 }
 
 SOFTMAX_TEMP = 0.28
+
+MODEL_PATH = Path(__file__).parent / "weights_v2.json"
+
+
+@lru_cache(maxsize=1)
+def load_learned_model() -> dict | None:
+    """학습된 v2 가중치. 없으면 None → v1 동작."""
+    if not MODEL_PATH.exists():
+        return None
+    return json.loads(MODEL_PATH.read_text("utf-8"))
+
+
+def model_version() -> str:
+    model = load_learned_model()
+    return model["version"] if model else STAT_VERSION
 
 
 def _rest_score(rest_days: int | None) -> float | None:
@@ -96,18 +115,34 @@ def score_race(entries: list[dict], race_date: str | None = None) -> list[dict]:
         for row, value in zip(normalized, column):
             row[key] = value
 
-    scores: list[float] = []
-    for row in normalized:
-        total_weight = sum(w for k, w in WEIGHTS.items() if row[k] is not None)
-        if total_weight == 0:
-            scores.append(0.5)
-            continue
-        scores.append(
-            sum(w * row[k] for k, w in WEIGHTS.items() if row[k] is not None)
-            / total_weight
-        )
-
-    exps = [math.exp(s / SOFTMAX_TEMP) for s in scores]
+    model = load_learned_model()
+    if model:
+        # v2: 학습된 조건부 로짓 — 결측은 중립값 대치, 계수에 온도 흡수됨
+        impute = model.get("impute", 0.5)
+        beta = model["beta"]
+        utilities = [
+            sum(
+                beta[k] * (row[k] if row[k] is not None else impute)
+                for k in model["features"]
+            )
+            for row in normalized
+        ]
+        peak = max(utilities)
+        exps = [math.exp(u - peak) for u in utilities]
+        scores = _minmax_display(utilities)
+    else:
+        # v1: 결측 피처는 가중치 재정규화로 제외
+        scores = []
+        for row in normalized:
+            total_weight = sum(w for k, w in WEIGHTS.items() if row[k] is not None)
+            if total_weight == 0:
+                scores.append(0.5)
+                continue
+            scores.append(
+                sum(w * row[k] for k, w in WEIGHTS.items() if row[k] is not None)
+                / total_weight
+            )
+        exps = [math.exp(s / SOFTMAX_TEMP) for s in scores]
     denom = sum(exps)
 
     results = []
@@ -121,6 +156,14 @@ def score_race(entries: list[dict], race_date: str | None = None) -> list[dict]:
             }
         )
     return results
+
+
+def _minmax_display(values: list[float]) -> list[float]:
+    """표시용 score(0..1) — 유틸리티를 경주 내 min-max로 눌러 담는다."""
+    lo, hi = min(values), max(values)
+    if hi == lo:
+        return [0.5 for _ in values]
+    return [(v - lo) / (hi - lo) for v in values]
 
 
 def _brief_comment(feats: dict[str, float | None]) -> str | None:
@@ -155,7 +198,7 @@ def build_prediction(
 
     return {
         "generatedAt": generated_at,
-        "model": {"statVersion": STAT_VERSION, "aiModel": ai_model},
+        "model": {"statVersion": model_version(), "aiModel": ai_model},
         "rankings": ranked,
         "aiCommentary": ai_commentary,
         "confidence": confidence,

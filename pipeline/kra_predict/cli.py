@@ -246,6 +246,95 @@ def backtest(
 
 
 @app.command()
+def train(
+    from_month: str = typer.Option("2025-07", "--from", help="학습 시작 월 (YYYY-MM)"),
+    to_month: str = typer.Option("2026-06", "--to", help="학습 종료 월 (YYYY-MM, 평가 기간과 겹치면 안 됨)"),
+    save: bool = typer.Option(True, "--save/--no-save", help="weights_v2.json 저장 여부"),
+    fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
+    refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
+) -> None:
+    """조건부 로짓으로 v2 가중치를 학습해 weights_v2.json에 기록한다."""
+    from kra_predict import score
+    from kra_predict.backtest import (
+        build_backtest_races,
+        fetch_detail_rows,
+        month_list_with_history,
+    )
+    from kra_predict.train import (
+        build_training_blocks,
+        evaluate,
+        fit_conditional_logit,
+        make_weights_doc,
+        select_l2,
+    )
+
+    if not re.match(r"^\d{4}-\d{2}$", from_month) or not re.match(
+        r"^\d{4}-\d{2}$", to_month
+    ):
+        raise typer.BadParameter("월은 YYYY-MM 형식이어야 합니다")
+    months = []
+    year, month = int(from_month[:4]), int(from_month[5:7])
+    while f"{year:04d}-{month:02d}" <= to_month:
+        months.append(f"{year:04d}-{month:02d}")
+        month += 1
+        if month == 13:
+            year, month = year + 1, 1
+
+    all_months = month_list_with_history(months)
+    typer.echo(f"수집: {all_months[0]} ~ {all_months[-1]} · 학습 타깃 {len(months)}개월")
+    client = make_client(fixtures, refresh)
+    try:
+        rows = fetch_detail_rows(client, all_months)
+    finally:
+        client.close()
+
+    races = build_backtest_races(rows, months)
+    if len(races) < 100:
+        typer.echo(f"학습 경주가 너무 적습니다 ({len(races)}건)")
+        raise typer.Exit(1)
+
+    # L2 선택: 마지막 2개월을 시간순 검증 세트로
+    val_months = set(months[-2:])
+    train_races = [r for r in races if r["date"][:7] not in val_months]
+    val_races = [r for r in races if r["date"][:7] in val_months]
+    best_l2, grid = select_l2(
+        build_training_blocks(train_races), build_training_blocks(val_races)
+    )
+    typer.echo(
+        "L2 검증 log-loss: "
+        + " · ".join(f"{k}→{v:.4f}" for k, v in sorted(grid.items()))
+        + f" → 선택 {best_l2}"
+    )
+
+    blocks = build_training_blocks(races)
+    beta = fit_conditional_logit(blocks, best_l2)
+    in_sample = evaluate(blocks, beta)
+    doc = make_weights_doc(
+        beta,
+        train_from=months[0],
+        train_to=months[-1],
+        train_races=len(blocks),
+        l2=best_l2,
+        in_sample=in_sample,
+    )
+
+    typer.echo(f"학습 완료: {len(blocks)}경주")
+    for k, b in doc["beta"].items():
+        typer.echo(f"  β {k:22s} {b:+.4f}")
+    typer.echo(
+        f"인샘플: 단승 {in_sample['winRate']:.1%} · log-loss {in_sample['logLoss']:.4f}"
+    )
+    if save:
+        score.MODEL_PATH.write_text(
+            json.dumps(doc, ensure_ascii=False, indent=1) + "\n", "utf-8"
+        )
+        score.load_learned_model.cache_clear()
+        typer.echo(f"저장: {score.MODEL_PATH} → 이후 predict/backtest는 v2로 동작")
+    else:
+        typer.echo("--no-save: 저장하지 않음")
+
+
+@app.command()
 def accuracy() -> None:
     """data/ 전체에서 적중률 통계를 재계산한다."""
     stats = recompute_accuracy()

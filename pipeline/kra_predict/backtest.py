@@ -31,7 +31,7 @@ from kra_predict.emit import (
 )
 from kra_predict.features import _base_entry, _iso_date, _num, _rating, _sex
 from kra_predict.results import parse_body_weight
-from kra_predict.score import build_prediction
+from kra_predict.score import build_prediction, load_learned_model
 
 logger = logging.getLogger(__name__)
 
@@ -288,14 +288,30 @@ def _bucket(rows: list[dict]) -> dict:
     }
 
 
+def _model_meta() -> tuple[str, str]:
+    """활성 모델(v1/v2)에 맞는 버전·설명."""
+    model = load_learned_model()
+    if model:
+        note = (
+            f"조건부 로짓 {model['version']} — {model['trainFrom']}~{model['trainTo']} "
+            f"{model['trainRaces']}경주로 학습한 가중치 (평가 기간과 분리된 "
+            "아웃오브샘플 백테스트, AI 보정 미포함). 마필·기수·조교사 1년 성적은 "
+            "경주일 이전 365일 데이터로 직접 계산해 사후 정보 누수를 차단함. "
+            "ROI는 실제 확정 배당 기준 1단위 균등 베팅 시뮬레이션."
+        )
+        return model["version"], note
+    return MODEL_VERSION, MODEL_NOTE
+
+
 def aggregate(judged: list[dict], months: list[str]) -> dict:
     dates = sorted({r["date"] for r in judged})
+    version, note = _model_meta()
     return {
-        "version": MODEL_VERSION,
+        "version": version,
         "generatedAt": now_kst_iso(),
         "periodFrom": dates[0] if dates else f"{months[0]}-01",
         "periodTo": dates[-1] if dates else f"{months[-1]}-01",
-        "note": MODEL_NOTE,
+        "note": note,
         "overall": _bucket(judged),
         "byTrack": {
             slug: _bucket([r for r in judged if r["track"] == slug])
