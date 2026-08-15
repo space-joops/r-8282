@@ -175,10 +175,10 @@ def _skeleton_race(
     }
 
 
-def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]:
-    """번들의 결과 행을 data/ 경주 파일에 반영한다. 반환: (반영, 취소) 경주 수."""
+def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int, int]:
+    """번들의 결과 행을 data/에 반영한다. 반환: (반영, 취소, 실제 변경 파일 수)."""
     date = bundle["date"]
-    applied = canceled_count = 0
+    applied = canceled_count = changed = 0
     plans = {
         (slug, _num(p.get("rcNo"), int)): p
         for slug, rows in bundle.get("plan", {}).items()
@@ -226,10 +226,11 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
         if errors:
             logger.error("%s %d경주 스키마 오류: %s", slug, race_no, errors[:3])
             continue
-        write_json_if_changed(path, race)
+        if write_json_if_changed(path, race):
+            changed += 1
         if is_canceled:
             canceled_count += 1
         else:
             applied += 1
 
-    return applied, canceled_count
+    return applied, canceled_count, changed

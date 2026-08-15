@@ -12,6 +12,8 @@ cd "$REPO"
 
 # systemd 환경엔 PATH가 최소만 있다 (uv·claude는 ~/.local/bin)
 export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+# 텔레메트리에 실행 주체 표시 (수동 make 실행은 기본값 manual)
+export OPS_RUN_SOURCE=timer
 
 TODAY="$(TZ=Asia/Seoul date +%F)"
 YESTERDAY="$(TZ=Asia/Seoul date -d yesterday +%F)"
