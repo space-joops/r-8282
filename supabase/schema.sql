@@ -17,7 +17,7 @@ create table if not exists public.kyongma_ops_runs (
   error        text
 );
 
-create index if not exists ops_runs_started_at_idx
+create index if not exists kyongma_ops_runs_started_at_idx
   on public.kyongma_ops_runs (started_at desc);
 
 alter table public.kyongma_ops_runs enable row level security;
