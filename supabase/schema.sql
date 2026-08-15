@@ -3,7 +3,7 @@
 -- 보안 모델: RLS 활성 + 정책 없음 → anon/authenticated 완전 차단.
 --   쓰기 = 노트북 파이프라인(service 키), 읽기 = /admin 서버 렌더(service 키).
 
-create table if not exists public.ops_runs (
+create table if not exists public.kyongma_ops_runs (
   id           bigint generated always as identity primary key,
   kind         text not null check (kind in ('predict', 'results')),
   target_date  date not null,
@@ -18,7 +18,7 @@ create table if not exists public.ops_runs (
 );
 
 create index if not exists ops_runs_started_at_idx
-  on public.ops_runs (started_at desc);
+  on public.kyongma_ops_runs (started_at desc);
 
-alter table public.ops_runs enable row level security;
+alter table public.kyongma_ops_runs enable row level security;
 -- 의도적으로 정책을 만들지 않는다: service_role만 RLS를 우회해 접근 가능.

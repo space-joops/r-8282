@@ -39,7 +39,7 @@ export const listJudgedRaces = cache(async (): Promise<JudgedRace[]> => {
   return judged;
 });
 
-/** ops_runs 행 — Supabase 컬럼명(snake_case) 그대로 */
+/** kyongma_ops_runs 행 — Supabase 컬럼명(snake_case) 그대로 */
 export interface OpsRun {
   id: number;
   kind: "predict" | "results";
@@ -62,7 +62,7 @@ export async function getOpsRuns(limit = 30): Promise<OpsRun[] | null> {
   if (!url || !key) return null;
   try {
     const res = await fetch(
-      `${url}/rest/v1/ops_runs?select=*&order=started_at.desc&limit=${limit}`,
+      `${url}/rest/v1/kyongma_ops_runs?select=*&order=started_at.desc&limit=${limit}`,
       {
         headers: { apikey: key, Authorization: `Bearer ${key}` },
         cache: "no-store",

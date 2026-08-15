@@ -44,7 +44,7 @@ def record_run(payload: dict) -> bool:
     url, key = env
     try:
         resp = httpx.post(
-            f"{url}/rest/v1/ops_runs",
+            f"{url}/rest/v1/kyongma_ops_runs",
             json=payload,
             headers={
                 "apikey": key,

@@ -34,7 +34,7 @@ def test_record_run_posts_payload(monkeypatch):
 
     monkeypatch.setattr(httpx, "post", fake_post)
     assert telemetry.record_run({"kind": "results", "status": "success"}) is True
-    assert captured["url"] == "https://example.supabase.co/rest/v1/ops_runs"
+    assert captured["url"] == "https://example.supabase.co/rest/v1/kyongma_ops_runs"
     assert captured["headers"]["apikey"] == "sb_secret_test"
     assert captured["headers"]["Authorization"] == "Bearer sb_secret_test"
     assert captured["json"]["kind"] == "results"
