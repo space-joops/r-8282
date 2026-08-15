@@ -13,11 +13,14 @@
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **PR 2건 머지** — [#26](https://github.com/space-joops/r-8282/pull/26)(용어 가이드) + [#27](https://github.com/space-joops/r-8282/pull/27)(운영 자동화).
-   ⚠️ **#27은 일요일 07:30 전에 머지 필요** — systemd 타이머가 main의 `scripts/ops.sh`를 실행하므로, 머지 전엔 자동 실행이 실패한다
-2. **8/16(일)**: #27 머지돼 있으면 타이머가 자동 처리 (07:33 예측 스킵 확인, 19:30 결과+첫 적중률 공개).
+1. **PR [#30](https://github.com/space-joops/r-8282/pull/30) 머지** (운영 텔레메트리 + /admin 대시보드, #28·#29) 후 **사용자 액션 3가지**:
+   ① Supabase SQL Editor에 `supabase/schema.sql` 실행
+   ② 노트북 `pipeline/.env`에 `SUPABASE_URL`·`SUPABASE_SERVICE_KEY` 추가
+   ③ Vercel env 추가(`ADMIN_PASSWORD`·`SUPABASE_URL`·`SUPABASE_SERVICE_KEY`) → 재배포 → `/admin` 접속(사용자명 admin)
+2. **8/16(일)**: 타이머가 자동 처리 (07:33 예측 스킵 확인, 19:30 결과+첫 적중률 공개).
    수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
-3. 자동화 로그 확인 습관: `journalctl --user -u kyongma-predict -u kyongma-results -e`
+3. 첫 실데이터가 쌓인 뒤 /admin 차트 시각 QA (현재는 평가 0경주라 빈 상태 문구)
+4. 자동화 로그 확인 습관: `journalctl --user -u kyongma-predict -u kyongma-results -e` (머지 후엔 /admin에서도 확인 가능)
 
 ## 자동화 상태 (2026-08-15 설치)
 
