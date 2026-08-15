@@ -152,6 +152,7 @@ export const raceFileSchema = z.object({
   startTimeKst: timeStr,
   distanceM: z.number().int().positive(),
   grade: z.string(),
+  canceled: z.boolean(),
   ageCond: z.string().nullable(),
   weather: z.string().nullable(),
   trackCond: z.string().nullable(),

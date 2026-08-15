@@ -196,6 +196,7 @@ def assemble_races(bundle: dict) -> list[dict]:
                     "startTimeKst": _time_hhmm(plan.get("schStTime")) or "00:00",
                     "distanceM": _num(plan.get("rcDist"), int) or 0,
                     "grade": str(plan.get("rank", "")).strip() or "일반",
+                    "canceled": False,
                     "ageCond": str(plan.get("ageCond", "")).strip() or None,
                     "weather": None,
                     "trackCond": None,

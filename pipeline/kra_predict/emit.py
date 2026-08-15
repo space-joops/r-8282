@@ -135,7 +135,7 @@ def rebuild_meet_and_index(*, data_dir: Path = DATA_DIR) -> None:
                             "entryCount": len(r["entries"]),
                             "hasPrediction": r["prediction"] is not None,
                             "hasResult": r["result"] is not None,
-                            "canceled": False,
+                            "canceled": r.get("canceled", False),
                         }
                         for r in races
                     ],

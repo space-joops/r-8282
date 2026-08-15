@@ -13,6 +13,7 @@ import typer
 
 from kra_predict import config
 from kra_predict.api.client import KraClient
+from kra_predict.accuracy import recompute_accuracy
 from kra_predict.emit import (
     emit_races,
     now_kst_iso,
@@ -20,7 +21,12 @@ from kra_predict.emit import (
     validate_tree,
 )
 from kra_predict.features import assemble_races
-from kra_predict.fetch import fetch_meet_bundle, summarize_bundle
+from kra_predict.fetch import (
+    fetch_meet_bundle,
+    fetch_results_bundle,
+    summarize_bundle,
+)
+from kra_predict.results import apply_results
 from kra_predict.score import build_prediction
 
 app = typer.Typer(help="한국경마 예측 데이터 파이프라인")
@@ -125,6 +131,42 @@ def predict(
     if skipped:
         typer.echo(f"건너뜀(결과 확정): {', '.join(skipped)}")
     typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
+
+
+@app.command()
+def results(
+    date: str = typer.Option(..., "--date", callback=_validate_date, help="개최일 (YYYY-MM-DD)"),
+    fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
+    refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
+) -> None:
+    """경주 결과를 data/에 반영하고 적중률을 재계산한다 (prediction 불변)."""
+    client = make_client(fixtures, refresh)
+    try:
+        bundle = fetch_results_bundle(client, date)
+    finally:
+        client.close()
+
+    applied, canceled = apply_results(bundle)
+    rebuild_meet_and_index()
+    stats = recompute_accuracy()
+
+    typer.echo(f"결과 반영 {applied}경주 · 취소 {canceled}경주")
+    typer.echo(
+        f"누적 적중률: 단승 {stats['overall']['winRate']:.1%} · "
+        f"연승 {stats['overall']['placeRate']:.1%} ({stats['overall']['races']}경주)"
+    )
+    typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
+
+
+@app.command()
+def accuracy() -> None:
+    """data/ 전체에서 적중률 통계를 재계산한다."""
+    stats = recompute_accuracy()
+    overall = stats["overall"]
+    typer.echo(
+        f"단승 {overall['winRate']:.1%} · 연승 {overall['placeRate']:.1%} · "
+        f"삼복 정순 {overall['top3ExactHits']}회 ({overall['races']}경주)"
+    )
 
 
 @app.command()

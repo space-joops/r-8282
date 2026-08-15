@@ -4,7 +4,7 @@
   "title": "RaceFile",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "date", "track", "raceNo", "startTimeKst", "distanceM", "grade", "ageCond", "weather", "trackCond", "entries", "prediction", "result"],
+  "required": ["schemaVersion", "date", "track", "raceNo", "startTimeKst", "distanceM", "grade", "canceled", "ageCond", "weather", "trackCond", "entries", "prediction", "result"],
   "properties": {
     "schemaVersion": { "const": 1 },
     "date": { "$ref": "#/$defs/dateStr" },
@@ -13,6 +13,7 @@
     "startTimeKst": { "$ref": "#/$defs/timeStr" },
     "distanceM": { "type": "integer", "minimum": 1 },
     "grade": { "type": "string" },
+    "canceled": { "type": "boolean" },
     "ageCond": { "type": ["string", "null"] },
     "weather": { "type": ["string", "null"] },
     "trackCond": { "type": ["string", "null"] },
