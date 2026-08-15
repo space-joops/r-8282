@@ -114,6 +114,120 @@
      "roiPlace": -0.325
     }
    ]
+  },
+  {
+   "version": "v2",
+   "generatedAt": "2026-08-16T00:18:45+09:00",
+   "periodFrom": "2026-07-03",
+   "periodTo": "2026-08-15",
+   "note": "조건부 로짓 v2 — 2025-07~2026-06 2129경주로 학습한 가중치 (평가 기간과 분리된 아웃오브샘플 백테스트, AI 보정 미포함). 마필·기수·조교사 1년 성적은 경주일 이전 365일 데이터로 직접 계산해 사후 정보 누수를 차단함. ROI는 실제 확정 배당 기준 1단위 균등 베팅 시뮬레이션.",
+   "overall": {
+    "races": 264,
+    "winHits": 62,
+    "winRate": 0.2348,
+    "placeHits": 152,
+    "placeRate": 0.5758,
+    "top3ExactHits": 2,
+    "logLoss": 2.1346,
+    "roiWin": -0.3914,
+    "roiPlace": -0.2004
+   },
+   "byTrack": {
+    "seoul": {
+     "races": 96,
+     "winHits": 26,
+     "winRate": 0.2708,
+     "placeHits": 60,
+     "placeRate": 0.625,
+     "top3ExactHits": 0,
+     "logLoss": 2.0907,
+     "roiWin": -0.3122,
+     "roiPlace": -0.1189
+    },
+    "busan": {
+     "races": 79,
+     "winHits": 15,
+     "winRate": 0.1899,
+     "placeHits": 43,
+     "placeRate": 0.5443,
+     "top3ExactHits": 1,
+     "logLoss": 2.2489,
+     "roiWin": -0.5684,
+     "roiPlace": -0.2772
+    },
+    "jeju": {
+     "races": 89,
+     "winHits": 21,
+     "winRate": 0.236,
+     "placeHits": 49,
+     "placeRate": 0.5506,
+     "top3ExactHits": 1,
+     "logLoss": 2.0805,
+     "roiWin": -0.3116,
+     "roiPlace": -0.2191
+    }
+   },
+   "byConfidence": {
+    "high": {
+     "races": 121,
+     "winHits": 34,
+     "winRate": 0.281,
+     "placeHits": 78,
+     "placeRate": 0.6446,
+     "top3ExactHits": 2,
+     "logLoss": 2.0823,
+     "roiWin": -0.3767,
+     "roiPlace": -0.2083
+    },
+    "medium": {
+     "races": 87,
+     "winHits": 15,
+     "winRate": 0.1724,
+     "placeHits": 45,
+     "placeRate": 0.5172,
+     "top3ExactHits": 0,
+     "logLoss": 2.2003,
+     "roiWin": -0.5422,
+     "roiPlace": -0.2598
+    },
+    "low": {
+     "races": 56,
+     "winHits": 13,
+     "winRate": 0.2321,
+     "placeHits": 29,
+     "placeRate": 0.5179,
+     "top3ExactHits": 0,
+     "logLoss": 2.1455,
+     "roiWin": -0.1982,
+     "roiPlace": -0.0911
+    }
+   },
+   "monthly": [
+    {
+     "month": "2026-07",
+     "races": 192,
+     "winHits": 46,
+     "winRate": 0.2396,
+     "placeHits": 115,
+     "placeRate": 0.599,
+     "top3ExactHits": 0,
+     "logLoss": 2.1409,
+     "roiWin": -0.3377,
+     "roiPlace": -0.1728
+    },
+    {
+     "month": "2026-08",
+     "races": 72,
+     "winHits": 16,
+     "winRate": 0.2222,
+     "placeHits": 37,
+     "placeRate": 0.5139,
+     "top3ExactHits": 2,
+     "logLoss": 2.118,
+     "roiWin": -0.5278,
+     "roiPlace": -0.2736
+    }
+   ]
   }
  ]
 }
