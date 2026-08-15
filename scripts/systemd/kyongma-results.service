@@ -1,0 +1,10 @@
+[Unit]
+Description=경마픽 결과 반영·적중률 갱신 (오늘+어제 스윕)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/code/r/r-8282/scripts/ops.sh results
+TimeoutStartSec=30min
+Nice=10

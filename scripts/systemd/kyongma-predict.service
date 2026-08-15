@@ -1,0 +1,10 @@
+[Unit]
+Description=경마픽 예측 자동 생성 (당일 개최 경주)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/code/r/r-8282/scripts/ops.sh predict
+TimeoutStartSec=45min
+Nice=10
