@@ -12,6 +12,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 한국경마(서울·부산경남·제주) 예측 PWA. 위 관리 블록은 `next dev`가 소유하므로 수정 금지 — 프로젝트 규약은 이 섹션에만 추가한다.
 
+**세션 시작 시 [TODO.md](TODO.md)를 먼저 읽을 것** — 현재 상태·다음 작업·주의사항이 정리되어 있다. 작업 후 TODO.md 갱신도 잊지 말 것.
+
 ## 데이터 흐름
 
 로컬 Python 파이프라인(`pipeline/`)이 data.go.kr 한국마사회 API 수집 → 통계 스코어링 + AI CLI(claude -p) 분석 → `data/*.json` 커밋 → push 시 Vercel 자동 배포 → Next.js가 빌드타임에 fs로 읽어 완전 정적(SSG) 서빙. DB·런타임 fetch 없음.
