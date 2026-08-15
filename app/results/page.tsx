@@ -83,6 +83,10 @@ export default async function ResultsPage() {
         단승 적중 = 단승 픽이 1위 · 연승 적중 = 단승 픽이 3위 이내 ·{" "}
         <Link href="/guide" className="text-brand hover:underline">
           용어 가이드
+        </Link>{" "}
+        ·{" "}
+        <Link href="/model" className="text-brand hover:underline">
+          모델 백테스트 성능
         </Link>
       </p>
     </div>
