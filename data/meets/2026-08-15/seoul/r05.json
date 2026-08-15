@@ -1,148 +1,260 @@
 {
-  "schemaVersion": 1,
-  "date": "2026-08-15",
-  "track": "seoul",
-  "raceNo": 5,
-  "startTimeKst": "13:05",
-  "distanceM": 1400,
-  "grade": "국4등급",
-  "ageCond": "3세 이상",
-  "weather": "맑음",
-  "trackCond": "건조 (함수율 9%)",
-  "entries": [
-    {
-      "gateNo": 1,
-      "horseId": "0047211",
-      "horseName": "불꽃심장",
-      "age": 4,
-      "sex": "수",
-      "rating": 52,
-      "jockey": { "id": "080115", "name": "이서연", "winRate1y": 0.181 },
-      "trainer": { "id": "070230", "name": "임채원", "winRate1y": 0.091 },
-      "weightCarriedKg": 57,
-      "bodyWeightKg": 505,
-      "bodyWeightDiffKg": 3,
-      "record1y": { "starts": 9, "wins": 3, "seconds": 1, "thirds": 1 },
-      "recentRuns": [
-        { "date": "2026-07-20", "track": "seoul", "finishPos": 1, "entryCount": 10, "distanceM": 1400, "timeSec": 86.9 },
-        { "date": "2026-06-22", "track": "seoul", "finishPos": 2, "entryCount": 11, "distanceM": 1400, "timeSec": 87.4 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    },
-    {
-      "gateNo": 2,
-      "horseId": "0046108",
-      "horseName": "달빛추격자",
-      "age": 5,
-      "sex": "거",
-      "rating": 49,
-      "jockey": { "id": "080098", "name": "오세훈", "winRate1y": 0.156 },
-      "trainer": { "id": "070152", "name": "곽태영", "winRate1y": 0.108 },
-      "weightCarriedKg": 56.5,
-      "bodyWeightKg": 489,
-      "bodyWeightDiffKg": -1,
-      "record1y": { "starts": 11, "wins": 2, "seconds": 3, "thirds": 1 },
-      "recentRuns": [
-        { "date": "2026-07-20", "track": "seoul", "finishPos": 3, "entryCount": 10, "distanceM": 1400, "timeSec": 87.6 },
-        { "date": "2026-06-08", "track": "seoul", "finishPos": 1, "entryCount": 9, "distanceM": 1300, "timeSec": 80.1 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    },
-    {
-      "gateNo": 3,
-      "horseId": "0048990",
-      "horseName": "우레폭풍",
-      "age": 4,
-      "sex": "수",
-      "rating": 47,
-      "jockey": { "id": "080101", "name": "김민준", "winRate1y": 0.142 },
-      "trainer": { "id": "070201", "name": "박성호", "winRate1y": 0.118 },
-      "weightCarriedKg": 56,
-      "bodyWeightKg": 472,
-      "bodyWeightDiffKg": 0,
-      "record1y": { "starts": 8, "wins": 1, "seconds": 2, "thirds": 2 },
-      "recentRuns": [
-        { "date": "2026-07-06", "track": "seoul", "finishPos": 2, "entryCount": 12, "distanceM": 1400, "timeSec": 87.2 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    },
-    {
-      "gateNo": 4,
-      "horseId": "0045677",
-      "horseName": "적토마꿈",
-      "age": 6,
-      "sex": "거",
-      "rating": 45,
-      "jockey": { "id": "080130", "name": "강다현", "winRate1y": 0.088 },
-      "trainer": { "id": "070215", "name": "한지훈", "winRate1y": 0.102 },
-      "weightCarriedKg": 55.5,
-      "bodyWeightKg": 496,
-      "bodyWeightDiffKg": 5,
-      "record1y": { "starts": 12, "wins": 1, "seconds": 1, "thirds": 3 },
-      "recentRuns": [
-        { "date": "2026-07-20", "track": "seoul", "finishPos": 6, "entryCount": 10, "distanceM": 1400, "timeSec": 88.8 },
-        { "date": "2026-06-22", "track": "seoul", "finishPos": 3, "entryCount": 11, "distanceM": 1400, "timeSec": 87.9 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    },
-    {
-      "gateNo": 5,
-      "horseId": "0049415",
-      "horseName": "청룡비상",
-      "age": 3,
-      "sex": "수",
-      "rating": 50,
-      "jockey": { "id": "080077", "name": "송민재", "winRate1y": 0.124 },
-      "trainer": { "id": "070188", "name": "최영래", "winRate1y": 0.135 },
-      "weightCarriedKg": 54.5,
-      "bodyWeightKg": 466,
-      "bodyWeightDiffKg": 2,
-      "record1y": { "starts": 6, "wins": 2, "seconds": 2, "thirds": 0 },
-      "recentRuns": [
-        { "date": "2026-07-27", "track": "seoul", "finishPos": 1, "entryCount": 11, "distanceM": 1300, "timeSec": 79.8 },
-        { "date": "2026-06-29", "track": "seoul", "finishPos": 2, "entryCount": 10, "distanceM": 1400, "timeSec": 87.1 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    },
-    {
-      "gateNo": 6,
-      "horseId": "0044820",
-      "horseName": "노을달리기",
-      "age": 5,
-      "sex": "암",
-      "rating": 43,
-      "jockey": { "id": "080144", "name": "윤재호", "winRate1y": 0.071 },
-      "trainer": { "id": "070230", "name": "임채원", "winRate1y": 0.091 },
-      "weightCarriedKg": 54,
-      "bodyWeightKg": 451,
-      "bodyWeightDiffKg": -4,
-      "record1y": { "starts": 10, "wins": 0, "seconds": 2, "thirds": 2 },
-      "recentRuns": [
-        { "date": "2026-07-06", "track": "seoul", "finishPos": 5, "entryCount": 12, "distanceM": 1400, "timeSec": 88.4 }
-      ],
-      "scratched": false,
-      "jockeyChanged": false
-    }
-  ],
-  "prediction": {
-    "generatedAt": "2026-08-14T21:00:00+09:00",
-    "model": { "statVersion": "v1", "aiModel": "claude-sonnet-5" },
-    "rankings": [
-      { "gateNo": 1, "predictedRank": 1, "score": 0.85, "winProb": 0.33, "briefComment": "동거리 직전 1착, 최상위 기수 조합" },
-      { "gateNo": 5, "predictedRank": 2, "score": 0.79, "winProb": 0.27, "briefComment": "상승세 3세마, 경량 이점" },
-      { "gateNo": 2, "predictedRank": 3, "score": 0.66, "winProb": 0.16, "briefComment": "안정적 입상권, 거리 적성 검증" },
-      { "gateNo": 3, "predictedRank": 4, "score": 0.55, "winProb": 0.12, "briefComment": "직전 2착이나 휴양 간격 김" },
-      { "gateNo": 4, "predictedRank": 5, "score": 0.42, "winProb": 0.07, "briefComment": "최근 부진, 체중 증가" },
-      { "gateNo": 6, "predictedRank": 6, "score": 0.36, "winProb": 0.05, "briefComment": "1년간 무승, 감량 부담" }
-    ],
-    "aiCommentary": "1번 **불꽃심장**과 5번 **청룡비상**의 양강 구도입니다. 불꽃심장은 동거리 직전 우승의 검증된 실력, 청룡비상은 경량 54.5kg과 상승세가 무기입니다. 단승은 1번, 쌍승은 1-5 조합을 추천합니다.",
-    "confidence": "high",
-    "topPicks": { "win": 1, "place": [1, 5, 2], "exacta": [1, 5] }
+ "schemaVersion": 1,
+ "date": "2026-08-15",
+ "track": "seoul",
+ "raceNo": 5,
+ "startTimeKst": "13:05",
+ "distanceM": 1400,
+ "grade": "국4",
+ "ageCond": "3세 이상",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0047211",
+   "horseName": "불꽃심장",
+   "age": 4,
+   "sex": "수",
+   "rating": 52.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "임채원",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 505.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 3,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
   },
-  "result": null
+  {
+   "gateNo": 2,
+   "horseId": "0046108",
+   "horseName": "달빛추격자",
+   "age": 5,
+   "sex": "거",
+   "rating": 49.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "곽태영",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 489.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 2,
+    "seconds": 3,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0048990",
+   "horseName": "우레폭풍",
+   "age": 4,
+   "sex": "수",
+   "rating": 47.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "박성호",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 472.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0045677",
+   "horseName": "적토마꿈",
+   "age": 6,
+   "sex": "거",
+   "rating": 45.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "한지훈",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 496.0,
+   "bodyWeightDiffKg": 5.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0049415",
+   "horseName": "청룡비상",
+   "age": 3,
+   "sex": "수",
+   "rating": 50.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "최영래",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 466.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0044820",
+   "horseName": "노을달리기",
+   "age": 5,
+   "sex": "암",
+   "rating": 43.0,
+   "jockey": {
+    "id": "",
+    "name": "미정",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "",
+    "name": "임채원",
+    "winRate1y": null
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 451.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-15T17:10:05+09:00",
+  "model": {
+   "statVersion": "v1",
+   "aiModel": null
+  },
+  "rankings": [
+   {
+    "gateNo": 5,
+    "score": 0.8993,
+    "winProb": 0.3856,
+    "briefComment": "1년 승률 33% · 입상률 67% · 레이팅 50",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 1,
+    "score": 0.8646,
+    "winProb": 0.3406,
+    "briefComment": "1년 승률 33% · 입상률 56% · 레이팅 52",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 2,
+    "score": 0.5805,
+    "winProb": 0.1235,
+    "briefComment": "1년 승률 18% · 입상률 55% · 레이팅 49",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 3,
+    "score": 0.5217,
+    "winProb": 0.1001,
+    "briefComment": "1년 승률 12% · 입상률 62% · 레이팅 47",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 4,
+    "score": 0.2101,
+    "winProb": 0.0329,
+    "briefComment": "1년 승률 8% · 입상률 42% · 레이팅 45",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 6,
+    "score": 0.0312,
+    "winProb": 0.0174,
+    "briefComment": "1년 승률 0% · 입상률 40% · 레이팅 43",
+    "predictedRank": 6
+   }
+  ],
+  "aiCommentary": null,
+  "confidence": "medium",
+  "topPicks": {
+   "win": 5,
+   "place": [
+    5,
+    1,
+    2
+   ],
+   "exacta": [
+    5,
+    1
+   ]
+  }
+ },
+ "result": null
 }
