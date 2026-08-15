@@ -21,6 +21,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 ## 명령어
 
 - `make predict DATE=YYYY-MM-DD` — 예측 생성 (`FLAGS="--no-ai"` 통계 단독)
+- `uv run kra-predict train --from YYYY-MM --to YYYY-MM` — v2 가중치 재학습 (`weights_v2.json` 갱신 — **평가/백테스트 기간과 겹치면 안 됨**). 파일 존재 시 predict/backtest가 자동으로 v2 사용, 삭제하면 v1 폴백
+- `uv run kra-predict backtest --months YYYY-MM,YYYY-MM` — 활성 모델 백테스트 → `data/stats/backtest.json` (버전별 병기, /model에 공개)
 - `make results DATE=YYYY-MM-DD` — 경주 결과 반영 + 적중률 갱신
 - `make validate` — data/ 전체 JSON Schema 검증
 - `cd pipeline && uv run pytest` — 파이프라인 테스트

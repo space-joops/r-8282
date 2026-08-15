@@ -1,4 +1,14 @@
+import pytest
+
+from kra_predict import score
 from kra_predict.score import build_prediction, score_race
+
+
+@pytest.fixture(autouse=True)
+def force_v1(monkeypatch):
+    """이 파일은 v1 로직을 검증한다 — 학습 모델(weights_v2.json)을 격리."""
+    monkeypatch.setattr(score, "load_learned_model", lambda: None)
+    yield
 
 
 def _entry(gate, *, wins=0, starts=0, seconds=0, thirds=0, rating=None, scratched=False):
