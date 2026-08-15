@@ -1,7 +1,6 @@
 """kra-predict CLI (typer).
 
-이슈 #2 시점에는 fetch만 제공한다. predict/results/accuracy/validate는
-이슈 #3·#4·#6에서 추가된다.
+fetch / predict / validate 제공. results/accuracy는 이슈 #6에서 추가된다.
 """
 
 from __future__ import annotations
@@ -14,7 +13,15 @@ import typer
 
 from kra_predict import config
 from kra_predict.api.client import KraClient
+from kra_predict.emit import (
+    emit_races,
+    now_kst_iso,
+    rebuild_meet_and_index,
+    validate_tree,
+)
+from kra_predict.features import assemble_races
 from kra_predict.fetch import fetch_meet_bundle, summarize_bundle
+from kra_predict.score import build_prediction
 
 app = typer.Typer(help="한국경마 예측 데이터 파이프라인")
 
@@ -70,6 +77,64 @@ def fetch(
 
     typer.echo(summarize_bundle(bundle))
     typer.echo(f"HTTP 호출 {client.http_calls}회 → {out}")
+
+
+@app.command()
+def predict(
+    date: str = typer.Option(..., "--date", callback=_validate_date, help="개최일 (YYYY-MM-DD)"),
+    fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
+    refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
+    no_ai: bool = typer.Option(False, "--no-ai", help="AI 분석 없이 통계 단독"),
+    force: bool = typer.Option(
+        False, "--force", help="결과가 확정된 경주의 예측도 덮어쓴다"
+    ),
+) -> None:
+    """개최일 데이터를 수집·스코어링해 data/에 예측을 기록한다."""
+    client = make_client(fixtures, refresh)
+    try:
+        bundle = fetch_meet_bundle(client, date)
+    finally:
+        client.close()
+
+    races = assemble_races(bundle)
+    if not races:
+        typer.echo("경주 편성이 없습니다 — 개최일이 맞는지 확인하세요.")
+        raise typer.Exit(1)
+
+    generated_at = now_kst_iso()
+    for race in races:
+        if race["entries"]:
+            race["prediction"] = build_prediction(
+                race["entries"], race_date=race["date"], generated_at=generated_at
+            )
+
+    if not no_ai:
+        try:
+            from kra_predict.ai import enrich_predictions
+        except ImportError:
+            typer.echo("AI 모듈이 아직 없어 통계 단독으로 진행합니다 (이슈 #4)")
+        else:
+            enrich_predictions(races)
+
+    written, skipped = emit_races(races, force=force)
+    rebuild_meet_and_index()
+
+    with_pred = sum(1 for r in races if r["prediction"] is not None)
+    typer.echo(f"예측 생성 {with_pred}/{len(races)}경주 · 기록 {len(written)}건")
+    if skipped:
+        typer.echo(f"건너뜀(결과 확정): {', '.join(skipped)}")
+    typer.echo("git diff로 data/ 변경을 검토한 뒤 커밋·push 하세요.")
+
+
+@app.command()
+def validate() -> None:
+    """data/ 전체를 스키마·정합성 검증한다."""
+    errors = validate_tree()
+    if errors:
+        for e in errors:
+            typer.echo(f"✗ {e}")
+        raise typer.Exit(1)
+    typer.echo("✓ data/ 검증 통과")
 
 
 if __name__ == "__main__":

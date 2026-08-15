@@ -46,7 +46,7 @@
         "rating": { "type": ["number", "null"] },
         "jockey": { "$ref": "#/$defs/person" },
         "trainer": { "$ref": "#/$defs/person" },
-        "weightCarriedKg": { "type": "number" },
+        "weightCarriedKg": { "type": ["number", "null"] },
         "bodyWeightKg": { "type": ["number", "null"] },
         "bodyWeightDiffKg": { "type": ["number", "null"] },
         "record1y": {
