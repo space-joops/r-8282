@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 
 export default async function Home() {
   const index = await getDataIndex();
-  const meet = await getMeet(index.latestMeetDate);
+  // 다음 개최일이 준비되어 있으면(예측 배포됨) 그것을 우선 보여준다
+  const meet = await getMeet(index.nextMeetDate ?? index.latestMeetDate);
   const accuracy = await getAccuracy();
   const picks = await featuredPicks(meet);
 

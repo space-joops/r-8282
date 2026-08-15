@@ -98,10 +98,16 @@ def fetch_meet_bundle(client: KraClient, date: str) -> dict:
 
 
 def fetch_results_bundle(client: KraClient, date: str) -> dict:
-    """결과 반영에 필요한 최소 데이터만 수집한다 (경주결과종합만)."""
+    """결과 반영에 필요한 데이터만 수집한다 (결과종합 + 경주 메타용 계획표)."""
     api_date = to_api_date(date)
     return {
         "date": date,
+        "plan": {
+            slug: _try_items(
+                client, ep.RACE_PLAN, meet=track["meet"], rc_date=api_date
+            )
+            for slug, track in TRACKS.items()
+        },
         "results": {
             slug: _try_items(
                 client, ep.RACE_RESULT_TOTAL, meet=track["meet"], rc_date=api_date

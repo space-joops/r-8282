@@ -30,8 +30,11 @@ def _num(value, cast=float):
 
 
 def _time_hhmm(value) -> str | None:
-    """"1040" | "10:40" → "10:40"."""
+    """1040 | "10:40" | "2026-08-15T12:55:00+09:00" → "HH:MM"."""
     s = str(value or "").strip()
+    iso = re.match(r"\d{4}-\d{2}-\d{2}T(\d{2}:\d{2})", s)
+    if iso:
+        return iso.group(1)
     if re.fullmatch(r"\d{2}:\d{2}", s):
         return s
     if re.fullmatch(r"\d{3,4}", s):
@@ -52,6 +55,12 @@ def _iso_date(value) -> str | None:
 
 def _sex(value) -> str:
     return SEX_NORMALIZE.get(str(value or "").strip(), "거")
+
+
+def _rating(value) -> float | None:
+    """KRA에서 레이팅 0은 미부여를 뜻한다 → null."""
+    rating = _num(value)
+    return rating if rating else None
 
 
 def _record1y(row: dict | None) -> dict | None:
@@ -107,7 +116,7 @@ def _seoul_entries(bundle: dict, race_no: int) -> list[dict]:
             horseName=str(row.get("hrnm", "")).strip(),
             age=_num(row.get("ag"), int) or 1,
             sex=_sex(row.get("gndr")),
-            rating=_num(row.get("ratg")),
+            rating=_rating(row.get("ratg")),
             bodyWeightKg=_num(weight.get("hrWeg")),
             bodyWeightDiffKg=_num(weight.get("indec")),
             record1y=_record1y(horse1y),
@@ -135,7 +144,7 @@ def _chulma_entries(bundle: dict, slug: str, race_no: int) -> list[dict]:
             horseName=name,
             age=_num(row.get("hrsAg") or row.get("ag"), int) or 1,
             sex=_sex(row.get("gndrNm") or row.get("gndr")),
-            rating=_num(row.get("rating") or row.get("ratg")),
+            rating=_rating(row.get("rating") or row.get("ratg")),
             weightCarriedKg=_num(row.get("burdWgt")),
             record1y=_record1y(horse1y),
         )

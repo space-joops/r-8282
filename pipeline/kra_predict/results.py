@@ -90,6 +90,18 @@ def _entries_from_result_rows(rows: list[dict]) -> list[dict]:
     entries = []
     for row in rows:
         body, diff = parse_body_weight(row.get("wgHr"))
+        # rcCntY/ord1CntY/ord2CntY는 출전마의 최근 1년 성적 (3착 수는 미제공 → 0)
+        hr_starts_1y = _num(row.get("rcCntY"), int)
+        record1y = (
+            {
+                "starts": hr_starts_1y,
+                "wins": _num(row.get("ord1CntY"), int) or 0,
+                "seconds": _num(row.get("ord2CntY"), int) or 0,
+                "thirds": 0,
+            }
+            if hr_starts_1y is not None
+            else None
+        )
         jk_starts_1y = _num(row.get("jkRcCntY"), int)
         jk_wins_1y = _num(row.get("jkOrd1CntY"), int)
         tr_starts_1y = _num(row.get("trRcCntY"), int)
@@ -119,7 +131,7 @@ def _entries_from_result_rows(rows: list[dict]) -> list[dict]:
                 "weightCarriedKg": _num(row.get("wgBudam")),
                 "bodyWeightKg": body,
                 "bodyWeightDiffKg": diff,
-                "record1y": None,  # 결과 행에는 1년 성적이 없음 (통산만 제공)
+                "record1y": record1y,
                 "recentRuns": [],
                 "scratched": False,
                 "jockeyChanged": False,
@@ -129,20 +141,27 @@ def _entries_from_result_rows(rows: list[dict]) -> list[dict]:
     return entries
 
 
-def _skeleton_race(date: str, slug: str, race_no: int, rows: list[dict]) -> dict:
+def _skeleton_race(
+    date: str, slug: str, race_no: int, rows: list[dict], plan: dict | None
+) -> dict:
+    """결과 행 + 계획표 행으로 경주 파일 골격을 만든다 (거리는 계획표에만 있음)."""
     first = rows[0]
+    plan = plan or {}
     return {
         "schemaVersion": 1,
         "date": date,
         "track": slug,
         "raceNo": race_no,
-        "startTimeKst": _time_hhmm(first.get("schStTime")) or "00:00",
-        "distanceM": _num(first.get("rcDist"), int) or 0,
-        "grade": str(first.get("rank", "")).strip() or "일반",
+        "startTimeKst": _time_hhmm(plan.get("schStTime"))
+        or _time_hhmm(first.get("schStTime"))
+        or "00:00",
+        "distanceM": _num(plan.get("rcDist"), int) or 1,
+        "grade": str(first.get("rank") or plan.get("rank") or "").strip() or "일반",
         "canceled": False,
-        "ageCond": None,
+        "ageCond": str(plan.get("ageCond", "")).strip() or None,
         "weather": None,
-        "trackCond": None,
+        # 결과종합의 track 필드가 주로 상태("건조 (3%)")를 담는다
+        "trackCond": str(first.get("track", "")).strip() or None,
         "entries": [],
         "prediction": None,
         "result": None,
@@ -153,13 +172,20 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
     """번들의 결과 행을 data/ 경주 파일에 반영한다. 반환: (반영, 취소) 경주 수."""
     date = bundle["date"]
     applied = canceled_count = 0
+    plans = {
+        (slug, _num(p.get("rcNo"), int)): p
+        for slug, rows in bundle.get("plan", {}).items()
+        for p in rows
+    }
 
     for (slug, race_no), rows in _group_result_rows(bundle).items():
         path = race_path(data_dir, date, slug, race_no)
         if path.exists():
             race = json.loads(path.read_text("utf-8"))
         else:
-            race = _skeleton_race(date, slug, race_no, rows)
+            race = _skeleton_race(
+                date, slug, race_no, rows, plans.get((slug, race_no))
+            )
 
         is_canceled = any(
             str(r.get("noraceFlag", "")).strip() in CANCEL_FLAGS for r in rows
@@ -167,15 +193,15 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
         race["canceled"] = is_canceled
         if is_canceled:
             race["result"] = None
-            canceled_count += 1
         else:
             result = _build_result(rows)
             if result is None:
-                logger.warning("%s %d경주: 순위 데이터 없음 → 건너뜀", slug, race_no)
+                logger.warning("%s %d경주: 순위 미확정 → 건너뜀", slug, race_no)
                 continue
             race["result"] = result
-            applied += 1
 
+        if race.get("trackCond") is None:
+            race["trackCond"] = str(rows[0].get("track", "")).strip() or None
         if not race["entries"]:
             race["entries"] = _entries_from_result_rows(rows)
 
@@ -184,5 +210,9 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
             logger.error("%s %d경주 스키마 오류: %s", slug, race_no, errors[:3])
             continue
         atomic_write_json(path, race)
+        if is_canceled:
+            canceled_count += 1
+        else:
+            applied += 1
 
     return applied, canceled_count
