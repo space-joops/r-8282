@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kra-predict/accuracy.schema.json",
+  "title": "AccuracyStats",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "updatedAt", "overall", "byTrack", "history"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "updatedAt": { "type": "string" },
+    "overall": { "$ref": "#/$defs/bucket" },
+    "byTrack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["seoul", "busan", "jeju"],
+      "properties": {
+        "seoul": { "$ref": "#/$defs/bucket" },
+        "busan": { "$ref": "#/$defs/bucket" },
+        "jeju": { "$ref": "#/$defs/bucket" }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "races", "winHits", "placeHits"],
+        "properties": {
+          "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "races": { "type": "integer", "minimum": 0 },
+          "winHits": { "type": "integer", "minimum": 0 },
+          "placeHits": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "bucket": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["races", "winHits", "winRate", "placeHits", "placeRate", "top3ExactHits"],
+      "properties": {
+        "races": { "type": "integer", "minimum": 0 },
+        "winHits": { "type": "integer", "minimum": 0 },
+        "winRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "placeHits": { "type": "integer", "minimum": 0 },
+        "placeRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "top3ExactHits": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

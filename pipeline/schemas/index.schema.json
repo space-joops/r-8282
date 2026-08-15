@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kra-predict/index.schema.json",
+  "title": "DataIndex",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "updatedAt", "latestMeetDate", "nextMeetDate", "meetDates"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "updatedAt": { "type": "string" },
+    "latestMeetDate": { "$ref": "#/$defs/dateStr" },
+    "nextMeetDate": { "oneOf": [{ "$ref": "#/$defs/dateStr" }, { "type": "null" }] },
+    "meetDates": { "type": "array", "items": { "$ref": "#/$defs/dateStr" } }
+  },
+  "$defs": {
+    "dateStr": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

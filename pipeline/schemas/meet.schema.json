@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kra-predict/meet.schema.json",
+  "title": "Meet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "date", "tracks"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "date": { "$ref": "#/$defs/dateStr" },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["track", "trackName", "meetCode", "races"],
+        "properties": {
+          "track": { "enum": ["seoul", "busan", "jeju"] },
+          "trackName": { "enum": ["서울", "부산경남", "제주"] },
+          "meetCode": { "enum": [1, 2, 3] },
+          "races": { "type": "array", "items": { "$ref": "#/$defs/raceSummary" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "dateStr": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "timeStr": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" },
+    "raceSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raceNo", "startTimeKst", "distanceM", "grade", "raceName", "entryCount", "hasPrediction", "hasResult", "canceled"],
+      "properties": {
+        "raceNo": { "type": "integer", "minimum": 1 },
+        "startTimeKst": { "$ref": "#/$defs/timeStr" },
+        "distanceM": { "type": "integer", "minimum": 1 },
+        "grade": { "type": "string" },
+        "raceName": { "type": ["string", "null"] },
+        "entryCount": { "type": "integer", "minimum": 0 },
+        "hasPrediction": { "type": "boolean" },
+        "hasResult": { "type": "boolean" },
+        "canceled": { "type": "boolean" }
+      }
+    }
+  }
+}
