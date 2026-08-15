@@ -27,11 +27,15 @@
 - 파이프라인 쓰기는 멱등 — 변경 없는 재실행은 커밋 없음
 - 해제: `systemctl --user disable --now kyongma-predict.timer kyongma-results.timer`
 
+## 진행 중 — 머지 대기
+- **PR [#32](https://github.com/space-joops/r-8282/pull/32)**: v1 백테스트(264경주, 단승 23.5%·연승 53.0%·ROI -36.2%/-25.3%) + /model 공개 페이지 (#31)
+- 사용자 액션 잔여: `vercel env add ADMIN_PASSWORD production` (미설정 — /admin이 503)
+
 ## 백로그 (우선순위순)
 
 | 이슈 | 내용 | 규모 |
 |---|---|---|
-| [#24](https://github.com/space-joops/r-8282/issues/24) | 경량 ML 모델 — 과거 데이터 축적 → 백테스트 → 조건부 로짓 v2. 학습 데이터(history.sqlite) 백업 방안도 함께 결정 | 대 |
+| [#24](https://github.com/space-joops/r-8282/issues/24) | **v2 모델**: 백테스트 하네스 완성(#31)됨 → 다음은 조건부 로짓 가중치 학습으로 v1 기준선(단승 23.5%·log-loss 2.192) 초과 — **다음 작업 추천** | 대 |
 | [#19](https://github.com/space-joops/r-8282/issues/19) | 검색엔진 등록 — **사용자 수동 작업** (콘솔 등록 → env 추가) | 소 |
 
 ## AI 재시작 체크리스트
