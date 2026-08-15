@@ -151,8 +151,6 @@ class KraClient:
 
         if not self.refresh and cache.exists():
             return parse_payload(cache.read_text("utf-8"))
-        if not self.refresh and fixture.exists():
-            return parse_payload(fixture.read_text("utf-8"))
 
         text = self._request(endpoint, params)
         body = parse_payload(text)  # 캐시 저장 전에 파싱해 오류 응답은 캐시하지 않음
@@ -177,5 +175,13 @@ class KraClient:
         self.http_calls += 1
         if resp.status_code >= 500:
             raise RetryableHttpError(f"HTTP {resp.status_code}")
-        resp.raise_for_status()
+        if resp.status_code in (401, 403):
+            # 미승인 API는 게이트웨이가 403을 주기도 한다 → 흡수 가능한 오류로
+            raise KraAuthError(
+                f"HTTP {resp.status_code} ({endpoint.name}) — "
+                "인증키·활용신청 승인 상태를 확인하세요"
+            )
+        if resp.status_code >= 400:
+            # raise_for_status는 인증키가 든 URL을 노출하므로 직접 처리한다
+            raise KraApiError(f"HTTP {resp.status_code} ({endpoint.name})")
         return resp.text

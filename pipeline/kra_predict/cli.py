@@ -57,6 +57,8 @@ def main(verbose: bool = typer.Option(False, "--verbose", "-v")) -> None:
         level=logging.DEBUG if verbose else logging.INFO,
         format="%(levelname)s %(name)s: %(message)s",
     )
+    # httpx INFO 로그는 요청 URL(인증키 포함)을 노출하므로 항상 억제한다
+    logging.getLogger("httpx").setLevel(logging.WARNING)
 
 
 @app.command()
