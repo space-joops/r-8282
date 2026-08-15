@@ -85,6 +85,9 @@ def predict(
     fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
     refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
     no_ai: bool = typer.Option(False, "--no-ai", help="AI 분석 없이 통계 단독"),
+    ai_model: str = typer.Option(
+        "", "--ai-model", help="claude CLI에 넘길 모델 (예: haiku, sonnet)"
+    ),
     force: bool = typer.Option(
         False, "--force", help="결과가 확정된 경주의 예측도 덮어쓴다"
     ),
@@ -109,12 +112,10 @@ def predict(
             )
 
     if not no_ai:
-        try:
-            from kra_predict.ai import enrich_predictions
-        except ImportError:
-            typer.echo("AI 모듈이 아직 없어 통계 단독으로 진행합니다 (이슈 #4)")
-        else:
-            enrich_predictions(races)
+        from kra_predict.ai import enrich_predictions
+
+        ok, fallback = enrich_predictions(races, model=ai_model or None)
+        typer.echo(f"AI 분석: 성공 {ok}경주 · 통계 단독 폴백 {fallback}경주")
 
     written, skipped = emit_races(races, force=force)
     rebuild_meet_and_index()
