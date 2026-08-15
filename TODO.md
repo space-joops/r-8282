@@ -13,16 +13,16 @@
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **8/16(일) 저녁**: `make results DATE=2026-08-16` → diff 검토 → 커밋·push
+1. **PR [#26](https://github.com/space-joops/r-8282/pull/26) 머지** (용어 가이드, #25) — 사용자 리뷰·머지 대기
+2. **8/16(일) 저녁**: `make results DATE=2026-08-16` → diff 검토 → 커밋·push
    → 첫 실예측 적중률이 /results에 공개됨. 결과가 '순위 미확정'으로 남으면 다음날 `--refresh`로 재실행
-2. 다음 주말부터 정규 리듬: 금·토·일 아침 `make predict DATE=$(date +%F) FLAGS="--ai-model haiku"` / 저녁 `make results DATE=…` (상세: 이슈 #23)
+3. 다음 주말부터 정규 리듬: 금·토·일 아침 `make predict DATE=$(date +%F) FLAGS="--ai-model haiku"` / 저녁 `make results DATE=…` (상세: 이슈 #23)
 
 ## 백로그 (우선순위순)
 
 | 이슈 | 내용 | 규모 |
 |---|---|---|
-| [#25](https://github.com/space-joops/r-8282/issues/25) | 경마 용어 가이드 `/guide` 페이지 + 툴팁 — **다음 코딩 작업으로 추천** (독립적·명세 완비) | 소 |
-| [#23](https://github.com/space-joops/r-8282/issues/23) | 운영 자동화 구현 — systemd timer 또는 GitHub Actions cron 중 택1 결정 필요 (사용자 결정 사항) | 중 |
+| [#23](https://github.com/space-joops/r-8282/issues/23) | 운영 자동화 구현 — systemd timer 또는 GitHub Actions cron 중 택1 결정 필요 (사용자 결정 사항) — **다음 작업 추천** | 중 |
 | [#24](https://github.com/space-joops/r-8282/issues/24) | 경량 ML 모델 — 과거 데이터 축적 → 백테스트 → 조건부 로짓 v2. 학습 데이터(history.sqlite) 백업 방안도 함께 결정 | 대 |
 | [#19](https://github.com/space-joops/r-8282/issues/19) | 검색엔진 등록 — **사용자 수동 작업** (콘솔 등록 → env 추가) | 소 |
 
