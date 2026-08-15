@@ -13,10 +13,10 @@ from pathlib import Path
 
 from kra_predict.config import DATA_DIR, MEET_TO_SLUG
 from kra_predict.emit import (
-    atomic_write_json,
     now_kst_iso,
     race_path,
     validation_errors,
+    write_json_if_changed,
 )
 from kra_predict.features import _num, _sex, _time_hhmm
 
@@ -226,7 +226,7 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
         if errors:
             logger.error("%s %d경주 스키마 오류: %s", slug, race_no, errors[:3])
             continue
-        atomic_write_json(path, race)
+        write_json_if_changed(path, race)
         if is_canceled:
             canceled_count += 1
         else:
