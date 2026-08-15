@@ -6,6 +6,7 @@
  "startTimeKst": "13:05",
  "distanceM": 1400,
  "grade": "국4",
+ "canceled": false,
  "ageCond": "3세 이상",
  "weather": null,
  "trackCond": null,

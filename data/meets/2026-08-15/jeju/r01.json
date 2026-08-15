@@ -6,6 +6,7 @@
  "startTimeKst": "11:00",
  "distanceM": 1000,
  "grade": "제5",
+ "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
  "trackCond": null,

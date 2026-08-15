@@ -29,6 +29,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               {SITE_NAME}
             </Link>
             <nav className="flex gap-4 text-sm">
+              <Link href="/results" className="text-muted hover:text-foreground">
+                적중률
+              </Link>
               <Link href="/about" className="text-muted hover:text-foreground">
                 소개
               </Link>
