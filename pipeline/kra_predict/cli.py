@@ -192,6 +192,60 @@ def results(
 
 
 @app.command()
+def backtest(
+    months: str = typer.Option(
+        "2026-07,2026-08", "--months", help="쉼표 구분 YYYY-MM 목록"
+    ),
+    fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
+    refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
+) -> None:
+    """과거 경주에 통계 모델 v1을 적용해 성능을 측정하고 data/stats/backtest.json에 기록한다."""
+    from kra_predict.backtest import (
+        aggregate,
+        build_backtest_races,
+        fetch_detail_rows,
+        month_list_with_history,
+        simulate,
+        write_backtest,
+    )
+
+    month_list = [m.strip() for m in months.split(",") if m.strip()]
+    if not month_list or any(not re.match(r"^\d{4}-\d{2}$", m) for m in month_list):
+        raise typer.BadParameter("months는 YYYY-MM 형식이어야 합니다")
+
+    all_months = month_list_with_history(month_list)
+    typer.echo(f"수집: {all_months[0]} ~ {all_months[-1]} (피처용 과거 12개월 포함)")
+    client = make_client(fixtures, refresh)
+    try:
+        detail_rows = fetch_detail_rows(client, all_months)
+    finally:
+        client.close()
+
+    races = build_backtest_races(detail_rows, month_list)
+    judged = simulate(races)
+    if not judged:
+        typer.echo("평가할 경주가 없습니다 — 기간을 확인하세요.")
+        raise typer.Exit(1)
+
+    entry = aggregate(judged, month_list)
+    write_backtest(entry)
+
+    overall = entry["overall"]
+    typer.echo(
+        f"백테스트 {entry['version']} · {entry['periodFrom']}~{entry['periodTo']} · "
+        f"{overall['races']}경주"
+    )
+    typer.echo(
+        f"단승 {overall['winRate']:.1%} · 연승 {overall['placeRate']:.1%} · "
+        f"log-loss {overall['logLoss']:.3f}"
+    )
+    typer.echo(
+        f"ROI(1단위 베팅): 단승 {overall['roiWin']:+.1%} · 연승 {overall['roiPlace']:+.1%}"
+    )
+    typer.echo("data/stats/backtest.json 기록 완료 — diff 검토 후 커밋·push 하세요.")
+
+
+@app.command()
 def accuracy() -> None:
     """data/ 전체에서 적중률 통계를 재계산한다."""
     stats = recompute_accuracy()

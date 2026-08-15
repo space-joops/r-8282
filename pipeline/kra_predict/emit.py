@@ -248,4 +248,12 @@ def validate_tree(*, data_dir: Path = DATA_DIR) -> list[str]:
             f"stats/accuracy.json {e}"
             for e in validation_errors("accuracy", stats)
         ]
+
+    backtest_path = data_dir / "stats" / "backtest.json"
+    if backtest_path.exists():
+        doc = json.loads(backtest_path.read_text("utf-8"))
+        errors += [
+            f"stats/backtest.json {e}"
+            for e in validation_errors("backtest", doc)
+        ]
     return errors
