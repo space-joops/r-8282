@@ -1,0 +1,80 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 1,
+      "hrnm": "바람의질주",
+      "hrWeg": 478,
+      "indec": 4,
+      "lstPtinDy": "20260726"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 2,
+      "hrnm": "황금돌풍",
+      "hrWeg": 492,
+      "indec": -2,
+      "lstPtinDy": "20260719"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 3,
+      "hrnm": "새벽함성",
+      "hrWeg": 455,
+      "indec": 0,
+      "lstPtinDy": "20260726"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 4,
+      "hrnm": "천둥소리",
+      "hrWeg": 501,
+      "indec": 6,
+      "lstPtinDy": "20260712"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 5,
+      "hrnm": "은빛파도",
+      "hrWeg": 468,
+      "indec": -5,
+      "lstPtinDy": "20260801"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 6,
+      "hrnm": "질풍노도",
+      "hrWeg": 460,
+      "indec": 2,
+      "lstPtinDy": "20260719"
+     },
+     {
+      "raceDt": "20260815",
+      "raceNo": 1,
+      "pthrNo": 7,
+      "hrnm": "푸른창공",
+      "hrWeg": 485,
+      "indec": 1,
+      "lstPtinDy": "20260726"
+     }
+    ]
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 7
+  }
+ }
+}

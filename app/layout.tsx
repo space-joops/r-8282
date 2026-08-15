@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { InstallPrompt } from "@/components/pwa/InstallPrompt";
+import { SwRegister } from "@/components/pwa/SwRegister";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -10,6 +12,30 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  keywords: [
+    "경마 예측",
+    "경마 출전표",
+    "경마 결과",
+    "서울경마",
+    "부산경마",
+    "제주경마",
+    "AI 경마 분석",
+    "경마 적중률",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — 한국경마 예측·출전표·적중률`,
+    description: SITE_DESCRIPTION,
+  },
+  twitter: { card: "summary_large_image" },
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    other: process.env.NAVER_SITE_VERIFICATION
+      ? { "naver-site-verification": process.env.NAVER_SITE_VERIFICATION }
+      : undefined,
+  },
 };
 
 export const viewport: Viewport = {
@@ -28,6 +54,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="text-lg font-bold text-brand">
               {SITE_NAME}
             </Link>
+            <nav className="flex gap-4 text-sm">
+              <Link href="/results" className="text-muted hover:text-foreground">
+                적중률
+              </Link>
+              <Link href="/about" className="text-muted hover:text-foreground">
+                소개
+              </Link>
+            </nav>
           </div>
         </header>
         <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-6">
@@ -47,6 +81,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </p>
           </div>
         </footer>
+        <SwRegister />
+        <InstallPrompt />
       </body>
     </html>
   );

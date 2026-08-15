@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "서울",
+     "hrno": "0044820",
+     "hrnm": "노을달리기",
+     "lstPtinDt": "20260706",
+     "loyPtinTcnt": 10,
+     "loyFcmTcnt": 0,
+     "loyScmTcnt": 2,
+     "loyTcmTcnt": 2,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

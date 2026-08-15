@@ -67,8 +67,8 @@ export const entrySchema = z.object({
     name: z.string(),
     winRate1y: z.number().nullable(),
   }),
-  /** 부담중량(kg) */
-  weightCarriedKg: z.number(),
+  /** 부담중량(kg) — 서울 사전 출전 데이터엔 없어 null 가능 */
+  weightCarriedKg: z.number().nullable(),
   /** 마체중(kg) — 미발표 트랙은 null */
   bodyWeightKg: z.number().nullable(),
   bodyWeightDiffKg: z.number().nullable(),
@@ -152,6 +152,7 @@ export const raceFileSchema = z.object({
   startTimeKst: timeStr,
   distanceM: z.number().int().positive(),
   grade: z.string(),
+  canceled: z.boolean(),
   ageCond: z.string().nullable(),
   weather: z.string().nullable(),
   trackCond: z.string().nullable(),

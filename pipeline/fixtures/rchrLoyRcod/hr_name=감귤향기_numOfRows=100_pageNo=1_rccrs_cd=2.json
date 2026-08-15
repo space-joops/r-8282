@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "제주",
+     "hrno": "0092966",
+     "hrnm": "감귤향기",
+     "lstPtinDt": "20260711",
+     "loyPtinTcnt": 10,
+     "loyFcmTcnt": 0,
+     "loyScmTcnt": 1,
+     "loyTcmTcnt": 2,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": [
+     {
+      "meet": "서울",
+      "rcDate": "20260815",
+      "rcNo": 1,
+      "schStTime": "10:40",
+      "rcDist": 1200,
+      "rank": "국6",
+      "rcName": "일반",
+      "ageCond": "연령오픈",
+      "sexCond": "혼합",
+      "budam": "마령",
+      "ilsu": 1,
+      "stRating": "",
+      "spRating": "",
+      "chaksun1": 16000000,
+      "chaksun2": 6400000,
+      "chaksun3": 4000000,
+      "chaksun4": 2400000,
+      "chaksun5": 1600000,
+      "buga1": 0,
+      "buga2": 0,
+      "buga3": 0
+     },
+     {
+      "meet": "서울",
+      "rcDate": "20260815",
+      "rcNo": 5,
+      "schStTime": "13:05",
+      "rcDist": 1400,
+      "rank": "국4",
+      "rcName": "일반",
+      "ageCond": "3세 이상",
+      "sexCond": "혼합",
+      "budam": "마령",
+      "ilsu": 1,
+      "stRating": "",
+      "spRating": "",
+      "chaksun1": 16000000,
+      "chaksun2": 6400000,
+      "chaksun3": 4000000,
+      "chaksun4": 2400000,
+      "chaksun5": 1600000,
+      "buga1": 0,
+      "buga2": 0,
+      "buga3": 0
+     }
+    ]
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 2
+  }
+ }
+}

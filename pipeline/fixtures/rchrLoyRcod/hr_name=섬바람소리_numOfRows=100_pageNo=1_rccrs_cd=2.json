@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "제주",
+     "hrno": "0091877",
+     "hrnm": "섬바람소리",
+     "lstPtinDt": "20260801",
+     "loyPtinTcnt": 5,
+     "loyFcmTcnt": 1,
+     "loyScmTcnt": 1,
+     "loyTcmTcnt": 1,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}

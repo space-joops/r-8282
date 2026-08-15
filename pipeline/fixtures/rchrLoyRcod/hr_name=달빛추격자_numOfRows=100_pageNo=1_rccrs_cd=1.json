@@ -1,0 +1,29 @@
+{
+ "response": {
+  "header": {
+   "resultCode": "00",
+   "resultMsg": "NORMAL SERVICE."
+  },
+  "body": {
+   "items": {
+    "item": {
+     "rccrsNm": "서울",
+     "hrno": "0046108",
+     "hrnm": "달빛추격자",
+     "lstPtinDt": "20260720",
+     "loyPtinTcnt": 11,
+     "loyFcmTcnt": 2,
+     "loyScmTcnt": 3,
+     "loyTcmTcnt": 1,
+     "loyFocmTcnt": 0,
+     "loyFvcmTcnt": 0,
+     "loyPlcpmAmt": 12000000,
+     "loyCnpmAmt": 0
+    }
+   },
+   "numOfRows": 100,
+   "pageNo": 1,
+   "totalCount": 1
+  }
+ }
+}
