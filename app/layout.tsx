@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { InstallPrompt } from "@/components/pwa/InstallPrompt";
+import { SwRegister } from "@/components/pwa/SwRegister";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -79,6 +81,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </p>
           </div>
         </footer>
+        <SwRegister />
+        <InstallPrompt />
       </body>
     </html>
   );
