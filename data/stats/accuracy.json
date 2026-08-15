@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-15T20:30:00+09:00",
+  "overall": {
+    "races": 1,
+    "winHits": 1,
+    "winRate": 1.0,
+    "placeHits": 1,
+    "placeRate": 1.0,
+    "top3ExactHits": 0
+  },
+  "byTrack": {
+    "seoul": {
+      "races": 1,
+      "winHits": 1,
+      "winRate": 1.0,
+      "placeHits": 1,
+      "placeRate": 1.0,
+      "top3ExactHits": 0
+    },
+    "busan": {
+      "races": 0,
+      "winHits": 0,
+      "winRate": 0,
+      "placeHits": 0,
+      "placeRate": 0,
+      "top3ExactHits": 0
+    },
+    "jeju": {
+      "races": 0,
+      "winHits": 0,
+      "winRate": 0,
+      "placeHits": 0,
+      "placeRate": 0,
+      "top3ExactHits": 0
+    }
+  },
+  "history": [
+    { "date": "2026-08-15", "races": 1, "winHits": 1, "placeHits": 1 }
+  ]
+}

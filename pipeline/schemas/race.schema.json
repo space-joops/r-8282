@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kra-predict/race.schema.json",
+  "title": "RaceFile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "date", "track", "raceNo", "startTimeKst", "distanceM", "grade", "ageCond", "weather", "trackCond", "entries", "prediction", "result"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "date": { "$ref": "#/$defs/dateStr" },
+    "track": { "enum": ["seoul", "busan", "jeju"] },
+    "raceNo": { "type": "integer", "minimum": 1 },
+    "startTimeKst": { "$ref": "#/$defs/timeStr" },
+    "distanceM": { "type": "integer", "minimum": 1 },
+    "grade": { "type": "string" },
+    "ageCond": { "type": ["string", "null"] },
+    "weather": { "type": ["string", "null"] },
+    "trackCond": { "type": ["string", "null"] },
+    "entries": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "prediction": { "oneOf": [{ "$ref": "#/$defs/prediction" }, { "type": "null" }] },
+    "result": { "oneOf": [{ "$ref": "#/$defs/raceResult" }, { "type": "null" }] }
+  },
+  "$defs": {
+    "dateStr": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "timeStr": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" },
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "winRate1y"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "winRate1y": { "type": ["number", "null"] }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gateNo", "horseId", "horseName", "age", "sex", "rating", "jockey", "trainer", "weightCarriedKg", "bodyWeightKg", "bodyWeightDiffKg", "record1y", "recentRuns", "scratched", "jockeyChanged"],
+      "properties": {
+        "gateNo": { "type": "integer", "minimum": 1 },
+        "horseId": { "type": "string" },
+        "horseName": { "type": "string" },
+        "age": { "type": "integer", "minimum": 1 },
+        "sex": { "enum": ["수", "암", "거"] },
+        "rating": { "type": ["number", "null"] },
+        "jockey": { "$ref": "#/$defs/person" },
+        "trainer": { "$ref": "#/$defs/person" },
+        "weightCarriedKg": { "type": "number" },
+        "bodyWeightKg": { "type": ["number", "null"] },
+        "bodyWeightDiffKg": { "type": ["number", "null"] },
+        "record1y": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["starts", "wins", "seconds", "thirds"],
+              "properties": {
+                "starts": { "type": "integer", "minimum": 0 },
+                "wins": { "type": "integer", "minimum": 0 },
+                "seconds": { "type": "integer", "minimum": 0 },
+                "thirds": { "type": "integer", "minimum": 0 }
+              }
+            },
+            { "type": "null" }
+          ]
+        },
+        "recentRuns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["date", "track", "finishPos", "entryCount", "distanceM", "timeSec"],
+            "properties": {
+              "date": { "$ref": "#/$defs/dateStr" },
+              "track": { "enum": ["seoul", "busan", "jeju"] },
+              "finishPos": { "type": "integer", "minimum": 1 },
+              "entryCount": { "type": "integer", "minimum": 1 },
+              "distanceM": { "type": "integer", "minimum": 1 },
+              "timeSec": { "type": ["number", "null"] }
+            }
+          }
+        },
+        "scratched": { "type": "boolean" },
+        "jockeyChanged": { "type": "boolean" }
+      }
+    },
+    "prediction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generatedAt", "model", "rankings", "aiCommentary", "confidence", "topPicks"],
+      "properties": {
+        "generatedAt": { "type": "string" },
+        "model": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["statVersion", "aiModel"],
+          "properties": {
+            "statVersion": { "type": "string" },
+            "aiModel": { "type": ["string", "null"] }
+          }
+        },
+        "rankings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["gateNo", "predictedRank", "score", "winProb", "briefComment"],
+            "properties": {
+              "gateNo": { "type": "integer", "minimum": 1 },
+              "predictedRank": { "type": "integer", "minimum": 1 },
+              "score": { "type": "number" },
+              "winProb": { "type": "number", "minimum": 0, "maximum": 1 },
+              "briefComment": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "aiCommentary": { "type": ["string", "null"] },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "topPicks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["win", "place", "exacta"],
+          "properties": {
+            "win": { "type": "integer", "minimum": 1 },
+            "place": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+            "exacta": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": { "type": "integer", "minimum": 1 },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                { "type": "null" }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "raceResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fetchedAt", "order", "payouts"],
+      "properties": {
+        "fetchedAt": { "type": "string" },
+        "order": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["finishPos", "gateNo", "horseName", "timeSec", "margin"],
+            "properties": {
+              "finishPos": { "type": "integer", "minimum": 1 },
+              "gateNo": { "type": "integer", "minimum": 1 },
+              "horseName": { "type": "string" },
+              "timeSec": { "type": ["number", "null"] },
+              "margin": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "payouts": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["win", "place"],
+              "properties": {
+                "win": { "type": ["number", "null"] },
+                "place": {
+                  "oneOf": [
+                    { "type": "array", "items": { "type": "number" } },
+                    { "type": "null" }
+                  ]
+                }
+              }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    }
+  }
+}
