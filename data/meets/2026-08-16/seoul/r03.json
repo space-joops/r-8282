@@ -313,95 +313,95 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
-   "aiModel": "haiku"
+   "aiModel": null
   },
   "rankings": [
    {
     "gateNo": 4,
-    "score": 0.7467,
-    "winProb": 0.2549,
-    "briefComment": "1년 승률 33%, 경험 풍부",
+    "score": 0.7267,
+    "winProb": 0.242,
+    "briefComment": "1년 승률 33% · 입상률 33% · 레이팅 280",
     "predictedRank": 1
    },
    {
-    "gateNo": 8,
-    "score": 0.6012,
-    "winProb": 0.1516,
-    "briefComment": "1위 경험 있음, 안정적",
+    "gateNo": 2,
+    "score": 0.596,
+    "winProb": 0.1518,
+    "briefComment": "1년 승률 0% · 입상률 100% · 레이팅 305",
     "predictedRank": 2
    },
    {
-    "gateNo": 2,
-    "score": 0.546,
-    "winProb": 0.1245,
-    "briefComment": "입상률 100%지만 체중 증가 리스크",
+    "gateNo": 8,
+    "score": 0.5712,
+    "winProb": 0.1389,
+    "briefComment": "1년 승률 20% · 입상률 20% · 레이팅 291",
     "predictedRank": 3
    },
    {
     "gateNo": 10,
-    "score": 0.4852,
-    "winProb": 0.1002,
-    "briefComment": "1위 경험, 거세마 안정성",
+    "score": 0.4552,
+    "winProb": 0.0918,
+    "briefComment": "1년 승률 12% · 입상률 25% · 레이팅 280",
     "predictedRank": 4
    },
    {
     "gateNo": 9,
-    "score": 0.4413,
-    "winProb": 0.0857,
-    "briefComment": "입상률 43%, 조합권 유력",
+    "score": 0.4213,
+    "winProb": 0.0813,
+    "briefComment": "1년 승률 0% · 입상률 43% · 레이팅 270",
     "predictedRank": 5
    },
    {
     "gateNo": 1,
     "score": 0.4197,
-    "winProb": 0.0793,
-    "briefComment": "9출 무승리, 입상 낮음",
+    "winProb": 0.0808,
+    "briefComment": "1년 승률 0% · 입상률 22% · 레이팅 280",
     "predictedRank": 6
    },
    {
     "gateNo": 3,
-    "score": 0.3996,
-    "winProb": 0.0738,
-    "briefComment": "레이팅 낮음, 입상 편중",
+    "score": 0.4196,
+    "winProb": 0.0808,
+    "briefComment": "1년 승률 0% · 입상률 50% · 레이팅 250",
     "predictedRank": 7
    },
    {
     "gateNo": 7,
     "score": 0.2771,
-    "winProb": 0.0477,
-    "briefComment": "7출 무입상, 제외",
+    "winProb": 0.0486,
+    "briefComment": "1년 승률 0% · 입상률 0% · 레이팅 241",
     "predictedRank": 8
    },
    {
     "gateNo": 6,
     "score": 0.2527,
-    "winProb": 0.0437,
-    "briefComment": "레이팅 이상 기록, 신뢰도 낮음",
+    "winProb": 0.0445,
+    "briefComment": "1년 승률 0% · 입상률 38% · 레이팅 27",
     "predictedRank": 9
    },
    {
     "gateNo": 5,
     "score": 0.2185,
-    "winProb": 0.0387,
-    "briefComment": "10출 무입상, 약세",
+    "winProb": 0.0394,
+    "briefComment": "1년 승률 0% · 입상률 0% · 레이팅 230",
     "predictedRank": 10
    }
   ],
-  "aiCommentary": "**클로버원**이 통계 기반 1위 자리를 지킬 만한 이유는 1년 내 1위 경험(33% 승률)과 현급 경험입니다. 다만 부담중량 체계에서 57kg대 **위즈포인트**(입상률 100% 탁월하나 체중 +3.5kg 증가로 컨디션 우려)와 **위즈드림**(레이팅 291, 1위 경험)의 삼각 싸움으로 전개될 가능성 높습니다. 부담중량 높은 말들이 집중된 편성이므로 페이스 빠를 것으로 예상되며, 전반부 주도마의 후반 탈진이 변수입니다.",
+  "aiCommentary": null,
   "confidence": "medium",
   "topPicks": {
    "win": 4,
    "place": [
     4,
-    8,
-    2
+    2,
+    8
    ],
    "exacta": [
     4,
-    8
+    2
    ]
   }
  },

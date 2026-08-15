@@ -338,102 +338,102 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 1,
-    "score": 0.6821,
-    "winProb": 0.2369,
-    "briefComment": "신인 완벽전적, 경량 부담",
+    "gateNo": 10,
+    "score": 0.5995,
+    "winProb": 0.1759,
+    "briefComment": "레이팅 최고 311, 입상률 60% 우수",
     "predictedRank": 1
    },
    {
-    "gateNo": 10,
-    "score": 0.5095,
-    "winProb": 0.1279,
-    "briefComment": "고레이팅, 최중 부담중량",
+    "gateNo": 1,
+    "score": 0.5821,
+    "winProb": 0.1653,
+    "briefComment": "신인 1회 출전, 표본 신뢰도 매우 낮음",
     "predictedRank": 2
    },
    {
     "gateNo": 9,
-    "score": 0.4917,
-    "winProb": 0.12,
-    "briefComment": "경험 많음, 입상률 저조",
+    "score": 0.5217,
+    "winProb": 0.1333,
+    "briefComment": "레이팅 292, 실적은 2할 입상률",
     "predictedRank": 3
    },
    {
     "gateNo": 2,
-    "score": 0.4425,
-    "winProb": 0.1007,
-    "briefComment": "승리 경험 부족, 입상마 성향",
+    "score": 0.4725,
+    "winProb": 0.1118,
+    "briefComment": "입상률 60%, 실적 우수 저평가",
     "predictedRank": 4
    },
    {
     "gateNo": 5,
     "score": 0.3605,
-    "winProb": 0.0751,
-    "briefComment": "최경 부담, 기수변경 영향 미",
+    "winProb": 0.0749,
+    "briefComment": "기수 변경 (-2) 리스크",
     "predictedRank": 5
    },
    {
     "gateNo": 3,
     "score": 0.3365,
-    "winProb": 0.0689,
-    "briefComment": "경험 많음, 성적은 부진",
+    "winProb": 0.0688,
+    "briefComment": "레이팅 높으나 입상률 20% 저조",
     "predictedRank": 6
    },
    {
     "gateNo": 4,
     "score": 0.3204,
-    "winProb": 0.0651,
-    "briefComment": "라이스 조교, 입상만 반복",
+    "winProb": 0.0649,
+    "briefComment": "입상률 20%, 중위권 현실적",
     "predictedRank": 7
    },
    {
     "gateNo": 11,
     "score": 0.3037,
-    "winProb": 0.0613,
-    "briefComment": "부담중량 미정, 불확실",
+    "winProb": 0.0612,
+    "briefComment": "부담중량 미정, 입상률 25%",
     "predictedRank": 8
    },
    {
     "gateNo": 6,
     "score": 0.2812,
-    "winProb": 0.0566,
-    "briefComment": "19경주 경험, 입상 거의 없음",
+    "winProb": 0.0565,
+    "briefComment": "19회 출전도 입상 1회만, 약체",
     "predictedRank": 9
    },
    {
     "gateNo": 7,
     "score": 0.2418,
-    "winProb": 0.0492,
-    "briefComment": "경험 부족, 성적 미미",
+    "winProb": 0.049,
+    "briefComment": "9회 무승리, 입상 0회",
     "predictedRank": 10
    },
    {
     "gateNo": 8,
     "score": 0.1729,
-    "winProb": 0.0384,
-    "briefComment": "신인, 데이터 부족",
+    "winProb": 0.0383,
+    "briefComment": "신인, 전적 정보 부족",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "신인 **프라임제니**의 완벽한 성적과 경량 부담이 가치 있지만, 국5등급 상향 경주에서의 미경험이 리스크. **스카이넥스**는 고레이팅과 60% 입상률이 장점이나 최중 부담중량(56.5kg)이 발목. **클러치러너**는 8경주 경험에 비해 12% 승률이 저조. 경량마들이 초반 주도권을 잡을 가능성이 높으며, 신인의 경주 적응도와 기수의 전술이 승패를 결정하는 핵심 변수.",
+  "aiCommentary": "**프라임제니**는 신인 2세로 출전 기록 1회만으로 100% 승률이지만, 표본 크기 극소로 통계 신뢰도가 매우 낮습니다. 반면 **스카이넥스**(레이팅 311 최고, 입상률 60%)와 **밤토리밤밤**(입상률 60%)은 경험 기반의 우수한 실적을 보유했으나 모델에서 저평가된 경향이 있습니다. 부산경남의 빠른 트랙에서는 경험 많은 말의 안정성이 중요하며, 1300m 단거리에서 부담중량 차이(최대 5.5kg)가 영향을 미칠 수 있습니다.",
   "confidence": "medium",
   "topPicks": {
-   "win": 1,
+   "win": 10,
    "place": [
-    1,
     10,
+    1,
     9
    ],
    "exacta": [
-    1,
-    10
+    10,
+    1
    ]
   }
  },

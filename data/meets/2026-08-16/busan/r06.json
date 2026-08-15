@@ -283,7 +283,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -292,79 +292,79 @@
    {
     "gateNo": 4,
     "score": 0.6415,
-    "winProb": 0.1765,
-    "briefComment": "최고 레이팅, 가벼운 부담중량, 선호 타당",
+    "winProb": 0.1712,
+    "briefComment": "최고 레이팅·우수 성적, 최유력",
     "predictedRank": 1
    },
    {
-    "gateNo": 3,
-    "score": 0.6141,
-    "winProb": 0.1601,
-    "briefComment": "세라프와 동등 능력, 조교사 경험 이점",
+    "gateNo": 1,
+    "score": 0.6204,
+    "winProb": 0.1587,
+    "briefComment": "레이팅 대비 경험 부족, 상승 기대",
     "predictedRank": 2
+   },
+   {
+    "gateNo": 3,
+    "score": 0.5941,
+    "winProb": 0.1445,
+    "briefComment": "완벽 성적, 안정적 상위권 유력",
+    "predictedRank": 3
    },
    {
     "gateNo": 8,
     "score": 0.5798,
-    "winProb": 0.1416,
-    "briefComment": "100% 입상률, 안정적 자산",
-    "predictedRank": 3
+    "winProb": 0.1373,
+    "briefComment": "우수 성적, 안정적 상위권 기대",
+    "predictedRank": 4
    },
    {
     "gateNo": 2,
     "score": 0.5757,
-    "winProb": 0.1396,
-    "briefComment": "안정적 100% 입상, 경쟁력 충분",
-    "predictedRank": 4
-   },
-   {
-    "gateNo": 1,
-    "score": 0.5604,
-    "winProb": 0.1321,
-    "briefComment": "2경주 제한 경험, 50% 입상률 우려",
+    "winProb": 0.1353,
+    "briefComment": "우수 성적도 1경주 표본, 평가 제한",
     "predictedRank": 5
    },
    {
     "gateNo": 7,
     "score": 0.4569,
-    "winProb": 0.0913,
-    "briefComment": "입상 1회 경험, 안정성 미검증",
+    "winProb": 0.0885,
+    "briefComment": "1년 2경주 중 2위, 상승세 징후",
     "predictedRank": 6
+   },
+   {
+    "gateNo": 5,
+    "score": 0.3662,
+    "winProb": 0.064,
+    "briefComment": "높은 레이팅 vs 저조 통계, 미지수",
+    "predictedRank": 7
    },
    {
     "gateNo": 6,
     "score": 0.3584,
-    "winProb": 0.0642,
-    "briefComment": "경주 경험 부족, 성장세 미평가",
-    "predictedRank": 7
-   },
-   {
-    "gateNo": 5,
-    "score": 0.3162,
-    "winProb": 0.0552,
-    "briefComment": "레이팅 이상치, 0% 입상률로 신뢰 낮음",
+    "winProb": 0.0623,
+    "briefComment": "입상 경험 있으나 1년 2경주 표본 약",
     "predictedRank": 8
    },
    {
     "gateNo": 9,
     "score": 0.2208,
-    "winProb": 0.0393,
-    "briefComment": "2경주 출전, 입상률 50% 미흡",
+    "winProb": 0.0381,
+    "briefComment": "2승도 입상률 50%, 약한 평가",
     "predictedRank": 9
    }
   ],
-  "aiCommentary": "**세라프**와 **오아시스퀸** 중심의 경주입니다. 두 암2 모두 레이팅 30~31로 비슷한 능력을 갖추었으며, 1년 경주 모두 입상한 안정성이 높은 말입니다. 세라프는 약간 높은 레이팅(31)과 가벼운 부담중량의 이점이 있어 통계 1위 선호가 타당합니다. 반면 **해랑루비**는 출주 2경주라는 극히 제한된 경험 속 50% 입상률로 신뢰도가 낮으며, **포텐쏜살**은 높은 레이팅에도 불구하고 0% 입상률(1출1낙)로 불안정합니다.",
+  "aiCommentary": "**세라프**와 **오아시스퀸**이 1년 100% 승률·입상률로 통계 상위권을 점하며, **브이라인**도 같은 성적으로 3마를 추가 지원한다. **해랑루비**는 레이팅 290.0의 이상치가 표본(2경주)과 맞지 않으나, 실제 컨디션 우수라면 단거리 1200m에서 스프린터로서 강력할 우려가 있다. **포텐쏜살**은 레이팅 380.0으로 가장 높으나 통계 평가가 7위로 낮고, 외국 기수·조교사 콤비의 데이터 부족으로 예측 신뢰도가 떨어진다.",
   "confidence": "medium",
   "topPicks": {
    "win": 4,
    "place": [
     4,
-    3,
-    8
+    1,
+    3
    ],
    "exacta": [
     4,
-    3
+    1
    ]
   }
  },

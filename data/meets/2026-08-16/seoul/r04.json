@@ -313,7 +313,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -321,76 +321,76 @@
   "rankings": [
    {
     "gateNo": 3,
-    "score": 0.624,
-    "winProb": 0.2475,
-    "briefComment": "신인 우승, 경험 부족",
+    "score": 0.614,
+    "winProb": 0.2348,
+    "briefComment": "신인 1회 승리, 샘플 과소",
     "predictedRank": 1
    },
    {
     "gateNo": 8,
-    "score": 0.4471,
-    "winProb": 0.1316,
-    "briefComment": "고능력, 기수 변경 리스크",
+    "score": 0.4971,
+    "winProb": 0.1547,
+    "briefComment": "최고 레이팅, 기수변경 후 추이 관찰 중",
     "predictedRank": 2
    },
    {
     "gateNo": 2,
     "score": 0.3991,
-    "winProb": 0.1109,
-    "briefComment": "중위 마력, 암말로 구속",
+    "winProb": 0.109,
+    "briefComment": "안정적 입상마, 연속성 기대",
     "predictedRank": 3
    },
    {
     "gateNo": 7,
     "score": 0.3497,
-    "winProb": 0.0929,
-    "briefComment": "고레이팅, 우승 부재",
+    "winProb": 0.0914,
+    "briefComment": "높은 레이팅, 입상 부재 주목",
     "predictedRank": 4
    },
    {
     "gateNo": 9,
     "score": 0.3157,
-    "winProb": 0.0823,
-    "briefComment": "고령, 경쟁력 약화",
+    "winProb": 0.0809,
+    "briefComment": "고령마(7세) + 불안정 성적",
     "predictedRank": 5
    },
    {
     "gateNo": 4,
     "score": 0.2868,
-    "winProb": 0.0742,
-    "briefComment": "경험 풍부, 결과 없음",
+    "winProb": 0.073,
+    "briefComment": "고령마(7세) + 기수변경 더블 리스크",
     "predictedRank": 6
    },
    {
     "gateNo": 10,
     "score": 0.2867,
-    "winProb": 0.0742,
-    "briefComment": "외국기수, 한국 적응 미지수",
+    "winProb": 0.073,
+    "briefComment": "외국인 기수, 한국 컨디션 적응 변수",
     "predictedRank": 7
    },
    {
     "gateNo": 6,
     "score": 0.2821,
-    "winProb": 0.073,
-    "briefComment": "저레이팅, 신인 미지수",
+    "winProb": 0.0718,
+    "briefComment": "부담중량 미정, 정보 불완전",
     "predictedRank": 8
    },
    {
     "gateNo": 5,
     "score": 0.2637,
-    "winProb": 0.0683,
-    "briefComment": "입상 경험, 기회 마",
+    "winProb": 0.0672,
+    "briefComment": "부담중량 미정, 정보 불완전",
     "predictedRank": 9
    },
    {
     "gateNo": 1,
     "score": 0.1471,
-    "winProb": 0.0451,
-    "briefComment": "레이팅 최저, 경기력 미흡",
+    "winProb": 0.0443,
+    "briefComment": "저레이팅 + 기수변경, 이탈 우려",
     "predictedRank": 10
    }
   ],
-  "aiCommentary": "신인 **번개루이스**의 1경주 우승을 통계 모델이 과도하게 평가했습니다. 제한된 표본 크기와 8월 더운 날씨 환경에서 경험 부족은 큰 리스크입니다. **학산프린스**는 레이팅 351과 43% 입상률로 가장 신뢰할 만하지만, 기수 변경(-4경주)이 우려됩니다. 신인의 스피드와 노련한 고레이팅 마의 안정성 대결이 될 것 같습니다.",
+  "aiCommentary": "**번개루이스**(3번)의 1회 데뷔 100% 승률이 스코어에 과도하게 반영된 것으로 보입니다. 표본 크기가 극히 작고 레이팅 30.0인 신인마의 단기 성과는 신뢰도가 낮습니다. 반면 레이팅 351의 **학산프린스**(8번)는 14경주 경험으로 안정성이 높으나, 최근 기수변경(-4조성환) 후 입상률 21%로 개선 여지가 있습니다. 1400m 단거리에서 신인의 상큼함과 고경력마의 안정성 사이 팽팽한 구도이며, 기수변경 3두(1, 4, 8번)의 컨디션 신호가 변수입니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 3,

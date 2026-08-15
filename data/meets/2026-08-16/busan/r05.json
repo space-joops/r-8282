@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,84 +351,84 @@
   "rankings": [
    {
     "gateNo": 5,
-    "score": 0.7569,
-    "winProb": 0.245,
-    "briefComment": "40% 승률. 안정성 최고 평가",
+    "score": 0.7769,
+    "winProb": 0.2538,
+    "briefComment": "40% 승률 최고, 안정성 우수",
     "predictedRank": 1
    },
    {
     "gateNo": 4,
-    "score": 0.6915,
-    "winProb": 0.1939,
-    "briefComment": "3승 우수 성과. 상위권 확정",
+    "score": 0.7215,
+    "winProb": 0.2082,
+    "briefComment": "암4 가볍고 67% 입상률 주력",
     "predictedRank": 2
    },
    {
     "gateNo": 8,
     "score": 0.5533,
-    "winProb": 0.1184,
-    "briefComment": "레이팅 높으나 경험 6경주",
+    "winProb": 0.1142,
+    "briefComment": "레이팅 높으나 6경주 경험 부족",
     "predictedRank": 3
    },
    {
     "gateNo": 10,
     "score": 0.5118,
-    "winProb": 0.1021,
-    "briefComment": "2승 기록. 중상위권 경합",
+    "winProb": 0.0985,
+    "briefComment": "성적 균형, 통계 4위 타당",
     "predictedRank": 4
    },
    {
     "gateNo": 6,
-    "score": 0.4052,
-    "winProb": 0.0698,
-    "briefComment": "1승만이나 62% 입상률 꾸준",
+    "score": 0.4252,
+    "winProb": 0.0723,
+    "briefComment": "입상률 62%, 경험 풍부",
     "predictedRank": 5
    },
    {
-    "gateNo": 2,
-    "score": 0.3916,
-    "winProb": 0.0665,
-    "briefComment": "레이팅 높으나 0승 이상",
+    "gateNo": 9,
+    "score": 0.3778,
+    "winProb": 0.061,
+    "briefComment": "최고 레이팅 751도 최근 0승",
     "predictedRank": 6
    },
    {
-    "gateNo": 9,
-    "score": 0.3578,
-    "winProb": 0.0589,
-    "briefComment": "0승 심각. 5세 고령 위험",
+    "gateNo": 2,
+    "score": 0.3316,
+    "winProb": 0.0517,
+    "briefComment": "레이팅 790이지만 최근 0승 부진",
     "predictedRank": 7
    },
    {
     "gateNo": 11,
     "score": 0.3263,
-    "winProb": 0.0526,
-    "briefComment": "1승만. 중위권 이하",
+    "winProb": 0.0508,
+    "briefComment": "높은 레이팅도 최근 부진",
     "predictedRank": 8
    },
    {
     "gateNo": 7,
     "score": 0.2729,
-    "winProb": 0.0435,
-    "briefComment": "10% 승률. 중위권 수준",
+    "winProb": 0.0419,
+    "briefComment": "4살 경험 부족, 낮은 레이팅",
     "predictedRank": 9
    },
    {
     "gateNo": 3,
     "score": 0.1339,
-    "winProb": 0.0265,
-    "briefComment": "0승 부진. 경쟁력 약함",
+    "winProb": 0.0255,
+    "briefComment": "거6 고령, 0승 2입상",
     "predictedRank": 10
    },
    {
     "gateNo": 1,
     "score": 0.0936,
-    "winProb": 0.0229,
-    "briefComment": "0승. 최하위권 경쟁력",
+    "winProb": 0.0221,
+    "briefComment": "최저 레이팅 661, 경험 부족",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "**닥터크리스**의 1년 40% 승률과 70% 입상률은 이 경주의 가장 신뢰할 수 있는 성과로, 1위 판정이 합리적입니다. **여수슈퍼스타**의 실질 3승(9전 3-1-2)도 상위권 경합력을 뒷받침하며, 4세 암말의 성장세를 감안할 가치가 있습니다. 다만 **닥터캡틴**은 레이팅 751의 높은 평가에도 불구하고 12전 0승이라는 심각한 부진을 보였으므로, 점수 조정이 필요합니다. 2000m 중거리에서의 스태미너 우위가 경합의 주요 변수가 될 것입니다.",
-  "confidence": "high",
+  "aiCommentary": "5번 **닥터크리스**의 40% 승률과 4번 **여수슈퍼스타**의 67% 입상률이 두드러지는 경주. 8번 **원더풀케이랜**은 레이팅 720으로 높지만 최근 6경주만 출전한 경험 부족이 리스크. 9번 **닥터캡틴**과 2번 **비제이치프**는 레이팅은 명목상 높으나 최근 1년 0승으로 현재 상태가 과거 레이팅을 반영하지 못함. 2000m 중거리에서 안정성 높은 5번과 암마 우위의 4번 주도권이 예상.",
+  "confidence": "medium",
   "topPicks": {
    "win": 5,
    "place": [

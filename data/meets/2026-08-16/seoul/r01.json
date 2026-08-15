@@ -278,88 +278,88 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 3,
-    "score": 0.5793,
-    "winProb": 0.2119,
-    "briefComment": "2출 1입상, 상대우위",
+    "gateNo": 8,
+    "score": 0.6051,
+    "winProb": 0.219,
+    "briefComment": "입상률 100%, 안정성 최고",
     "predictedRank": 1
    },
    {
-    "gateNo": 8,
-    "score": 0.5451,
-    "winProb": 0.1876,
-    "briefComment": "1출 3착, 데이터 부족",
+    "gateNo": 3,
+    "score": 0.5793,
+    "winProb": 0.1997,
+    "briefComment": "입상률 50%, 안드레 기수 강점",
     "predictedRank": 2
    },
    {
     "gateNo": 6,
-    "score": 0.3929,
-    "winProb": 0.1089,
-    "briefComment": "1출 0경매, 평가 낮음",
+    "score": 0.4229,
+    "winProb": 0.1142,
+    "briefComment": "승리 경험 있음, 1경주만 함",
     "predictedRank": 3
    },
    {
-    "gateNo": 9,
-    "score": 0.3636,
-    "winProb": 0.0981,
-    "briefComment": "1출 0경매, 국제조합",
+    "gateNo": 2,
+    "score": 0.3857,
+    "winProb": 0.1,
+    "briefComment": "미출전, 제정보 없음",
     "predictedRank": 4
    },
    {
-    "gateNo": 2,
-    "score": 0.3557,
-    "winProb": 0.0954,
-    "briefComment": "무출전, 근거 약함",
+    "gateNo": 9,
+    "score": 0.3436,
+    "winProb": 0.0861,
+    "briefComment": "신인 1경주, 변수 큼",
     "predictedRank": 5
    },
    {
     "gateNo": 1,
     "score": 0.3197,
-    "winProb": 0.0839,
-    "briefComment": "1출 0경매, 경험 부족",
+    "winProb": 0.079,
+    "briefComment": "신인 1경주, 데이터 부족",
     "predictedRank": 6
    },
    {
     "gateNo": 4,
     "score": 0.287,
-    "winProb": 0.0746,
-    "briefComment": "1출 0경매, 미평가",
+    "winProb": 0.0703,
+    "briefComment": "신인 1경주, 변수 큼",
     "predictedRank": 7
    },
    {
     "gateNo": 5,
     "score": 0.2788,
-    "winProb": 0.0725,
-    "briefComment": "1출 0경매, 감량 최소",
+    "winProb": 0.0683,
+    "briefComment": "신인 1경주, 컨디션 중립",
     "predictedRank": 8
    },
    {
     "gateNo": 7,
     "score": 0.2575,
-    "winProb": 0.0672,
-    "briefComment": "2출 0경매, 경험無",
+    "winProb": 0.0633,
+    "briefComment": "2경주 미입상, 부진",
     "predictedRank": 9
    }
   ],
-  "aiCommentary": "2살 국6등급 초기 경매로 전원 1~2출 미숙마이며 통계 모델 신뢰도가 낮습니다. 통계 1위 **이클립스골든**은 1출 3착 단일 경험으로 입상률 100%는 표본 크기 1에 불과하고, 2위 **원더그레이스**는 2출 중 1입상으로 상대적으로 경험 많고 검증된 안드레-안병기 조합입니다. 무출전 **스타에이아이**의 4위 랭킹은 실제 경주 근거 부족이며, 푸르칸 기수의 **지비에이스**는 국제 기수 능력이 초보마 경주의 변수가 될 수 있습니다.",
+  "aiCommentary": "2세 신인 그룹으로 경험 데이터가 극도로 제한적인 경주입니다. **이클립스골든**과 **원더그레이스**가 통계상 우위지만, 입상률 차이(100% vs 50%)로 8번의 안정성이 돋보입니다. **서귀메니퀸**은 1경주만 해서 샘플이 부족하지만 이미 승리 경험이 있어 주목할 만합니다. 전체 경주원들이 -1kg 감량으로 컨디션 상향 신호를 보이고 있으며, 2세 국6등급 1200m은 스타트와 초반 스피드가 핵심입니다.",
   "confidence": "medium",
   "topPicks": {
-   "win": 3,
+   "win": 8,
    "place": [
-    3,
     8,
+    3,
     6
    ],
    "exacta": [
-    3,
-    8
+    8,
+    3
    ]
   }
  },

@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,94 +351,94 @@
   "rankings": [
    {
     "gateNo": 1,
-    "score": 0.6937,
-    "winProb": 0.2502,
-    "briefComment": "입상률 40% · 가장 안정적 기록",
+    "score": 0.6637,
+    "winProb": 0.2282,
+    "briefComment": "유일한 입상마, 과신 주의",
     "predictedRank": 1
+   },
+   {
+    "gateNo": 9,
+    "score": 0.4788,
+    "winProb": 0.1179,
+    "briefComment": "20% 입상률, 상대가치 양호",
+    "predictedRank": 2
    },
    {
     "gateNo": 8,
     "score": 0.46,
-    "winProb": 0.1086,
-    "briefComment": "입상 경험 있는 암3 · 도약 가능성",
-    "predictedRank": 2
-   },
-   {
-    "gateNo": 9,
-    "score": 0.4488,
-    "winProb": 0.1043,
-    "briefComment": "5회 출전 20% 입상률 · 소수 경험마",
+    "winProb": 0.1102,
+    "briefComment": "암3 여름마, 평행선",
     "predictedRank": 3
    },
    {
     "gateNo": 6,
-    "score": 0.3772,
-    "winProb": 0.0808,
-    "briefComment": "1회 출전만 기록 · 신인/복귀 불안정",
+    "score": 0.3972,
+    "winProb": 0.0881,
+    "briefComment": "신인마, 변수성 높음",
     "predictedRank": 4
    },
    {
     "gateNo": 10,
     "score": 0.3689,
-    "winProb": 0.0784,
-    "briefComment": "8회 출전 중 입상 1회 · 낮은 신뢰도",
+    "winProb": 0.0796,
+    "briefComment": "2착 1회, 안정적 평형",
     "predictedRank": 5
-   },
-   {
-    "gateNo": 5,
-    "score": 0.3497,
-    "winProb": 0.0732,
-    "briefComment": "기수 변경(-3) · 컨디션 재설정의 신호",
-    "predictedRank": 6
    },
    {
     "gateNo": 7,
     "score": 0.329,
-    "winProb": 0.068,
-    "briefComment": "암5 12회 무입상 · 상승 불가능한 마",
+    "winProb": 0.069,
+    "briefComment": "암5 고령, 경험치 우위",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 5,
+    "score": 0.3197,
+    "winProb": 0.0668,
+    "briefComment": "기수변경(-3), 컨디션 미정",
     "predictedRank": 7
    },
    {
     "gateNo": 2,
     "score": 0.3081,
-    "winProb": 0.0631,
-    "briefComment": "8회 출전 무입상 · 답답한 성적",
+    "winProb": 0.0641,
+    "briefComment": "0승 지속, 평형 미흡",
     "predictedRank": 8
    },
    {
     "gateNo": 11,
     "score": 0.3033,
-    "winProb": 0.062,
-    "briefComment": "기수 변경(-2) · 재계측 필요",
+    "winProb": 0.063,
+    "briefComment": "기수변경(-2), 적응 필요",
     "predictedRank": 9
    },
    {
     "gateNo": 4,
     "score": 0.2878,
-    "winProb": 0.0587,
-    "briefComment": "21회 출전에 입상 1회 · 답답함 극심",
+    "winProb": 0.0596,
+    "briefComment": "21경주 최다 출전, 능력 한계 명확",
     "predictedRank": 10
    },
    {
     "gateNo": 3,
     "score": 0.2572,
-    "winProb": 0.0526,
-    "briefComment": "7회 출전 무입상 · 더 나은 기회 필요",
+    "winProb": 0.0534,
+    "briefComment": "7경주 0승, 답보 상태",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "국6등급 저성적 마들의 경주로, 모든 출전마가 1년간 승리를 기록하지 못했습니다. **스위트맨**은 5회 출전 중 입상 2회(40%)로 상대적 강점을 보이나 샘플 크기가 작습니다. **바이럴히트**, **리버런** 등 입상 경험이 있는 암3~거3 마들이 중원을 구성하며, **월드하니**와 **원더풀윈드** 같은 저입상률 마들은 통계 하위 순위가 타당합니다. 기수 변경(루피너스, 한강브라보)과 신인 혹은 장기 쉼 복귀 마들의 불안정성이 변수입니다.",
+  "aiCommentary": "국6등급 무승부 그룹의 약체 경주로, 11두 중 10두가 1년간 0승인 만큼 실력 편차가 미미합니다. **스위트맨**이 유일한 입상 기록(입상률 40%)으로 통계상 우위이나, 5경주 중 1승도 못한 점을 감안하면 적응 수준의 평가로 과신의 여지가 있습니다. 반면 **리버런**은 20% 입상률에 56kg 부담중량을 감수하며 상대 가치가 높고, 1600m 중거리에서 체중·기수 조합이 중요한 만큼 기수변경 말(5번, 11번)들의 컨디션 변화와 신인마(6번)의 예측 불가를 감안해야 합니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 1,
    "place": [
     1,
-    8,
-    9
+    9,
+    8
    ],
    "exacta": [
     1,
-    8
+    9
    ]
   }
  },

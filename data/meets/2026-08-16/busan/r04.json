@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,83 +351,83 @@
   "rankings": [
    {
     "gateNo": 7,
-    "score": 0.7973,
-    "winProb": 0.222,
-    "briefComment": "3승 안정마, 입상률 42% 우수",
+    "score": 0.7873,
+    "winProb": 0.2131,
+    "briefComment": "안정적 25% 승률, 신뢰도 높음",
     "predictedRank": 1
    },
    {
     "gateNo": 11,
-    "score": 0.7308,
-    "winProb": 0.175,
-    "briefComment": "레이팅 최고, 기수변경 리스크",
+    "score": 0.7508,
+    "winProb": 0.1871,
+    "briefComment": "최상위 능력, 기수변경 리스크",
     "predictedRank": 2
    },
    {
     "gateNo": 4,
     "score": 0.7077,
-    "winProb": 0.1612,
-    "briefComment": "상위권 유망, 레이팅 합리적",
+    "winProb": 0.1604,
+    "briefComment": "능력 우수, 경험·부담중량 고려",
     "predictedRank": 3
    },
    {
     "gateNo": 8,
-    "score": 0.6415,
-    "winProb": 0.1272,
-    "briefComment": "샘플 작은 고승률, 신뢰도 낮음",
+    "score": 0.6715,
+    "winProb": 0.1409,
+    "briefComment": "높은 승률이나 표본 작음",
     "predictedRank": 4
    },
    {
     "gateNo": 10,
-    "score": 0.5995,
-    "winProb": 0.1095,
-    "briefComment": "50% 입상률 강점, 저평가 가능",
+    "score": 0.5595,
+    "winProb": 0.0945,
+    "briefComment": "입상률 50% 대비 승률 8%",
     "predictedRank": 5
    },
    {
     "gateNo": 6,
     "score": 0.4219,
-    "winProb": 0.0581,
-    "briefComment": "무승리 불안정, 입상만 기대",
+    "winProb": 0.0578,
+    "briefComment": "무승리, 입상률만 높음",
     "predictedRank": 6
    },
    {
     "gateNo": 3,
     "score": 0.3697,
-    "winProb": 0.0482,
-    "briefComment": "1승 제한적, 입상 미흡",
+    "winProb": 0.048,
+    "briefComment": "레이팅 418이나 실적 부진",
     "predictedRank": 7
    },
    {
     "gateNo": 5,
     "score": 0.2445,
-    "winProb": 0.0308,
-    "briefComment": "경험 부족 새마, 미지수",
+    "winProb": 0.0307,
+    "briefComment": "수2 미니보, 경험 부족",
     "predictedRank": 8
    },
    {
     "gateNo": 1,
     "score": 0.2023,
-    "winProb": 0.0265,
-    "briefComment": "무승리 약마, 경험 부족",
+    "winProb": 0.0264,
+    "briefComment": "무승리, 신뢰도 낮음",
     "predictedRank": 9
    },
    {
     "gateNo": 9,
     "score": 0.1907,
-    "winProb": 0.0254,
-    "briefComment": "경험 부족, 무입상 약마",
+    "winProb": 0.0253,
+    "briefComment": "신인마, 경험 부족",
     "predictedRank": 10
    },
    {
     "gateNo": 2,
     "score": 0.0608,
-    "winProb": 0.016,
-    "briefComment": "최약마 수준, 15회 무성적",
+    "winProb": 0.0159,
+    "briefComment": "거5 고령, 무승리, 제외",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "**월드톱티어**는 491의 압도적 레이팅으로 주도권을 잡지만, 기수 변경(-2)은 신체 컨디션이나 마성 적응 미숙의 신호일 수 있어 리스크입니다. **포트모어**의 25% 승률과 42% 입상률은 혼합 4등급 내 안정성이 높으며, 다실바 기수의 **플래시파크**(450 레이팅, 2승)와의 상위권 다각 경합이 예상됩니다. **석세스카우**는 50% 입상률의 경험이 통계 모델에 충분히 반영되지 않은 것 같고, 8번의 33% 승률은 6회 출전이라는 작은 샘플 기반이므로 신뢰도 보정이 필요합니다.",
+  "aiCommentary": "**월드톱티어**가 레이팅 491으로 최상위지만 기수변경 (-2)이 새로운 조합 호응도를 불안정하게 만드는 점이 리스크입니다. **포트모어**의 1년 승률 25%, 입상률 42%는 안정성이 높아 실제 경쟁력이 충분하며, **플래시파크**는 레이팅 450으로 높으나 부담중량 56.5kg와 경주 경험 부족(10경주)이 상쇄 요인입니다. **성실드림**의 33% 승률은 표본이 6경주로 작아 이 등급에서 재현 가능성이 낮고, 모델의 상위 3마 평가가 합리적으로 판단됩니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 7,

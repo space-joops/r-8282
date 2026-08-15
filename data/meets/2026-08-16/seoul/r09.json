@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,94 +351,94 @@
   "rankings": [
    {
     "gateNo": 4,
-    "score": 0.5862,
-    "winProb": 0.1768,
-    "briefComment": "최고 입상률, 체중증가 신호 긍정",
+    "score": 0.5762,
+    "winProb": 0.1637,
+    "briefComment": "입상률 우수하나 절대 수준 의문",
     "predictedRank": 1
    },
    {
-    "gateNo": 2,
-    "score": 0.5348,
-    "winProb": 0.1471,
-    "briefComment": "고레이팅 검증마, 안정 플레이",
+    "gateNo": 8,
+    "score": 0.5716,
+    "winProb": 0.1611,
+    "briefComment": "50% 승률·극단 체중감 강신호",
     "predictedRank": 2
    },
    {
-    "gateNo": 8,
-    "score": 0.5316,
-    "winProb": 0.1455,
-    "briefComment": "최고 승률 마, 감량 계획적",
+    "gateNo": 2,
+    "score": 0.5548,
+    "winProb": 0.1517,
+    "briefComment": "높은 레이팅·좋은 체중 상태",
     "predictedRank": 3
    },
    {
     "gateNo": 7,
-    "score": 0.4799,
-    "winProb": 0.1209,
-    "briefComment": "레이팅 오류 의심, 실적 부진",
+    "score": 0.5299,
+    "winProb": 0.1388,
+    "briefComment": "레이팅 입력 오류 의심(8414)",
     "predictedRank": 4
    },
    {
     "gateNo": 1,
     "score": 0.418,
-    "winProb": 0.097,
-    "briefComment": "중위권 마, 입상 기대",
+    "winProb": 0.0931,
+    "briefComment": "안정적 성적이나 레이팅 한계",
     "predictedRank": 5
    },
    {
     "gateNo": 9,
     "score": 0.397,
-    "winProb": 0.09,
-    "briefComment": "경험 풍부, 중위권 안정성",
+    "winProb": 0.0863,
+    "briefComment": "중위권 안정성·돌발 가능성 낮음",
     "predictedRank": 6
    },
    {
     "gateNo": 11,
     "score": 0.2989,
-    "winProb": 0.0634,
-    "briefComment": "경험 풍부 거마, 기대 낮음",
+    "winProb": 0.0608,
+    "briefComment": "6세 고령·성적 불균형",
     "predictedRank": 7
    },
    {
     "gateNo": 5,
     "score": 0.2121,
-    "winProb": 0.0465,
-    "briefComment": "고레이팅 미발휘, 조정 중",
+    "winProb": 0.0446,
+    "briefComment": "높은 레이팅도 효율 낮음",
     "predictedRank": 8
    },
    {
     "gateNo": 6,
     "score": 0.17,
-    "winProb": 0.04,
-    "briefComment": "저레이팅, 약점 노출",
+    "winProb": 0.0384,
+    "briefComment": "저평가된 중거마·데이터 부족",
     "predictedRank": 9
-   },
-   {
-    "gateNo": 10,
-    "score": 0.1695,
-    "winProb": 0.0399,
-    "briefComment": "신마 고레이팅, 입상 안정적",
-    "predictedRank": 10
    },
    {
     "gateNo": 3,
     "score": 0.116,
-    "winProb": 0.033,
-    "briefComment": "출전 경험 부족, 전개 미정",
+    "winProb": 0.0316,
+    "briefComment": "출주 기회 부족·신뢰도 낮음",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 10,
+    "score": 0.0995,
+    "winProb": 0.0298,
+    "briefComment": "레이팅 최고도 무승·주의 필요",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "**머스킷데이**(4번)가 중위권 레이팅에 88% 입상률로 가장 안정적이며, **노프라블럼**(8번)도 50% 승률로 검증된 강자. **베스트레이스**(2번)는 947의 고레이팅과 38% 승률로 탑 클래스. 다만 **강나루**(7번)의 레이팅 8414.0은 데이터 오류로 추정되며(다른 말들 770~1040 범위), 실제 12% 승률과 괴리 있음. **글라디우스**(10번)는 1040의 최고 레이팅에 83% 입상률로 신마 치고 안정적이나 1위 부재로 저평가된 것 같음.",
+  "aiCommentary": "**8번 노프라블럼**의 1년 50% 승률과 -5kg 극단적 체중 감소는 매우 강력한 상향 신호입니다. 반면 **10번 글라디우스**는 레이팅 1040으로 압도적이나 1년 무승으로 이 경주 레벨에서의 부진이 우려되며, **2번 베스트레이스**는 현재 레이팅과 안정적 성적 대비 평가가 보수적입니다. 4번은 낮은 레이팅에도 입상률이 높지만, 절대 수준 면에서는 상위권 경쟁마들보다 한 단계 낮을 가능성이 있습니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 4,
    "place": [
     4,
-    2,
-    8
+    8,
+    2
    ],
    "exacta": [
     4,
-    2
+    8
    ]
   }
  },

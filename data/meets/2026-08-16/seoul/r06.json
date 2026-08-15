@@ -253,81 +253,81 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 6,
-    "score": 0.6594,
-    "winProb": 0.2244,
-    "briefComment": "안정적 1순위주, 컨디션 양호",
+    "gateNo": 7,
+    "score": 0.65,
+    "winProb": 0.2179,
+    "briefComment": "승률 25%, 체중 감소 상승세",
     "predictedRank": 1
    },
    {
-    "gateNo": 7,
-    "score": 0.64,
-    "winProb": 0.2094,
-    "briefComment": "최근 25% 승률, 경량화 스피드 강점",
+    "gateNo": 6,
+    "score": 0.6394,
+    "winProb": 0.2098,
+    "briefComment": "체중 증가 신호, 모델 1위 평가",
     "predictedRank": 2
    },
    {
     "gateNo": 3,
     "score": 0.6282,
-    "winProb": 0.2008,
-    "briefComment": "입상률 58% 안정성 우수",
+    "winProb": 0.2016,
+    "briefComment": "입상률 58%, 경험 풍부",
     "predictedRank": 3
+   },
+   {
+    "gateNo": 4,
+    "score": 0.4616,
+    "winProb": 0.1112,
+    "briefComment": "최고 레이팅도 최근 부진, 기수변경",
+    "predictedRank": 4
    },
    {
     "gateNo": 2,
     "score": 0.4575,
-    "winProb": 0.1091,
-    "briefComment": "레이팅 대비 입상 부진 신호",
-    "predictedRank": 4
-   },
-   {
-    "gateNo": 4,
-    "score": 0.4516,
-    "winProb": 0.1069,
-    "briefComment": "고레이팅도 1년 0승, 기수변경 우려",
+    "winProb": 0.1096,
+    "briefComment": "높은 레이팅 대비 0승, 부담 무거움",
     "predictedRank": 5
    },
    {
     "gateNo": 5,
     "score": 0.3812,
-    "winProb": 0.0831,
-    "briefComment": "평범한 실적, 중위권 경합",
+    "winProb": 0.0834,
+    "briefComment": "안정적 암말, 중위권 경주",
     "predictedRank": 6
    },
    {
     "gateNo": 8,
     "score": 0.1371,
-    "winProb": 0.0348,
-    "briefComment": "0승 부진, 암6 나이 우려",
+    "winProb": 0.0349,
+    "briefComment": "6세 고령, 최근 부진",
     "predictedRank": 7
    },
    {
     "gateNo": 1,
     "score": 0.1096,
-    "winProb": 0.0315,
-    "briefComment": "최약마, -5kg 경량화도 입상 어려움",
+    "winProb": 0.0316,
+    "briefComment": "신인급, 성적 미흡",
     "predictedRank": 8
    }
   ],
-  "aiCommentary": "**남산록**과 **브리도트로피** 중심의 구도로 두 마 모두 안정성이 높습니다. 주목할 점은 **문학대세**의 최근 1년 25% 승률로, 레이팅 대비 실제 폼이 우수하나 기수 변경이 변수입니다. **창창삭스**는 최고 레이팅(503)에도 불구하고 1년 간 0승 기록과 기수 변경(-2)이 복합적 우려입니다. 1400m 중거리에서 상위권 포지셔닝 경합이 치열할 것으로 예상됩니다.",
+  "aiCommentary": "통계 모델의 상위 3마(남산록·브리도트로피·문학대세)는 타당하나, 체중 변화와 최근 성적 추이에 따른 미세 조정이 필요합니다. **문학대세**는 25% 승률에 체중도 1.5kg 감소하며 상승세를 보이나 모델에서 다소 저평가되었고, **남산록**은 체중 증가(+0.5kg) 신호가 부정적입니다. **창창삭스**는 503 최고 레이팅에도 부담중량 55.5kg과 1년간 0승이 함께 작용하면서 모델 평가 대비 실제 경주력이 낮아 보입니다. 1400m 중거리에서 경험과 최근 컨디션이 변수가 될 전망입니다.",
   "confidence": "medium",
   "topPicks": {
-   "win": 6,
+   "win": 7,
    "place": [
-    6,
     7,
+    6,
     3
    ],
    "exacta": [
-    6,
-    7
+    7,
+    6
    ]
   }
  },

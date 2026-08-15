@@ -283,88 +283,88 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 4,
-    "score": 0.8655,
-    "winProb": 0.346,
-    "briefComment": "최고 레이팅·43% 승률, 부담중량이 문제",
+    "gateNo": 1,
+    "score": 0.8647,
+    "winProb": 0.3521,
+    "briefComment": "컨디션 안정적, 부담중량 관리됨",
     "predictedRank": 1
    },
    {
-    "gateNo": 1,
-    "score": 0.8447,
-    "winProb": 0.3212,
-    "briefComment": "입상률 86%, 안정적 주력마",
+    "gateNo": 4,
+    "score": 0.8355,
+    "winProb": 0.3172,
+    "briefComment": "최고 레이팅, 무거운 부담중량 불리",
     "predictedRank": 2
    },
    {
     "gateNo": 6,
-    "score": 0.5608,
-    "winProb": 0.1165,
-    "briefComment": "체중감 신호·경량 부담, 상승세 기대",
+    "score": 0.5508,
+    "winProb": 0.1147,
+    "briefComment": "체중 감량 긍정 신호",
     "predictedRank": 3
    },
    {
     "gateNo": 3,
     "score": 0.3704,
-    "winProb": 0.059,
-    "briefComment": "경험 풍부하나 레이팅·입상률 낮음",
+    "winProb": 0.0602,
+    "briefComment": "중견 수준, 우승 경험 있음",
     "predictedRank": 4
    },
    {
     "gateNo": 8,
-    "score": 0.3026,
-    "winProb": 0.0463,
-    "briefComment": "경험 많으나 미승, 입상 수준",
+    "score": 0.2726,
+    "winProb": 0.0425,
+    "briefComment": "1년 승률 0% · 입상률 38% · 레이팅 430",
     "predictedRank": 5
    },
    {
     "gateNo": 2,
     "score": 0.2314,
-    "winProb": 0.0359,
-    "briefComment": "3전 연패, 현저히 부진중",
+    "winProb": 0.0367,
+    "briefComment": "약체, 입상 기록 전무",
     "predictedRank": 6
    },
    {
     "gateNo": 9,
     "score": 0.1458,
-    "winProb": 0.0265,
-    "briefComment": "1년 승률 0% · 입상률 25% · 레이팅 380",
+    "winProb": 0.027,
+    "briefComment": "약체, 가벼운 부담중량",
     "predictedRank": 7
    },
    {
     "gateNo": 7,
     "score": 0.134,
-    "winProb": 0.0254,
-    "briefComment": "10전 1승, 완전히 쇠퇴 중",
+    "winProb": 0.0259,
+    "briefComment": "약체, 우승 경험 부재",
     "predictedRank": 8
    },
    {
     "gateNo": 5,
     "score": 0.1087,
-    "winProb": 0.0232,
-    "briefComment": "5전 낙마, 준비 상태 최악",
+    "winProb": 0.0237,
+    "briefComment": "약체, 우승 경험 부재",
     "predictedRank": 9
    }
   ],
-  "aiCommentary": "1번과 4번이 거의 동등한 우위(둘 다 score 0.84)로 전개될 경주입니다. 4번 **러브인서울**은 최고 레이팅(480)과 1년 승률 43%로 순수 경력은 우수하나, 57.0kg의 높은 부담중량이 중거리 1600m에서 약점입니다. 1번 **라온피날레**는 입상률 86%로 안정성이 탁월하고 부담이 상대적으로 낮습니다(56.5kg). 주목할 점은 6번 **용비교**로, 체중이 -2kg 감소하고 부담중량 54.5kg로 경량된 것은 조교사의 의도적 마력 조정 신호입니다. 하위마들(2번, 5번, 7번)은 최근 성적이 매우 부진하여 큰 역할을 기대하기 어렵습니다.",
+  "aiCommentary": "**라온피날레**와 **러브인서울**이 동등 수준에서 경합하는 레이스. **라온피날레**는 최근 컨디션이 안정적인 반면, **러브인서울**은 최고 레이팅(480)이지만 부담중량(57.0kg)이 무겁고 마체중이 증가 추세. 마체중 감량(-2kg)을 보인 **용비교**가 복병 가능성. 우승 경험이 없는 **성실대로**(13경 중 0승)는 제외하는 것이 타당.",
   "confidence": "medium",
   "topPicks": {
-   "win": 4,
+   "win": 1,
    "place": [
-    4,
     1,
+    4,
     6
    ],
    "exacta": [
-    4,
-    1
+    1,
+    4
    ]
   }
  },

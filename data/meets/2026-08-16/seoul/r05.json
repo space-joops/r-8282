@@ -253,81 +253,81 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 4,
-    "score": 0.8014,
-    "winProb": 0.3255,
-    "briefComment": "1위 유력. 2승 확보, 기수변경 없음",
+    "gateNo": 5,
+    "score": 0.7964,
+    "winProb": 0.3079,
+    "briefComment": "레이팅 최고, 입상률 최고, 기수변경 변수",
     "predictedRank": 1
    },
    {
-    "gateNo": 5,
-    "score": 0.7364,
-    "winProb": 0.2581,
-    "briefComment": "강력. 높은 레이팅(481)이나 기수변경 리스크",
+    "gateNo": 4,
+    "score": 0.7714,
+    "winProb": 0.2816,
+    "briefComment": "일관된 기수(안드레), 1년 2-1 안정적",
     "predictedRank": 2
    },
    {
     "gateNo": 1,
     "score": 0.559,
-    "winProb": 0.137,
-    "briefComment": "중상위권. 1년 1-0-1, 혼전 가능성",
+    "winProb": 0.1319,
+    "briefComment": "어린 말(수3), 체중감소 신호 경미",
     "predictedRank": 3
    },
    {
     "gateNo": 8,
     "score": 0.4906,
-    "winProb": 0.1073,
-    "briefComment": "중위권. 컨디션 개선 신호(+1kg), 가능성 있음",
+    "winProb": 0.1033,
+    "briefComment": "체중증가(+1) 양호신호, 어린 말",
     "predictedRank": 4
    },
    {
     "gateNo": 6,
-    "score": 0.4355,
-    "winProb": 0.0881,
-    "briefComment": "위험. 마체중 큰 감소, 기수변경 빈번",
+    "score": 0.4655,
+    "winProb": 0.0944,
+    "briefComment": "레이팅 높지만 승률 저조, 체중감소 우려",
     "predictedRank": 5
    },
    {
     "gateNo": 7,
     "score": 0.1445,
-    "winProb": 0.0312,
-    "briefComment": "약함. 성적 불진, 입상률 14%",
+    "winProb": 0.03,
+    "briefComment": "낮은 레이팅, 입상경험 제한적",
     "predictedRank": 6
    },
    {
     "gateNo": 2,
     "score": 0.117,
-    "winProb": 0.0283,
-    "briefComment": "낮음. 11경주 무승리, 입상률도 18%",
+    "winProb": 0.0272,
+    "briefComment": "나이(수5), 0승 2입상, 기수변경",
     "predictedRank": 7
    },
    {
     "gateNo": 3,
     "score": 0.0789,
-    "winProb": 0.0247,
-    "briefComment": "미지수. 거마 출전 경험 부족, 3경주만 진행",
+    "winProb": 0.0237,
+    "briefComment": "경주경력 미흡(3경주 무승리)",
     "predictedRank": 8
    }
   ],
-  "aiCommentary": "**이클립스탱고**가 최근 2승의 검증된 성적과 안정적인 기수조합으로 통계 1위를 유지할 가능성이 높습니다. **두손으뜸**은 최고 레이팅(481)이지만 기수변경(-2경주)이 최근 리스크 요소이며, **추풍령**은 마체중 급감(-4.5kg)과 다중 기수변경(-4)으로 컨디션 불안정이 우려됩니다. 상위권은 4-5번 양마의 양강 구도이나, 부담중량 1kg 차이와 기수 안정성에서 1위마가 약간 유리할 것으로 예상됩니다.",
+  "aiCommentary": "통계 모델이 전반적으로 합리적으로 평가했으나, 일부 정성 신호 고려 필요. **두손으뜸**은 레이팅(481) 최고, 입상률(50%) 최고이지만 기수변경(-2)이 변수이고, **추풍령**은 높은 레이팅(490)에도 1년 1승(8%)의 부진한 성적과 마체중 대폭 감소(-4.5)로 컨디션 우려가 있음. **이클립스탱고**와 **원다이아**의 안드레·푸르칸 기수진은 외국인 기수들로 일관된 경기력 표현 경향 있음.",
   "confidence": "medium",
   "topPicks": {
-   "win": 4,
+   "win": 5,
    "place": [
-    4,
     5,
+    4,
     1
    ],
    "exacta": [
-    4,
-    5
+    5,
+    4
    ]
   }
  },

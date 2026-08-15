@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -352,89 +352,89 @@
    {
     "gateNo": 11,
     "score": 0.7003,
-    "winProb": 0.1849,
-    "briefComment": "이끌림: 29% 승률 강자, 1년 표본 부족",
+    "winProb": 0.1877,
+    "briefComment": "1년 최강 성적, 컨디션 양호",
     "predictedRank": 1
    },
    {
     "gateNo": 10,
     "score": 0.6295,
-    "winProb": 0.1436,
-    "briefComment": "포에버길: 건실한 중위권, 안정 주자",
+    "winProb": 0.1458,
+    "briefComment": "입상률 62% 믿음직, 후반 추격 강점",
     "predictedRank": 2
    },
    {
-    "gateNo": 5,
-    "score": 0.5601,
-    "winProb": 0.1121,
-    "briefComment": "그냥가라: +3.5kg 컨디션↑, 고레이팅 가치",
+    "gateNo": 6,
+    "score": 0.5703,
+    "winProb": 0.118,
+    "briefComment": "부담중량 57.5 최고, 최근 무승 지속",
     "predictedRank": 3
    },
    {
-    "gateNo": 6,
-    "score": 0.5503,
-    "winProb": 0.1082,
-    "briefComment": "사하라칸: 최근 1년 0승, 부담 최대",
+    "gateNo": 3,
+    "score": 0.5672,
+    "winProb": 0.1167,
+    "briefComment": "승률 50%이나 4회 출주로 신뢰도 미흡",
     "predictedRank": 4
    },
    {
-    "gateNo": 3,
-    "score": 0.5472,
-    "winProb": 0.107,
-    "briefComment": "에버글로리: 3세 어림, 표본 극소 (4경)",
+    "gateNo": 5,
+    "score": 0.4901,
+    "winProb": 0.0886,
+    "briefComment": "마체중 +3.5kg 악신호, 부담중량 높음",
     "predictedRank": 5
    },
    {
     "gateNo": 9,
-    "score": 0.4662,
-    "winProb": 0.0801,
-    "briefComment": "블루레인: 12경 단거리 경험, 폭발력↑",
+    "score": 0.4462,
+    "winProb": 0.0758,
+    "briefComment": "12회 출주 활발이나 승률 25% 편차",
     "predictedRank": 6
    },
    {
     "gateNo": 7,
-    "score": 0.4602,
-    "winProb": 0.0784,
-    "briefComment": "청산돌풍: 60% 입상률, 안정적 중위권",
+    "score": 0.4402,
+    "winProb": 0.0742,
+    "briefComment": "입상률 60% 안정적, 중원 기대",
     "predictedRank": 7
    },
    {
     "gateNo": 8,
     "score": 0.4233,
-    "winProb": 0.0687,
-    "briefComment": "따뜻한위로: 1년 1승, 중하위권 기대",
+    "winProb": 0.0698,
+    "briefComment": "레이팅 낮으나 입상률 67% 우수",
     "predictedRank": 8
    },
    {
     "gateNo": 1,
-    "score": 0.3955,
-    "winProb": 0.0623,
-    "briefComment": "팡팡대로: -4.5kg 급감량, 부진 기조",
+    "score": 0.4155,
+    "winProb": 0.0679,
+    "briefComment": "마체중 -4.5kg로 최고 컨디션이나 레이팅 낮음",
     "predictedRank": 9
    },
    {
     "gateNo": 2,
     "score": 0.1929,
-    "winProb": 0.0302,
-    "briefComment": "제라퀸: 11경 주행 경험, 신뢰도 낮음",
+    "winProb": 0.0307,
+    "briefComment": "11회 출주 1승만, 입상률 18% 극저",
     "predictedRank": 10
    },
    {
     "gateNo": 4,
     "score": 0.1343,
-    "winProb": 0.0245,
-    "briefComment": "호세: 1승 9경, 입상 전무 리스크",
+    "winProb": 0.0249,
+    "briefComment": "9회 출주 1승, 입상률 11%로 최약세",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "단거리 경주(1200m)에서 **이끌림**(11번)과 **포에버길**(10번)이 통계 우위를 점하나, 최근 1년 표본 부족(7회/8회)으로 신뢰도가 낮습니다. **사하라칸**(6번)은 레이팅 최고이지만 최근 1년 0승 기록이 심각한 부진 신호이며, 부담 57.5kg 최중량도 단거리에서는 불리합니다. **그냥가라**(5번)는 +3.5kg 증량으로 컨디션 회복 신호가 명확하고, 고레이팅(471)이 실제 출주에 반영될 가능성이 있습니다. 단거리 경험이 풍부한 **블루레인**(9번)과 안정적 입상률의 **청산돌풍**(7번)이 중위권 강화 역할을 할 것으로 예상됩니다.",
+  "aiCommentary": "**이끌림**(11번)이 승률 29%, 입상률 71%의 최고 지표에 마체중 -1kg 컨디션까지 갖춰 통계 1순위 확신도가 높습니다. **포에버길**(10번)은 입상률 62%의 안정성과 1200m 후반 추격형 체질로 2순위가 합리적입니다. 반면 레이팅 471로 높은 **사하라칸**(6번)과 **그냥가라**(5번)는 부담중량 무거움(각 57.5, 55.5)에 최근 부진과 마체중 신호(+3.5kg)가 부정적으로 작용하여 통계 점수보다 약할 가능성이 있습니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 11,
    "place": [
     11,
     10,
-    5
+    6
    ],
    "exacta": [
     11,

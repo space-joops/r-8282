@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,83 +351,83 @@
   "rankings": [
    {
     "gateNo": 10,
-    "score": 0.6455,
-    "winProb": 0.1785,
-    "briefComment": "높은 입상률 50% · 1순위 타당",
+    "score": 0.6355,
+    "winProb": 0.1749,
+    "briefComment": "입상률 50%, 경주 최고 신뢰",
     "predictedRank": 1
    },
    {
     "gateNo": 11,
-    "score": 0.6187,
-    "winProb": 0.1622,
-    "briefComment": "5살 거세, 입상 40% · 경력 우위",
+    "score": 0.5987,
+    "winProb": 0.1534,
+    "briefComment": "거세마 경험 풍부, 안정감",
     "predictedRank": 2
    },
    {
     "gateNo": 5,
-    "score": 0.5119,
-    "winProb": 0.1108,
-    "briefComment": "입상률 33%, 안정적 평가",
+    "score": 0.5419,
+    "winProb": 0.1252,
+    "briefComment": "입상률 33%, 상위권 신뢰",
     "predictedRank": 3
    },
    {
     "gateNo": 9,
     "score": 0.473,
-    "winProb": 0.0964,
-    "briefComment": "입상 경험 적음, 17% 입상률",
+    "winProb": 0.0979,
+    "briefComment": "6출 1입상, 저부담 활용",
     "predictedRank": 4
    },
    {
     "gateNo": 3,
-    "score": 0.4418,
-    "winProb": 0.0862,
-    "briefComment": "최상 부담, 경험 부족 · 불리",
+    "score": 0.4218,
+    "winProb": 0.0815,
+    "briefComment": "4출 무입상, 부담중량 무거움",
     "predictedRank": 5
    },
    {
     "gateNo": 1,
     "score": 0.4054,
-    "winProb": 0.0757,
-    "briefComment": "신인세션, 기수 안정적 · 입상 14%",
+    "winProb": 0.0769,
+    "briefComment": "7출 경험 있으나 최근 입상 없음",
     "predictedRank": 6
    },
    {
     "gateNo": 7,
     "score": 0.3779,
-    "winProb": 0.0686,
-    "briefComment": "4살 경력마, 12% 입상률",
+    "winProb": 0.0697,
+    "briefComment": "8출 경험 풍부, 최근 부진",
     "predictedRank": 7
-   },
-   {
-    "gateNo": 6,
-    "score": 0.3444,
-    "winProb": 0.0609,
-    "briefComment": "1전만 출주, 경험 부족",
-    "predictedRank": 8
    },
    {
     "gateNo": 2,
     "score": 0.3425,
-    "winProb": 0.0605,
-    "briefComment": "외국기수, 성적 미약 · 리스크",
-    "predictedRank": 9
+    "winProb": 0.0614,
+    "briefComment": "3출 미경험, 신뢰도 낮음",
+    "predictedRank": 8
    },
    {
     "gateNo": 4,
-    "score": 0.2907,
-    "winProb": 0.0503,
-    "briefComment": "최경량 이점, 기수변경 우려",
+    "score": 0.3107,
+    "winProb": 0.0548,
+    "briefComment": "5출 무입상, 기수변경 불리",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 6,
+    "score": 0.3044,
+    "winProb": 0.0536,
+    "briefComment": "1출 신규마, 경험 부족",
     "predictedRank": 10
    },
    {
     "gateNo": 8,
     "score": 0.2879,
-    "winProb": 0.0498,
-    "briefComment": "9전 0입상, 능력 미흡",
+    "winProb": 0.0505,
+    "briefComment": "9출 무입상, 신뢰도 낮음",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "저수준 경주에서 전마(前馬)가 신인 세션 구도입니다. **삼정여제**(10)의 50% 입상률이 이 필드에서 눈에 띄며, 모델도 이를 반영했습니다. **루지**(11)는 5살 거세말로 경력이 풍부(5전)하고 40% 입상률로 무난하나, 입상률 격차(50% vs 40%)가 분기점입니다. **더선아미르**(4)는 최경량(52kg) 이점에 마체중 유지로 신체 상태는 양호하나 기수변경 리스크가 상쇄합니다. 전반적으로 통계 신뢰도가 낮은 저등급 경주이므로 입상률과 경력 있는 개별 말에 의존해야 합니다.",
+  "aiCommentary": "국6등급의 경합이 매우 치열한 경주로, 통계 모델의 상위권 평가는 입상률 기준에서 합리적입니다. **삼정여제**의 50% 입상률과 **루지**의 40% 입상률은 경주 내 신뢰도가 높은 편이며, 부담중량 분포도 양호합니다. 다만 1300m 단거리 경주인 만큼 출발, 컨디션, 전개 변수가 크게 작용할 수 있으며, 경험 부족한 저부담마들의 '깜짝 입상' 가능성도 배제할 수 없습니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 10,

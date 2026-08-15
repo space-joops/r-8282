@@ -343,98 +343,98 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
-   "aiModel": null
+   "aiModel": "haiku"
   },
   "rankings": [
    {
     "gateNo": 8,
-    "score": 0.8435,
-    "winProb": 0.2698,
-    "briefComment": "1년 승률 11% · 입상률 44% · 레이팅 320",
+    "score": 0.8735,
+    "winProb": 0.2909,
+    "briefComment": "최강 레이팅 320, 중심축",
     "predictedRank": 1
    },
    {
     "gateNo": 6,
     "score": 0.7505,
-    "winProb": 0.1936,
-    "briefComment": "1년 승률 11% · 입상률 22% · 레이팅 290",
+    "winProb": 0.1875,
+    "briefComment": "레이팅 상위권, 안정적 우승마",
     "predictedRank": 2
+   },
+   {
+    "gateNo": 11,
+    "score": 0.5399,
+    "winProb": 0.0884,
+    "briefComment": "최근 효율 높음, 이변 주자",
+    "predictedRank": 3
    },
    {
     "gateNo": 7,
     "score": 0.5244,
-    "winProb": 0.0863,
-    "briefComment": "1년 승률 0% · 입상률 50% · 레이팅 282",
-    "predictedRank": 3
-   },
-   {
-    "gateNo": 11,
-    "score": 0.5199,
-    "winProb": 0.0849,
-    "briefComment": "1년 승률 9% · 입상률 9% · 레이팅 261",
+    "winProb": 0.0836,
+    "briefComment": "0승 기록, 입상률만 높음",
     "predictedRank": 4
    },
    {
     "gateNo": 5,
     "score": 0.5081,
-    "winProb": 0.0814,
-    "briefComment": "1년 승률 0% · 입상률 50% · 레이팅 260",
+    "winProb": 0.0789,
+    "briefComment": "입상률 50% 기대감, 기회 있음",
     "predictedRank": 5
    },
    {
     "gateNo": 4,
     "score": 0.446,
-    "winProb": 0.0652,
-    "briefComment": "1년 승률 0% · 입상률 33% · 레이팅 260",
+    "winProb": 0.0632,
+    "briefComment": "레이팅 평범, 하위권",
     "predictedRank": 6
    },
    {
     "gateNo": 1,
     "score": 0.3977,
-    "winProb": 0.0549,
-    "briefComment": "1년 승률 0% · 입상률 20% · 레이팅 261",
+    "winProb": 0.0532,
+    "briefComment": "5세 고참, 신뢰성 부족",
     "predictedRank": 7
    },
    {
     "gateNo": 3,
     "score": 0.3432,
-    "winProb": 0.0452,
-    "briefComment": "1년 승률 0% · 입상률 25% · 레이팅 270",
+    "winProb": 0.0438,
+    "briefComment": "암말 신체 유리, 진출 가능",
     "predictedRank": 8
-   },
-   {
-    "gateNo": 10,
-    "score": 0.3339,
-    "winProb": 0.0437,
-    "briefComment": "1년 승률 0% · 입상률 19% · 레이팅 302",
-    "predictedRank": 9
    },
    {
     "gateNo": 2,
     "score": 0.3322,
-    "winProb": 0.0434,
-    "briefComment": "1년 승률 0% · 입상률 12% · 레이팅 290",
+    "winProb": 0.0421,
+    "briefComment": "기수 변경, 회피 권장",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 10,
+    "score": 0.3039,
+    "winProb": 0.038,
+    "briefComment": "고레이팅 무우승, 부진 신호",
     "predictedRank": 10
    },
    {
     "gateNo": 9,
     "score": 0.2421,
-    "winProb": 0.0315,
-    "briefComment": "1년 승률 0% · 입상률 40% · 레이팅 28",
+    "winProb": 0.0305,
+    "briefComment": "데이터 오류 의심(레이팅 28.0)",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": null,
-  "confidence": "medium",
+  "aiCommentary": "**오아시스스타**(8번)의 압도적 레이팅 우위(320.0)가 경주의 중심축입니다. 최고 부담중량 57.0kg를 감수하면서도 1년 우승/입상 경험(1-2)이 있어 현질 높은 상태로 보입니다. 다만 장거리(1600m)에서 암말들의 체중 유리와 **운이좋아**(11번)의 최근 11회 출전 중 우승 1회라는 효율성이 변수입니다. **커널플라잉**(10번)은 높은 레이팅(302.0)에도 우승이 전무한 점이 최근 부진 신호로 해석됩니다.",
+  "confidence": "high",
   "topPicks": {
    "win": 8,
    "place": [
     8,
     6,
-    7
+    11
    ],
    "exacta": [
     8,

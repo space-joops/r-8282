@@ -253,7 +253,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -261,62 +261,62 @@
   "rankings": [
    {
     "gateNo": 4,
-    "score": 0.885,
-    "winProb": 0.3741,
-    "briefComment": "레이팅 압도적, 경험 부족 위험",
+    "score": 0.845,
+    "winProb": 0.3463,
+    "briefComment": "레이팅 오류 의심, 1회만 출주",
     "predictedRank": 1
    },
    {
     "gateNo": 5,
-    "score": 0.8041,
-    "winProb": 0.2802,
-    "briefComment": "2경주 1승, 안정적 상위후보",
+    "score": 0.7341,
+    "winProb": 0.233,
+    "briefComment": "레이팅 의심, 극소 표본",
     "predictedRank": 2
    },
    {
     "gateNo": 1,
-    "score": 0.602,
-    "winProb": 0.1361,
-    "briefComment": "2승 2경주 완주, 체중증가 우려",
+    "score": 0.682,
+    "winProb": 0.1935,
+    "briefComment": "극소수 출주(2회) 100% 승률, 신예마 특성",
     "predictedRank": 3
    },
    {
     "gateNo": 3,
     "score": 0.4169,
-    "winProb": 0.0703,
-    "briefComment": "3경주 1승, 중위권 경쟁력",
+    "winProb": 0.0751,
+    "briefComment": "정상 레이팅 범주 최고, 경험 우위",
     "predictedRank": 4
    },
    {
     "gateNo": 8,
-    "score": 0.2805,
-    "winProb": 0.0432,
-    "briefComment": "체중+3.5kg, 컨디션 적신호",
+    "score": 0.3005,
+    "winProb": 0.0495,
+    "briefComment": "체중증 3.5kg, 감량 필요시점",
     "predictedRank": 5
    },
    {
     "gateNo": 2,
     "score": 0.2654,
-    "winProb": 0.0409,
-    "briefComment": "1승 무, 입상률 100% 도박성",
+    "winProb": 0.0437,
+    "briefComment": "출주 1회만, 표본 부족",
     "predictedRank": 6
    },
    {
     "gateNo": 7,
     "score": 0.1892,
-    "winProb": 0.0312,
-    "briefComment": "2경주 무승리, 입상률 50%",
+    "winProb": 0.0333,
+    "briefComment": "무승 무입상, 약체",
     "predictedRank": 7
    },
    {
     "gateNo": 6,
     "score": 0.1163,
-    "winProb": 0.024,
-    "briefComment": "3경주 무승리, 약세 예상",
+    "winProb": 0.0257,
+    "briefComment": "무승이나 3회 출주로 기초 있음",
     "predictedRank": 8
    }
   ],
-  "aiCommentary": "레이팅 5012의 **꿈의연속**이 통계적으로 압도하나, 1경주만의 극도로 제한된 기록이 신뢰도를 떨어뜨린다. **호프케이**(레이팅 4910)는 2경주 50% 승률로 더 견고한 경험을 갖추고 있어 조합 리스크 측면에서 우월하다. **메이저퓨리**는 2승 2경주의 완벽한 성적 반면 +2.5kg 체중 증가가 부담이며, **골든벤투스**의 +3.5kg은 장거리에서의 컨디션 악화를 시사한다. 1200m 단거리에서 빠른 발동이 주요변수가 될 전망이다.",
+  "aiCommentary": "4번과 5번의 레이팅(5012, 4910)은 한국경마 정상 범위(200~800)를 크게 벗어나 입력 오류 또는 특수 데이터일 가능성이 높으며, 모델의 예측 신뢰도를 크게 떨어뜨립니다. 극소수 출주(1회, 2회)로 통계적 신뢰성이 매우 낮은 반면, **사우스카니발**(3번)은 정상 레이팅(518)에서 최고이며 3회 출주로 데이터 신뢰성이 있습니다. 1200m 단거리에서는 **메이저퓨리**(1번)의 100% 승률도 경시할 수 없으며, 마체중 증감(8번 +3.5kg)과 기수 컨디션을 함께 고려해야 합니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 4,

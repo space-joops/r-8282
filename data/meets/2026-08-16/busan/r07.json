@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:59:56+09:00",
+  "generatedAt": "2026-08-16T07:33:41+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -352,89 +352,89 @@
    {
     "gateNo": 7,
     "score": 0.8484,
-    "winProb": 0.2525,
-    "briefComment": "최근 연승·표본 작음",
+    "winProb": 0.2584,
+    "briefComment": "67% 승률, 레이팅 일치도 높음",
     "predictedRank": 1
    },
    {
     "gateNo": 4,
     "score": 0.7162,
-    "winProb": 0.1575,
-    "briefComment": "안정적 전력·부담중량 무거움",
+    "winProb": 0.1611,
+    "briefComment": "62% 입상률 안정적, 57kg 부담",
     "predictedRank": 2
+   },
+   {
+    "gateNo": 5,
+    "score": 0.6565,
+    "winProb": 0.1302,
+    "briefComment": "3경주 경력 67% 성적률 우수",
+    "predictedRank": 3
    },
    {
     "gateNo": 6,
     "score": 0.6433,
-    "winProb": 0.1214,
-    "briefComment": "높은 입상률·표본 부족",
-    "predictedRank": 3
-   },
-   {
-    "gateNo": 5,
-    "score": 0.6365,
-    "winProb": 0.1185,
-    "briefComment": "극소수 출전·상승세",
+    "winProb": 0.1242,
+    "briefComment": "67% 성적률 우수, 경량 부담",
     "predictedRank": 4
    },
    {
     "gateNo": 1,
-    "score": 0.5229,
-    "winProb": 0.079,
-    "briefComment": "최고 레이팅·경험 충분·입상 부진",
+    "score": 0.4529,
+    "winProb": 0.0629,
+    "briefComment": "레이팅 461 최고지만 승률 20% 부진",
     "predictedRank": 5
-   },
-   {
-    "gateNo": 2,
-    "score": 0.4832,
-    "winProb": 0.0685,
-    "briefComment": "기수 변경 이후 회복 중",
-    "predictedRank": 6
    },
    {
     "gateNo": 11,
     "score": 0.4502,
-    "winProb": 0.0609,
-    "briefComment": "부담중량 최중·입상 가능",
+    "winProb": 0.0623,
+    "briefComment": "9% 승률, 45% 입상률 보존",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 2,
+    "score": 0.4432,
+    "winProb": 0.0608,
+    "briefComment": "기수변경 마이너스, 11% 승률",
     "predictedRank": 7
    },
    {
     "gateNo": 10,
     "score": 0.4042,
-    "winProb": 0.0517,
-    "briefComment": "입상률 안정적·우위 약함",
+    "winProb": 0.0529,
+    "briefComment": "18% 승률, 45% 입상률",
     "predictedRank": 8
-   },
-   {
-    "gateNo": 8,
-    "score": 0.316,
-    "winProb": 0.0377,
-    "briefComment": "고연령·최근 무승리",
-    "predictedRank": 9
    },
    {
     "gateNo": 9,
     "score": 0.2978,
-    "winProb": 0.0353,
-    "briefComment": "입상률 높으나 승리 드물다",
+    "winProb": 0.0362,
+    "briefComment": "50% 입상률은 나쁘지 않음",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 8,
+    "score": 0.276,
+    "winProb": 0.0335,
+    "briefComment": "14경주 0% 승률, 약세 심화",
     "predictedRank": 10
    },
    {
     "gateNo": 3,
     "score": 0.0954,
-    "winProb": 0.0172,
-    "briefComment": "경험 부족·폼 불안정",
+    "winProb": 0.0176,
+    "briefComment": "0% 승률, 상위권 진출 어려움",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "레이팅 최고(461)의 **로드투스프링**과 최근 연승 중인 **윈드미르**가 주도권을 놓고 경쟁할 전망. 부담중량이 무거운 57kg 군(4,7,11번)이 1400m 거리에서 어떻게 작용할지가 변수. 기수 변경 부담의 **해운대파워**와 경험 부족의 말들을 제외하면 1,4,7번의 우위가 명확하며, 이들 중 **정문파피아노**가 가장 균형 잡힌 상대.",
+  "aiCommentary": "**윈드미르**의 67% 승률과 높은 레이팅이 1순위 위치를 정당화합니다. **정문파피아노**는 안정적인 62% 입상률로 2순위 자격이 충분하지만, 57.0kg 부담이 경쟁력을 제한합니다. 5·6번 두 어린 암말은 제한된 경력에도 67% 성적률을 기록 중으로 상승세가 인상적이나, 경험 부족은 환주 리스크입니다. **로드투스프링**, **해운대파워** 등 높은 레이팅 말들은 최근 성적이 기대에 못 미쳐 하향 평가되며, 특히 2번의 기수변경(-2)은 추가 마이너스 신호입니다.",
   "confidence": "medium",
   "topPicks": {
    "win": 7,
    "place": [
     7,
     4,
-    6
+    5
    ],
    "exacta": [
     7,
