@@ -13,10 +13,9 @@
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **PR [#30](https://github.com/space-joops/r-8282/pull/30) 머지** (운영 텔레메트리 + /admin 대시보드, #28·#29) 후 **사용자 액션 3가지**:
-   ① Supabase SQL Editor에 `supabase/schema.sql` 실행
-   ② 노트북 `pipeline/.env`에 `SUPABASE_URL`·`SUPABASE_SERVICE_KEY` 추가
-   ③ Vercel env 추가(`ADMIN_PASSWORD`·`SUPABASE_URL`·`SUPABASE_SERVICE_KEY`) → 재배포 → `/admin` 접속(사용자명 admin)
+1. **PR [#30](https://github.com/space-joops/r-8282/pull/30) 머지** (운영 텔레메트리 + /admin 대시보드, #28·#29)
+   - Supabase 셋업은 완료됨: jd-04 프로젝트에 `kyongma_ops_runs` 생성, Vercel 리소스 연결(env 자동 주입), 노트북 env 구성, 첫 텔레메트리 행 기록 확인
+   - **남은 사용자 액션 1개**: `vercel env add ADMIN_PASSWORD production` (원하는 관리자 암호 입력) → 머지 후 `/admin` 접속(사용자명 admin)
 2. **8/16(일)**: 타이머가 자동 처리 (07:33 예측 스킵 확인, 19:30 결과+첫 적중률 공개).
    수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
 3. 첫 실데이터가 쌓인 뒤 /admin 차트 시각 QA (현재는 평가 0경주라 빈 상태 문구)
