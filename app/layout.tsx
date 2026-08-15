@@ -28,6 +28,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="text-lg font-bold text-brand">
               {SITE_NAME}
             </Link>
+            <nav className="flex gap-4 text-sm">
+              <Link href="/about" className="text-muted hover:text-foreground">
+                소개
+              </Link>
+            </nav>
           </div>
         </header>
         <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-6">
