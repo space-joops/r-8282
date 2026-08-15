@@ -64,3 +64,11 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 1. 개최 전날(보통 금) `make predict DATE=…` → `data/` diff 검토 → 커밋·push (Vercel 자동 배포)
 2. 당일 아침 기수 변경 확인 시 재실행 후 재커밋
 3. 경마일 저녁 `make results DATE=…` → 커밋·push
+
+## 배포 (Vercel)
+
+- 프로젝트: `kyongmapick` (ppabams-projects, Hobby) — 프로덕션 https://kyongmapick.vercel.app
+- GitHub 연동됨: main 머지 → 자동 프로덕션 배포, PR push → 프리뷰 배포
+- 수동 배포: `vercel deploy` (프리뷰) / `vercel deploy --prod`
+- env: `NEXT_PUBLIC_SITE_URL` 설정됨. 서치콘솔 등록 후 `GOOGLE_SITE_VERIFICATION`·`NAVER_SITE_VERIFICATION` 추가 필요
+- Hobby 플랜은 비상업 용도 — 수익화 시 Pro 전환
