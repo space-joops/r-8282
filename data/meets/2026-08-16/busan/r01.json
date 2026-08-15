@@ -19,18 +19,18 @@
    "sex": "수",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080568",
     "name": "다실바",
-    "winRate1y": null
+    "winRate1y": 0.179
    },
    "trainer": {
-    "id": "",
+    "id": "070134",
     "name": "강형곤",
-    "winRate1y": null
+    "winRate1y": 0.065
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 5,
     "wins": 0,
@@ -54,13 +54,13 @@
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
+    "id": "070143",
     "name": "하무선",
-    "winRate1y": null
+    "winRate1y": 0.062
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 8,
     "wins": 0,
@@ -79,18 +79,18 @@
    "sex": "수",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080532",
     "name": "채상현",
-    "winRate1y": null
+    "winRate1y": 0.03
    },
    "trainer": {
-    "id": "",
+    "id": "070263",
     "name": "양영남",
-    "winRate1y": null
+    "winRate1y": 0.042
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 7,
     "wins": 0,
@@ -109,18 +109,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080483",
     "name": "유광희",
-    "winRate1y": null
+    "winRate1y": 0.034
    },
    "trainer": {
-    "id": "",
+    "id": "070137",
     "name": "조용배",
-    "winRate1y": null
+    "winRate1y": 0.021
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 21,
     "wins": 0,
@@ -144,13 +144,13 @@
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
+    "id": "070226",
     "name": "박재호",
-    "winRate1y": null
+    "winRate1y": 0.091
    },
    "weightCarriedKg": 51.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 9,
     "wins": 0,
@@ -169,18 +169,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080565",
     "name": "정도윤",
-    "winRate1y": null
+    "winRate1y": 0.109
    },
    "trainer": {
-    "id": "",
+    "id": "070249",
     "name": "문현철",
-    "winRate1y": null
+    "winRate1y": 0.229
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 1,
     "wins": 0,
@@ -199,18 +199,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080564",
     "name": "이효식",
-    "winRate1y": null
+    "winRate1y": 0.088
    },
    "trainer": {
-    "id": "",
+    "id": "070223",
     "name": "강은석",
-    "winRate1y": null
+    "winRate1y": 0.089
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 12,
     "wins": 0,
@@ -229,18 +229,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080546",
     "name": "박재이",
-    "winRate1y": null
+    "winRate1y": 0.11
    },
    "trainer": {
-    "id": "",
+    "id": "070142",
     "name": "방동석",
-    "winRate1y": null
+    "winRate1y": 0.112
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 7,
     "wins": 0,
@@ -259,18 +259,18 @@
    "sex": "거",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080431",
     "name": "이성재",
-    "winRate1y": null
+    "winRate1y": 0.059
    },
    "trainer": {
-    "id": "",
+    "id": "070251",
     "name": "임성실",
-    "winRate1y": null
+    "winRate1y": 0.103
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -1.0,
    "record1y": {
     "starts": 5,
     "wins": 0,
@@ -289,18 +289,18 @@
    "sex": "거",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080605",
     "name": "서강주",
-    "winRate1y": null
+    "winRate1y": 0.043
    },
    "trainer": {
-    "id": "",
+    "id": "070176",
     "name": "구영준",
-    "winRate1y": null
+    "winRate1y": 0.071
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.0,
    "record1y": {
     "starts": 8,
     "wins": 0,
@@ -324,13 +324,13 @@
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
+    "id": "070180",
     "name": "안우성",
-    "winRate1y": null
+    "winRate1y": 0.05
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -3.0,
    "record1y": {
     "starts": 6,
     "wins": 0,
@@ -343,7 +343,7 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "generatedAt": "2026-08-15T18:59:56+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
@@ -351,94 +351,94 @@
   "rankings": [
    {
     "gateNo": 1,
-    "score": 0.7,
-    "winProb": 0.2509,
-    "briefComment": "유일 입상 경험, 이 경주 최유력",
+    "score": 0.6937,
+    "winProb": 0.2502,
+    "briefComment": "입상률 40% · 가장 안정적 기록",
     "predictedRank": 1
    },
    {
-    "gateNo": 9,
-    "score": 0.5,
-    "winProb": 0.1228,
-    "briefComment": "입상 경험 있음, 상대적 유력",
+    "gateNo": 8,
+    "score": 0.46,
+    "winProb": 0.1086,
+    "briefComment": "입상 경험 있는 암3 · 도약 가능성",
     "predictedRank": 2
    },
    {
-    "gateNo": 8,
-    "score": 0.4429,
-    "winProb": 0.1002,
-    "briefComment": "암말, 입상 경험 있음",
+    "gateNo": 9,
+    "score": 0.4488,
+    "winProb": 0.1043,
+    "briefComment": "5회 출전 20% 입상률 · 소수 경험마",
     "predictedRank": 3
    },
    {
-    "gateNo": 10,
-    "score": 0.425,
-    "winProb": 0.094,
-    "briefComment": "2위 입상 경험, 안정적",
+    "gateNo": 6,
+    "score": 0.3772,
+    "winProb": 0.0808,
+    "briefComment": "1회 출전만 기록 · 신인/복귀 불안정",
     "predictedRank": 4
    },
    {
-    "gateNo": 4,
-    "score": 0.3476,
-    "winProb": 0.0713,
-    "briefComment": "21출 1입상, 매우 저조",
+    "gateNo": 10,
+    "score": 0.3689,
+    "winProb": 0.0784,
+    "briefComment": "8회 출전 중 입상 1회 · 낮은 신뢰도",
     "predictedRank": 5
    },
    {
-    "gateNo": 2,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "8출 무입상, 약한 성적",
+    "gateNo": 5,
+    "score": 0.3497,
+    "winProb": 0.0732,
+    "briefComment": "기수 변경(-3) · 컨디션 재설정의 신호",
     "predictedRank": 6
    },
    {
-    "gateNo": 3,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "7출 무입상, 약한 성적",
+    "gateNo": 7,
+    "score": 0.329,
+    "winProb": 0.068,
+    "briefComment": "암5 12회 무입상 · 상승 불가능한 마",
     "predictedRank": 7
    },
    {
-    "gateNo": 5,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "9출 무입상, 기수변경 신호",
+    "gateNo": 2,
+    "score": 0.3081,
+    "winProb": 0.0631,
+    "briefComment": "8회 출전 무입상 · 답답한 성적",
     "predictedRank": 8
    },
    {
-    "gateNo": 6,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "신마, 미숙함",
+    "gateNo": 11,
+    "score": 0.3033,
+    "winProb": 0.062,
+    "briefComment": "기수 변경(-2) · 재계측 필요",
     "predictedRank": 9
    },
    {
-    "gateNo": 7,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "12출 무입상, 약함",
+    "gateNo": 4,
+    "score": 0.2878,
+    "winProb": 0.0587,
+    "briefComment": "21회 출전에 입상 1회 · 답답함 극심",
     "predictedRank": 10
    },
    {
-    "gateNo": 11,
-    "score": 0.3,
-    "winProb": 0.0601,
-    "briefComment": "6출 무입상, 기수변경",
+    "gateNo": 3,
+    "score": 0.2572,
+    "winProb": 0.0526,
+    "briefComment": "7회 출전 무입상 · 더 나은 기회 필요",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "국6등급 매우 약한 필드로, **스위트맨**만 유일하게 입상 경험(40%)을 보유. 나머지는 대부분 무입상으로 저조한 성적. 기수변경 말들(**루피너스**, **한강브라보**)도 과거 성적이 더욱 저조하여 큰 기대는 어려움. 저등급 경주의 높은 불확실성으로, 통계 모델 예측의 정확도도 낮을 가능성 높음.",
-  "confidence": "low",
+  "aiCommentary": "국6등급 저성적 마들의 경주로, 모든 출전마가 1년간 승리를 기록하지 못했습니다. **스위트맨**은 5회 출전 중 입상 2회(40%)로 상대적 강점을 보이나 샘플 크기가 작습니다. **바이럴히트**, **리버런** 등 입상 경험이 있는 암3~거3 마들이 중원을 구성하며, **월드하니**와 **원더풀윈드** 같은 저입상률 마들은 통계 하위 순위가 타당합니다. 기수 변경(루피너스, 한강브라보)과 신인 혹은 장기 쉼 복귀 마들의 불안정성이 변수입니다.",
+  "confidence": "medium",
   "topPicks": {
    "win": 1,
    "place": [
     1,
-    9,
-    8
+    8,
+    9
    ],
    "exacta": [
     1,
-    9
+    8
    ]
   }
  },

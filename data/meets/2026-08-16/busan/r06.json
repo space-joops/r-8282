@@ -17,20 +17,20 @@
    "horseName": "해랑루비",
    "age": 2,
    "sex": "수",
-   "rating": null,
+   "rating": 290.0,
    "jockey": {
-    "id": "",
+    "id": "080484",
     "name": "서승운",
-    "winRate1y": null
+    "winRate1y": 0.232
    },
    "trainer": {
-    "id": "",
+    "id": "070250",
     "name": "김도현",
-    "winRate1y": null
+    "winRate1y": 0.082
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 2.5,
    "record1y": {
     "starts": 2,
     "wins": 1,
@@ -47,20 +47,20 @@
    "horseName": "대길환호",
    "age": 2,
    "sex": "수",
-   "rating": null,
+   "rating": 29.0,
    "jockey": {
-    "id": "",
+    "id": "080546",
     "name": "박재이",
-    "winRate1y": null
+    "winRate1y": 0.11
    },
    "trainer": {
-    "id": "",
+    "id": "070223",
     "name": "강은석",
-    "winRate1y": null
+    "winRate1y": 0.089
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 1,
     "wins": 1,
@@ -77,20 +77,20 @@
    "horseName": "오아시스퀸",
    "age": 2,
    "sex": "암",
-   "rating": null,
+   "rating": 30.0,
    "jockey": {
-    "id": "",
+    "id": "080564",
     "name": "이효식",
-    "winRate1y": null
+    "winRate1y": 0.088
    },
    "trainer": {
-    "id": "",
+    "id": "070130",
     "name": "백광열",
-    "winRate1y": null
+    "winRate1y": 0.123
    },
    "weightCarriedKg": 53.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.5,
    "record1y": {
     "starts": 1,
     "wins": 1,
@@ -107,20 +107,20 @@
    "horseName": "세라프",
    "age": 2,
    "sex": "암",
-   "rating": null,
+   "rating": 31.0,
    "jockey": {
-    "id": "",
+    "id": "080568",
     "name": "다실바",
-    "winRate1y": null
+    "winRate1y": 0.179
    },
    "trainer": {
-    "id": "",
+    "id": "070251",
     "name": "임성실",
-    "winRate1y": null
+    "winRate1y": 0.103
    },
    "weightCarriedKg": 53.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 0.0,
    "record1y": {
     "starts": 1,
     "wins": 1,
@@ -137,20 +137,20 @@
    "horseName": "포텐쏜살",
    "age": 2,
    "sex": "거",
-   "rating": null,
+   "rating": 380.0,
    "jockey": {
-    "id": "",
+    "id": "080516",
     "name": "다나카",
-    "winRate1y": null
+    "winRate1y": 0.121
    },
    "trainer": {
-    "id": "",
+    "id": "070186",
     "name": "라이스",
-    "winRate1y": null
+    "winRate1y": 0.135
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 1,
     "wins": 0,
@@ -169,18 +169,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080565",
     "name": "정도윤",
-    "winRate1y": null
+    "winRate1y": 0.109
    },
    "trainer": {
-    "id": "",
+    "id": "070128",
     "name": "임금만",
-    "winRate1y": null
+    "winRate1y": 0.094
    },
    "weightCarriedKg": 53.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 1,
     "wins": 0,
@@ -199,18 +199,18 @@
    "sex": "수",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080551",
     "name": "진겸",
-    "winRate1y": null
+    "winRate1y": 0.192
    },
    "trainer": {
-    "id": "",
+    "id": "070292",
     "name": "김혜선",
-    "winRate1y": null
+    "winRate1y": 0.106
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 1,
     "wins": 0,
@@ -227,20 +227,20 @@
    "horseName": "브이라인",
    "age": 2,
    "sex": "수",
-   "rating": null,
+   "rating": 30.0,
    "jockey": {
-    "id": "",
+    "id": "080566",
     "name": "최은경",
-    "winRate1y": null
+    "winRate1y": 0.097
    },
    "trainer": {
-    "id": "",
+    "id": "070136",
     "name": "민장기",
-    "winRate1y": null
+    "winRate1y": 0.102
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 1,
     "wins": 1,
@@ -259,18 +259,18 @@
    "sex": "암",
    "rating": null,
    "jockey": {
-    "id": "",
+    "id": "080438",
     "name": "조인권",
-    "winRate1y": null
+    "winRate1y": 0.102
    },
    "trainer": {
-    "id": "",
+    "id": "070251",
     "name": "임성실",
-    "winRate1y": null
+    "winRate1y": 0.103
    },
    "weightCarriedKg": 53.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 2,
     "wins": 0,
@@ -283,87 +283,87 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "generatedAt": "2026-08-15T18:59:56+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 2,
-    "score": 1.0,
-    "winProb": 0.2207,
-    "briefComment": "박재이 기수 숙련도, 신예 체급 최강",
+    "gateNo": 4,
+    "score": 0.6415,
+    "winProb": 0.1765,
+    "briefComment": "최고 레이팅, 가벼운 부담중량, 선호 타당",
     "predictedRank": 1
    },
    {
     "gateNo": 3,
-    "score": 1.0,
-    "winProb": 0.2207,
-    "briefComment": "이효식 기수 검증 필요, 신예성 평가",
+    "score": 0.6141,
+    "winProb": 0.1601,
+    "briefComment": "세라프와 동등 능력, 조교사 경험 이점",
     "predictedRank": 2
    },
    {
-    "gateNo": 4,
-    "score": 1.0,
-    "winProb": 0.2207,
-    "briefComment": "임성실 조교사 평신, 신예 암말",
+    "gateNo": 8,
+    "score": 0.5798,
+    "winProb": 0.1416,
+    "briefComment": "100% 입상률, 안정적 자산",
     "predictedRank": 3
    },
    {
-    "gateNo": 8,
-    "score": 1.0,
-    "winProb": 0.2207,
-    "briefComment": "최은경 기수 신예, 체급 우위",
+    "gateNo": 2,
+    "score": 0.5757,
+    "winProb": 0.1396,
+    "briefComment": "안정적 100% 입상, 경쟁력 충분",
     "predictedRank": 4
    },
    {
     "gateNo": 1,
-    "score": 0.55,
-    "winProb": 0.0442,
-    "briefComment": "2경주 경험, 혼OPEN서 강점",
+    "score": 0.5604,
+    "winProb": 0.1321,
+    "briefComment": "2경주 제한 경험, 50% 입상률 우려",
     "predictedRank": 5
    },
    {
     "gateNo": 7,
-    "score": 0.44,
-    "winProb": 0.0299,
-    "briefComment": "1출 2위, 향상 가능성 높음",
+    "score": 0.4569,
+    "winProb": 0.0913,
+    "briefComment": "입상 1회 경험, 안정성 미검증",
     "predictedRank": 6
    },
    {
     "gateNo": 6,
-    "score": 0.4,
-    "winProb": 0.0259,
-    "briefComment": "1출 미승리, 입상 1회 제한적",
+    "score": 0.3584,
+    "winProb": 0.0642,
+    "briefComment": "경주 경험 부족, 성장세 미평가",
     "predictedRank": 7
    },
    {
-    "gateNo": 9,
-    "score": 0.16,
-    "winProb": 0.011,
-    "briefComment": "2출 미승리, 상대 약세 추정",
+    "gateNo": 5,
+    "score": 0.3162,
+    "winProb": 0.0552,
+    "briefComment": "레이팅 이상치, 0% 입상률로 신뢰 낮음",
     "predictedRank": 8
    },
    {
-    "gateNo": 5,
-    "score": 0.0,
-    "winProb": 0.0062,
-    "briefComment": "라이스 조교사 혼OPEN 경험 부족",
+    "gateNo": 9,
+    "score": 0.2208,
+    "winProb": 0.0393,
+    "briefComment": "2경주 출전, 입상률 50% 미흡",
     "predictedRank": 9
    }
   ],
-  "aiCommentary": "모든 말이 2세 초기 경주이며 최대 2경주만 출전한 가운데, 통계 모델이 1경주 데뷔 승리만으로 2, 3, 4, 8번을 동일하게 평가한 점이 주요 약점입니다. **해랑루비**는 유일하게 2경주 경험으로 재출전 적응력이 우수하며, **대길환호**는 박재이 기수의 숙련도가 단거리 출발에서 이점입니다. 반면 신예 암말 3, 4번과 **브이라인**은 상대평가 시 기수·조교사 평판 차이가 미수정된 상태입니다. 혼OPEN에서 암수 체중차(2kg)와 조교사별 운영 패턴을 추가 가중치로 삼아 재평가하면 순서 재정렬 가능성이 있습니다.",
-  "confidence": "low",
+  "aiCommentary": "**세라프**와 **오아시스퀸** 중심의 경주입니다. 두 암2 모두 레이팅 30~31로 비슷한 능력을 갖추었으며, 1년 경주 모두 입상한 안정성이 높은 말입니다. 세라프는 약간 높은 레이팅(31)과 가벼운 부담중량의 이점이 있어 통계 1위 선호가 타당합니다. 반면 **해랑루비**는 출주 2경주라는 극히 제한된 경험 속 50% 입상률로 신뢰도가 낮으며, **포텐쏜살**은 높은 레이팅에도 불구하고 0% 입상률(1출1낙)로 불안정합니다.",
+  "confidence": "medium",
   "topPicks": {
-   "win": 2,
+   "win": 4,
    "place": [
-    2,
+    4,
     3,
-    4
+    8
    ],
    "exacta": [
-    2,
+    4,
     3
    ]
   }

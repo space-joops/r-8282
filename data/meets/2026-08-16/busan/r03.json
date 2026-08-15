@@ -17,20 +17,20 @@
    "horseName": "돌아온삼손",
    "age": 5,
    "sex": "거",
-   "rating": null,
+   "rating": 261.0,
    "jockey": {
-    "id": "",
+    "id": "080484",
     "name": "서승운",
-    "winRate1y": null
+    "winRate1y": 0.232
    },
    "trainer": {
-    "id": "",
+    "id": "070133",
     "name": "윤영훈",
-    "winRate1y": null
+    "winRate1y": 0.021
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.5,
    "record1y": {
     "starts": 15,
     "wins": 0,
@@ -47,20 +47,20 @@
    "horseName": "올더웨이",
    "age": 4,
    "sex": "암",
-   "rating": null,
+   "rating": 290.0,
    "jockey": {
     "id": "",
     "name": "(-1)김성현",
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
+    "id": "070223",
     "name": "강은석",
-    "winRate1y": null
+    "winRate1y": 0.089
    },
    "weightCarriedKg": 52.5,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -3.0,
    "record1y": {
     "starts": 8,
     "wins": 0,
@@ -77,20 +77,20 @@
    "horseName": "빅스마일",
    "age": 4,
    "sex": "암",
-   "rating": null,
+   "rating": 270.0,
    "jockey": {
-    "id": "",
+    "id": "080606",
     "name": "신윤섭",
-    "winRate1y": null
+    "winRate1y": 0.042
    },
    "trainer": {
-    "id": "",
+    "id": "070132",
     "name": "이정표",
-    "winRate1y": null
+    "winRate1y": 0.088
    },
    "weightCarriedKg": 52.5,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 8,
     "wins": 0,
@@ -107,20 +107,20 @@
    "horseName": "키스더레인",
    "age": 3,
    "sex": "거",
-   "rating": null,
+   "rating": 260.0,
    "jockey": {
-    "id": "",
+    "id": "080438",
     "name": "조인권",
-    "winRate1y": null
+    "winRate1y": 0.102
    },
    "trainer": {
-    "id": "",
+    "id": "070249",
     "name": "문현철",
-    "winRate1y": null
+    "winRate1y": 0.229
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.0,
    "record1y": {
     "starts": 9,
     "wins": 0,
@@ -137,20 +137,20 @@
    "horseName": "디멘션",
    "age": 3,
    "sex": "거",
-   "rating": null,
+   "rating": 260.0,
    "jockey": {
-    "id": "",
+    "id": "080546",
     "name": "박재이",
-    "winRate1y": null
+    "winRate1y": 0.11
    },
    "trainer": {
-    "id": "",
+    "id": "070291",
     "name": "유현명",
-    "winRate1y": null
+    "winRate1y": 0.118
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.5,
    "record1y": {
     "starts": 4,
     "wins": 0,
@@ -167,20 +167,20 @@
    "horseName": "도끼타이거",
    "age": 3,
    "sex": "암",
-   "rating": null,
+   "rating": 290.0,
    "jockey": {
-    "id": "",
+    "id": "080568",
     "name": "다실바",
-    "winRate1y": null
+    "winRate1y": 0.179
    },
    "trainer": {
-    "id": "",
+    "id": "070186",
     "name": "라이스",
-    "winRate1y": null
+    "winRate1y": 0.135
    },
    "weightCarriedKg": 53.5,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -0.5,
    "record1y": {
     "starts": 9,
     "wins": 1,
@@ -197,20 +197,20 @@
    "horseName": "퀸퍼펙트",
    "age": 3,
    "sex": "암",
-   "rating": null,
+   "rating": 282.0,
    "jockey": {
-    "id": "",
+    "id": "080565",
     "name": "정도윤",
-    "winRate1y": null
+    "winRate1y": 0.109
    },
    "trainer": {
-    "id": "",
+    "id": "070292",
     "name": "김혜선",
-    "winRate1y": null
+    "winRate1y": 0.106
    },
    "weightCarriedKg": 53.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 0.5,
    "record1y": {
     "starts": 8,
     "wins": 0,
@@ -227,20 +227,20 @@
    "horseName": "오아시스스타",
    "age": 3,
    "sex": "거",
-   "rating": null,
+   "rating": 320.0,
    "jockey": {
-    "id": "",
+    "id": "080566",
     "name": "최은경",
-    "winRate1y": null
+    "winRate1y": 0.097
    },
    "trainer": {
-    "id": "",
+    "id": "070130",
     "name": "백광열",
-    "winRate1y": null
+    "winRate1y": 0.123
    },
    "weightCarriedKg": 57.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 1.0,
    "record1y": {
     "starts": 9,
     "wins": 1,
@@ -257,20 +257,20 @@
    "horseName": "두바이드림",
    "age": 3,
    "sex": "수",
-   "rating": null,
+   "rating": 28.0,
    "jockey": {
-    "id": "",
+    "id": "080423",
     "name": "최시대",
-    "winRate1y": null
+    "winRate1y": 0.107
    },
    "trainer": {
-    "id": "",
+    "id": "070251",
     "name": "임성실",
-    "winRate1y": null
+    "winRate1y": 0.103
    },
    "weightCarriedKg": 55.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": -2.0,
    "record1y": {
     "starts": 5,
     "wins": 0,
@@ -287,20 +287,20 @@
    "horseName": "커널플라잉",
    "age": 6,
    "sex": "거",
-   "rating": null,
+   "rating": 302.0,
    "jockey": {
-    "id": "",
+    "id": "080605",
     "name": "서강주",
-    "winRate1y": null
+    "winRate1y": 0.043
    },
    "trainer": {
-    "id": "",
+    "id": "070143",
     "name": "하무선",
-    "winRate1y": null
+    "winRate1y": 0.062
    },
    "weightCarriedKg": 56.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 2.0,
    "record1y": {
     "starts": 16,
     "wins": 0,
@@ -317,20 +317,20 @@
    "horseName": "운이좋아",
    "age": 3,
    "sex": "거",
-   "rating": null,
+   "rating": 261.0,
    "jockey": {
-    "id": "",
+    "id": "080403",
     "name": "김어수",
-    "winRate1y": null
+    "winRate1y": 0.05
    },
    "trainer": {
-    "id": "",
+    "id": "070251",
     "name": "임성실",
-    "winRate1y": null
+    "winRate1y": 0.103
    },
    "weightCarriedKg": 54.0,
    "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightDiffKg": 0.0,
    "record1y": {
     "starts": 11,
     "wins": 1,
@@ -343,98 +343,98 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "generatedAt": "2026-08-15T18:59:56+09:00",
   "model": {
    "statVersion": "v1",
-   "aiModel": "haiku"
+   "aiModel": null
   },
   "rankings": [
    {
     "gateNo": 8,
-    "score": 0.9157,
-    "winProb": 0.405,
-    "briefComment": "최중량 57kg. 입상률 좋으나 부담 부담",
+    "score": 0.8435,
+    "winProb": 0.2698,
+    "briefComment": "1년 승률 11% · 입상률 44% · 레이팅 320",
     "predictedRank": 1
    },
    {
     "gateNo": 6,
-    "score": 0.7484,
-    "winProb": 0.2228,
-    "briefComment": "우승 경험마. 체중 최적. 현실적 강점",
+    "score": 0.7505,
+    "winProb": 0.1936,
+    "briefComment": "1년 승률 11% · 입상률 22% · 레이팅 290",
     "predictedRank": 2
    },
    {
-    "gateNo": 11,
-    "score": 0.4409,
-    "winProb": 0.0743,
-    "briefComment": "회주 많지만 입상률 9%. 과평가 경향",
+    "gateNo": 7,
+    "score": 0.5244,
+    "winProb": 0.0863,
+    "briefComment": "1년 승률 0% · 입상률 50% · 레이팅 282",
     "predictedRank": 3
    },
    {
-    "gateNo": 5,
-    "score": 0.4,
-    "winProb": 0.0642,
-    "briefComment": "회주 적음. 표본 부족으로 평가 어려움",
+    "gateNo": 11,
+    "score": 0.5199,
+    "winProb": 0.0849,
+    "briefComment": "1년 승률 9% · 입상률 9% · 레이팅 261",
     "predictedRank": 4
    },
    {
-    "gateNo": 7,
-    "score": 0.4,
-    "winProb": 0.0642,
-    "briefComment": "암3세 무승. 표본 부족. 미지수",
+    "gateNo": 5,
+    "score": 0.5081,
+    "winProb": 0.0814,
+    "briefComment": "1년 승률 0% · 입상률 50% · 레이팅 260",
     "predictedRank": 5
    },
    {
-    "gateNo": 9,
-    "score": 0.3022,
-    "winProb": 0.0453,
-    "briefComment": "회주 적음. 입상률 높지만 신뢰도 낮음",
+    "gateNo": 4,
+    "score": 0.446,
+    "winProb": 0.0652,
+    "briefComment": "1년 승률 0% · 입상률 33% · 레이팅 260",
     "predictedRank": 6
    },
    {
-    "gateNo": 4,
-    "score": 0.237,
-    "winProb": 0.0359,
-    "briefComment": "평탄한 성적. 입상률 33%. 무난",
+    "gateNo": 1,
+    "score": 0.3977,
+    "winProb": 0.0549,
+    "briefComment": "1년 승률 0% · 입상률 20% · 레이팅 261",
     "predictedRank": 7
    },
    {
     "gateNo": 3,
-    "score": 0.1556,
-    "winProb": 0.0268,
-    "briefComment": "암4세 경험마. 우승 부재. 안정감 낮음",
+    "score": 0.3432,
+    "winProb": 0.0452,
+    "briefComment": "1년 승률 0% · 입상률 25% · 레이팅 270",
     "predictedRank": 8
    },
    {
-    "gateNo": 1,
-    "score": 0.1067,
-    "winProb": 0.0225,
-    "briefComment": "15번 출주 무승. 다회주 대비 약세",
+    "gateNo": 10,
+    "score": 0.3339,
+    "winProb": 0.0437,
+    "briefComment": "1년 승률 0% · 입상률 19% · 레이팅 302",
     "predictedRank": 9
    },
    {
-    "gateNo": 10,
-    "score": 0.0944,
-    "winProb": 0.0216,
-    "briefComment": "고령(6세) 다회주. 입상률 저조",
+    "gateNo": 2,
+    "score": 0.3322,
+    "winProb": 0.0434,
+    "briefComment": "1년 승률 0% · 입상률 12% · 레이팅 290",
     "predictedRank": 10
    },
    {
-    "gateNo": 2,
-    "score": 0.0333,
-    "winProb": 0.0173,
-    "briefComment": "기수변경 변수. 암4세 입상률 저조",
+    "gateNo": 9,
+    "score": 0.2421,
+    "winProb": 0.0315,
+    "briefComment": "1년 승률 0% · 입상률 40% · 레이팅 28",
     "predictedRank": 11
    }
   ],
-  "aiCommentary": "이 경주는 3세 중심의 저층 경주로, 통계 모델이 8번을 강하게 선호하지만 57kg 최중량 부담이 현장에서 변수가 될 수 있습니다. **도끼타이거**는 국5등급에서 실제 우승 경험이 있는 유일한 마이며, 53.5kg의 적절한 부담중량과 여름철 암말 우대까지 종합하면 현실적인 강점을 보유하고 있습니다. 전체적으로 우승 경험 부족과 고령마(10번, 1번) 존재로 변수가 큰 경주이며, 상단마들 간 박빙의 전개가 예상됩니다.",
+  "aiCommentary": null,
   "confidence": "medium",
   "topPicks": {
    "win": 8,
    "place": [
     8,
     6,
-    11
+    7
    ],
    "exacta": [
     8,

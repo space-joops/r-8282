@@ -12,145 +12,25 @@
  "trackCond": null,
  "entries": [
   {
-   "gateNo": 2,
-   "horseId": "0053240",
-   "horseName": "청산돌풍",
-   "age": 3,
-   "sex": "수",
-   "rating": 41.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "이관호",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": 0.0,
-   "bodyWeightDiffKg": 0.0,
-   "record1y": {
-    "starts": 10,
-    "wins": 1,
-    "seconds": 4,
-    "thirds": 1
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 27,
-   "horseId": "0053501",
-   "horseName": "이끌림",
-   "age": 3,
-   "sex": "거",
-   "rating": 44.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "정호익",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 7,
-    "wins": 2,
-    "seconds": 2,
-    "thirds": 1
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 81,
-   "horseId": "0054545",
-   "horseName": "에버글로리",
-   "age": 3,
-   "sex": "암",
-   "rating": 37.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "박지헌",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 4,
-    "wins": 2,
-    "seconds": 0,
-    "thirds": 0
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 96,
-   "horseId": "0051263",
-   "horseName": "사하라칸",
-   "age": 4,
-   "sex": "수",
-   "rating": 47.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "성상현",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 3,
-    "wins": 0,
-    "seconds": 1,
-    "thirds": 1
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 132,
+   "gateNo": 1,
    "horseId": "0053227",
    "horseName": "팡팡대로",
    "age": 3,
    "sex": "거",
-   "rating": 37.0,
+   "rating": 372.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080547",
+    "name": "이용호",
+    "winRate1y": 0.068
    },
    "trainer": {
-    "id": "",
+    "id": "070225",
     "name": "문병기",
-    "winRate1y": null
+    "winRate1y": 0.144
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -4.5,
    "record1y": {
     "starts": 7,
     "wins": 1,
@@ -162,115 +42,25 @@
    "jockeyChanged": false
   },
   {
-   "gateNo": 143,
-   "horseId": "0054601",
-   "horseName": "포에버길",
-   "age": 3,
-   "sex": "수",
-   "rating": 42.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "전승규",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 8,
-    "wins": 2,
-    "seconds": 1,
-    "thirds": 2
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 147,
-   "horseId": "0051692",
-   "horseName": "그냥가라",
-   "age": 4,
-   "sex": "암",
-   "rating": 47.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "토니",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 10,
-    "wins": 1,
-    "seconds": 0,
-    "thirds": 4
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 153,
-   "horseId": "0053230",
-   "horseName": "스타트업",
-   "age": 3,
-   "sex": "수",
-   "rating": 45.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "송문길",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 7,
-    "wins": 2,
-    "seconds": 1,
-    "thirds": 0
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 230,
+   "gateNo": 2,
    "horseId": "0046686",
    "horseName": "제라퀸",
    "age": 5,
    "sex": "암",
-   "rating": 36.0,
+   "rating": 360.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080611",
+    "name": "푸르칸",
+    "winRate1y": 0.081
    },
    "trainer": {
-    "id": "",
+    "id": "070177",
     "name": "김동철",
-    "winRate1y": null
+    "winRate1y": 0.123
    },
    "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
    "record1y": {
     "starts": 11,
     "wins": 1,
@@ -282,25 +72,55 @@
    "jockeyChanged": false
   },
   {
-   "gateNo": 260,
+   "gateNo": 3,
+   "horseId": "0054545",
+   "horseName": "에버글로리",
+   "age": 3,
+   "sex": "암",
+   "rating": 370.0,
+   "jockey": {
+    "id": "080417",
+    "name": "유승완",
+    "winRate1y": 0.077
+   },
+   "trainer": {
+    "id": "070264",
+    "name": "박지헌",
+    "winRate1y": 0.105
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
    "horseId": "0051147",
    "horseName": "호세",
    "age": 4,
    "sex": "암",
-   "rating": 37.0,
+   "rating": 370.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
+    "id": "08A059",
+    "name": "루이스",
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
+    "id": "070164",
     "name": "박재우",
-    "winRate1y": null
+    "winRate1y": 0.081
    },
    "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
    "record1y": {
     "starts": 9,
     "wins": 1,
@@ -312,55 +132,115 @@
    "jockeyChanged": false
   },
   {
-   "gateNo": 307,
-   "horseId": "0051936",
-   "horseName": "미스터스톰",
+   "gateNo": 5,
+   "horseId": "0051692",
+   "horseName": "그냥가라",
    "age": 4,
-   "sex": "수",
-   "rating": 38.0,
+   "sex": "암",
+   "rating": 471.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080533",
+    "name": "조상범",
+    "winRate1y": 0.028
    },
    "trainer": {
-    "id": "",
-    "name": "심승태",
-    "winRate1y": null
+    "id": "070265",
+    "name": "토니",
+    "winRate1y": 0.119
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 3.5,
    "record1y": {
-    "starts": 7,
-    "wins": 0,
-    "seconds": 1,
-    "thirds": 0
+    "starts": 10,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 4
    },
    "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
-   "gateNo": 316,
+   "gateNo": 6,
+   "horseId": "0051263",
+   "horseName": "사하라칸",
+   "age": 4,
+   "sex": "수",
+   "rating": 471.0,
+   "jockey": {
+    "id": "080617",
+    "name": "코지",
+    "winRate1y": 0.14
+   },
+   "trainer": {
+    "id": "070289",
+    "name": "성상현",
+    "winRate1y": 0.108
+   },
+   "weightCarriedKg": 57.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0053240",
+   "horseName": "청산돌풍",
+   "age": 3,
+   "sex": "수",
+   "rating": 410.0,
+   "jockey": {
+    "id": "080487",
+    "name": "임기원",
+    "winRate1y": 0.086
+   },
+   "trainer": {
+    "id": "070181",
+    "name": "이관호",
+    "winRate1y": 0.09
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 4,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
    "horseId": "0053409",
    "horseName": "따뜻한위로",
    "age": 3,
    "sex": "수",
-   "rating": 36.0,
+   "rating": 360.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.116
    },
    "trainer": {
-    "id": "",
+    "id": "070200",
     "name": "최용건",
-    "winRate1y": null
+    "winRate1y": 0.142
    },
    "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
    "record1y": {
     "starts": 9,
     "wins": 1,
@@ -372,25 +252,25 @@
    "jockeyChanged": false
   },
   {
-   "gateNo": 347,
+   "gateNo": 9,
    "horseId": "0053480",
    "horseName": "블루레인",
    "age": 3,
    "sex": "거",
-   "rating": 40.0,
+   "rating": 400.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080530",
+    "name": "정정희",
+    "winRate1y": 0.124
    },
    "trainer": {
-    "id": "",
+    "id": "070146",
     "name": "안병기",
-    "winRate1y": null
+    "winRate1y": 0.116
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.5,
    "record1y": {
     "starts": 12,
     "wins": 3,
@@ -402,30 +282,60 @@
    "jockeyChanged": false
   },
   {
-   "gateNo": 350,
-   "horseId": "0046342",
-   "horseName": "스페셜타임",
-   "age": 6,
-   "sex": "암",
-   "rating": 42.0,
+   "gateNo": 10,
+   "horseId": "0054601",
+   "horseName": "포에버길",
+   "age": 3,
+   "sex": "수",
+   "rating": 420.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080550",
+    "name": "조재로",
+    "winRate1y": 0.141
    },
    "trainer": {
-    "id": "",
-    "name": "박윤규",
-    "winRate1y": null
+    "id": "070182",
+    "name": "전승규",
+    "winRate1y": 0.103
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.5,
    "record1y": {
-    "starts": 6,
-    "wins": 0,
+    "starts": 8,
+    "wins": 2,
     "seconds": 1,
-    "thirds": 0
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0053501",
+   "horseName": "이끌림",
+   "age": 3,
+   "sex": "거",
+   "rating": 449.0,
+   "jockey": {
+    "id": "080486",
+    "name": "이혁",
+    "winRate1y": 0.099
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.088
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 1
    },
    "recentRuns": [],
    "scratched": false,
@@ -433,123 +343,102 @@
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "generatedAt": "2026-08-15T18:59:56+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 27,
-    "score": 0.7377,
-    "winProb": 0.1789,
-    "briefComment": "입상률 71%, 기축 강마",
+    "gateNo": 11,
+    "score": 0.7003,
+    "winProb": 0.1849,
+    "briefComment": "이끌림: 29% 승률 강자, 1년 표본 부족",
     "predictedRank": 1
    },
    {
-    "gateNo": 81,
-    "score": 0.6522,
-    "winProb": 0.1319,
-    "briefComment": "50% 승률 저평가, 상승여력",
+    "gateNo": 10,
+    "score": 0.6295,
+    "winProb": 0.1436,
+    "briefComment": "포에버길: 건실한 중위권, 안정 주자",
     "predictedRank": 2
    },
    {
-    "gateNo": 153,
-    "score": 0.6416,
-    "winProb": 0.127,
-    "briefComment": "안정적 우수 성적",
+    "gateNo": 5,
+    "score": 0.5601,
+    "winProb": 0.1121,
+    "briefComment": "그냥가라: +3.5kg 컨디션↑, 고레이팅 가치",
     "predictedRank": 3
    },
    {
-    "gateNo": 143,
-    "score": 0.609,
-    "winProb": 0.113,
-    "briefComment": "입상률 62% 안정마",
+    "gateNo": 6,
+    "score": 0.5503,
+    "winProb": 0.1082,
+    "briefComment": "사하라칸: 최근 1년 0승, 부담 최대",
     "predictedRank": 4
    },
    {
-    "gateNo": 147,
-    "score": 0.5353,
-    "winProb": 0.0869,
-    "briefComment": "승률 10%, 고평가 의심",
+    "gateNo": 3,
+    "score": 0.5472,
+    "winProb": 0.107,
+    "briefComment": "에버글로리: 3세 어림, 표본 극소 (4경)",
     "predictedRank": 5
    },
    {
-    "gateNo": 96,
-    "score": 0.5089,
-    "winProb": 0.079,
-    "briefComment": "0% 승률, 레이팅 과평가",
+    "gateNo": 9,
+    "score": 0.4662,
+    "winProb": 0.0801,
+    "briefComment": "블루레인: 12경 단거리 경험, 폭발력↑",
     "predictedRank": 6
    },
    {
-    "gateNo": 2,
-    "score": 0.4509,
-    "winProb": 0.0643,
-    "briefComment": "승률 10%, 입상률 60% 안정",
+    "gateNo": 7,
+    "score": 0.4602,
+    "winProb": 0.0784,
+    "briefComment": "청산돌풍: 60% 입상률, 안정적 중위권",
     "predictedRank": 7
    },
    {
-    "gateNo": 347,
-    "score": 0.3826,
-    "winProb": 0.0503,
-    "briefComment": "승패 기복 큼",
+    "gateNo": 8,
+    "score": 0.4233,
+    "winProb": 0.0687,
+    "briefComment": "따뜻한위로: 1년 1승, 중하위권 기대",
     "predictedRank": 8
    },
    {
-    "gateNo": 132,
-    "score": 0.3481,
-    "winProb": 0.0445,
-    "briefComment": "기복 심한 상태",
+    "gateNo": 1,
+    "score": 0.3955,
+    "winProb": 0.0623,
+    "briefComment": "팡팡대로: -4.5kg 급감량, 부진 기조",
     "predictedRank": 9
    },
    {
-    "gateNo": 316,
-    "score": 0.3345,
-    "winProb": 0.0424,
-    "briefComment": "입상률 67%, 저평가",
+    "gateNo": 2,
+    "score": 0.1929,
+    "winProb": 0.0302,
+    "briefComment": "제라퀸: 11경 주행 경험, 신뢰도 낮음",
     "predictedRank": 10
    },
    {
-    "gateNo": 350,
-    "score": 0.2064,
-    "winProb": 0.0268,
-    "briefComment": "성과 극소, 약마",
+    "gateNo": 4,
+    "score": 0.1343,
+    "winProb": 0.0245,
+    "briefComment": "호세: 1승 9경, 입상 전무 리스크",
     "predictedRank": 11
-   },
-   {
-    "gateNo": 260,
-    "score": 0.1192,
-    "winProb": 0.0197,
-    "briefComment": "1승 기록, 입상력 약",
-    "predictedRank": 12
-   },
-   {
-    "gateNo": 230,
-    "score": 0.104,
-    "winProb": 0.0186,
-    "briefComment": "출주 많음, 승리 극소",
-    "predictedRank": 13
-   },
-   {
-    "gateNo": 307,
-    "score": 0.0746,
-    "winProb": 0.0168,
-    "briefComment": "성과 부재, 약마",
-    "predictedRank": 14
    }
   ],
-  "aiCommentary": "27번 **이끌림**의 71% 입상률과 29% 승률이 모델의 1위 평가를 뒷받침하며, 기축마로서의 신뢰도가 높다. 81번 **에버글로리**는 4경주라는 제한된 표본에도 50% 승률을 기록해 저평가된 감이 있다. 반면 96번 **사하라칸**의 0% 승률과 147번 **그냥가라**의 10% 승률은 높은 레이팅과의 괴리가 크며, 기수 미정 상태에서 단거리 위치 싸움이 결과를 크게 좌우할 것으로 예상된다.",
+  "aiCommentary": "단거리 경주(1200m)에서 **이끌림**(11번)과 **포에버길**(10번)이 통계 우위를 점하나, 최근 1년 표본 부족(7회/8회)으로 신뢰도가 낮습니다. **사하라칸**(6번)은 레이팅 최고이지만 최근 1년 0승 기록이 심각한 부진 신호이며, 부담 57.5kg 최중량도 단거리에서는 불리합니다. **그냥가라**(5번)는 +3.5kg 증량으로 컨디션 회복 신호가 명확하고, 고레이팅(471)이 실제 출주에 반영될 가능성이 있습니다. 단거리 경험이 풍부한 **블루레인**(9번)과 안정적 입상률의 **청산돌풍**(7번)이 중위권 강화 역할을 할 것으로 예상됩니다.",
   "confidence": "medium",
   "topPicks": {
-   "win": 27,
+   "win": 11,
    "place": [
-    27,
-    81,
-    153
+    11,
+    10,
+    5
    ],
    "exacta": [
-    27,
-    81
+    11,
+    10
    ]
   }
  },

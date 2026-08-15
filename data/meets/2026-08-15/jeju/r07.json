@@ -254,7 +254,7 @@
  ],
  "prediction": null,
  "result": {
-  "fetchedAt": "2026-08-15T18:08:02+09:00",
+  "fetchedAt": "2026-08-15T18:54:41+09:00",
   "order": [
    {
     "finishPos": 1,
@@ -313,6 +313,13 @@
     "margin": null
    }
   ],
-  "payouts": null
+  "payouts": {
+   "win": 5.4,
+   "place": [
+    1.7,
+    2.0,
+    3.1
+   ]
+  }
  }
 }

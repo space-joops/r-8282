@@ -12,297 +12,57 @@
  "trackCond": null,
  "entries": [
   {
-   "gateNo": 58,
-   "horseId": "0046872",
-   "horseName": "스터닝서브",
-   "age": 5,
-   "sex": "수",
-   "rating": 28.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "서인석",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 9,
-    "wins": 0,
-    "seconds": 0,
-    "thirds": 0
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 115,
-   "horseId": "0053822",
-   "horseName": "번개루이스",
+   "gateNo": 1,
+   "horseId": "0059225",
+   "horseName": "스테이빅",
    "age": 3,
    "sex": "수",
-   "rating": 30.0,
+   "rating": 420.0,
    "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
+    "id": "080476",
+    "name": "장추열",
+    "winRate1y": 0.152
    },
    "trainer": {
-    "id": "",
-    "name": "토니",
-    "winRate1y": null
+    "id": "070164",
+    "name": "박재우",
+    "winRate1y": 0.081
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 1,
-    "wins": 1,
-    "seconds": 0,
-    "thirds": 0
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 201,
-   "horseId": "0053194",
-   "horseName": "화이트잭팟",
-   "age": 3,
-   "sex": "거",
-   "rating": 29.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "리카디",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 3,
-    "wins": 1,
-    "seconds": 1,
-    "thirds": 0
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 233,
-   "horseId": "0045100",
-   "horseName": "텐배거",
-   "age": 7,
-   "sex": "수",
-   "rating": 34.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "심승태",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 6,
-    "wins": 0,
-    "seconds": 0,
-    "thirds": 1
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 252,
-   "horseId": "0044516",
-   "horseName": "쌍옥루",
-   "age": 7,
-   "sex": "거",
-   "rating": 23.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "정호익",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 15,
-    "wins": 0,
-    "seconds": 1,
-    "thirds": 2
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 286,
-   "horseId": "0051148",
-   "horseName": "왕최고",
-   "age": 4,
-   "sex": "수",
-   "rating": 31.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "이관호",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 10,
-    "wins": 0,
-    "seconds": 0,
-    "thirds": 1
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 299,
-   "horseId": "0052134",
-   "horseName": "글로벌기상",
-   "age": 4,
-   "sex": "암",
-   "rating": 26.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "전승규",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.5,
    "record1y": {
     "starts": 7,
-    "wins": 0,
+    "wins": 1,
     "seconds": 0,
-    "thirds": 0
+    "thirds": 1
    },
    "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
   },
   {
-   "gateNo": 310,
-   "horseId": "0050687",
-   "horseName": "학산프린스",
-   "age": 4,
+   "gateNo": 2,
+   "horseId": "0052513",
+   "horseName": "클림트월드",
+   "age": 5,
    "sex": "수",
-   "rating": 35.0,
+   "rating": 361.0,
    "jockey": {
     "id": "",
-    "name": "미정",
+    "name": "(-1)우인철",
     "winRate1y": null
    },
    "trainer": {
-    "id": "",
-    "name": "안병기",
-    "winRate1y": null
+    "id": "070199",
+    "name": "조현수",
+    "winRate1y": 0.049
    },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.5,
    "record1y": {
-    "starts": 14,
-    "wins": 0,
-    "seconds": 3,
-    "thirds": 3
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 331,
-   "horseId": "0052115",
-   "horseName": "내게로와줘",
-   "age": 4,
-   "sex": "거",
-   "rating": 25.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "최용건",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 12,
-    "wins": 0,
-    "seconds": 0,
-    "thirds": 3
-   },
-   "recentRuns": [],
-   "scratched": false,
-   "jockeyChanged": false
-  },
-  {
-   "gateNo": 357,
-   "horseId": "0051890",
-   "horseName": "케이사이먼",
-   "age": 4,
-   "sex": "거",
-   "rating": 23.0,
-   "jockey": {
-    "id": "",
-    "name": "미정",
-    "winRate1y": null
-   },
-   "trainer": {
-    "id": "",
-    "name": "박천서",
-    "winRate1y": null
-   },
-   "weightCarriedKg": null,
-   "bodyWeightKg": null,
-   "bodyWeightDiffKg": null,
-   "record1y": {
-    "starts": 10,
+    "starts": 11,
     "wins": 0,
     "seconds": 2,
     "thirds": 0
@@ -310,98 +70,264 @@
    "recentRuns": [],
    "scratched": false,
    "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0057314",
+   "horseName": "스마트신화",
+   "age": 3,
+   "sex": "거",
+   "rating": 361.0,
+   "jockey": {
+    "id": "080602",
+    "name": "임다빈",
+    "winRate1y": 0.063
+   },
+   "trainer": {
+    "id": "070264",
+    "name": "박지헌",
+    "winRate1y": 0.105
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0051112",
+   "horseName": "이클립스탱고",
+   "age": 4,
+   "sex": "수",
+   "rating": 430.0,
+   "jockey": {
+    "id": "080625",
+    "name": "안드레",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070160",
+    "name": "서홍수",
+    "winRate1y": 0.075
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0051521",
+   "horseName": "두손으뜸",
+   "age": 4,
+   "sex": "암",
+   "rating": 481.0,
+   "jockey": {
+    "id": "",
+    "name": "(-2)권중석",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.088
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0051530",
+   "horseName": "추풍령",
+   "age": 4,
+   "sex": "수",
+   "rating": 490.0,
+   "jockey": {
+    "id": "",
+    "name": "(-4)조성환",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070247",
+    "name": "이동국",
+    "winRate1y": 0.052
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": -4.5,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051936",
+   "horseName": "미스터스톰",
+   "age": 4,
+   "sex": "수",
+   "rating": 381.0,
+   "jockey": {
+    "id": "080473",
+    "name": "김정준",
+    "winRate1y": 0.082
+   },
+   "trainer": {
+    "id": "070166",
+    "name": "심승태",
+    "winRate1y": 0.047
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0060718",
+   "horseName": "원다이아",
+   "age": 3,
+   "sex": "수",
+   "rating": 440.0,
+   "jockey": {
+    "id": "080611",
+    "name": "푸르칸",
+    "winRate1y": 0.081
+   },
+   "trainer": {
+    "id": "070175",
+    "name": "강환민",
+    "winRate1y": 0.073
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 0.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
   }
  ],
  "prediction": {
-  "generatedAt": "2026-08-15T18:27:31+09:00",
+  "generatedAt": "2026-08-15T18:59:56+09:00",
   "model": {
    "statVersion": "v1",
    "aiModel": "haiku"
   },
   "rankings": [
    {
-    "gateNo": 115,
-    "score": 0.7911,
-    "winProb": 0.4239,
-    "briefComment": "1경주 완벽전적이나 표본 부족",
+    "gateNo": 4,
+    "score": 0.8014,
+    "winProb": 0.3255,
+    "briefComment": "1위 유력. 2승 확보, 기수변경 없음",
     "predictedRank": 1
    },
    {
-    "gateNo": 201,
-    "score": 0.4778,
-    "winProb": 0.1385,
-    "briefComment": "현실적 전적, 안정감 우위",
+    "gateNo": 5,
+    "score": 0.7364,
+    "winProb": 0.2581,
+    "briefComment": "강력. 높은 레이팅(481)이나 기수변경 리스크",
     "predictedRank": 2
    },
    {
-    "gateNo": 310,
-    "score": 0.3976,
-    "winProb": 0.104,
-    "briefComment": "레이팅 최고 대비 무승 괴리",
+    "gateNo": 1,
+    "score": 0.559,
+    "winProb": 0.137,
+    "briefComment": "중상위권. 1년 1-0-1, 혼전 가능성",
     "predictedRank": 3
    },
    {
-    "gateNo": 233,
-    "score": 0.38,
-    "winProb": 0.0976,
-    "briefComment": "고령이나 레이팅 높음, 컨디션 확인",
+    "gateNo": 8,
+    "score": 0.4906,
+    "winProb": 0.1073,
+    "briefComment": "중위권. 컨디션 개선 신호(+1kg), 가능성 있음",
     "predictedRank": 4
    },
    {
-    "gateNo": 286,
-    "score": 0.2489,
-    "winProb": 0.0611,
-    "briefComment": "10경주 무승, 평가 적절",
+    "gateNo": 6,
+    "score": 0.4355,
+    "winProb": 0.0881,
+    "briefComment": "위험. 마체중 큰 감소, 기수변경 빈번",
     "predictedRank": 5
    },
    {
-    "gateNo": 58,
-    "score": 0.1389,
-    "winProb": 0.0413,
-    "briefComment": "신마 첫 출주, 입상 부재 주의",
+    "gateNo": 7,
+    "score": 0.1445,
+    "winProb": 0.0312,
+    "briefComment": "약함. 성적 불진, 입상률 14%",
     "predictedRank": 6
    },
    {
-    "gateNo": 331,
-    "score": 0.1222,
-    "winProb": 0.0389,
-    "briefComment": "25% 입상률, 하위 적정",
+    "gateNo": 2,
+    "score": 0.117,
+    "winProb": 0.0283,
+    "briefComment": "낮음. 11경주 무승리, 입상률도 18%",
     "predictedRank": 7
    },
    {
-    "gateNo": 299,
-    "score": 0.0833,
-    "winProb": 0.0338,
-    "briefComment": "입상 부재, 기대 낮음",
+    "gateNo": 3,
+    "score": 0.0789,
+    "winProb": 0.0247,
+    "briefComment": "미지수. 거마 출전 경험 부족, 3경주만 진행",
     "predictedRank": 8
-   },
-   {
-    "gateNo": 252,
-    "score": 0.0533,
-    "winProb": 0.0304,
-    "briefComment": "15경주 무승, 낮은 레이팅",
-    "predictedRank": 9
-   },
-   {
-    "gateNo": 357,
-    "score": 0.0533,
-    "winProb": 0.0304,
-    "briefComment": "20% 입상률, 기대 낮음",
-    "predictedRank": 10
    }
   ],
-  "aiCommentary": "**번개루이스**의 1경주 100% 승률은 표본 크기 부족으로 과신험 우려가 있으며, 신마 검증이 필요합니다. **학산프린스**는 레이팅 35로 최고 평가받지만 14경주 0승의 실적 괴리가 크므로 현장 컨디션 확인이 중요합니다. **화이트잭팟**의 33% 승률은 현실적 평가이며, 1400m 중거리에서 **텐배거**(7세, 레이팅 34) 같은 경험마의 추진력을 간과하지 말아야 합니다. 기수·마체중 미정 상태로 최종 판단은 보류 권장.",
+  "aiCommentary": "**이클립스탱고**가 최근 2승의 검증된 성적과 안정적인 기수조합으로 통계 1위를 유지할 가능성이 높습니다. **두손으뜸**은 최고 레이팅(481)이지만 기수변경(-2경주)이 최근 리스크 요소이며, **추풍령**은 마체중 급감(-4.5kg)과 다중 기수변경(-4)으로 컨디션 불안정이 우려됩니다. 상위권은 4-5번 양마의 양강 구도이나, 부담중량 1kg 차이와 기수 안정성에서 1위마가 약간 유리할 것으로 예상됩니다.",
   "confidence": "medium",
   "topPicks": {
-   "win": 115,
+   "win": 4,
    "place": [
-    115,
-    201,
-    310
+    4,
+    5,
+    1
    ],
    "exacta": [
-    115,
-    201
+    4,
+    5
    ]
   }
  },
