@@ -58,7 +58,7 @@ def _group_result_rows(bundle: dict) -> dict[tuple[str, int], list[dict]]:
     return grouped
 
 
-def _build_result(rows: list[dict]) -> dict | None:
+def _build_result(rows: list[dict], dividends: dict[str, dict[int, float]]) -> dict | None:
     finishers = [r for r in rows if _num(r.get("ord"), int)]
     if not finishers:
         return None
@@ -73,12 +73,19 @@ def _build_result(rows: list[dict]) -> dict | None:
         }
         for r in finishers
     ]
-    win_odds = _num(finishers[0].get("winOdds"))
+    # 확정배당율(API301) 우선, 없으면 결과종합 행의 배당 필드 폴백
+    win_odds = dividends.get("WIN", {}).get(order[0]["gateNo"])
+    if win_odds is None:
+        win_odds = _num(finishers[0].get("winOdds"))
     place_odds = [
-        v
-        for r in finishers[:3]
-        if (v := _num(r.get("plcOdds"))) is not None
+        odds
+        for o in order[:3]
+        if (odds := dividends.get("PLC", {}).get(o["gateNo"])) is not None
     ]
+    if not place_odds:
+        place_odds = [
+            v for r in finishers[:3] if (v := _num(r.get("plcOdds"))) is not None
+        ]
     payouts = None
     if win_odds is not None or place_odds:
         payouts = {"win": win_odds, "place": place_odds or None}
@@ -177,6 +184,16 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
         for slug, rows in bundle.get("plan", {}).items()
         for p in rows
     }
+    # 확정배당율: (트랙, 경주) → {pool: {마번: 배당}}
+    dividends: dict[tuple[str, int], dict[str, dict[int, float]]] = {}
+    for slug, rows in bundle.get("dividends", {}).items():
+        for row in rows:
+            rc_no = _num(row.get("rcNo"), int)
+            gate = _num(row.get("chulNo"), int)
+            odds = _num(row.get("odds"))
+            pool = str(row.get("pool", "")).strip()
+            if rc_no and gate and odds is not None and pool:
+                dividends.setdefault((slug, rc_no), {}).setdefault(pool, {})[gate] = odds
 
     for (slug, race_no), rows in _group_result_rows(bundle).items():
         path = race_path(data_dir, date, slug, race_no)
@@ -194,7 +211,7 @@ def apply_results(bundle: dict, *, data_dir: Path = DATA_DIR) -> tuple[int, int]
         if is_canceled:
             race["result"] = None
         else:
-            result = _build_result(rows)
+            result = _build_result(rows, dividends.get((slug, race_no), {}))
             if result is None:
                 logger.warning("%s %d경주: 순위 미확정 → 건너뜀", slug, race_no)
                 continue

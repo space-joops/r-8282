@@ -36,23 +36,23 @@ HORSE_DETAIL = Endpoint("HorseDetailInfo", "API282/HorseDetailInfo", "serviceKey
 # AI학습용 경주결과 (rccrs_cd·race_dt 필수) — 백테스트·캘리브레이션용
 AI_RACE_RESULT = Endpoint("raceResult", "API155/raceResult", "serviceKey", True)
 
-# ── 추가 신청 대기 (경로는 검증됨) ─────────────────────────
+# ── 2026-08-15 추가 승인분 ─────────────────────────────────
 # 출전표정보: 전 경마장 출전표 단일 API (rccrs_cd·race_dt·race_no) — 최우선 신청 대상
-CHULMA_INFO = Endpoint("chulmainfo", "API78/chulmainfo", "serviceKey", False)
+CHULMA_INFO = Endpoint("chulmainfo", "API78/chulmainfo", "serviceKey", True)
 # AI학습용 경주계획
 AI_RACE_PLAN = Endpoint("racePlan", "API154/racePlan", "serviceKey", False)
 # 경주성적정보 (과거 상세 + 배당)
-RACE_DETAIL_RESULT = Endpoint("RaceDetailResult_1", "API214_1/RaceDetailResult_1", "serviceKey", False)
+RACE_DETAIL_RESULT = Endpoint("RaceDetailResult_1", "API214_1/RaceDetailResult_1", "serviceKey", True)
 # 확정배당율종합 (pool: WIN/PLC/QNL/EXA/…)
-DIVIDEND_RATE = Endpoint("Dividend_rate_total", "API301/Dividend_rate_total", "serviceKey", False)
+DIVIDEND_RATE = Endpoint("Dividend_rate_total", "API301/Dividend_rate_total", "serviceKey", True)
 # 기수 성적 (jk_name/jk_no, meet)
-JOCKEY_RESULT = Endpoint("jockeyResult_1", "API11_1/jockeyResult_1", "ServiceKey", False)
+JOCKEY_RESULT = Endpoint("jockeyResult_1", "API11_1/jockeyResult_1", "ServiceKey", True)
 # 경주마 성적 (hr_name/hr_no)
-HORSE_RESULT = Endpoint("raceHorseResult_2", "API15_2/raceHorseResult_2", "ServiceKey", False)
+HORSE_RESULT = Endpoint("raceHorseResult_2", "API15_2/raceHorseResult_2", "ServiceKey", True)
 # 조교사 정보 (tr_name/tr_no, meet)
-TRAINER_INFO = Endpoint("trainerInfo", "API308/trainerInfo", "serviceKey", False)
+TRAINER_INFO = Endpoint("trainerInfo", "API308/trainerInfo", "serviceKey", True)
 # 부산경남 출전마현황
-BUSAN_ENTRY = Endpoint("textDataHoldBuPtinInfo", "API316/textDataHoldBuPtinInfo", "serviceKey", False)
+BUSAN_ENTRY = Endpoint("textDataHoldBuPtinInfo", "API316/textDataHoldBuPtinInfo", "serviceKey", True)
 # 서울/부산경남 경주정보 (경주 조건 상세)
-SEOUL_RACE_INFO = Endpoint("textDataHoldSeRaceInfo", "API311/textDataHoldSeRaceInfo", "serviceKey", False)
-BUSAN_RACE_INFO = Endpoint("textDataHoldBuRaceInfo", "API313/textDataHoldBuRaceInfo", "serviceKey", False)
+SEOUL_RACE_INFO = Endpoint("textDataHoldSeRaceInfo", "API311/textDataHoldSeRaceInfo", "serviceKey", True)
+BUSAN_RACE_INFO = Endpoint("textDataHoldBuRaceInfo", "API313/textDataHoldBuRaceInfo", "serviceKey", True)
