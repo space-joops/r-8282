@@ -28,9 +28,9 @@
 - 해제: `systemctl --user disable --now kyongma-predict.timer kyongma-results.timer`
 
 ## 진행 중 — 머지 대기
-- **PR [#34](https://github.com/space-joops/r-8282/pull/34)**: v2 모델 (#33) — 조건부 로짓 학습, 아웃오브샘플 log-loss 2.192→2.135·연승 +4.5%p. **일 07:33 타이머 전 머지 시 오늘 예측부터 v2**
+- **PR [#36](https://github.com/space-joops/r-8282/pull/36)**: notes/ 운영 런북·학습 노트북 (#35)
 - 사용자 액션 잔여: `vercel env add ADMIN_PASSWORD production` (미설정 — /admin이 503)
-- 8/16(일) 19:30 결과 타이머 → 첫 실전 적중률 자동 공개
+- 8/16(일) 19:30 결과 타이머 → 첫 실전 적중률 자동 공개. **오늘 예측은 v1**(타이머 07:33이 머지 09:36보다 먼저) — 발주 시작 후라 재예측은 정직성 원칙 위반이라 하지 않음. **v2는 다음 개최일(8/21 금)부터 자동 적용**
 
 ## 백로그 (우선순위순)
 
