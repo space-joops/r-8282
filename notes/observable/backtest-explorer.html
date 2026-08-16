@@ -1,0 +1,76 @@
+<!doctype html>
+<notebook>
+  <title>백테스트 탐색기 — v1 vs v2</title>
+  <script id="1" type="text/markdown">
+    # 🏇 백테스트 탐색기 — 모델 버전 비교
+
+    `/data/stats/backtest.json`을 직접 읽어 시각화합니다. **셀을 고치면 즉시 다시 계산**되는
+    Observable 리액티브 노트북입니다 — 아래 지표 선택을 바꿔보세요.
+  </script>
+  <script id="2" type="module" pinned>
+    const backtest = await fetch("/data/stats/backtest.json").then((r) => r.json());
+    display(backtest.models.map((m) => ({버전: m.version, 기간: `${m.periodFrom}~${m.periodTo}`, 경주: m.overall.races})));
+  </script>
+  <script id="3" type="module" pinned>
+    // 리액티브 입력 — 이 값이 바뀌면 아래 차트가 자동으로 다시 그려진다
+    const metric = view(Inputs.select(
+      new Map([
+        ["단승 적중률", "winRate"],
+        ["연승 적중률", "placeRate"],
+        ["log-loss (낮을수록 좋음)", "logLoss"],
+        ["단승 ROI", "roiWin"],
+        ["연승 ROI", "roiPlace"],
+      ]),
+      { label: "지표" },
+    ));
+  </script>
+  <script id="4" type="module" pinned>
+    // 버전 × 구간(전체/신뢰도별) 비교 바
+    const rows = backtest.models.flatMap((m) => [
+      { 버전: m.version, 구간: "전체", 값: m.overall[metric] },
+      ...Object.entries(m.byConfidence).map(([c, b]) => ({
+        버전: m.version,
+        구간: { high: "신뢰도 높음", medium: "신뢰도 보통", low: "신뢰도 낮음" }[c],
+        값: b[metric],
+      })),
+    ]).filter((d) => d.값 !== null);
+
+    display(Plot.plot({
+      marginLeft: 90,
+      height: 220,
+      color: { legend: true },
+      x: { label: metric, tickFormat: metric.startsWith("roi") || metric.endsWith("Rate") ? "+.0%" : undefined },
+      y: { label: null },
+      marks: [
+        Plot.barX(rows, { y: "구간", x: "값", fill: "버전", fy: null, insetTop: 2, insetBottom: 2, tip: true }),
+        Plot.ruleX([0]),
+      ],
+    }));
+  </script>
+  <script id="5" type="module" pinned>
+    // 월별 추이 — 버전별 선
+    const monthly = backtest.models.flatMap((m) =>
+      m.monthly.map((row) => ({ 버전: m.version, 월: row.month, 값: row[metric] })),
+    ).filter((d) => d.값 !== null);
+
+    display(Plot.plot({
+      height: 220,
+      color: { legend: true },
+      y: { label: metric },
+      marks: [
+        Plot.lineY(monthly, { x: "월", y: "값", stroke: "버전", marker: true, tip: true }),
+        Plot.ruleY([0]),
+      ],
+    }));
+  </script>
+  <script id="6" type="text/markdown">
+    ## 읽는 법
+
+    - **백테스트는 사후 시뮬레이션**입니다 — 실서비스 사전 예측 실적은 사이트의 `/results`가 원천
+    - ROI가 음수인 것은 정직한 공개입니다. 파리뮤추얼 환급률(~73–80%)을 감안하면
+      무작위 베팅도 -20%대가 나옵니다 — 모델의 목표는 이 선을 넘는 것
+    - v2가 v1보다 log-loss가 낮다 = 확률 추정이 더 정확하다
+
+    **실습**: 셀 3의 select에 항목을 추가해 보세요 (예: `top3ExactHits`).
+  </script>
+</notebook>
