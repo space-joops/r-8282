@@ -49,3 +49,6 @@ pipeline/.cache/
 pipeline/.venv/
 __pycache__/
 *.pyc
+
+# Claude Code 로컬 설정 (사용자별)
+.claude/settings.local.json
