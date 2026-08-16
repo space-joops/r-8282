@@ -44,10 +44,26 @@
         "roiPlace": { "type": ["number", "null"] }
       }
     },
+    "bettingEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pool", "label", "bets", "hits", "hitRate", "stakeKrw", "returnedKrw", "profitKrw", "roi"],
+      "properties": {
+        "pool": { "enum": ["WIN", "PLC", "QNL", "EXA", "QPL", "TLA", "TRI"] },
+        "label": { "type": "string" },
+        "bets": { "type": "integer", "minimum": 0 },
+        "hits": { "type": "integer", "minimum": 0 },
+        "hitRate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "stakeKrw": { "type": "integer", "minimum": 0 },
+        "returnedKrw": { "type": "integer", "minimum": 0 },
+        "profitKrw": { "type": "integer" },
+        "roi": { "type": ["number", "null"] }
+      }
+    },
     "model": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["version", "generatedAt", "periodFrom", "periodTo", "note", "overall", "byTrack", "byConfidence", "monthly"],
+      "required": ["version", "generatedAt", "periodFrom", "periodTo", "note", "overall", "byTrack", "byConfidence", "monthly", "betting"],
       "properties": {
         "version": { "type": "string" },
         "generatedAt": { "type": "string" },
@@ -75,7 +91,8 @@
             "low": { "$ref": "#/$defs/metric" }
           }
         },
-        "monthly": { "type": "array", "items": { "$ref": "#/$defs/monthlyMetric" } }
+        "monthly": { "type": "array", "items": { "$ref": "#/$defs/monthlyMetric" } },
+        "betting": { "type": "array", "items": { "$ref": "#/$defs/bettingEntry" } }
       }
     }
   }
