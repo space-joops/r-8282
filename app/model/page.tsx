@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getBacktest } from "@/lib/data";
 import { formatDateKo, formatPercent } from "@/lib/format";
 import { TRACKS, TRACK_ORDER } from "@/lib/tracks";
-import type { BacktestMetric, BacktestModel } from "@/lib/types";
+import type { BacktestMetric, BacktestModel, BettingEntry } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "모델 성능 (백테스트)",
@@ -193,6 +193,8 @@ function ModelCard({
         </div>
       </div>
 
+      <BettingTable betting={model.betting} />
+
       {model.monthly.length > 0 && (
         <div>
           <div className="mb-2 flex items-center justify-between">
@@ -213,6 +215,71 @@ function ModelCard({
 
       <p className="text-xs leading-relaxed text-muted">{model.note}</p>
     </section>
+  );
+}
+
+const KRW = new Intl.NumberFormat("ko-KR");
+
+function BettingTable({ betting }: { betting: BettingEntry[] }) {
+  if (betting.length === 0) return null;
+  return (
+    <div>
+      <h3 className="mb-1 text-sm font-semibold">
+        승식별 베팅 시뮬레이션 (장당 100원)
+      </h3>
+      <p className="mb-2 text-xs text-muted">
+        예측 1·2·3순위를 각 승식에 그대로 1장씩 — 발매된 경주만 베팅, 실제
+        확정 배당 기준.{" "}
+        <Link href="/guide#betting" className="text-brand hover:underline">
+          승식 설명
+        </Link>
+      </p>
+      <div className="overflow-x-auto rounded-lg border border-border">
+        <table className="w-full min-w-130 text-sm">
+          <thead>
+            <tr className="border-b border-border text-left text-xs text-muted">
+              <th className="p-2.5 font-medium">승식</th>
+              <th className="p-2.5 text-right font-medium">베팅</th>
+              <th className="p-2.5 text-right font-medium">적중</th>
+              <th className="p-2.5 text-right font-medium">적중률</th>
+              <th className="p-2.5 text-right font-medium">베팅액</th>
+              <th className="p-2.5 text-right font-medium">회수액</th>
+              <th className="p-2.5 text-right font-medium">손익</th>
+            </tr>
+          </thead>
+          <tbody>
+            {betting.map((b) => (
+              <tr key={b.pool} className="border-b border-border last:border-0">
+                <td className="p-2.5 font-medium">{b.label}</td>
+                <td className="p-2.5 text-right tabular-nums">{b.bets}</td>
+                <td className="p-2.5 text-right tabular-nums">{b.hits}</td>
+                <td className="p-2.5 text-right tabular-nums">
+                  {formatPercent(b.hitRate)}
+                </td>
+                <td className="p-2.5 text-right tabular-nums">
+                  {KRW.format(b.stakeKrw)}원
+                </td>
+                <td className="p-2.5 text-right tabular-nums">
+                  {KRW.format(b.returnedKrw)}원
+                </td>
+                <td
+                  className={`p-2.5 text-right font-semibold tabular-nums ${
+                    b.profitKrw > 0
+                      ? "text-brand"
+                      : b.profitKrw < 0
+                        ? "text-status-error"
+                        : "text-muted"
+                  }`}
+                >
+                  {b.profitKrw > 0 ? "+" : ""}
+                  {KRW.format(b.profitKrw)}원
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
   );
 }
 
