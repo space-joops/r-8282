@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "(0%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,45 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 7,
+    "horseName": "퀸퍼펙트",
+    "timeSec": null,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "두바이드림",
+    "timeSec": null,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 1,
+    "horseName": "돌아온삼손",
+    "timeSec": null,
+    "margin": null
+   },
+   {
+    "finishPos": 95,
+    "gateNo": 8,
+    "horseName": "오아시스스타",
+    "timeSec": null,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 5.5,
+   "place": [
+    1.8,
+    2.3,
+    1.8
+   ]
+  }
+ }
 }

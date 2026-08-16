@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "다습 (13%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "번개루이스",
+    "timeSec": 87.8,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 8,
+    "horseName": "학산프린스",
+    "timeSec": 88.4,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 10,
+    "horseName": "스터닝서브",
+    "timeSec": 88.5,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 9,
+    "horseName": "텐배거",
+    "timeSec": 89.3,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 1,
+    "horseName": "내게로와줘",
+    "timeSec": 89.5,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 6,
+    "horseName": "글로벌기상",
+    "timeSec": 89.5,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 5,
+    "horseName": "케이사이먼",
+    "timeSec": 89.7,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 2,
+    "horseName": "신한에이스",
+    "timeSec": 89.8,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 7,
+    "horseName": "왕최고",
+    "timeSec": 90.9,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 4,
+    "horseName": "쌍옥루",
+    "timeSec": 91.4,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.6,
+   "place": [
+    1.1,
+    2.1,
+    2.0
+   ]
+  }
+ }
 }

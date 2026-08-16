@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 1,
+    "horseName": "스위트맨",
+    "timeSec": 101.0,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "리버런",
+    "timeSec": 102.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 10,
+    "horseName": "샤이니코리아",
+    "timeSec": 102.1,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 8,
+    "horseName": "바이럴히트",
+    "timeSec": 102.2,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 7,
+    "horseName": "원더풀윈드",
+    "timeSec": 103.4,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 11,
+    "horseName": "한강브라보",
+    "timeSec": 103.4,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "슈퍼크라운",
+    "timeSec": 103.4,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 2,
+    "horseName": "메타월드",
+    "timeSec": 104.1,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 4,
+    "horseName": "월드하니",
+    "timeSec": 104.2,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 3,
+    "horseName": "오아시스챔프",
+    "timeSec": 104.7,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 5,
+    "horseName": "루피너스",
+    "timeSec": 104.8,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.8,
+   "place": [
+    1.2,
+    1.9,
+    2.7
+   ]
+  }
+ }
 }

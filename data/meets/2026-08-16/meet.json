@@ -15,7 +15,7 @@
      "raceName": null,
      "entryCount": 9,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -26,7 +26,7 @@
      "raceName": null,
      "entryCount": 11,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -37,7 +37,7 @@
      "raceName": null,
      "entryCount": 10,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -48,7 +48,7 @@
      "raceName": null,
      "entryCount": 10,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -132,7 +132,7 @@
      "raceName": null,
      "entryCount": 11,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -143,7 +143,7 @@
      "raceName": null,
      "entryCount": 11,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -154,7 +154,7 @@
      "raceName": null,
      "entryCount": 11,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {
@@ -187,7 +187,7 @@
      "raceName": null,
      "entryCount": 9,
      "hasPrediction": true,
-     "hasResult": false,
+     "hasResult": true,
      "canceled": false
     },
     {

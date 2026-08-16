@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "2세",
  "weather": null,
- "trackCond": null,
+ "trackCond": "다습 (13%)",
  "entries": [
   {
    "gateNo": 1,
@@ -363,5 +363,80 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "원더그레이스",
+    "timeSec": 74.7,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "지비에이스",
+    "timeSec": 75.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 8,
+    "horseName": "이클립스골든",
+    "timeSec": 75.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 7,
+    "horseName": "볼스터",
+    "timeSec": 76.0,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 1,
+    "horseName": "봉봉티아라",
+    "timeSec": 76.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 4,
+    "horseName": "세븐포스",
+    "timeSec": 76.4,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "서귀메니퀸",
+    "timeSec": 76.6,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 2,
+    "horseName": "스타에이아이",
+    "timeSec": 78.8,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 5,
+    "horseName": "이안스타",
+    "timeSec": 79.3,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 4.2,
+   "place": [
+    1.5,
+    1.6,
+    1.3
+   ]
+  }
+ }
 }

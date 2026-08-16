@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "남3/북2",
  "weather": null,
- "trackCond": null,
+ "trackCond": "(0%)",
  "entries": [
   {
    "gateNo": 1,
@@ -368,5 +368,20 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 95,
+    "gateNo": 3,
+    "horseName": "오아시스퀸",
+    "timeSec": null,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 0.0,
+   "place": null
+  }
+ }
 }

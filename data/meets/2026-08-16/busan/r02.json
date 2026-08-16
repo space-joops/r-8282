@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -437,5 +437,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 5,
+    "horseName": "플라잉레이스",
+    "timeSec": 80.2,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 2,
+    "horseName": "밤토리밤밤",
+    "timeSec": 81.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 6,
+    "horseName": "벨로시랩터",
+    "timeSec": 81.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "아리온태양",
+    "timeSec": 82.0,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 4,
+    "horseName": "정문펠릭스",
+    "timeSec": 82.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "클러치러너",
+    "timeSec": 82.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 1,
+    "horseName": "프라임제니",
+    "timeSec": 82.7,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 10,
+    "horseName": "스카이넥스",
+    "timeSec": 83.0,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 7,
+    "horseName": "오크리지",
+    "timeSec": 83.0,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 8,
+    "horseName": "원더풀라크",
+    "timeSec": 83.2,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 11,
+    "horseName": "도로시퀸",
+    "timeSec": 83.8,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 24.3,
+   "place": [
+    4.0,
+    2.6,
+    8.6
+   ]
+  }
+ }
 }

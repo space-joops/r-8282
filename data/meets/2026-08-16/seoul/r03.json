@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "다습 (13%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-16T13:43:05+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 1,
+    "horseName": "핫피버",
+    "timeSec": 81.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 4,
+    "horseName": "클로버원",
+    "timeSec": 81.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 3,
+    "horseName": "글로벌카드",
+    "timeSec": 82.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 8,
+    "horseName": "위즈드림",
+    "timeSec": 82.4,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 2,
+    "horseName": "위즈포인트",
+    "timeSec": 82.5,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "온누리빛",
+    "timeSec": 82.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "인스파이어",
+    "timeSec": 82.9,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 5,
+    "horseName": "안양쓰나미",
+    "timeSec": 83.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 7,
+    "horseName": "스터닝스텝",
+    "timeSec": 84.6,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 10,
+    "horseName": "와달비",
+    "timeSec": 85.6,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 12.6,
+   "place": [
+    3.1,
+    1.5,
+    2.3
+   ]
+  }
+ }
 }
