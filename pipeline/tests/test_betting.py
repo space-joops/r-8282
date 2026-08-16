@@ -1,10 +1,14 @@
-"""승식별 베팅 시뮬레이션(#37) — 조합·판정·정산 테스트."""
+"""승식별 베팅 시뮬레이션(#37)·경주별 emit(#39) — 조합·판정·정산 테스트."""
+
+import json
 
 from kra_predict.backtest import (
     BET_UNIT_KRW,
+    POOL_DEFS,
     _betting_summary,
     build_backtest_races,
     simulate,
+    write_backtest_races,
 )
 from kra_predict.score import build_prediction
 from tests.test_backtest import _row
@@ -136,3 +140,30 @@ def test_betting_summary_shape_and_arithmetic():
         assert b["profitKrw"] == b["returnedKrw"] - b["stakeKrw"]
         if b["bets"] == 0:
             assert b["hitRate"] == 0 and b["roi"] is None
+
+
+def test_write_backtest_races_emits_compact_rows(tmp_path):
+    (tmp_path / "stats").mkdir()
+    rows = _five_horse_race({1: 1, 2: 2, 3: 3, 4: 4, 5: 5})
+    races = build_backtest_races(rows, ["2026-07"])
+    judged = simulate(races)
+
+    write_backtest_races("v9", judged, data_dir=tmp_path)
+    doc = json.loads((tmp_path / "stats" / "backtest_races.json").read_text("utf-8"))
+    assert doc["schemaVersion"] == 1
+    assert [m["version"] for m in doc["models"]] == ["v9"]
+    row = doc["models"][0]["races"][0]
+    assert row["date"] == "2026-07-05" and row["raceNo"] == 1
+    assert row["actual"] == [1, 2, 3]
+    assert len(row["picks"]) == 3
+    # pools는 POOL_DEFS 7개 키 전부, 값은 [staked, hit, returnKrw] 정수 3튜플
+    assert list(row["pools"].keys()) == [p for p, _ in POOL_DEFS]
+    for triple in row["pools"].values():
+        assert len(triple) == 3
+        assert all(isinstance(v, int) for v in triple)
+
+    # 같은 버전 재기록 = 교체(중복 없음), 다른 버전 = 병기
+    write_backtest_races("v9", judged, data_dir=tmp_path)
+    write_backtest_races("v8", judged, data_dir=tmp_path)
+    doc = json.loads((tmp_path / "stats" / "backtest_races.json").read_text("utf-8"))
+    assert [m["version"] for m in doc["models"]] == ["v8", "v9"]

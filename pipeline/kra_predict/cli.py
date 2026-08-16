@@ -212,6 +212,7 @@ def backtest(
         month_list_with_history,
         simulate,
         write_backtest,
+        write_backtest_races,
     )
 
     if stat not in ("auto", "v1"):
@@ -241,6 +242,7 @@ def backtest(
     finally:
         score.set_model_override(None)
     write_backtest(entry)
+    write_backtest_races(entry["version"], judged)
 
     overall = entry["overall"]
     typer.echo(

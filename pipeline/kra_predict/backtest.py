@@ -376,8 +376,11 @@ def simulate(
             {
                 "track": race["track"],
                 "date": race["date"],
+                "raceNo": race["raceNo"],
                 "month": race["date"][:7],
                 "confidence": pred["confidence"],
+                "picks": top3_pred,
+                "actual": top3_actual,
                 "winHit": win_hit,
                 "placeHit": place_hit,
                 "top3Exact": top3_pred == top3_actual and len(top3_actual) == 3,
@@ -485,6 +488,47 @@ def aggregate(judged: list[dict], months: list[str]) -> dict:
         ],
         "betting": _betting_summary(judged),
     }
+
+
+def write_backtest_races(
+    version: str, judged: list[dict], *, data_dir: Path = DATA_DIR
+) -> None:
+    """경주별 베팅 결과를 /model 대시보드용으로 공개한다 (버전별 교체 삽입).
+
+    pools 값은 [staked, hit, returnKrw] 압축 배열 — POOL_DEFS 순서의 7개 키.
+    """
+    races = []
+    for r in sorted(judged, key=lambda x: (x["date"], x["track"], x["raceNo"])):
+        pools = {
+            pool: [
+                r["pools"][pool]["staked"],
+                r["pools"][pool]["hit"],
+                round(r["pools"][pool]["returnKrw"]),
+            ]
+            for pool, _ in POOL_DEFS
+        }
+        races.append(
+            {
+                "date": r["date"],
+                "track": r["track"],
+                "raceNo": r["raceNo"],
+                "confidence": r["confidence"],
+                "picks": r["picks"],
+                "actual": r["actual"],
+                "pools": pools,
+            }
+        )
+    path = data_dir / "stats" / "backtest_races.json"
+    doc = {"schemaVersion": 1, "models": []}
+    if path.exists():
+        doc = json.loads(path.read_text("utf-8"))
+    doc["models"] = [m for m in doc.get("models", []) if m["version"] != version]
+    doc["models"].append({"version": version, "races": races})
+    doc["models"].sort(key=lambda m: m["version"])
+    errors = validation_errors("backtest_races", doc)
+    if errors:
+        raise ValueError(f"backtest_races 스키마 오류: {errors[:3]}")
+    write_json_if_changed(path, doc)
 
 
 def write_backtest(entry: dict, *, data_dir: Path = DATA_DIR) -> None:

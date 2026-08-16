@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kra-predict/backtest_races.schema.json",
+  "title": "BacktestRaces",
+  "description": "백테스트 경주별 베팅 결과 — /model 대시보드용. pools 값은 [staked, hit, returnKrw] 압축 배열.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "models"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "models": { "type": "array", "items": { "$ref": "#/$defs/model" } }
+  },
+  "$defs": {
+    "gateTriple": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "poolResult": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "integer", "minimum": 0, "maximum": 1 },
+        { "type": "integer", "minimum": 0, "maximum": 1 },
+        { "type": "integer", "minimum": 0 }
+      ],
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "race": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "track", "raceNo", "confidence", "picks", "actual", "pools"],
+      "properties": {
+        "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "track": { "enum": ["seoul", "busan", "jeju"] },
+        "raceNo": { "type": "integer", "minimum": 1 },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "picks": { "$ref": "#/$defs/gateTriple" },
+        "actual": { "$ref": "#/$defs/gateTriple" },
+        "pools": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["WIN", "PLC", "QNL", "EXA", "QPL", "TLA", "TRI"],
+          "properties": {
+            "WIN": { "$ref": "#/$defs/poolResult" },
+            "PLC": { "$ref": "#/$defs/poolResult" },
+            "QNL": { "$ref": "#/$defs/poolResult" },
+            "EXA": { "$ref": "#/$defs/poolResult" },
+            "QPL": { "$ref": "#/$defs/poolResult" },
+            "TLA": { "$ref": "#/$defs/poolResult" },
+            "TRI": { "$ref": "#/$defs/poolResult" }
+          }
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "races"],
+      "properties": {
+        "version": { "type": "string" },
+        "races": { "type": "array", "items": { "$ref": "#/$defs/race" } }
+      }
+    }
+  }
+}
