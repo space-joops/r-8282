@@ -1,0 +1,62 @@
+<!doctype html>
+<notebook>
+  <title>실전 적중률 추적</title>
+  <script id="1" type="text/markdown">
+    # 🎯 실전 적중률 추적 (라이브 데이터)
+
+    백테스트가 아닌 **경주 전에 실제로 공개한 예측**의 성적입니다.
+    `/data/stats/accuracy.json`은 결과 반영 때마다 갱신됩니다 — `npm run notes:preview`를
+    다시 열면 최신 상태가 보입니다.
+  </script>
+  <script id="2" type="module" pinned>
+    const accuracy = await fetch("/data/stats/accuracy.json").then((r) => r.json());
+    const index = await fetch("/data/index.json").then((r) => r.json());
+    display({ 갱신: accuracy.updatedAt, 평가경주: accuracy.overall.races, 개최일: index.meetDates.length });
+  </script>
+  <script id="3" type="module" pinned>
+    if (accuracy.overall.races === 0) {
+      display(html`<p><em>아직 평가된 실전 예측이 없습니다 — 첫 결과 반영 후 이 노트북을 다시 여세요.</em></p>`);
+    } else {
+      display(Plot.plot({
+        height: 200,
+        marginLeft: 80,
+        x: { label: "적중률", percent: true, domain: [0, 100] },
+        y: { label: null },
+        marks: [
+          Plot.barX(
+            [
+              { 지표: "단승 (1위 적중)", 값: accuracy.overall.winRate },
+              { 지표: "연승 (3위 이내)", 값: accuracy.overall.placeRate },
+            ],
+            { y: "지표", x: "값", fill: "지표", tip: true },
+          ),
+          Plot.ruleX([0]),
+        ],
+      }));
+    }
+  </script>
+  <script id="4" type="module" pinned>
+    // 개최일별 추이 (누적 이력)
+    const history = accuracy.history.flatMap((h) => [
+      { 개최일: h.date, 지표: "단승", 값: h.races ? h.winHits / h.races : 0, 경주: h.races },
+      { 개최일: h.date, 지표: "연승", 값: h.races ? h.placeHits / h.races : 0, 경주: h.races },
+    ]);
+    display(
+      history.length === 0
+        ? html`<p><em>이력이 쌓이면 개최일별 추이가 여기에 그려집니다.</em></p>`
+        : Plot.plot({
+            height: 220,
+            y: { label: "적중률", percent: true },
+            color: { legend: true },
+            marks: [
+              Plot.lineY(history, { x: "개최일", y: "값", stroke: "지표", marker: true, tip: true }),
+              Plot.ruleY([0]),
+            ],
+          }),
+    );
+  </script>
+  <script id="5" type="text/markdown">
+    **실습**: 트랙별(`accuracy.byTrack`) 비교 바 차트 셀을 직접 추가해 보세요 —
+    셀 4를 복제해서 데이터 소스만 바꾸면 됩니다.
+  </script>
+</notebook>

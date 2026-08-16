@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "notes:preview": "notebooks preview --root .",
+    "notes:build": "notebooks build --root . -- notes/observable/*.html"
   },
   "dependencies": {
     "next": "16.3.1",
@@ -15,6 +17,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@observablehq/notebook-kit": "^2.3.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

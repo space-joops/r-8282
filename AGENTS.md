@@ -27,6 +27,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - `make validate` — data/ 전체 JSON Schema 검증
 - `cd pipeline && uv run pytest` — 파이프라인 테스트
 - `npm run build` / `npm run lint` — 웹 빌드·린트 (`next lint`는 제거됨)
+- **실행 가능한 운영 런북·학습 노트북**: `notes/` — 시작법은 `notes/README.md` (Jupyter Deno+Python, Observable Notebook Kit)
 
 ## 데이터 계약 규칙
 
