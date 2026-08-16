@@ -1,0 +1,33 @@
+{
+ "version": "v2",
+ "method": "conditional-logit",
+ "trainedAt": "2026-08-16T00:18:27+09:00",
+ "trainFrom": "2025-07",
+ "trainTo": "2026-06",
+ "trainRaces": 2129,
+ "l2": 0.01,
+ "impute": 0.5,
+ "features": [
+  "winRate1y",
+  "placeRate1y",
+  "rating",
+  "jockeyWinRate",
+  "trainerWinRate",
+  "bodyWeightStability",
+  "rest"
+ ],
+ "beta": {
+  "winRate1y": 0.580267,
+  "placeRate1y": 1.20225,
+  "rating": 0.253317,
+  "jockeyWinRate": 0.79476,
+  "trainerWinRate": 0.407128,
+  "bodyWeightStability": 0.03578,
+  "rest": 0.103931
+ },
+ "inSample": {
+  "races": 2129,
+  "logLoss": 2.0351,
+  "winRate": 0.2936
+ }
+}

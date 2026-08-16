@@ -67,8 +67,8 @@ export default async function ModelPage() {
           {backtest.models.length > 1 && (
             <VersionCompare models={backtest.models} />
           )}
-          {[...backtest.models].reverse().map((model) => (
-            <ModelCard key={model.version} model={model} />
+          {[...backtest.models].reverse().map((model, i) => (
+            <ModelCard key={model.version} model={model} serving={i === 0} />
           ))}
         </>
       )}
@@ -116,15 +116,27 @@ function VersionCompare({ models }: { models: BacktestModel[] }) {
   );
 }
 
-function ModelCard({ model }: { model: BacktestModel }) {
+function ModelCard({
+  model,
+  serving,
+}: {
+  model: BacktestModel;
+  serving: boolean;
+}) {
   return (
     <section className="space-y-4 rounded-xl border border-border bg-surface p-4">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h2 className="text-lg font-semibold">
           모델 {model.version}
-          <span className="ml-2 rounded-full bg-brand-soft px-2 py-0.5 text-xs font-medium text-brand">
-            현재 서비스 중
-          </span>
+          {serving ? (
+            <span className="ml-2 rounded-full bg-brand-soft px-2 py-0.5 text-xs font-medium text-brand">
+              현재 서비스 중
+            </span>
+          ) : (
+            <span className="ml-2 rounded-full bg-border px-2 py-0.5 text-xs font-medium text-muted">
+              이전 버전
+            </span>
+          )}
         </h2>
         <p className="text-xs text-muted">
           {formatDateKo(model.periodFrom)} ~ {formatDateKo(model.periodTo)} ·{" "}
