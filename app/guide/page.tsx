@@ -192,11 +192,12 @@ export default function GuidePage() {
         <h2 className="font-semibold">화면 읽는 법, 30초 요약</h2>
         <p className="mt-2">
           경주 페이지는 위에서부터 <strong>결과</strong>(끝난 경주만) →{" "}
-          <strong>예측</strong> → <strong>출전표</strong> 순입니다. 예측 패널의
-          승률 막대가 길수록 모델이 1착 가능성을 높게 본 말이고, 단승 추천 한
-          마리와 복승 후보 세 마리를 먼저 보면 됩니다. 출전표에서는 1년 전적의
-          승률, 마체중 증감(급변 주의), 기수 &lsquo;변경&rsquo; 배지를 함께
-          확인하세요.
+          <strong>AI 경주 브리핑</strong> → <strong>출전표</strong> 순입니다.
+          브리핑의 <strong>총평</strong>을 먼저 읽고 경주의 구도를 잡은 뒤,
+          말별 한줄평과 승률 막대로 근거를 확인하세요. 모델 상위 후보는
+          통계적 후보일 뿐입니다 — 출전표에서 1년 전적, 마체중 증감(급변
+          주의), 기수 &lsquo;변경&rsquo; 배지까지 보고 직접 판단하는 것이 이
+          서비스의 사용법입니다.
         </p>
       </section>
 

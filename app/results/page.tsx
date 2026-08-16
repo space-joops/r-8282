@@ -79,14 +79,23 @@ export default async function ResultsPage() {
         </section>
       )}
 
+      <Link
+        href="/model"
+        className="block rounded-xl border border-border bg-surface p-4 transition-colors hover:border-brand"
+      >
+        <p className="text-sm font-semibold">
+          모델 성적표 — 과거 264경주 손익까지 전부 공개
+        </p>
+        <p className="mt-1 text-xs text-muted">
+          승식별 베팅 시뮬레이션과 누적 손익 곡선으로 이 모델을 참고할지 직접
+          판단해 보세요.
+        </p>
+      </Link>
+
       <p className="text-xs text-muted">
         단승 적중 = 단승 픽이 1위 · 연승 적중 = 단승 픽이 3위 이내 ·{" "}
         <Link href="/guide" className="text-brand hover:underline">
           용어 가이드
-        </Link>{" "}
-        ·{" "}
-        <Link href="/model" className="text-brand hover:underline">
-          모델 백테스트 성능
         </Link>
       </p>
     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Entry, Prediction } from "@/lib/types";
 import { formatPercent } from "@/lib/format";
 
@@ -19,7 +20,7 @@ export function PredictionPanel({ prediction, entries }: Props) {
   return (
     <section className="rounded-xl border border-border bg-surface p-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">AI·통계 예측</h2>
+        <h2 className="text-lg font-semibold">AI 경주 브리핑</h2>
         <span
           className="cursor-help rounded-full bg-brand-soft px-2 py-0.5 text-xs font-medium text-brand"
           title="예측 1위와 2위의 승률 격차 기준 — 높음(뚜렷한 우세)/보통/낮음(혼전)"
@@ -28,20 +29,20 @@ export function PredictionPanel({ prediction, entries }: Props) {
         </span>
       </div>
 
-      <dl className="mt-3 grid grid-cols-2 gap-2 text-sm">
-        <div className="rounded-lg bg-background p-3">
-          <dt className="text-xs text-muted">단승 추천</dt>
-          <dd className="mt-0.5 font-semibold">
-            {prediction.topPicks.win}번 {horseName(prediction.topPicks.win)}
-          </dd>
+      {prediction.aiCommentary && (
+        <div className="mt-3 border-l-2 border-brand pl-3 text-sm leading-relaxed">
+          <p>{renderBold(prediction.aiCommentary)}</p>
         </div>
-        <div className="rounded-lg bg-background p-3">
-          <dt className="text-xs text-muted">복승 후보</dt>
-          <dd className="mt-0.5 font-semibold tabular-nums">
-            {prediction.topPicks.place.join(" - ")}번
-          </dd>
-        </div>
-      </dl>
+      )}
+
+      <p className="mt-3 text-xs text-muted">
+        모델 상위 후보 — 단승{" "}
+        <strong className="text-foreground">
+          {prediction.topPicks.win}번 {horseName(prediction.topPicks.win)}
+        </strong>{" "}
+        · 복승 {prediction.topPicks.place.join("-")}번. 어디까지나 통계적
+        후보입니다 — 아래 근거를 보고 직접 판단하세요.
+      </p>
 
       <ol className="mt-4 space-y-2.5">
         {prediction.rankings.map((r) => (
@@ -65,23 +66,21 @@ export function PredictionPanel({ prediction, entries }: Props) {
               />
             </div>
             {r.briefComment && (
-              <p className="mt-0.5 text-xs text-muted">{r.briefComment}</p>
+              <p className="mt-0.5 text-sm leading-snug">{r.briefComment}</p>
             )}
           </li>
         ))}
       </ol>
 
-      {prediction.aiCommentary && (
-        <div className="mt-4 rounded-lg bg-background p-3 text-sm leading-relaxed">
-          <h3 className="mb-1 text-xs font-medium text-muted">AI 총평</h3>
-          <p>{renderBold(prediction.aiCommentary)}</p>
-        </div>
-      )}
-
-      <p className="mt-3 text-xs text-muted">
-        {prediction.generatedAt.slice(0, 16).replace("T", " ")} 생성 · 통계 모델{" "}
-        {prediction.model.statVersion}
-        {prediction.model.aiModel ? ` + AI(${prediction.model.aiModel})` : ""}
+      <p className="mt-4 flex flex-wrap items-center justify-between gap-2 text-xs text-muted">
+        <span>
+          {prediction.generatedAt.slice(0, 16).replace("T", " ")} 생성 · 통계
+          모델 {prediction.model.statVersion}
+          {prediction.model.aiModel ? ` + AI(${prediction.model.aiModel})` : ""}
+        </span>
+        <Link href="/model" className="text-brand hover:underline">
+          이 모델의 과거 성적·손익 전부 보기
+        </Link>
       </p>
     </section>
   );

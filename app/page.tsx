@@ -26,19 +26,28 @@ export default async function Home() {
           {formatFullDateKo(meet.date)} 경마
         </h1>
         <p className="mt-1 text-sm text-muted">
-          서울·부산경남·제주 출전표와 AI·통계 예측을 무료로 제공합니다.
+          출전표·AI 브리핑·투명한 성적표로 경마를 더 재미있게 — 판단은 직접,
+          근거는 여기서.
         </p>
-        {accuracy.overall.races > 0 && (
-          <p className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-brand-soft px-3 py-1 text-sm text-brand">
-            누적 단승 적중률 {formatPercent(accuracy.overall.winRate)}
-            <span className="text-xs">({accuracy.overall.races}경주)</span>
-          </p>
-        )}
+        <p className="mt-3 flex flex-wrap items-center gap-2">
+          {accuracy.overall.races > 0 && (
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-soft px-3 py-1 text-sm text-brand">
+              누적 단승 적중률 {formatPercent(accuracy.overall.winRate)}
+              <span className="text-xs">({accuracy.overall.races}경주)</span>
+            </span>
+          )}
+          <Link
+            href="/model"
+            className="text-xs text-muted underline decoration-dotted underline-offset-2 hover:text-brand"
+          >
+            모델 성적표 — 손익까지 전부 공개
+          </Link>
+        </p>
       </section>
 
       {picks.length > 0 && (
         <section>
-          <h2 className="mb-3 text-lg font-semibold">오늘의 대표 픽</h2>
+          <h2 className="mb-3 text-lg font-semibold">오늘의 관전 포인트</h2>
           <div className="grid gap-2 sm:grid-cols-3">
             {picks.map((pick) => (
               <Link
@@ -49,11 +58,12 @@ export default async function Home() {
                 <p className={`text-xs font-medium ${TRACKS[pick.track].colorClass}`}>
                   {formatRaceLabel(pick.track, pick.raceNo)}
                 </p>
-                <p className="mt-1 font-semibold">
-                  {pick.gateNo}번 {pick.horseName}
-                </p>
-                <p className="mt-0.5 text-sm text-muted">
-                  승률 {formatPercent(pick.winProb)}
+                {pick.comment && (
+                  <p className="mt-1 text-sm leading-snug">{pick.comment}</p>
+                )}
+                <p className="mt-1.5 text-xs text-muted">
+                  모델 1순위 {pick.gateNo}번 {pick.horseName} · 승률{" "}
+                  {formatPercent(pick.winProb)}
                 </p>
               </Link>
             ))}
@@ -93,9 +103,19 @@ interface FeaturedPick {
   gateNo: number;
   horseName: string;
   winProb: number;
+  /** AI 총평 첫 문장 (없으면 1순위 한줄평) — 카드의 주인공 */
+  comment: string | null;
 }
 
-/** 트랙별 첫 예측 경주의 단승 픽을 모은다 (최대 3건) */
+/** AI 총평의 첫 문장을 카드용 한 줄로 추출한다 (** 마크다운 제거) */
+function commentLead(commentary: string | null): string | null {
+  if (!commentary) return null;
+  const plain = commentary.replace(/\*\*/g, "").trim();
+  const first = plain.match(/^.+?다\./)?.[0] ?? plain;
+  return first.length <= 90 ? first : null;
+}
+
+/** 트랙별 첫 예측 경주의 브리핑·픽을 모은다 (최대 3건) */
 async function featuredPicks(meet: Meet): Promise<FeaturedPick[]> {
   const picks: FeaturedPick[] = [];
   for (const trackMeet of meet.tracks) {
@@ -113,6 +133,7 @@ async function featuredPicks(meet: Meet): Promise<FeaturedPick[]> {
         race.entries.find((e) => e.gateNo === top.gateNo)?.horseName ??
         `${top.gateNo}번`,
       winProb: top.winProb,
+      comment: commentLead(prediction.aiCommentary) ?? top.briefComment,
     });
   }
   return picks.slice(0, 3);

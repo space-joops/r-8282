@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     "제주경마",
     "AI 경마 분석",
     "경마 적중률",
+    "경마 초보 가이드",
+    "경마 보는 법",
   ],
   openGraph: {
     type: "website",
