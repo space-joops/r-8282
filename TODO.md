@@ -4,22 +4,22 @@
 > 규약은 [AGENTS.md](AGENTS.md), 운영 절차는 [README.md](README.md) 참고.
 > 작업을 진행하면 이 파일을 갱신할 것 (완료 항목 제거, 상태 스냅샷 날짜 갱신).
 
-## 상태 스냅샷 (2026-08-15 저녁 기준)
+## 상태 스냅샷 (2026-08-16 기준)
 
-- 프로덕션 라이브: https://kyongmapick.vercel.app — **8/16(일) 서울 10·부경 7경주 사전 예측 배포됨**
+- 프로덕션 라이브: https://kyongmapick.vercel.app — 8/16(일) 서울 10·부경 7경주 사전 예측 배포됨 (v1 — 타이머 07:33이 v2 머지보다 먼저)
 - 파이프라인: 승인 API 전부 통합됨 (출전표정보·기수/조교사 성적·확정배당율·날씨/주로). AI학습용_경주계획(API154)만 미승인
-- 적중률: 아직 0경주 평가 — **8/16 결과 반영이 첫 실적**
-- 8/15 결과: 전 17경주 확정 반영 완료 (2026-08-15 저녁)
+- 적중률: 아직 0경주 평가 — **오늘 19:30 결과 타이머가 첫 실적 공개**
+- 백테스트: v1·v2 모두 **승식별 베팅 시뮬레이션 포함으로 재생성됨** (PR #38, 로컬 data/ 기준)
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **PR [#30](https://github.com/space-joops/r-8282/pull/30) 머지** (운영 텔레메트리 + /admin 대시보드, #28·#29)
-   - Supabase 셋업은 완료됨: jd-04 프로젝트에 `kyongma_ops_runs` 생성, Vercel 리소스 연결(env 자동 주입), 노트북 env 구성, 첫 텔레메트리 행 기록 확인
-   - **남은 사용자 액션 1개**: `vercel env add ADMIN_PASSWORD production` (원하는 관리자 암호 입력) → 머지 후 `/admin` 접속(사용자명 admin)
-2. **8/16(일)**: 타이머가 자동 처리 (07:33 예측 스킵 확인, 19:30 결과+첫 적중률 공개).
-   수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
-3. 첫 실데이터가 쌓인 뒤 /admin 차트 시각 QA (현재는 평가 0경주라 빈 상태 문구)
-4. 자동화 로그 확인 습관: `journalctl --user -u kyongma-predict -u kyongma-results -e` (머지 후엔 /admin에서도 확인 가능)
+1. **PR [#38](https://github.com/space-joops/r-8282/pull/38) 머지** (승식별 베팅 시뮬레이션, #37)
+   - 7개 승식(단승~삼쌍승) 과거 적중률·손익을 /model v1·v2 카드에 표로 공개. 배당은 API301 전 조합 확정 배당(`.cache` 재사용)
+   - 머지 후 브랜치 삭제 전 `gh pr view 38 --json mergedAt` 확인 (과거 #21 사고 재발 방지)
+2. **8/16(일) 19:30**: 결과 타이머 → 첫 실전 적중률 자동 공개. 수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
+3. **사용자 액션**: `vercel env add ADMIN_PASSWORD production` (미설정 — /admin이 503, 사용자명 admin)
+4. 첫 실데이터가 쌓인 뒤 /admin 차트 시각 QA (현재는 평가 0경주라 빈 상태 문구)
+5. 자동화 로그 확인 습관: `journalctl --user -u kyongma-predict -u kyongma-results -e` (/admin에서도 확인 가능)
 
 ## 자동화 상태 (2026-08-15 설치)
 
@@ -28,9 +28,9 @@
 - 해제: `systemctl --user disable --now kyongma-predict.timer kyongma-results.timer`
 
 ## 진행 중 — 머지 대기
-- **PR [#36](https://github.com/space-joops/r-8282/pull/36)**: notes/ 운영 런북·학습 노트북 (#35)
-- 사용자 액션 잔여: `vercel env add ADMIN_PASSWORD production` (미설정 — /admin이 503)
-- 8/16(일) 19:30 결과 타이머 → 첫 실전 적중률 자동 공개. **오늘 예측은 v1**(타이머 07:33이 머지 09:36보다 먼저) — 발주 시작 후라 재예측은 정직성 원칙 위반이라 하지 않음. **v2는 다음 개최일(8/21 금)부터 자동 적용**
+- **PR [#38](https://github.com/space-joops/r-8282/pull/38)**: 승식별 베팅 시뮬레이션 (#37) — 위 시급 1번
+- **v2는 다음 개최일(8/21 금)부터 자동 적용** (오늘 예측은 v1 — 발주 후 재예측은 정직성 원칙 위반이라 하지 않음)
+- 참고: v1 백테스트 재생성은 `kra-predict backtest --months ... --stat v1` (학습 가중치 무시)
 
 ## 백로그 (우선순위순)
 
