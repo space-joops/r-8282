@@ -224,6 +224,53 @@ export const backtestSchema = z.object({
 });
 export type Backtest = z.infer<typeof backtestSchema>;
 
+export const POOL_CODES = ["WIN", "PLC", "QNL", "EXA", "QPL", "TLA", "TRI"] as const;
+export type PoolCode = (typeof POOL_CODES)[number];
+
+/** [staked, hit, returnKrw] 압축 배열 — backtest_races.schema.json과 동기 */
+const poolResultSchema = z.tuple([
+  z.number().int().min(0).max(1),
+  z.number().int().min(0).max(1),
+  z.number().int().nonnegative(),
+]);
+export type PoolResult = z.infer<typeof poolResultSchema>;
+
+const gateTripleSchema = z.tuple([
+  z.number().int().positive(),
+  z.number().int().positive(),
+  z.number().int().positive(),
+]);
+
+export const backtestRaceRowSchema = z.object({
+  date: dateStr,
+  track: trackSlugSchema,
+  raceNo: z.number().int().positive(),
+  confidence: z.enum(["high", "medium", "low"]),
+  picks: gateTripleSchema,
+  actual: gateTripleSchema,
+  pools: z.object({
+    WIN: poolResultSchema,
+    PLC: poolResultSchema,
+    QNL: poolResultSchema,
+    EXA: poolResultSchema,
+    QPL: poolResultSchema,
+    TLA: poolResultSchema,
+    TRI: poolResultSchema,
+  }),
+});
+export type BacktestRaceRow = z.infer<typeof backtestRaceRowSchema>;
+
+export const backtestRacesSchema = z.object({
+  schemaVersion: z.literal(1),
+  models: z.array(
+    z.object({
+      version: z.string(),
+      races: z.array(backtestRaceRowSchema),
+    }),
+  ),
+});
+export type BacktestRaces = z.infer<typeof backtestRacesSchema>;
+
 export const accuracyStatsSchema = z.object({
   schemaVersion: z.literal(1),
   updatedAt: z.string(),

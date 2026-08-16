@@ -3,6 +3,7 @@ import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import {
   accuracyStatsSchema,
+  backtestRacesSchema,
   backtestSchema,
   dataIndexSchema,
   meetSchema,
@@ -10,6 +11,7 @@ import {
   trackSlugSchema,
   type AccuracyStats,
   type Backtest,
+  type BacktestRaces,
   type DataIndex,
   type Meet,
   type RaceFile,
@@ -51,6 +53,18 @@ export const getAccuracy = cache(async (): Promise<AccuracyStats> => {
 export const getBacktest = cache(async (): Promise<Backtest | null> => {
   try {
     return backtestSchema.parse(await readJson("stats", "backtest.json"));
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw error;
+  }
+});
+
+/** 백테스트 경주별 베팅 결과 — 아직 생성 전이면 null */
+export const getBacktestRaces = cache(async (): Promise<BacktestRaces | null> => {
+  try {
+    return backtestRacesSchema.parse(
+      await readJson("stats", "backtest_races.json"),
+    );
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
     throw error;
