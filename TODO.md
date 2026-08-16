@@ -13,9 +13,9 @@
 
 ## 🔥 시급 (운영 — 날짜 지정 작업)
 
-1. **PR [#38](https://github.com/space-joops/r-8282/pull/38) 머지** (승식별 베팅 시뮬레이션, #37)
-   - 7개 승식(단승~삼쌍승) 과거 적중률·손익을 /model v1·v2 카드에 표로 공개. 배당은 API301 전 조합 확정 배당(`.cache` 재사용)
-   - 머지 후 브랜치 삭제 전 `gh pr view 38 --json mergedAt` 확인 (과거 #21 사고 재발 방지)
+1. **PR [#41](https://github.com/space-joops/r-8282/pull/41) 머지** (/model 인터랙티브 대시보드, #39)
+   - 누적 손익 곡선(v1·v2, 호버 툴팁)·승식 칩(?pool= 딥링크)·흥미 카드·내비 '모델' 승격. 신규 공개 데이터 `data/stats/backtest_races.json`
+   - **머지 후 → UX 전환 2탄(#40, 관전 가이드 방향 전환) 진행** — PredictionPanel AI 총평 상단 승격, 홈 '오늘의 관전 포인트', about/guide/results 카피
 2. **8/16(일) 19:30**: 결과 타이머 → 첫 실전 적중률 자동 공개. 수동 폴백: `make results DATE=2026-08-16 FLAGS=--refresh` → 커밋·push
 3. **사용자 액션**: `vercel env add ADMIN_PASSWORD production` (미설정 — /admin이 503, 사용자명 admin)
 4. 첫 실데이터가 쌓인 뒤 /admin 차트 시각 QA (현재는 평가 0경주라 빈 상태 문구)
@@ -28,9 +28,10 @@
 - 해제: `systemctl --user disable --now kyongma-predict.timer kyongma-results.timer`
 
 ## 진행 중 — 머지 대기
-- **PR [#38](https://github.com/space-joops/r-8282/pull/38)**: 승식별 베팅 시뮬레이션 (#37) — 위 시급 1번
-- **v2는 다음 개최일(8/21 금)부터 자동 적용** (오늘 예측은 v1 — 발주 후 재예측은 정직성 원칙 위반이라 하지 않음)
-- 참고: v1 백테스트 재생성은 `kra-predict backtest --months ... --stat v1` (학습 가중치 무시)
+- **PR [#41](https://github.com/space-joops/r-8282/pull/41)**: /model 인터랙티브 대시보드 (#39) — 위 시급 1번. 머지 후 이슈 [#40](https://github.com/space-joops/r-8282/issues/40) 방향 전환 PR 진행
+- **사이트 방향 전환 결정(2026-08-16)**: 가치 제안을 '픽 맞히기'→'AI 브리핑·데이터로 직접 판단을 돕는 관전 가이드'로. 모델 손익 공개는 신뢰 요소로 유지 (무작위 -20%대 기준선 카피)
+- **v2는 다음 개최일(8/21 금)부터 자동 적용** (8/16 예측은 v1 — 발주 후 재예측은 정직성 원칙 위반이라 하지 않음)
+- 참고: v1 백테스트 재생성은 `kra-predict backtest --months ... --stat v1` (학습 가중치 무시). frontend-design 스킬 설치됨(`.claude/skills/`)
 
 ## 백로그 (우선순위순)
 
