@@ -16,10 +16,28 @@ export default function AboutPage() {
       <section className="space-y-2">
         <h2 className="text-lg font-semibold">무엇을 제공하나요</h2>
         <p className="text-sm">
-          {SITE_NAME}은 서울·부산경남·제주 경마장의 경주 일정과 출전표, 그리고
-          통계 모델과 AI 분석을 결합한 경주 예측을 무료로 제공합니다. 경주
-          종료 후에는 결과와 예측 적중 여부를 함께 보여주고, 누적 적중률을
+          {SITE_NAME}은 서울·부산경남·제주 경마장의 경주 일정과 출전표, 통계
+          모델과 AI가 쓴 경주 브리핑을 무료로 제공합니다. 경주 종료 후에는
+          결과와 예측 적중 여부를 함께 보여주고, 누적 적중률과 모델 손익까지
           투명하게 공개합니다.
+        </p>
+      </section>
+
+      <section className="space-y-2 rounded-xl border border-brand bg-surface p-4">
+        <h2 className="text-lg font-semibold">
+          베팅 가이드가 아니라, 관전 가이드입니다
+        </h2>
+        <p className="text-sm">
+          저희 모델의 과거 성적을{" "}
+          <Link href="/model" className="text-brand hover:underline">
+            승식별 손익까지 전부 공개
+          </Link>
+          합니다 — 대부분 마이너스입니다. 경마는 파리뮤추얼 방식이라
+          환급률만큼 참가자 전체가 함께 잃는 구조이고, 그 사실을 숨기는 순간
+          이 서비스는 신뢰를 잃는다고 생각합니다. {SITE_NAME}의 역할은 픽을
+          맞혀 드리는 것이 아니라, 출전표를 읽는 눈과 AI 브리핑, 있는 그대로의
+          성적표를 드려서 <strong>직접 판단하며 경주를 더 재미있게 보도록</strong>{" "}
+          돕는 것입니다.
         </p>
       </section>
 
