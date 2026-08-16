@@ -30,10 +30,22 @@ SOFTMAX_TEMP = 0.28
 
 MODEL_PATH = Path(__file__).parent / "weights_v2.json"
 
+# "v1"이면 학습 가중치를 무시하고 v1로 동작 (백테스트의 버전별 재생성용)
+_MODEL_OVERRIDE: str | None = None
+
+
+def set_model_override(version: str | None) -> None:
+    """None=자동(파일 있으면 v2) · "v1"=강제 v1."""
+    global _MODEL_OVERRIDE
+    _MODEL_OVERRIDE = version
+    load_learned_model.cache_clear()
+
 
 @lru_cache(maxsize=1)
 def load_learned_model() -> dict | None:
-    """학습된 v2 가중치. 없으면 None → v1 동작."""
+    """학습된 v2 가중치. 없으면(또는 v1 강제 시) None → v1 동작."""
+    if _MODEL_OVERRIDE == "v1":
+        return None
     if not MODEL_PATH.exists():
         return None
     return json.loads(MODEL_PATH.read_text("utf-8"))

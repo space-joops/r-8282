@@ -196,19 +196,26 @@ def backtest(
     months: str = typer.Option(
         "2026-07,2026-08", "--months", help="쉼표 구분 YYYY-MM 목록"
     ),
+    stat: str = typer.Option(
+        "auto", "--stat", help="auto=활성 모델 | v1=학습 가중치 무시하고 v1"
+    ),
     fixtures: bool = typer.Option(False, "--fixtures", help="네트워크 없이 픽스처만 사용"),
     refresh: bool = typer.Option(False, "--refresh", help="raw 캐시 무시"),
 ) -> None:
-    """과거 경주에 통계 모델 v1을 적용해 성능을 측정하고 data/stats/backtest.json에 기록한다."""
+    """과거 경주에 활성 모델을 적용해 성능을 측정하고 data/stats/backtest.json에 기록한다."""
+    from kra_predict import score
     from kra_predict.backtest import (
         aggregate,
         build_backtest_races,
         fetch_detail_rows,
+        fetch_pool_dividends,
         month_list_with_history,
         simulate,
         write_backtest,
     )
 
+    if stat not in ("auto", "v1"):
+        raise typer.BadParameter("--stat은 auto 또는 v1")
     month_list = [m.strip() for m in months.split(",") if m.strip()]
     if not month_list or any(not re.match(r"^\d{4}-\d{2}$", m) for m in month_list):
         raise typer.BadParameter("months는 YYYY-MM 형식이어야 합니다")
@@ -218,16 +225,21 @@ def backtest(
     client = make_client(fixtures, refresh)
     try:
         detail_rows = fetch_detail_rows(client, all_months)
+        dividends = fetch_pool_dividends(client, month_list)
     finally:
         client.close()
 
     races = build_backtest_races(detail_rows, month_list)
-    judged = simulate(races)
-    if not judged:
-        typer.echo("평가할 경주가 없습니다 — 기간을 확인하세요.")
-        raise typer.Exit(1)
-
-    entry = aggregate(judged, month_list)
+    # aggregate()가 버전/설명을 판정할 때까지 override 유지
+    score.set_model_override("v1" if stat == "v1" else None)
+    try:
+        judged = simulate(races, dividends)
+        if not judged:
+            typer.echo("평가할 경주가 없습니다 — 기간을 확인하세요.")
+            raise typer.Exit(1)
+        entry = aggregate(judged, month_list)
+    finally:
+        score.set_model_override(None)
     write_backtest(entry)
 
     overall = entry["overall"]

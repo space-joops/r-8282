@@ -3,7 +3,7 @@
  "models": [
   {
    "version": "v1",
-   "generatedAt": "2026-08-15T23:32:08+09:00",
+   "generatedAt": "2026-08-16T11:56:53+09:00",
    "periodFrom": "2026-07-03",
    "periodTo": "2026-08-15",
    "note": "통계 가중 모델 v1 단독 백테스트 (실서비스의 AI 보정 미포함). 마필·기수·조교사 1년 성적은 경주일 이전 365일 데이터로 직접 계산해 사후 정보 누수를 차단함. ROI는 실제 확정 배당 기준 1단위 균등 베팅 시뮬레이션.",
@@ -113,11 +113,90 @@
      "roiWin": -0.4208,
      "roiPlace": -0.325
     }
+   ],
+   "betting": [
+    {
+     "pool": "WIN",
+     "label": "단승",
+     "bets": 255,
+     "hits": 57,
+     "hitRate": 0.2235,
+     "stakeKrw": 25500,
+     "returnedKrw": 16280,
+     "profitKrw": -9220,
+     "roi": -0.3616
+    },
+    {
+     "pool": "PLC",
+     "label": "연승",
+     "bets": 263,
+     "hits": 139,
+     "hitRate": 0.5285,
+     "stakeKrw": 26300,
+     "returnedKrw": 19640,
+     "profitKrw": -6660,
+     "roi": -0.2532
+    },
+    {
+     "pool": "QNL",
+     "label": "복승",
+     "bets": 259,
+     "hits": 23,
+     "hitRate": 0.0888,
+     "stakeKrw": 25900,
+     "returnedKrw": 14750,
+     "profitKrw": -11150,
+     "roi": -0.4305
+    },
+    {
+     "pool": "EXA",
+     "label": "쌍승",
+     "bets": 259,
+     "hits": 10,
+     "hitRate": 0.0386,
+     "stakeKrw": 25900,
+     "returnedKrw": 11570,
+     "profitKrw": -14330,
+     "roi": -0.5533
+    },
+    {
+     "pool": "QPL",
+     "label": "복연승",
+     "bets": 259,
+     "hits": 53,
+     "hitRate": 0.2046,
+     "stakeKrw": 25900,
+     "returnedKrw": 15980,
+     "profitKrw": -9920,
+     "roi": -0.383
+    },
+    {
+     "pool": "TLA",
+     "label": "삼복승",
+     "bets": 258,
+     "hits": 6,
+     "hitRate": 0.0233,
+     "stakeKrw": 25800,
+     "returnedKrw": 13470,
+     "profitKrw": -12330,
+     "roi": -0.4779
+    },
+    {
+     "pool": "TRI",
+     "label": "삼쌍승",
+     "bets": 259,
+     "hits": 3,
+     "hitRate": 0.0116,
+     "stakeKrw": 25900,
+     "returnedKrw": 30430,
+     "profitKrw": 4530,
+     "roi": 0.1749
+    }
    ]
   },
   {
    "version": "v2",
-   "generatedAt": "2026-08-16T00:18:45+09:00",
+   "generatedAt": "2026-08-16T11:57:12+09:00",
    "periodFrom": "2026-07-03",
    "periodTo": "2026-08-15",
    "note": "조건부 로짓 v2 — 2025-07~2026-06 2129경주로 학습한 가중치 (평가 기간과 분리된 아웃오브샘플 백테스트, AI 보정 미포함). 마필·기수·조교사 1년 성적은 경주일 이전 365일 데이터로 직접 계산해 사후 정보 누수를 차단함. ROI는 실제 확정 배당 기준 1단위 균등 베팅 시뮬레이션.",
@@ -226,6 +305,85 @@
      "logLoss": 2.118,
      "roiWin": -0.5278,
      "roiPlace": -0.2736
+    }
+   ],
+   "betting": [
+    {
+     "pool": "WIN",
+     "label": "단승",
+     "bets": 255,
+     "hits": 58,
+     "hitRate": 0.2275,
+     "stakeKrw": 25500,
+     "returnedKrw": 15520,
+     "profitKrw": -9980,
+     "roi": -0.3914
+    },
+    {
+     "pool": "PLC",
+     "label": "연승",
+     "bets": 263,
+     "hits": 151,
+     "hitRate": 0.5741,
+     "stakeKrw": 26300,
+     "returnedKrw": 21030,
+     "profitKrw": -5270,
+     "roi": -0.2004
+    },
+    {
+     "pool": "QNL",
+     "label": "복승",
+     "bets": 259,
+     "hits": 28,
+     "hitRate": 0.1081,
+     "stakeKrw": 25900,
+     "returnedKrw": 17890,
+     "profitKrw": -8010,
+     "roi": -0.3093
+    },
+    {
+     "pool": "EXA",
+     "label": "쌍승",
+     "bets": 259,
+     "hits": 10,
+     "hitRate": 0.0386,
+     "stakeKrw": 25900,
+     "returnedKrw": 7070,
+     "profitKrw": -18830,
+     "roi": -0.727
+    },
+    {
+     "pool": "QPL",
+     "label": "복연승",
+     "bets": 259,
+     "hits": 55,
+     "hitRate": 0.2124,
+     "stakeKrw": 25900,
+     "returnedKrw": 14580,
+     "profitKrw": -11320,
+     "roi": -0.4371
+    },
+    {
+     "pool": "TLA",
+     "label": "삼복승",
+     "bets": 258,
+     "hits": 12,
+     "hitRate": 0.0465,
+     "stakeKrw": 25800,
+     "returnedKrw": 14540,
+     "profitKrw": -11260,
+     "roi": -0.4364
+    },
+    {
+     "pool": "TRI",
+     "label": "삼쌍승",
+     "bets": 259,
+     "hits": 2,
+     "hitRate": 0.0077,
+     "stakeKrw": 25900,
+     "returnedKrw": 11180,
+     "profitKrw": -14720,
+     "roi": -0.5683
     }
    ]
   }

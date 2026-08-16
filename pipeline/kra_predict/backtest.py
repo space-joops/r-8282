@@ -48,6 +48,20 @@ CONFIDENCES = ("high", "medium", "low")
 TRACKS = ("seoul", "busan", "jeju")
 INVALID_ODDS = 9999.0  # 이 값 이상은 발매 무효 마커
 
+# 승식별 베팅 시뮬레이션 — 예측 1·2·3순위를 그대로 1장(100원)씩
+BET_UNIT_KRW = 100
+POOL_DEFS = [
+    ("WIN", "단승"),
+    ("PLC", "연승"),
+    ("QNL", "복승"),
+    ("EXA", "쌍승"),
+    ("QPL", "복연승"),
+    ("TLA", "삼복승"),
+    ("TRI", "삼쌍승"),
+]
+EXOTIC_POOLS = ("QNL", "EXA", "QPL", "TLA", "TRI")
+ORDERED_POOLS = {"EXA", "TRI"}  # 착순 순서까지 맞혀야 하는 풀
+
 
 def month_list_with_history(target_months: list[str]) -> list[str]:
     """타깃 월 + 이전 12개월을 오름차순으로 돌려준다."""
@@ -76,6 +90,51 @@ def _odds(value) -> float | None:
     if odds is None or odds >= INVALID_ODDS:
         return None
     return odds
+
+
+DividendLookup = dict[tuple, dict[tuple, float]]
+
+
+def fetch_pool_dividends(client: KraClient, months: list[str]) -> DividendLookup:
+    """확정배당율종합(API301)에서 복승·쌍승·복연승·삼복승·삼쌍승 배당을 수집.
+
+    반환: {(slug, date, rcNo, pool): {조합: 배당}} — 전 조합 배당이 제공되므로
+    (경주, 풀) 키의 존재 여부가 곧 '해당 승식 발매 여부'다.
+    순서 무관 풀(QNL·QPL·TLA)의 조합은 정렬 튜플로 정규화한다.
+    """
+    lookup: DividendLookup = {}
+    for month in months:
+        ym = month.replace("-", "")
+        for meet in (1, 2, 3):
+            for pool in EXOTIC_POOLS:
+                rows = client.get_items(
+                    ep.DIVIDEND_RATE,
+                    meet=meet,
+                    rc_month=ym,
+                    pool=pool,
+                    num_of_rows=999,
+                    max_pages=200,
+                )
+                for row in rows:
+                    slug = MEET_NAME_TO_SLUG.get(str(row.get("meet", "")).strip())
+                    date = _iso_date(row.get("rcDate"))
+                    rc_no = _num(row.get("rcNo"), int)
+                    odds = _odds(row.get("odds"))
+                    combo = tuple(
+                        c
+                        for c in (
+                            _num(row.get("chulNo"), int),
+                            _num(row.get("chulNo2"), int),
+                            _num(row.get("chulNo3"), int),
+                        )
+                        if c
+                    )
+                    if not slug or not date or not rc_no or odds is None or not combo:
+                        continue
+                    if pool not in ORDERED_POOLS:
+                        combo = tuple(sorted(combo))
+                    lookup.setdefault((slug, date, rc_no, pool), {})[combo] = odds
+    return lookup
 
 
 class AsOfStats:
@@ -217,8 +276,79 @@ def build_backtest_races(rows: list[dict], target_months: list[str]) -> list[dic
     return races
 
 
-def simulate(races: list[dict]) -> list[dict]:
-    """경주별 v1 예측 → 실제 결과 대조."""
+def _judge_pools(
+    race: dict,
+    picks: list[int],
+    results: dict,
+    win_hit: bool,
+    place_hit: bool,
+    dividends: DividendLookup | None,
+) -> dict[str, dict]:
+    """풀별 (베팅 여부, 적중, 회수액 KRW). 발매 여부 = 배당 룩업 키 존재."""
+    ord_of = {gate: res["ord"] for gate, res in results.items()}
+    by_pos = sorted(results.items(), key=lambda kv: kv[1]["ord"])
+    actual = [g for g, _ in by_pos[:3]]
+    p1 = picks[0]
+    p2 = picks[1] if len(picks) > 1 else None
+    p3 = picks[2] if len(picks) > 2 else None
+
+    pools: dict[str, dict] = {}
+    # 단승·연승은 경주성적정보의 배당 필드 기준 (기존 ROI 정의와 동일)
+    win_odds = results.get(p1, {}).get("winOdds")
+    plc_odds = results.get(p1, {}).get("plcOdds")
+    pools["WIN"] = {
+        "staked": 1 if win_odds is not None else 0,
+        "hit": 1 if (win_hit and win_odds is not None) else 0,
+        "returnKrw": win_odds * BET_UNIT_KRW if (win_hit and win_odds) else 0.0,
+    }
+    pools["PLC"] = {
+        "staked": 1 if plc_odds is not None else 0,
+        "hit": 1 if (place_hit and plc_odds is not None) else 0,
+        "returnKrw": plc_odds * BET_UNIT_KRW if (place_hit and plc_odds) else 0.0,
+    }
+
+    combos: dict[str, tuple | None] = {
+        "QNL": tuple(sorted((p1, p2))) if p2 else None,
+        "EXA": (p1, p2) if p2 else None,
+        "QPL": tuple(sorted((p1, p2))) if p2 else None,
+        "TLA": tuple(sorted((p1, p2, p3))) if p3 else None,
+        "TRI": (p1, p2, p3) if p3 else None,
+    }
+    hits = {
+        "QNL": p2 is not None and set(actual[:2]) == {p1, p2},
+        "EXA": p2 is not None and actual[:2] == [p1, p2],
+        "QPL": p2 is not None
+        and (ord_of.get(p1) or 99) <= 3
+        and (ord_of.get(p2) or 99) <= 3,
+        "TLA": p3 is not None and set(actual) == {p1, p2, p3},
+        "TRI": p3 is not None and actual == [p1, p2, p3],
+    }
+    key_base = (race["track"], race["date"], race["raceNo"])
+    for pool in EXOTIC_POOLS:
+        combo = combos[pool]
+        table = (dividends or {}).get((*key_base, pool))
+        if combo is None or table is None:
+            pools[pool] = {"staked": 0, "hit": 0, "returnKrw": 0.0}
+            continue
+        hit = hits[pool]
+        payout = 0.0
+        if hit:
+            odds = table.get(combo)
+            if odds is None:
+                logger.warning(
+                    "%s %s %d경주 %s: 적중 조합 %s의 배당 행 없음 → 회수 0 처리",
+                    race["track"], race["date"], race["raceNo"], pool, combo,
+                )
+            else:
+                payout = odds * BET_UNIT_KRW
+        pools[pool] = {"staked": 1, "hit": 1 if hit else 0, "returnKrw": payout}
+    return pools
+
+
+def simulate(
+    races: list[dict], dividends: DividendLookup | None = None
+) -> list[dict]:
+    """경주별 활성 모델 예측 → 실제 결과 대조 (+승식별 베팅 시뮬)."""
     judged = []
     for race in races:
         pred = build_prediction(
@@ -259,6 +389,9 @@ def simulate(races: list[dict]) -> list[dict]:
                 "returnPlace": plc_odds
                 if (place_hit and plc_odds is not None)
                 else 0.0,
+                "pools": _judge_pools(
+                    race, top3_pred, results, win_hit, place_hit, dividends
+                ),
             }
         )
     return judged
@@ -303,6 +436,31 @@ def _model_meta() -> tuple[str, str]:
     return MODEL_VERSION, MODEL_NOTE
 
 
+def _betting_summary(judged: list[dict]) -> list[dict]:
+    """승식별 최소단위(100원) 균등 베팅 결과 집계."""
+    out = []
+    for pool, label in POOL_DEFS:
+        rows = [r["pools"][pool] for r in judged if "pools" in r]
+        bets = sum(r["staked"] for r in rows)
+        hits = sum(r["hit"] for r in rows)
+        returned = sum(r["returnKrw"] for r in rows)
+        stake = bets * BET_UNIT_KRW
+        out.append(
+            {
+                "pool": pool,
+                "label": label,
+                "bets": bets,
+                "hits": hits,
+                "hitRate": round(hits / bets, 4) if bets else 0,
+                "stakeKrw": stake,
+                "returnedKrw": round(returned),
+                "profitKrw": round(returned - stake),
+                "roi": round((returned - stake) / stake, 4) if stake else None,
+            }
+        )
+    return out
+
+
 def aggregate(judged: list[dict], months: list[str]) -> dict:
     dates = sorted({r["date"] for r in judged})
     version, note = _model_meta()
@@ -325,6 +483,7 @@ def aggregate(judged: list[dict], months: list[str]) -> dict:
             {"month": m, **_bucket([r for r in judged if r["month"] == m])}
             for m in sorted({r["month"] for r in judged})
         ],
+        "betting": _betting_summary(judged),
     }
 
 

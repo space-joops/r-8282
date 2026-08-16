@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Observable Notebook Kit 빌드 산출물 (notes/observable → notebooks build)
+    ".observable/**",
   ]),
 ]);
 

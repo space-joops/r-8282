@@ -185,6 +185,19 @@ export const backtestMetricSchema = z.object({
 });
 export type BacktestMetric = z.infer<typeof backtestMetricSchema>;
 
+export const bettingEntrySchema = z.object({
+  pool: z.enum(["WIN", "PLC", "QNL", "EXA", "QPL", "TLA", "TRI"]),
+  label: z.string(),
+  bets: z.number().int().nonnegative(),
+  hits: z.number().int().nonnegative(),
+  hitRate: z.number().min(0).max(1),
+  stakeKrw: z.number().int().nonnegative(),
+  returnedKrw: z.number().int().nonnegative(),
+  profitKrw: z.number().int(),
+  roi: z.number().nullable(),
+});
+export type BettingEntry = z.infer<typeof bettingEntrySchema>;
+
 export const backtestModelSchema = z.object({
   version: z.string(),
   generatedAt: z.string(),
@@ -201,6 +214,7 @@ export const backtestModelSchema = z.object({
   monthly: z.array(
     backtestMetricSchema.extend({ month: z.string().regex(/^\d{4}-\d{2}$/) }),
   ),
+  betting: z.array(bettingEntrySchema),
 });
 export type BacktestModel = z.infer<typeof backtestModelSchema>;
 
