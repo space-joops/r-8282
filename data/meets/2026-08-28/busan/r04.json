@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-28",
+ "track": "busan",
+ "raceNo": 4,
+ "startTimeKst": "15:20",
+ "distanceM": 1300,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0053814",
+   "horseName": "가온보스",
+   "age": 5,
+   "sex": "거",
+   "rating": 301.0,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.179
+   },
+   "trainer": {
+    "id": "070136",
+    "name": "민장기",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0053973",
+   "horseName": "태평플렉스",
+   "age": 3,
+   "sex": "암",
+   "rating": 251.0,
+   "jockey": {
+    "id": "080606",
+    "name": "신윤섭",
+    "winRate1y": 0.042
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0054672",
+   "horseName": "무쌍의반석",
+   "age": 4,
+   "sex": "거",
+   "rating": 341.0,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "070263",
+    "name": "양영남",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "1411561",
+   "horseName": "피노파워",
+   "age": 5,
+   "sex": "거",
+   "rating": 251.0,
+   "jockey": {
+    "id": "080431",
+    "name": "이성재",
+    "winRate1y": 0.059
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0052902",
+   "horseName": "최강해피",
+   "age": 3,
+   "sex": "수",
+   "rating": 261.0,
+   "jockey": {
+    "id": "080438",
+    "name": "조인권",
+    "winRate1y": 0.102
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0051028",
+   "horseName": "하늘폭풍",
+   "age": 4,
+   "sex": "거",
+   "rating": 350.0,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.121
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0051682",
+   "horseName": "배다리보석",
+   "age": 4,
+   "sex": "암",
+   "rating": 230.0,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 19,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0052068",
+   "horseName": "성실시대",
+   "age": 4,
+   "sex": "암",
+   "rating": 241.0,
+   "jockey": {
+    "id": "",
+    "name": "(-1)김성현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070142",
+    "name": "방동석",
+    "winRate1y": 0.112
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0047173",
+   "horseName": "뉴리더",
+   "age": 5,
+   "sex": "암",
+   "rating": 240.0,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "070246",
+    "name": "손병직",
+    "winRate1y": 0.031
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0054760",
+   "horseName": "빅토리스토리",
+   "age": 4,
+   "sex": "거",
+   "rating": 241.0,
+   "jockey": {
+    "id": "080532",
+    "name": "채상현",
+    "winRate1y": 0.03
+   },
+   "trainer": {
+    "id": "070301",
+    "name": "구현완",
+    "winRate1y": 0.0
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0053868",
+   "horseName": "빅스타",
+   "age": 3,
+   "sex": "암",
+   "rating": 290.0,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -2.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-28T07:42:23+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 11,
+    "score": 1.0,
+    "winProb": 0.3986,
+    "briefComment": "확인된 상승세, 암3 체중 이점",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 6,
+    "score": 0.8257,
+    "winProb": 0.2139,
+    "briefComment": "최고 레이팅도 1년 무승리 리스크",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 1,
+    "score": 0.6247,
+    "winProb": 0.1043,
+    "briefComment": "거5 부담중량 54.5kg 무거움, 최근 성적 부진",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 5,
+    "score": 0.599,
+    "winProb": 0.0952,
+    "briefComment": "수3 체중 유리, 승리 경험 있음",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 2,
+    "score": 0.4447,
+    "winProb": 0.0549,
+    "briefComment": "암3 체중 이점, 11% 승률 안정적",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 9,
+    "score": 0.3737,
+    "winProb": 0.0426,
+    "briefComment": "암5 입상률 18% 안정적 괜찮음",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 4,
+    "score": 0.221,
+    "winProb": 0.0247,
+    "briefComment": "거5 연령대 약세, 승리 기록 無",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 8,
+    "score": 0.2168,
+    "winProb": 0.0243,
+    "briefComment": "기수변경 암4, 3출 무승리",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 10,
+    "score": 0.1313,
+    "winProb": 0.0179,
+    "briefComment": "입상률 20% 나쁘지 않으나 복승만",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 7,
+    "score": 0.0314,
+    "winProb": 0.0125,
+    "briefComment": "암4 19경주 무승리 배제",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 3,
+    "score": 0.0,
+    "winProb": 0.0112,
+    "briefComment": "레이팅 높지만 5출 무승리 적신호",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**빅스타**의 안정적 상승세가 통계 1순위의 근거이며, 암3 체중 이점과 입상률 38%로 신뢰도 높습니다. 반면 **하늘폭풍**은 레이팅 350으로 최고 수준이나 1년 무승리 기록이 심각한 약점으로, 성적 공백 대비 모델 신뢰도 낮음. **무쌍의반석**은 레이팅 341의 높은 평가와 달리 5경주 무승리로 실제 경합력 의문. 1300m 국5등급에서는 최근 성적이 우수한 **빅스타**, **태평플렉스** 등 입상 경험이 풍부한 말들이 주도권을 잡을 가능성이 높습니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 11,
+   "place": [
+    11,
+    6,
+    1
+   ],
+   "exacta": [
+    11,
+    6
+   ]
+  }
+ },
+ "result": null
+}

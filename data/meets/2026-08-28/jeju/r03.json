@@ -1,0 +1,409 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-28",
+ "track": "jeju",
+ "raceNo": 3,
+ "startTimeKst": "14:55",
+ "distanceM": 1000,
+ "grade": "제5등급",
+ "canceled": false,
+ "ageCond": "2세이상",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3105317",
+   "horseName": "신통방통",
+   "age": 4,
+   "sex": "거",
+   "rating": 20.0,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.075
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 13,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3104741",
+   "horseName": "무주영웅",
+   "age": 4,
+   "sex": "암",
+   "rating": 6.0,
+   "jockey": {
+    "id": "003080",
+    "name": "문현진",
+    "winRate1y": 0.167
+   },
+   "trainer": {
+    "id": "002026",
+    "name": "고영덕",
+    "winRate1y": 0.132
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3104592",
+   "horseName": "우아우아",
+   "age": 4,
+   "sex": "암",
+   "rating": 40.0,
+   "jockey": {
+    "id": "003058",
+    "name": "한영민",
+    "winRate1y": 0.079
+   },
+   "trainer": {
+    "id": "002030",
+    "name": "최기호",
+    "winRate1y": 0.06
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3107353",
+   "horseName": "청룡바람",
+   "age": 3,
+   "sex": "거",
+   "rating": 101.0,
+   "jockey": {
+    "id": "003082",
+    "name": "김홍권",
+    "winRate1y": 0.136
+   },
+   "trainer": {
+    "id": "002033",
+    "name": "강영진",
+    "winRate1y": 0.106
+   },
+   "weightCarriedKg": 57.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3104277",
+   "horseName": "세계왕자",
+   "age": 4,
+   "sex": "거",
+   "rating": 81.0,
+   "jockey": {
+    "id": "003094",
+    "name": "곽석",
+    "winRate1y": 0.074
+   },
+   "trainer": {
+    "id": "002027",
+    "name": "강대은",
+    "winRate1y": 0.085
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 13,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3107884",
+   "horseName": "마조여신",
+   "age": 3,
+   "sex": "암",
+   "rating": 10.0,
+   "jockey": {
+    "id": "003081",
+    "name": "김준호",
+    "winRate1y": 0.147
+   },
+   "trainer": {
+    "id": "002036",
+    "name": "강태종",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3103951",
+   "horseName": "자유열매",
+   "age": 5,
+   "sex": "거",
+   "rating": 10.0,
+   "jockey": {
+    "id": "003089",
+    "name": "박성광",
+    "winRate1y": 0.262
+   },
+   "trainer": {
+    "id": "002034",
+    "name": "이태용",
+    "winRate1y": 0.234
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3105271",
+   "horseName": "돈마천하",
+   "age": 4,
+   "sex": "거",
+   "rating": 10.0,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.101
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "3107908",
+   "horseName": "투혼여제",
+   "age": 3,
+   "sex": "암",
+   "rating": 90.0,
+   "jockey": {
+    "id": "003070",
+    "name": "전현준",
+    "winRate1y": 0.121
+   },
+   "trainer": {
+    "id": "002042",
+    "name": "김대연",
+    "winRate1y": 0.081
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.5,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "3103807",
+   "horseName": "신천여제",
+   "age": 5,
+   "sex": "암",
+   "rating": 110.0,
+   "jockey": {
+    "id": "003092",
+    "name": "이성민",
+    "winRate1y": 0.091
+   },
+   "trainer": {
+    "id": "002018",
+    "name": "신경호",
+    "winRate1y": 0.141
+   },
+   "weightCarriedKg": 58.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-28T07:42:23+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 2,
+    "score": 1.0,
+    "winProb": 0.2471,
+    "briefComment": "1년 20% 승률, 안정적 전적 유지",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 6,
+    "score": 0.9878,
+    "winProb": 0.2366,
+    "briefComment": "0승기록 약점, 입상률 80% 추적 역할",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 3,
+    "score": 0.8369,
+    "winProb": 0.138,
+    "briefComment": "2출1승 통계 신뢰도 낮음, 1000m 미증명",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 9,
+    "score": 0.799,
+    "winProb": 0.1206,
+    "briefComment": "레이팅 90.0 고능력, 부담중량 무거움",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 4,
+    "score": 0.7103,
+    "winProb": 0.0878,
+    "briefComment": "레이팅 101.0 고능력, 경험 부족 보완",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 7,
+    "score": 0.6288,
+    "winProb": 0.0656,
+    "briefComment": "3출 무승, 거5 노마로 통계 과평가",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 5,
+    "score": 0.5168,
+    "winProb": 0.044,
+    "briefComment": "13출 경험, 1승3입으로 일정 수준 증명",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 10,
+    "score": 0.4968,
+    "winProb": 0.041,
+    "briefComment": "레이팅 110.0 최고, 14출 무승 약점",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 8,
+    "score": 0.1597,
+    "winProb": 0.0123,
+    "briefComment": "6출 무승, 레이팅 낮음 신뢰도 낮음",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 1,
+    "score": 0.0,
+    "winProb": 0.0069,
+    "briefComment": "1년 13출 무승, 필드 최약체",
+    "predictedRank": 10
+   }
+  ],
+  "aiCommentary": "저출주 마필의 과평가가 눈에 띈다. **무주영웅**과 **마조여신**이 1·2위지만 **우아우아**(2출1승)와 **자유열매**(3출0승)의 통계 신뢰도는 낮다. 반면 레이팅 90 이상의 **투혼여제**, **신천여제**, **청룡바람** 등 고레이팅 마필들이 실제 입상 능력 대비 과소평가된 경향. 부담중량에서 **마조여신**(53.0kg 최경) 유리하고 **투혼여제**(57.0kg)는 무거운 조건이나 경기 경험이 보정.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 2,
+   "place": [
+    2,
+    6,
+    3
+   ],
+   "exacta": [
+    2,
+    6
+   ]
+  }
+ },
+ "result": null
+}

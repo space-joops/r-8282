@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-28",
+ "track": "busan",
+ "raceNo": 2,
+ "startTimeKst": "13:40",
+ "distanceM": 1600,
+ "grade": "국6등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0053787",
+   "horseName": "신흥강타자",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0056976",
+   "horseName": "영광의크라운",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070223",
+    "name": "강은석",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0053805",
+   "horseName": "원플러스원",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080421",
+    "name": "송경윤",
+    "winRate1y": 0.093
+   },
+   "trainer": {
+    "id": "070263",
+    "name": "양영남",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0056196",
+   "horseName": "용비천마",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.232
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053628",
+   "horseName": "지롤시대",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080483",
+    "name": "유광희",
+    "winRate1y": 0.034
+   },
+   "trainer": {
+    "id": "070136",
+    "name": "민장기",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0053916",
+   "horseName": "타이거어퍼컷",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070291",
+    "name": "유현명",
+    "winRate1y": 0.118
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0052136",
+   "horseName": "위스트롱",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0053371",
+   "horseName": "포에버로드",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-2)이홍락",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 52.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0056540",
+   "horseName": "닥터에이트",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "이동하",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.123
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0054004",
+   "horseName": "레드킹",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "",
+    "name": "(-3)손경민",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0053938",
+   "horseName": "챔프의향기",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080566",
+    "name": "최은경",
+    "winRate1y": 0.097
+   },
+   "trainer": {
+    "id": "070128",
+    "name": "임금만",
+    "winRate1y": 0.094
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-28T07:42:23+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 4,
+    "score": 1.0,
+    "winProb": 0.5302,
+    "briefComment": "50% 입상률이나 2경기만",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 5,
+    "score": 0.5011,
+    "winProb": 0.0892,
+    "briefComment": "6전 안정, 0승",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 11,
+    "score": 0.3907,
+    "winProb": 0.0602,
+    "briefComment": "6전 중 3위만 1회",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 3,
+    "score": 0.3866,
+    "winProb": 0.0593,
+    "briefComment": "2위 입상 경험 있음",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 9,
+    "score": 0.3579,
+    "winProb": 0.0535,
+    "briefComment": "신인 수2, 미약",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 10,
+    "score": 0.308,
+    "winProb": 0.0448,
+    "briefComment": "기수변경, 6전 무승리",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 6,
+    "score": 0.3059,
+    "winProb": 0.0444,
+    "briefComment": "3전 무승리 부진",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 8,
+    "score": 0.2644,
+    "winProb": 0.0383,
+    "briefComment": "기수변경, 최저 부담중량",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 2,
+    "score": 0.256,
+    "winProb": 0.0372,
+    "briefComment": "신인 암2, 데이터 미흡",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 1,
+    "score": 0.1759,
+    "winProb": 0.0279,
+    "briefComment": "7전 무승리, 심각한 부진",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 7,
+    "score": 0.0,
+    "winProb": 0.0149,
+    "briefComment": "노마 암4, 미약",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "전체적으로 0승인 약한 경주 구도로, 통계 1위 **용비천마**는 입상률 50%로 상대적 우위가 있으나 2경기만의 제한적 데이터임. 3세·4세 경험마들이 미약한 가운데 **원플러스원**은 2위 입상 경험이 있어 실전력 재평가가 필요. 기수 변경 마들(**포에버로드**, **레드킹**)과 연령별 컨디션이 결과를 크게 좌우할 것으로 예상됨.",
+  "confidence": "low",
+  "topPicks": {
+   "win": 4,
+   "place": [
+    4,
+    5,
+    11
+   ],
+   "exacta": [
+    4,
+    5
+   ]
+  }
+ },
+ "result": null
+}

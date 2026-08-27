@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-28",
+ "track": "busan",
+ "raceNo": 5,
+ "startTimeKst": "16:15",
+ "distanceM": 1300,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0046763",
+   "horseName": "하늘평정",
+   "age": 5,
+   "sex": "암",
+   "rating": 230.0,
+   "jockey": {
+    "id": "080403",
+    "name": "김어수",
+    "winRate1y": 0.05
+   },
+   "trainer": {
+    "id": "070226",
+    "name": "박재호",
+    "winRate1y": 0.091
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0053210",
+   "horseName": "모어퀴클리",
+   "age": 3,
+   "sex": "암",
+   "rating": 25.0,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070246",
+    "name": "손병직",
+    "winRate1y": 0.031
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 18,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0053772",
+   "horseName": "용비스카이",
+   "age": 3,
+   "sex": "거",
+   "rating": 290.0,
+   "jockey": {
+    "id": "",
+    "name": "(-1)김성현",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -2.5,
+   "record1y": {
+    "starts": 4,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0045836",
+   "horseName": "태양으뜸",
+   "age": 6,
+   "sex": "암",
+   "rating": 301.0,
+   "jockey": {
+    "id": "080606",
+    "name": "신윤섭",
+    "winRate1y": 0.042
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 22,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0060841",
+   "horseName": "치프블레임",
+   "age": 3,
+   "sex": "거",
+   "rating": 340.0,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0046930",
+   "horseName": "위라이크머니",
+   "age": 5,
+   "sex": "암",
+   "rating": 230.0,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 18,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0050929",
+   "horseName": "승리예약",
+   "age": 4,
+   "sex": "암",
+   "rating": 261.0,
+   "jockey": {
+    "id": "",
+    "name": "(-2)이홍락",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 15,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0051035",
+   "horseName": "팀서프라이즈",
+   "age": 4,
+   "sex": "암",
+   "rating": 241.0,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0051702",
+   "horseName": "아리온의빛",
+   "age": 4,
+   "sex": "거",
+   "rating": 340.0,
+   "jockey": {
+    "id": "080532",
+    "name": "채상현",
+    "winRate1y": 0.03
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 14,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0051550",
+   "horseName": "홀리데이퀸",
+   "age": 4,
+   "sex": "암",
+   "rating": 340.0,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.121
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 3.5,
+   "record1y": {
+    "starts": 16,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0052791",
+   "horseName": "캐럿킹",
+   "age": 3,
+   "sex": "수",
+   "rating": 271.0,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.5,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-28T07:42:23+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 3,
+    "score": 1.0,
+    "winProb": 0.3432,
+    "briefComment": "통계 최강이나 최근 경주 소수",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 11,
+    "score": 0.8097,
+    "winProb": 0.174,
+    "briefComment": "입상 풍부하나 우승 경험 전무",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 10,
+    "score": 0.7743,
+    "winProb": 0.1533,
+    "briefComment": "입상률 낮음, 기수 경험은 풍부",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 8,
+    "score": 0.6039,
+    "winProb": 0.0834,
+    "briefComment": "통계 과평가, 입상률 10%",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 7,
+    "score": 0.5046,
+    "winProb": 0.0585,
+    "briefComment": "경량 이점, 기수 변경 영향 미지수",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 2,
+    "score": 0.5032,
+    "winProb": 0.0582,
+    "briefComment": "레이팅 데이터 오류 의심",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 4,
+    "score": 0.417,
+    "winProb": 0.0428,
+    "briefComment": "경주 경험 가장 많음(22회)",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 9,
+    "score": 0.315,
+    "winProb": 0.0297,
+    "briefComment": "고레이팅 무입상, 부담중량도 무거움",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 1,
+    "score": 0.2531,
+    "winProb": 0.0238,
+    "briefComment": "경주 경험 부족, 신뢰도 낮음",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 5,
+    "score": 0.2475,
+    "winProb": 0.0234,
+    "briefComment": "고레이팅 무승리, 부담중량 무거움",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 6,
+    "score": 0.0,
+    "winProb": 0.0097,
+    "briefComment": "무승리로 신뢰도 낮음",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": "**용비스카이**가 통계 최강이나 최근 경주 4회(1-0-0-0)로 데이터 부족이 우려됩니다. **태양으뜸**은 22경주 경험(1-0-0-3)으로 가장 경험 많고 안정적이어서 재평가 필요합니다. **치프블레임**, **아리온의빛**은 레이팅 340인데 입상률 0%~7%로 지나치게 낮으며, 특히 치프블레임은 56.5kg 부담중량까지 안습니다. **캐럿킹**은 입상률 42%로 높으나 우승 경험 전무(0-2-3 구성)로 격상에 주의가 필요합니다.",
+  "confidence": "medium",
+  "topPicks": {
+   "win": 3,
+   "place": [
+    3,
+    11,
+    10
+   ],
+   "exacta": [
+    3,
+    11
+   ]
+  }
+ },
+ "result": null
+}

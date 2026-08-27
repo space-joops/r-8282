@@ -1,0 +1,409 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-08-28",
+ "track": "jeju",
+ "raceNo": 1,
+ "startTimeKst": "13:15",
+ "distanceM": 900,
+ "grade": "제6등급",
+ "canceled": false,
+ "ageCond": "4세이하",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3107913",
+   "horseName": "영웅대정",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003084",
+    "name": "김한남",
+    "winRate1y": 0.055
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.101
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3107314",
+   "horseName": "서유기",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003044",
+    "name": "정명일",
+    "winRate1y": 0.019
+   },
+   "trainer": {
+    "id": "002023",
+    "name": "한상배",
+    "winRate1y": 0.044
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3104324",
+   "horseName": "수리수리",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003073",
+    "name": "김다영",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.044
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3108168",
+   "horseName": "청운질주",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003082",
+    "name": "김홍권",
+    "winRate1y": 0.136
+   },
+   "trainer": {
+    "id": "002033",
+    "name": "강영진",
+    "winRate1y": 0.106
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3107903",
+   "horseName": "만광",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.101
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3109223",
+   "horseName": "명품대로",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003081",
+    "name": "김준호",
+    "winRate1y": 0.147
+   },
+   "trainer": {
+    "id": "002036",
+    "name": "강태종",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3108666",
+   "horseName": "만리질주",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003058",
+    "name": "한영민",
+    "winRate1y": 0.079
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.075
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3107584",
+   "horseName": "대운",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003087",
+    "name": "임재광",
+    "winRate1y": 0.185
+   },
+   "trainer": {
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "3107828",
+   "horseName": "직진기",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003094",
+    "name": "곽석",
+    "winRate1y": 0.074
+   },
+   "trainer": {
+    "id": "002042",
+    "name": "김대연",
+    "winRate1y": 0.081
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "3107905",
+   "horseName": "색달신화",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "002041",
+    "name": "윤호상",
+    "winRate1y": 0.029
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-08-28T07:42:23+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": "haiku"
+  },
+  "rankings": [
+   {
+    "gateNo": 6,
+    "score": 0.96,
+    "winProb": 0.3736,
+    "briefComment": "최근 2회 입상, 단기 폼 긍정적",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 1,
+    "score": 0.7683,
+    "winProb": 0.1884,
+    "briefComment": "2회 연속 입상, 비교적 안정적",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 7,
+    "score": 0.6921,
+    "winProb": 0.1435,
+    "briefComment": "1회만 경험, 신뢰도 매우 낮음",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 8,
+    "score": 0.5555,
+    "winProb": 0.0881,
+    "briefComment": "4회 경험 중 1회 입상, 가장 많은 주행",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 5,
+    "score": 0.4761,
+    "winProb": 0.0664,
+    "briefComment": "3회 중 1회 입상, 경험도 미흡",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 9,
+    "score": 0.3621,
+    "winProb": 0.0442,
+    "briefComment": "3회 중 1회 입상, 평범한 수준",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 4,
+    "score": 0.3616,
+    "winProb": 0.0441,
+    "briefComment": "1회 출전 무입상, 정보 부족",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 3,
+    "score": 0.2013,
+    "winProb": 0.0249,
+    "briefComment": "3회 출전 중 1회 입상, 하위권 예상",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 2,
+    "score": 0.0562,
+    "winProb": 0.0148,
+    "briefComment": "입상 경험 1회, 근거 부족",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 10,
+    "score": 0.0,
+    "winProb": 0.0121,
+    "briefComment": "2회 무입상, 유력하지 않음",
+    "predictedRank": 10
+   }
+  ],
+  "aiCommentary": "제6등급 저수준 경주로 거의 모든 말이 1년 승률 0%인 상황에서 표본 크기가 극히 제한적입니다. **명품대로**는 2회 연속 입상으로 최근 안정성을 보이나, 겨우 2경주 기반의 26% 승률 예측은 과신의 우려가 있습니다. 단거리(900m) 경주인 만큼 스타트, 컨디션, 기수 능력이 큰 변수이며, 입상 경험의 일관성(**영웅대정** 2회 연속 입상, **대운**의 4회 경험)을 중시할 필요가 있습니다.",
+  "confidence": "low",
+  "topPicks": {
+   "win": 6,
+   "place": [
+    6,
+    1,
+    7
+   ],
+   "exacta": [
+    6,
+    1
+   ]
+  }
+ },
+ "result": null
+}
