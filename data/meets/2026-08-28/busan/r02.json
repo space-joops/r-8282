@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "원플러스원",
+    "timeSec": 100.3,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "닥터에이트",
+    "timeSec": 101.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 11,
+    "horseName": "챔프의향기",
+    "timeSec": 101.0,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 2,
+    "horseName": "영광의크라운",
+    "timeSec": 101.8,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 6,
+    "horseName": "타이거어퍼컷",
+    "timeSec": 101.8,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 10,
+    "horseName": "레드킹",
+    "timeSec": 102.9,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 7,
+    "horseName": "위스트롱",
+    "timeSec": 103.5,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 4,
+    "horseName": "용비천마",
+    "timeSec": 103.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 5,
+    "horseName": "지롤시대",
+    "timeSec": 104.8,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 1,
+    "horseName": "신흥강타자",
+    "timeSec": 106.2,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 8,
+    "horseName": "포에버로드",
+    "timeSec": 110.3,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 3.7,
+   "place": [
+    1.5,
+    2.0,
+    2.8
+   ]
+  }
+ }
 }

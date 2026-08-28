@@ -1,12 +1,12 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-08-16T13:43:05+09:00",
+ "updatedAt": "2026-08-28T19:31:50+09:00",
  "overall": {
-  "races": 8,
-  "winHits": 3,
-  "winRate": 0.375,
-  "placeHits": 5,
-  "placeRate": 0.625,
+  "races": 23,
+  "winHits": 6,
+  "winRate": 0.2609,
+  "placeHits": 13,
+  "placeRate": 0.5652,
   "top3ExactHits": 0
  },
  "byTrack": {
@@ -19,19 +19,19 @@
    "top3ExactHits": 0
   },
   "busan": {
-   "races": 4,
-   "winHits": 1,
-   "winRate": 0.25,
-   "placeHits": 1,
+   "races": 12,
+   "winHits": 2,
+   "winRate": 0.1667,
+   "placeHits": 3,
    "placeRate": 0.25,
    "top3ExactHits": 0
   },
   "jeju": {
-   "races": 0,
-   "winHits": 0,
-   "winRate": 0,
-   "placeHits": 0,
-   "placeRate": 0,
+   "races": 7,
+   "winHits": 2,
+   "winRate": 0.2857,
+   "placeHits": 6,
+   "placeRate": 0.8571,
    "top3ExactHits": 0
   }
  },
@@ -41,6 +41,12 @@
    "races": 8,
    "winHits": 3,
    "placeHits": 5
+  },
+  {
+   "date": "2026-08-28",
+   "races": 15,
+   "winHits": 3,
+   "placeHits": 8
   }
  ]
 }

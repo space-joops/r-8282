@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 9,
+    "horseName": "아리온의빛",
+    "timeSec": 81.7,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 11,
+    "horseName": "캐럿킹",
+    "timeSec": 81.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "승리예약",
+    "timeSec": 82.0,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 6,
+    "horseName": "위라이크머니",
+    "timeSec": 82.1,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 10,
+    "horseName": "홀리데이퀸",
+    "timeSec": 82.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 5,
+    "horseName": "치프블레임",
+    "timeSec": 82.3,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 1,
+    "horseName": "하늘평정",
+    "timeSec": 82.3,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 8,
+    "horseName": "팀서프라이즈",
+    "timeSec": 82.4,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 2,
+    "horseName": "모어퀴클리",
+    "timeSec": 82.9,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 3,
+    "horseName": "용비스카이",
+    "timeSec": 83.3,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 4,
+    "horseName": "태양으뜸",
+    "timeSec": 83.6,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 17.6,
+   "place": [
+    4.3,
+    1.8,
+    6.2
+   ]
+  }
+ }
 }

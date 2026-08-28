@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "2세이상",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:50+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "무림왕자",
+    "timeSec": 91.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 2,
+    "horseName": "달빛소리",
+    "timeSec": 91.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 6,
+    "horseName": "전승소녀",
+    "timeSec": 91.8,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 4,
+    "horseName": "백록군주",
+    "timeSec": 91.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "날려오라",
+    "timeSec": 92.7,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "한빛제일",
+    "timeSec": 92.9,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 10,
+    "horseName": "날려버려",
+    "timeSec": 93.1,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 8,
+    "horseName": "리듬블루",
+    "timeSec": 93.1,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 7,
+    "horseName": "색달미소",
+    "timeSec": 93.7,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 1,
+    "horseName": "천비왕자",
+    "timeSec": 95.6,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 3.8,
+   "place": [
+    1.8,
+    1.9,
+    1.8
+   ]
+  }
+ }
 }

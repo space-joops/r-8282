@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "2세이상",
  "weather": null,
- "trackCond": null,
+ "trackCond": "포화 (16%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:50+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 1,
+    "horseName": "해피초원",
+    "timeSec": 94.2,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 2,
+    "horseName": "대륙황후",
+    "timeSec": 94.6,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "불꽃강자",
+    "timeSec": 94.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 8,
+    "horseName": "으뜸여신",
+    "timeSec": 94.7,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 4,
+    "horseName": "태자주니어",
+    "timeSec": 94.7,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "한백최강",
+    "timeSec": 94.9,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "세모다",
+    "timeSec": 95.5,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 10,
+    "horseName": "대향연",
+    "timeSec": 95.6,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 3,
+    "horseName": "비룡진주",
+    "timeSec": 95.6,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 5,
+    "horseName": "한라제패",
+    "timeSec": 96.4,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 12.6,
+   "place": [
+    3.4,
+    2.3,
+    2.8
+   ]
+  }
+ }
 }

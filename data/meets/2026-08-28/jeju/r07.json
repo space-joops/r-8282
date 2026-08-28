@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "2세이상",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:50+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 6,
+    "horseName": "신안으뜸",
+    "timeSec": 101.2,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 4,
+    "horseName": "천상의별",
+    "timeSec": 101.3,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 5,
+    "horseName": "태흥신공",
+    "timeSec": 101.5,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "환상지오",
+    "timeSec": 101.6,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 9,
+    "horseName": "가온천하",
+    "timeSec": 101.6,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 1,
+    "horseName": "대별왕",
+    "timeSec": 101.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 2,
+    "horseName": "일품걸",
+    "timeSec": 101.6,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 7,
+    "horseName": "오라태양",
+    "timeSec": 101.8,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 8,
+    "horseName": "성공제일",
+    "timeSec": 101.8,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 10,
+    "horseName": "백두영웅",
+    "timeSec": 102.1,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 5.7,
+   "place": [
+    1.8,
+    1.7,
+    1.8
+   ]
+  }
+ }
 }

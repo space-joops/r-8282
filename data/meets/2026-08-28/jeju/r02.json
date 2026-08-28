@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "4세이하",
  "weather": null,
- "trackCond": null,
+ "trackCond": "포화 (16%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 2,
+    "horseName": "빈체로",
+    "timeSec": 73.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 7,
+    "horseName": "청호질주",
+    "timeSec": 74.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 1,
+    "horseName": "백두명성",
+    "timeSec": 74.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 5,
+    "horseName": "에스프리",
+    "timeSec": 74.5,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 8,
+    "horseName": "출정식",
+    "timeSec": 75.1,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 4,
+    "horseName": "비상특급",
+    "timeSec": 75.7,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 9,
+    "horseName": "금빛신화",
+    "timeSec": 76.2,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 10,
+    "horseName": "일위도강",
+    "timeSec": 76.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 3,
+    "horseName": "적통자",
+    "timeSec": 76.6,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 6,
+    "horseName": "괜찮아",
+    "timeSec": 77.3,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 4.5,
+   "place": [
+    1.6,
+    1.1,
+    1.6
+   ]
+  }
+ }
 }

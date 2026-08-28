@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 1,
+    "horseName": "베스트타이거",
+    "timeSec": 86.6,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 10,
+    "horseName": "달빛위에",
+    "timeSec": 86.6,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "월드트리",
+    "timeSec": 86.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "플렉스칸",
+    "timeSec": 86.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "남해매직",
+    "timeSec": 87.0,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 8,
+    "horseName": "하늘불패",
+    "timeSec": 87.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 2,
+    "horseName": "보령의신용",
+    "timeSec": 87.7,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 4,
+    "horseName": "닥터에이스",
+    "timeSec": 88.7,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 11,
+    "horseName": "퀸더골드",
+    "timeSec": 89.1,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 9,
+    "horseName": "투투플라잉",
+    "timeSec": 90.0,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 6,
+    "horseName": "앨리스마린",
+    "timeSec": 90.4,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 3.9,
+   "place": [
+    1.6,
+    5.1,
+    1.9
+   ]
+  }
+ }
 }

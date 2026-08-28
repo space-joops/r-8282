@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "4세이하",
  "weather": null,
- "trackCond": null,
+ "trackCond": "포화 (16%)",
  "entries": [
   {
    "gateNo": 1,
@@ -405,5 +405,87 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 6,
+    "horseName": "명품대로",
+    "timeSec": 73.3,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 1,
+    "horseName": "영웅대정",
+    "timeSec": 74.2,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 9,
+    "horseName": "직진기",
+    "timeSec": 74.5,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "수리수리",
+    "timeSec": 75.0,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "만광",
+    "timeSec": 75.3,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 7,
+    "horseName": "만리질주",
+    "timeSec": 75.7,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 8,
+    "horseName": "대운",
+    "timeSec": 76.3,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 2,
+    "horseName": "서유기",
+    "timeSec": 76.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 4,
+    "horseName": "청운질주",
+    "timeSec": 77.0,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 10,
+    "horseName": "색달신화",
+    "timeSec": 77.9,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.5,
+   "place": [
+    1.1,
+    1.6,
+    5.8
+   ]
+  }
+ }
 }

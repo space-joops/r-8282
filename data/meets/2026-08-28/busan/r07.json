@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 2,
+    "horseName": "장고맨",
+    "timeSec": 112.6,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 10,
+    "horseName": "스카일러지유",
+    "timeSec": 112.6,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 6,
+    "horseName": "올라운드원",
+    "timeSec": 113.1,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 4,
+    "horseName": "헤이브로",
+    "timeSec": 113.3,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "운주매직",
+    "timeSec": 113.4,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 8,
+    "horseName": "바벨모모",
+    "timeSec": 113.7,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 9,
+    "horseName": "매직미러",
+    "timeSec": 114.2,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 7,
+    "horseName": "토함산소닉",
+    "timeSec": 114.4,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 3,
+    "horseName": "스타파크",
+    "timeSec": 114.5,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 11,
+    "horseName": "무등산",
+    "timeSec": 114.7,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 1,
+    "horseName": "프라임록",
+    "timeSec": 116.0,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 4.2,
+   "place": [
+    1.7,
+    1.7,
+    4.2
+   ]
+  }
+ }
 }

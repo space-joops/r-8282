@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "불량 (20%)",
  "entries": [
   {
    "gateNo": 1,
@@ -442,5 +442,94 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 4,
+    "horseName": "탐라퍼스트",
+    "timeSec": 72.6,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 5,
+    "horseName": "러너스하이",
+    "timeSec": 72.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "레전드히트",
+    "timeSec": 72.8,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 2,
+    "horseName": "올더베스트",
+    "timeSec": 73.5,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 6,
+    "horseName": "상하이선더",
+    "timeSec": 73.8,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 3,
+    "horseName": "진주빛",
+    "timeSec": 74.1,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 8,
+    "horseName": "비케이스피릿",
+    "timeSec": 74.3,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 1,
+    "horseName": "대로의빛",
+    "timeSec": 75.1,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 11,
+    "horseName": "밀크데이",
+    "timeSec": 75.1,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 10,
+    "horseName": "오아시스위키",
+    "timeSec": 75.4,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 9,
+    "horseName": "퀸스파이시",
+    "timeSec": 77.9,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 18.8,
+   "place": [
+    4.3,
+    1.3,
+    4.4
+   ]
+  }
+ }
 }

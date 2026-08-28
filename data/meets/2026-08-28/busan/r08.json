@@ -9,7 +9,7 @@
  "canceled": false,
  "ageCond": "연령오픈",
  "weather": null,
- "trackCond": null,
+ "trackCond": "(0%)",
  "entries": [
   {
    "gateNo": 1,
@@ -368,5 +368,22 @@
    ]
   }
  },
- "result": null
+ "result": {
+  "fetchedAt": "2026-08-28T19:31:49+09:00",
+  "order": [
+   {
+    "finishPos": 94,
+    "gateNo": 7,
+    "horseName": "퀸티케",
+    "timeSec": null,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 0.0,
+   "place": [
+    0.0
+   ]
+  }
+ }
 }
