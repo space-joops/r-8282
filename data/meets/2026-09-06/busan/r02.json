@@ -1,0 +1,436 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-06",
+ "track": "busan",
+ "raceNo": 2,
+ "startTimeKst": "12:25",
+ "distanceM": 1600,
+ "grade": "국6등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0055963",
+   "horseName": "파인애비뉴",
+   "age": 2,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.127
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 498.0,
+   "bodyWeightDiffKg": 15.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0057000",
+   "horseName": "판타스틱비치",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.036
+   },
+   "trainer": {
+    "id": "070291",
+    "name": "유현명",
+    "winRate1y": 0.107
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0054307",
+   "horseName": "금빛",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080619",
+    "name": "남정혁",
+    "winRate1y": 0.117
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.073
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 472.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0057561",
+   "horseName": "판타스틱허니",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080566",
+    "name": "최은경",
+    "winRate1y": 0.101
+   },
+   "trainer": {
+    "id": "070223",
+    "name": "강은석",
+    "winRate1y": 0.085
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 429.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053385",
+   "horseName": "와일드신기",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080607",
+    "name": "윤형석",
+    "winRate1y": 0.029
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 435.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0050736",
+   "horseName": "서귀오성탑",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080532",
+    "name": "채상현",
+    "winRate1y": 0.031
+   },
+   "trainer": {
+    "id": "070263",
+    "name": "양영남",
+    "winRate1y": 0.046
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 466.0,
+   "bodyWeightDiffKg": 12.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0053399",
+   "horseName": "서부리나",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.12
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.127
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 514.0,
+   "bodyWeightDiffKg": 10.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0052886",
+   "horseName": "판타스틱원",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.099
+   },
+   "trainer": {
+    "id": "070251",
+    "name": "임성실",
+    "winRate1y": 0.1
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 442.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0053829",
+   "horseName": "행복트리",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.044
+   },
+   "trainer": {
+    "id": "070291",
+    "name": "유현명",
+    "winRate1y": 0.107
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 459.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0053036",
+   "horseName": "한강브라보",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080610",
+    "name": "이홍락",
+    "winRate1y": 0.014
+   },
+   "trainer": {
+    "id": "070180",
+    "name": "안우성",
+    "winRate1y": 0.056
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 473.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0054360",
+   "horseName": "스트롱위너",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080438",
+    "name": "조인권",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070176",
+    "name": "구영준",
+    "winRate1y": 0.084
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 449.0,
+   "bodyWeightDiffKg": 6.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-07T10:01:11+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 11,
+    "horseName": "스트롱위너",
+    "timeSec": 103.1,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "행복트리",
+    "timeSec": 103.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 8,
+    "horseName": "판타스틱원",
+    "timeSec": 104.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "금빛",
+    "timeSec": 104.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 2,
+    "horseName": "판타스틱비치",
+    "timeSec": 105.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 10,
+    "horseName": "한강브라보",
+    "timeSec": 105.2,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 4,
+    "horseName": "판타스틱허니",
+    "timeSec": 105.3,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 7,
+    "horseName": "서부리나",
+    "timeSec": 105.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 5,
+    "horseName": "와일드신기",
+    "timeSec": 105.9,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 6,
+    "horseName": "서귀오성탑",
+    "timeSec": 107.4,
+    "margin": null
+   },
+   {
+    "finishPos": 11,
+    "gateNo": 1,
+    "horseName": "파인애비뉴",
+    "timeSec": 109.3,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 2.1,
+   "place": [
+    1.2,
+    2.0,
+    2.6
+   ]
+  }
+ }
+}

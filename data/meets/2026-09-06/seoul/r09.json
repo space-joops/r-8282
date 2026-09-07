@@ -1,0 +1,362 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-06",
+ "track": "seoul",
+ "raceNo": 9,
+ "startTimeKst": "17:10",
+ "distanceM": 1800,
+ "grade": "혼OPEN",
+ "canceled": false,
+ "ageCond": "3세이상",
+ "weather": null,
+ "trackCond": "양호 (6%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0053394",
+   "horseName": "[영남]퍼니와일드",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080421",
+    "name": "송경윤",
+    "winRate1y": 0.095
+   },
+   "trainer": {
+    "id": "070129",
+    "name": "최기홍",
+    "winRate1y": 0.11
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 506.0,
+   "bodyWeightDiffKg": 10.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 5,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0050831",
+   "horseName": "[영남]운주가이",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.169
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 486.0,
+   "bodyWeightDiffKg": -7.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0055888",
+   "horseName": "원평스톰",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080616",
+    "name": "마이아",
+    "winRate1y": 0.165
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 547.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0044887",
+   "horseName": "[영남]대지초이스",
+   "age": 7,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080431",
+    "name": "이성재",
+    "winRate1y": 0.059
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.087
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 469.0,
+   "bodyWeightDiffKg": -18.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0050987",
+   "horseName": "[영남]빅뮤지컬스타",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.122
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 497.0,
+   "bodyWeightDiffKg": 15.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 4,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0056663",
+   "horseName": "[영남]어메이징칸",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.196
+   },
+   "trainer": {
+    "id": "070194",
+    "name": "토마스",
+    "winRate1y": 0.15
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 504.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0054612",
+   "horseName": "[영남]클린원",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.22
+   },
+   "trainer": {
+    "id": "070249",
+    "name": "문현철",
+    "winRate1y": 0.222
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 487.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 3,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0061057",
+   "horseName": "딕테이언",
+   "age": 8,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "08A141",
+    "name": "야노",
+    "winRate1y": 1.0
+   },
+   "trainer": {
+    "id": "070222",
+    "name": "아라야마",
+    "winRate1y": 1.0
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 499.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "7157402",
+   "horseName": "선데이펀데이",
+   "age": 6,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "08A142",
+    "name": "츠노다",
+    "winRate1y": 0.0
+   },
+   "trainer": {
+    "id": "070320",
+    "name": "히가시다",
+    "winRate1y": 0.0
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-07T10:01:10+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 8,
+    "horseName": "딕테이언",
+    "timeSec": 111.7,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 9,
+    "horseName": "선데이펀데이",
+    "timeSec": 112.8,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 6,
+    "horseName": "[영남]어메이징칸",
+    "timeSec": 114.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 1,
+    "horseName": "[영남]퍼니와일드",
+    "timeSec": 115.6,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 7,
+    "horseName": "[영남]클린원",
+    "timeSec": 115.8,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 2,
+    "horseName": "[영남]운주가이",
+    "timeSec": 116.2,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 4,
+    "horseName": "[영남]대지초이스",
+    "timeSec": 117.2,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 3,
+    "horseName": "원평스톰",
+    "timeSec": 118.1,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 5,
+    "horseName": "[영남]빅뮤지컬스타",
+    "timeSec": 119.8,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 2.9,
+   "place": [
+    1.1,
+    1.0,
+    6.8
+   ]
+  }
+ }
+}

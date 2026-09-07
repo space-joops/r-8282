@@ -1,0 +1,399 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-06",
+ "track": "seoul",
+ "raceNo": 6,
+ "startTimeKst": "14:30",
+ "distanceM": 1300,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": "양호 (6%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0046300",
+   "horseName": "원더풀폭스",
+   "age": 6,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.169
+   },
+   "trainer": {
+    "id": "070117",
+    "name": "박윤규",
+    "winRate1y": 0.039
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 470.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0052885",
+   "horseName": "나스카불청객",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.22
+   },
+   "trainer": {
+    "id": "070179",
+    "name": "송문길",
+    "winRate1y": 0.121
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 467.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0045610",
+   "horseName": "파이널질주",
+   "age": 6,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080533",
+    "name": "조상범",
+    "winRate1y": 0.031
+   },
+   "trainer": {
+    "id": "070198",
+    "name": "임채덕",
+    "winRate1y": 0.019
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 502.0,
+   "bodyWeightDiffKg": -9.0,
+   "record1y": {
+    "starts": 15,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0051283",
+   "horseName": "스마트마루",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080530",
+    "name": "정정희",
+    "winRate1y": 0.116
+   },
+   "trainer": {
+    "id": "070164",
+    "name": "박재우",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 434.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 2,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053335",
+   "horseName": "골든디바",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080617",
+    "name": "코지",
+    "winRate1y": 0.161
+   },
+   "trainer": {
+    "id": "070265",
+    "name": "토니",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 459.0,
+   "bodyWeightDiffKg": 9.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0053707",
+   "horseName": "뱅크라인",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.105
+   },
+   "trainer": {
+    "id": "070166",
+    "name": "심승태",
+    "winRate1y": 0.046
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 475.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 4,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0050640",
+   "horseName": "터보차지",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080599",
+    "name": "김태현",
+    "winRate1y": 0.042
+   },
+   "trainer": {
+    "id": "070175",
+    "name": "강환민",
+    "winRate1y": 0.086
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 478.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0040914",
+   "horseName": "챌린지삭스",
+   "age": 9,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080473",
+    "name": "김정준",
+    "winRate1y": 0.074
+   },
+   "trainer": {
+    "id": "070181",
+    "name": "이관호",
+    "winRate1y": 0.081
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 442.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 13,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0054057",
+   "horseName": "금성퀸",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080608",
+    "name": "오수철",
+    "winRate1y": 0.021
+   },
+   "trainer": {
+    "id": "070300",
+    "name": "백종수",
+    "winRate1y": 0.143
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 439.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0052134",
+   "horseName": "글로벌기상",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080486",
+    "name": "이혁",
+    "winRate1y": 0.112
+   },
+   "trainer": {
+    "id": "070182",
+    "name": "전승규",
+    "winRate1y": 0.101
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 474.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-07T10:01:10+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 6,
+    "horseName": "뱅크라인",
+    "timeSec": 81.1,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 5,
+    "horseName": "골든디바",
+    "timeSec": 81.2,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 1,
+    "horseName": "원더풀폭스",
+    "timeSec": 81.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 8,
+    "horseName": "챌린지삭스",
+    "timeSec": 81.8,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 7,
+    "horseName": "터보차지",
+    "timeSec": 81.8,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "금성퀸",
+    "timeSec": 82.0,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 2,
+    "horseName": "나스카불청객",
+    "timeSec": 82.1,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 10,
+    "horseName": "글로벌기상",
+    "timeSec": 82.4,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 4,
+    "horseName": "스마트마루",
+    "timeSec": 82.7,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 3,
+    "horseName": "파이널질주",
+    "timeSec": 82.7,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 4.5,
+   "place": [
+    1.5,
+    1.7,
+    3.5
+   ]
+  }
+ }
+}

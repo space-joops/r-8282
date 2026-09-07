@@ -1,0 +1,196 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-06",
+ "tracks": [
+  {
+   "track": "seoul",
+   "trackName": "서울",
+   "meetCode": 1,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "10:35",
+     "distanceM": 1000,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "11:00",
+     "distanceM": 1200,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "11:55",
+     "distanceM": 1700,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "12:50",
+     "distanceM": 1800,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 8,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 5,
+     "startTimeKst": "13:40",
+     "distanceM": 1200,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "14:30",
+     "distanceM": 1300,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 7,
+     "startTimeKst": "15:20",
+     "distanceM": 1400,
+     "grade": "국4등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 8,
+     "startTimeKst": "16:20",
+     "distanceM": 1200,
+     "grade": "혼OPEN",
+     "raceName": null,
+     "entryCount": 16,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 9,
+     "startTimeKst": "17:10",
+     "distanceM": 1800,
+     "grade": "혼OPEN",
+     "raceName": null,
+     "entryCount": 9,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 10,
+     "startTimeKst": "17:50",
+     "distanceM": 1700,
+     "grade": "혼4등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    }
+   ]
+  },
+  {
+   "track": "busan",
+   "trackName": "부산경남",
+   "meetCode": 3,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "11:25",
+     "distanceM": 1200,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "12:25",
+     "distanceM": 1600,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "13:15",
+     "distanceM": 1200,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 4,
+     "startTimeKst": "14:05",
+     "distanceM": 1300,
+     "grade": "국5등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 5,
+     "startTimeKst": "14:55",
+     "distanceM": 1800,
+     "grade": "혼3등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 6,
+     "startTimeKst": "15:45",
+     "distanceM": 1400,
+     "grade": "1등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    }
+   ]
+  }
+ ]
+}
