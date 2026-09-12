@@ -1,0 +1,288 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-11",
+ "track": "jeju",
+ "raceNo": 1,
+ "startTimeKst": "10:50",
+ "distanceM": 900,
+ "grade": "제6등급",
+ "canceled": false,
+ "ageCond": "4세이하",
+ "weather": null,
+ "trackCond": "건조 (3%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3107573",
+   "horseName": "천상비",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.046
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.044
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 237.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3108253",
+   "horseName": "행복나루",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.103
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 250.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3104659",
+   "horseName": "킹콩스텝",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003086",
+    "name": "이동준",
+    "winRate1y": 0.06
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.044
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 245.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3107456",
+   "horseName": "출정식",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003061",
+    "name": "곽용남",
+    "winRate1y": 0.037
+   },
+   "trainer": {
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 278.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3108443",
+   "horseName": "리더형",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003080",
+    "name": "문현진",
+    "winRate1y": 0.171
+   },
+   "trainer": {
+    "id": "002041",
+    "name": "윤호상",
+    "winRate1y": 0.024
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3107316",
+   "horseName": "에스프리",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003089",
+    "name": "박성광",
+    "winRate1y": 0.256
+   },
+   "trainer": {
+    "id": "002029",
+    "name": "이준호",
+    "winRate1y": 0.118
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 243.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3109220",
+   "horseName": "비상천하",
+   "age": 2,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003081",
+    "name": "김준호",
+    "winRate1y": 0.148
+   },
+   "trainer": {
+    "id": "002036",
+    "name": "강태종",
+    "winRate1y": 0.127
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 305.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-12T11:08:36+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 5,
+    "horseName": "리더형",
+    "timeSec": 73.9,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 7,
+    "horseName": "비상천하",
+    "timeSec": 74.9,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 4,
+    "horseName": "출정식",
+    "timeSec": 75.0,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 6,
+    "horseName": "에스프리",
+    "timeSec": 75.2,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 3,
+    "horseName": "킹콩스텝",
+    "timeSec": 77.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 1,
+    "horseName": "천상비",
+    "timeSec": 77.6,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 2,
+    "horseName": "행복나루",
+    "timeSec": 78.0,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 2.4,
+   "place": [
+    1.1,
+    2.9,
+    4.7
+   ]
+  }
+ }
+}

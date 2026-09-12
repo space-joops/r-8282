@@ -1,0 +1,288 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-11",
+ "track": "jeju",
+ "raceNo": 4,
+ "startTimeKst": "13:50",
+ "distanceM": 1110,
+ "grade": "제4등급",
+ "canceled": false,
+ "ageCond": "2세이상",
+ "weather": null,
+ "trackCond": "건조 (3%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3104271",
+   "horseName": "폭풍비",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003089",
+    "name": "박성광",
+    "winRate1y": 0.256
+   },
+   "trainer": {
+    "id": "002034",
+    "name": "이태용",
+    "winRate1y": 0.234
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": 266.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3103748",
+   "horseName": "질풍태양",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003058",
+    "name": "한영민",
+    "winRate1y": 0.078
+   },
+   "trainer": {
+    "id": "002027",
+    "name": "강대은",
+    "winRate1y": 0.09
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 246.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3107295",
+   "horseName": "블랙타이거",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003082",
+    "name": "김홍권",
+    "winRate1y": 0.131
+   },
+   "trainer": {
+    "id": "002033",
+    "name": "강영진",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 240.0,
+   "bodyWeightDiffKg": -8.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3018749",
+   "horseName": "비천도해",
+   "age": 8,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003070",
+    "name": "전현준",
+    "winRate1y": 0.123
+   },
+   "trainer": {
+    "id": "002031",
+    "name": "심도연",
+    "winRate1y": 0.173
+   },
+   "weightCarriedKg": 60.0,
+   "bodyWeightKg": 272.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3104784",
+   "horseName": "대기원",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003084",
+    "name": "김한남",
+    "winRate1y": 0.054
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.103
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": 267.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 15,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3103622",
+   "horseName": "진검승부",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003086",
+    "name": "이동준",
+    "winRate1y": 0.06
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.044
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3101811",
+   "horseName": "날려버려",
+   "age": 6,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.076
+   },
+   "weightCarriedKg": 58.0,
+   "bodyWeightKg": 268.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-12T11:08:36+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 3,
+    "horseName": "블랙타이거",
+    "timeSec": 90.5,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 1,
+    "horseName": "폭풍비",
+    "timeSec": 92.5,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 4,
+    "horseName": "비천도해",
+    "timeSec": 93.6,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 2,
+    "horseName": "질풍태양",
+    "timeSec": 94.1,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 5,
+    "horseName": "대기원",
+    "timeSec": 94.2,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 7,
+    "horseName": "날려버려",
+    "timeSec": 94.8,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "진검승부",
+    "timeSec": 96.5,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.6,
+   "place": [
+    1.2,
+    1.5,
+    2.4
+   ]
+  }
+ }
+}

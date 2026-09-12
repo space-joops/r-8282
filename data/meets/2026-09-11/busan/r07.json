@@ -1,0 +1,436 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-11",
+ "track": "busan",
+ "raceNo": 7,
+ "startTimeKst": "16:55",
+ "distanceM": 1200,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0051703",
+   "horseName": "아리온태양",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080607",
+    "name": "윤형석",
+    "winRate1y": 0.029
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0052062",
+   "horseName": "동남돌풍",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080532",
+    "name": "채상현",
+    "winRate1y": 0.031
+   },
+   "trainer": {
+    "id": "070133",
+    "name": "윤영훈",
+    "winRate1y": 0.023
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": 495.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0046918",
+   "horseName": "블랙웨이브",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.044
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 459.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0052930",
+   "horseName": "글로벌원픽",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.036
+   },
+   "trainer": {
+    "id": "070226",
+    "name": "박재호",
+    "winRate1y": 0.077
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 490.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053274",
+   "horseName": "그레이트파워",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080421",
+    "name": "송경윤",
+    "winRate1y": 0.095
+   },
+   "trainer": {
+    "id": "070129",
+    "name": "최기홍",
+    "winRate1y": 0.11
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0053630",
+   "horseName": "인피니트위너",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.169
+   },
+   "trainer": {
+    "id": "070176",
+    "name": "구영준",
+    "winRate1y": 0.084
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 450.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0053379",
+   "horseName": "불빛강자",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "070128",
+    "name": "임금만",
+    "winRate1y": 0.093
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 489.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0047401",
+   "horseName": "벌교사랑",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080122",
+    "name": "신형철",
+    "winRate1y": 0.0
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0054734",
+   "horseName": "캄패스트",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080548",
+    "name": "이현종",
+    "winRate1y": 0.026
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.073
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 18,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0047051",
+   "horseName": "화이트오일",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.12
+   },
+   "trainer": {
+    "id": "070176",
+    "name": "구영준",
+    "winRate1y": 0.084
+   },
+   "weightCarriedKg": 56.0,
+   "bodyWeightKg": 464.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0046763",
+   "horseName": "하늘평정",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080403",
+    "name": "김어수",
+    "winRate1y": 0.053
+   },
+   "trainer": {
+    "id": "070226",
+    "name": "박재호",
+    "winRate1y": 0.077
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 445.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-12T11:08:36+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 6,
+    "horseName": "인피니트위너",
+    "timeSec": 74.3,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 10,
+    "horseName": "화이트오일",
+    "timeSec": 75.2,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "불빛강자",
+    "timeSec": 75.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 2,
+    "horseName": "동남돌풍",
+    "timeSec": 75.8,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 9,
+    "horseName": "캄패스트",
+    "timeSec": 75.8,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 11,
+    "horseName": "하늘평정",
+    "timeSec": 75.9,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 4,
+    "horseName": "글로벌원픽",
+    "timeSec": 76.0,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 5,
+    "horseName": "그레이트파워",
+    "timeSec": 76.3,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 8,
+    "horseName": "벌교사랑",
+    "timeSec": 77.0,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 3,
+    "horseName": "블랙웨이브",
+    "timeSec": 77.0,
+    "margin": null
+   },
+   {
+    "finishPos": 95,
+    "gateNo": 1,
+    "horseName": "아리온태양",
+    "timeSec": null,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.2,
+   "place": [
+    1.2,
+    1.8,
+    1.3
+   ]
+  }
+ }
+}

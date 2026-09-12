@@ -1,0 +1,362 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-09-11",
+ "track": "busan",
+ "raceNo": 6,
+ "startTimeKst": "16:00",
+ "distanceM": 1200,
+ "grade": "국OPEN",
+ "canceled": false,
+ "ageCond": "2세",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0055870",
+   "horseName": "이클립스비전",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.044
+   },
+   "trainer": {
+    "id": "070292",
+    "name": "김혜선",
+    "winRate1y": 0.118
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 451.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0055181",
+   "horseName": "선더웨이브",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.099
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.089
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 497.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0056561",
+   "horseName": "슈펙스니케",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.111
+   },
+   "trainer": {
+    "id": "070249",
+    "name": "문현철",
+    "winRate1y": 0.222
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 501.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0055460",
+   "horseName": "라벤더크라운",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070292",
+    "name": "김혜선",
+    "winRate1y": 0.118
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 501.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0055473",
+   "horseName": "닥터애틀랜틱",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080562",
+    "name": "이동하",
+    "winRate1y": 0.18
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.122
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 489.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0056045",
+   "horseName": "세라프",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.169
+   },
+   "trainer": {
+    "id": "070251",
+    "name": "임성실",
+    "winRate1y": 0.1
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 473.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0055342",
+   "horseName": "와일드도로",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080421",
+    "name": "송경윤",
+    "winRate1y": 0.095
+   },
+   "trainer": {
+    "id": "070129",
+    "name": "최기홍",
+    "winRate1y": 0.11
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 493.0,
+   "bodyWeightDiffKg": 13.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0055587",
+   "horseName": "프라임제니",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.196
+   },
+   "trainer": {
+    "id": "070141",
+    "name": "이상영",
+    "winRate1y": 0.11
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 470.0,
+   "bodyWeightDiffKg": 8.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0055370",
+   "horseName": "티핑포인트",
+   "age": 2,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.12
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.073
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 488.0,
+   "bodyWeightDiffKg": -14.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-09-12T11:08:36+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 4,
+    "horseName": "라벤더크라운",
+    "timeSec": 74.5,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 1,
+    "horseName": "이클립스비전",
+    "timeSec": 74.5,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "와일드도로",
+    "timeSec": 74.7,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 5,
+    "horseName": "닥터애틀랜틱",
+    "timeSec": 74.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 2,
+    "horseName": "선더웨이브",
+    "timeSec": 74.9,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 3,
+    "horseName": "슈펙스니케",
+    "timeSec": 75.1,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 6,
+    "horseName": "세라프",
+    "timeSec": 75.4,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 8,
+    "horseName": "프라임제니",
+    "timeSec": 75.7,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 9,
+    "horseName": "티핑포인트",
+    "timeSec": 75.7,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 3.6,
+   "place": [
+    1.6,
+    1.6,
+    8.0
+   ]
+  }
+ }
+}
