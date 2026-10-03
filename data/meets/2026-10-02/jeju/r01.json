@@ -1,0 +1,399 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-02",
+ "track": "jeju",
+ "raceNo": 1,
+ "startTimeKst": "10:50",
+ "distanceM": 900,
+ "grade": "제6등급",
+ "canceled": false,
+ "ageCond": "4세이하",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3104099",
+   "horseName": "중문전사",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003087",
+    "name": "임재광",
+    "winRate1y": 0.177
+   },
+   "trainer": {
+    "id": "002031",
+    "name": "심도연",
+    "winRate1y": 0.182
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 248.0,
+   "bodyWeightDiffKg": 9.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3104576",
+   "horseName": "바다왕자",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003058",
+    "name": "한영민",
+    "winRate1y": 0.065
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 259.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3109163",
+   "horseName": "전승맨",
+   "age": 2,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003096",
+    "name": "양민재",
+    "winRate1y": 0.03
+   },
+   "trainer": {
+    "id": "002027",
+    "name": "강대은",
+    "winRate1y": 0.09
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 265.0,
+   "bodyWeightDiffKg": -6.0,
+   "record1y": {
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3107886",
+   "horseName": "장타로",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003095",
+    "name": "박재희",
+    "winRate1y": 0.055
+   },
+   "trainer": {
+    "id": "002032",
+    "name": "김태준",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 277.0,
+   "bodyWeightDiffKg": -8.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3107456",
+   "horseName": "출정식",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003061",
+    "name": "곽용남",
+    "winRate1y": 0.038
+   },
+   "trainer": {
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.052
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 290.0,
+   "bodyWeightDiffKg": 12.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3108243",
+   "horseName": "한라궁전",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003084",
+    "name": "김한남",
+    "winRate1y": 0.052
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.104
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3107414",
+   "horseName": "천둥나래",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.044
+   },
+   "trainer": {
+    "id": "002042",
+    "name": "김대연",
+    "winRate1y": 0.08
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 280.0,
+   "bodyWeightDiffKg": 20.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3107334",
+   "horseName": "색달울림",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003070",
+    "name": "전현준",
+    "winRate1y": 0.141
+   },
+   "trainer": {
+    "id": "002029",
+    "name": "이준호",
+    "winRate1y": 0.115
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 307.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "3108441",
+   "horseName": "특천",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.115
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.104
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 253.0,
+   "bodyWeightDiffKg": -9.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "3107323",
+   "horseName": "히트왕자",
+   "age": 3,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003086",
+    "name": "이동준",
+    "winRate1y": 0.067
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 276.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 3,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-10-03T10:57:41+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 1,
+    "horseName": "중문전사",
+    "timeSec": 73.6,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 3,
+    "horseName": "전승맨",
+    "timeSec": 74.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 8,
+    "horseName": "색달울림",
+    "timeSec": 75.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 10,
+    "horseName": "히트왕자",
+    "timeSec": 75.4,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 7,
+    "horseName": "천둥나래",
+    "timeSec": 75.5,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 6,
+    "horseName": "한라궁전",
+    "timeSec": 76.3,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 5,
+    "horseName": "출정식",
+    "timeSec": 76.4,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 2,
+    "horseName": "바다왕자",
+    "timeSec": 77.2,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 4,
+    "horseName": "장타로",
+    "timeSec": 77.6,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 9,
+    "horseName": "특천",
+    "timeSec": 81.0,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 2.2,
+   "place": [
+    1.1,
+    9.7,
+    1.4
+   ]
+  }
+ }
+}

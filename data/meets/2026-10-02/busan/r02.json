@@ -1,0 +1,288 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-02",
+ "track": "busan",
+ "raceNo": 2,
+ "startTimeKst": "12:20",
+ "distanceM": 1000,
+ "grade": "혼4등급",
+ "canceled": false,
+ "ageCond": "남3/북2",
+ "weather": null,
+ "trackCond": "건조 (5%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0061895",
+   "horseName": "스위트불독",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080516",
+    "name": "다나카",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.081
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 497.0,
+   "bodyWeightDiffKg": -5.0,
+   "record1y": {
+    "starts": 1,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0061932",
+   "horseName": "토함산아너",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.048
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 458.0,
+   "bodyWeightDiffKg": 14.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0062944",
+   "horseName": "아너스페셜",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080438",
+    "name": "조인권",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.074
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 451.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0062946",
+   "horseName": "대한킹",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080584",
+    "name": "다비드",
+    "winRate1y": 0.067
+   },
+   "trainer": {
+    "id": "070180",
+    "name": "안우성",
+    "winRate1y": 0.06
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 465.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0062075",
+   "horseName": "엉클파크",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.215
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 531.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0061506",
+   "horseName": "위즈덤픽",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080568",
+    "name": "다실바",
+    "winRate1y": 0.172
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.074
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": null,
+   "record1y": {
+    "starts": 0,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0061897",
+   "horseName": "퍼펙트라인",
+   "age": 2,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.198
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.081
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": 500.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-10-03T10:57:40+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 5,
+    "horseName": "엉클파크",
+    "timeSec": 61.5,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 2,
+    "horseName": "토함산아너",
+    "timeSec": 62.2,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 7,
+    "horseName": "퍼펙트라인",
+    "timeSec": 62.9,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 3,
+    "horseName": "아너스페셜",
+    "timeSec": 62.9,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 4,
+    "horseName": "대한킹",
+    "timeSec": 63.7,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 1,
+    "horseName": "스위트불독",
+    "timeSec": 64.0,
+    "margin": null
+   },
+   {
+    "finishPos": 95,
+    "gateNo": 6,
+    "horseName": "위즈덤픽",
+    "timeSec": null,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 1.1,
+   "place": [
+    1.0,
+    3.6,
+    2.4
+   ]
+  }
+ }
+}

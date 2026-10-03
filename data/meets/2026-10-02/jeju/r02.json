@@ -1,0 +1,399 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-02",
+ "track": "jeju",
+ "raceNo": 2,
+ "startTimeKst": "11:40",
+ "distanceM": 1000,
+ "grade": "제5등급",
+ "canceled": false,
+ "ageCond": "2세이상",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "3107884",
+   "horseName": "마조여신",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003081",
+    "name": "김준호",
+    "winRate1y": 0.143
+   },
+   "trainer": {
+    "id": "002036",
+    "name": "강태종",
+    "winRate1y": 0.125
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 285.0,
+   "bodyWeightDiffKg": -3.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "3104161",
+   "horseName": "천둥소리",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003075",
+    "name": "원유일",
+    "winRate1y": 0.044
+   },
+   "trainer": {
+    "id": "002018",
+    "name": "신경호",
+    "winRate1y": 0.153
+   },
+   "weightCarriedKg": 58.0,
+   "bodyWeightKg": 274.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "3103596",
+   "horseName": "돌격",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003053",
+    "name": "안득수",
+    "winRate1y": 0.022
+   },
+   "trainer": {
+    "id": "002013",
+    "name": "변용호",
+    "winRate1y": 0.084
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 260.0,
+   "bodyWeightDiffKg": 7.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "3017214",
+   "horseName": "광해전사",
+   "age": 11,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003055",
+    "name": "장우성",
+    "winRate1y": 0.06
+   },
+   "trainer": {
+    "id": "002021",
+    "name": "윤덕상",
+    "winRate1y": 0.052
+   },
+   "weightCarriedKg": 58.0,
+   "bodyWeightKg": 303.0,
+   "bodyWeightDiffKg": -6.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "3102470",
+   "horseName": "명품함성",
+   "age": 6,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003096",
+    "name": "양민재",
+    "winRate1y": 0.03
+   },
+   "trainer": {
+    "id": "002027",
+    "name": "강대은",
+    "winRate1y": 0.09
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": 281.0,
+   "bodyWeightDiffKg": -7.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "3103257",
+   "horseName": "돌체",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003073",
+    "name": "김다영",
+    "winRate1y": 0.041
+   },
+   "trainer": {
+    "id": "002039",
+    "name": "문성호",
+    "winRate1y": 0.042
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 282.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 4,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "3104630",
+   "horseName": "지구",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003095",
+    "name": "박재희",
+    "winRate1y": 0.055
+   },
+   "trainer": {
+    "id": "002041",
+    "name": "윤호상",
+    "winRate1y": 0.038
+   },
+   "weightCarriedKg": 57.5,
+   "bodyWeightKg": 281.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "3101784",
+   "horseName": "영웅변신",
+   "age": 6,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "003084",
+    "name": "김한남",
+    "winRate1y": 0.052
+   },
+   "trainer": {
+    "id": "002038",
+    "name": "김길홍",
+    "winRate1y": 0.104
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 269.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 6,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "3103964",
+   "horseName": "피지컬",
+   "age": 5,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "003080",
+    "name": "문현진",
+    "winRate1y": 0.177
+   },
+   "trainer": {
+    "id": "002026",
+    "name": "고영덕",
+    "winRate1y": 0.14
+   },
+   "weightCarriedKg": 60.0,
+   "bodyWeightKg": 249.0,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "3105286",
+   "horseName": "자유연대",
+   "age": 4,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "003077",
+    "name": "강수한",
+    "winRate1y": 0.115
+   },
+   "trainer": {
+    "id": "002023",
+    "name": "한상배",
+    "winRate1y": 0.056
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 255.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-10-03T10:57:41+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 8,
+    "horseName": "영웅변신",
+    "timeSec": 84.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 2,
+    "horseName": "천둥소리",
+    "timeSec": 85.1,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 3,
+    "horseName": "돌격",
+    "timeSec": 85.2,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 6,
+    "horseName": "돌체",
+    "timeSec": 85.3,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 1,
+    "horseName": "마조여신",
+    "timeSec": 86.0,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 9,
+    "horseName": "피지컬",
+    "timeSec": 86.0,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 10,
+    "horseName": "자유연대",
+    "timeSec": 86.4,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 4,
+    "horseName": "광해전사",
+    "timeSec": 87.1,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 7,
+    "horseName": "지구",
+    "timeSec": 87.2,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 5,
+    "horseName": "명품함성",
+    "timeSec": 90.3,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 32.6,
+   "place": [
+    4.9,
+    2.2,
+    2.0
+   ]
+  }
+ }
+}
