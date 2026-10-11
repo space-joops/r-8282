@@ -1,9 +1,11 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-10-03T10:57:41+09:00",
- "latestMeetDate": "2026-10-03",
+ "updatedAt": "2026-10-11T18:56:19+09:00",
+ "latestMeetDate": "2026-10-11",
  "nextMeetDate": null,
  "meetDates": [
+  "2026-10-11",
+  "2026-10-10",
   "2026-10-03",
   "2026-10-02",
   "2026-09-11",

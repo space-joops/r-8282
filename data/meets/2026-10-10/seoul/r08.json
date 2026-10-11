@@ -1,0 +1,399 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-10",
+ "track": "seoul",
+ "raceNo": 8,
+ "startTimeKst": "16:55",
+ "distanceM": 1800,
+ "grade": "혼4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": "건조 (2%)",
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "1412313",
+   "horseName": "희망밴드",
+   "age": 5,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.212
+   },
+   "trainer": {
+    "id": "070247",
+    "name": "이동국",
+    "winRate1y": 0.058
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 470.0,
+   "bodyWeightDiffKg": -4.0,
+   "record1y": {
+    "starts": 13,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0051794",
+   "horseName": "아쿠아라인",
+   "age": 4,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080616",
+    "name": "마이아",
+    "winRate1y": 0.177
+   },
+   "trainer": {
+    "id": "070096",
+    "name": "서범석",
+    "winRate1y": 0.08
+   },
+   "weightCarriedKg": 55.5,
+   "bodyWeightKg": 510.0,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0055621",
+   "horseName": "마이던",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080476",
+    "name": "장추열",
+    "winRate1y": 0.147
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.085
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 510.0,
+   "bodyWeightDiffKg": 6.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0046893",
+   "horseName": "한강캡틴",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080608",
+    "name": "오수철",
+    "winRate1y": 0.025
+   },
+   "trainer": {
+    "id": "070198",
+    "name": "임채덕",
+    "winRate1y": 0.023
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 528.0,
+   "bodyWeightDiffKg": 9.0,
+   "record1y": {
+    "starts": 17,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0054001",
+   "horseName": "지산레이블",
+   "age": 3,
+   "sex": "수",
+   "rating": null,
+   "jockey": {
+    "id": "080417",
+    "name": "유승완",
+    "winRate1y": 0.093
+   },
+   "trainer": {
+    "id": "070146",
+    "name": "안병기",
+    "winRate1y": 0.111
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 451.0,
+   "bodyWeightDiffKg": -6.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0051296",
+   "horseName": "미스터카라",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080486",
+    "name": "이혁",
+    "winRate1y": 0.119
+   },
+   "trainer": {
+    "id": "070098",
+    "name": "최영주",
+    "winRate1y": 0.128
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": 501.0,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 2,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0047547",
+   "horseName": "붉은태양",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080512",
+    "name": "김태훈",
+    "winRate1y": 0.099
+   },
+   "trainer": {
+    "id": "070225",
+    "name": "문병기",
+    "winRate1y": 0.135
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": 483.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0060717",
+   "horseName": "세상너머로",
+   "age": 3,
+   "sex": "암",
+   "rating": null,
+   "jockey": {
+    "id": "080405",
+    "name": "김용근",
+    "winRate1y": 0.112
+   },
+   "trainer": {
+    "id": "070175",
+    "name": "강환민",
+    "winRate1y": 0.093
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 494.0,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0055428",
+   "horseName": "글로벌파로아",
+   "age": 4,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080621",
+    "name": "우인철",
+    "winRate1y": 0.076
+   },
+   "trainer": {
+    "id": "070148",
+    "name": "정호익",
+    "winRate1y": 0.085
+   },
+   "weightCarriedKg": 51.0,
+   "bodyWeightKg": 446.0,
+   "bodyWeightDiffKg": 4.0,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0054047",
+   "horseName": "럭키붐",
+   "age": 5,
+   "sex": "거",
+   "rating": null,
+   "jockey": {
+    "id": "080602",
+    "name": "임다빈",
+    "winRate1y": 0.038
+   },
+   "trainer": {
+    "id": "070181",
+    "name": "이관호",
+    "winRate1y": 0.071
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": 430.0,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": null,
+ "result": {
+  "fetchedAt": "2026-10-11T18:56:18+09:00",
+  "order": [
+   {
+    "finishPos": 1,
+    "gateNo": 6,
+    "horseName": "미스터카라",
+    "timeSec": 117.4,
+    "margin": null
+   },
+   {
+    "finishPos": 2,
+    "gateNo": 5,
+    "horseName": "지산레이블",
+    "timeSec": 118.0,
+    "margin": null
+   },
+   {
+    "finishPos": 3,
+    "gateNo": 9,
+    "horseName": "글로벌파로아",
+    "timeSec": 118.3,
+    "margin": null
+   },
+   {
+    "finishPos": 4,
+    "gateNo": 10,
+    "horseName": "럭키붐",
+    "timeSec": 118.6,
+    "margin": null
+   },
+   {
+    "finishPos": 5,
+    "gateNo": 3,
+    "horseName": "마이던",
+    "timeSec": 118.7,
+    "margin": null
+   },
+   {
+    "finishPos": 6,
+    "gateNo": 7,
+    "horseName": "붉은태양",
+    "timeSec": 118.8,
+    "margin": null
+   },
+   {
+    "finishPos": 7,
+    "gateNo": 1,
+    "horseName": "희망밴드",
+    "timeSec": 120.2,
+    "margin": null
+   },
+   {
+    "finishPos": 8,
+    "gateNo": 8,
+    "horseName": "세상너머로",
+    "timeSec": 120.5,
+    "margin": null
+   },
+   {
+    "finishPos": 9,
+    "gateNo": 2,
+    "horseName": "아쿠아라인",
+    "timeSec": 122.6,
+    "margin": null
+   },
+   {
+    "finishPos": 10,
+    "gateNo": 4,
+    "horseName": "한강캡틴",
+    "timeSec": 122.9,
+    "margin": null
+   }
+  ],
+  "payouts": {
+   "win": 3.9,
+   "place": [
+    1.6,
+    1.8,
+    3.7
+   ]
+  }
+ }
+}
