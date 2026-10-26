@@ -18,6 +18,8 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 로컬 Python 파이프라인(`pipeline/`)이 data.go.kr 한국마사회 API 수집 → 통계 스코어링 + AI CLI(claude -p) 분석 → `data/*.json` 커밋 → push 시 Vercel 자동 배포 → Next.js가 빌드타임에 fs로 읽어 완전 정적(SSG) 서빙. DB·런타임 fetch 없음.
 
+사용하는 외부 API(KRA Open API·Claude CLI·Supabase REST)의 엔드포인트·인증·호출 지점 상세는 [docs/api-reference.md](docs/api-reference.md) 참고 — 코드 재탐색 없이 파악 가능하도록 정리해둠. KRA Open API 자체의 사용법·요청/응답 명세(서비스 맥락 없이 API만)는 [docs/kra-openapi-reference.md](docs/kra-openapi-reference.md) 참고.
+
 ## 명령어
 
 - `make predict DATE=YYYY-MM-DD` — 예측 생성 (`FLAGS="--no-ai"` 통계 단독)
