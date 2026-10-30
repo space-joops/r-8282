@@ -1,0 +1,75 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-10-30",
+ "tracks": [
+  {
+   "track": "busan",
+   "trackName": "부산경남",
+   "meetCode": 3,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "11:10",
+     "distanceM": 1200,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "12:15",
+     "distanceM": 1400,
+     "grade": "국6등급",
+     "raceName": null,
+     "entryCount": 11,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    }
+   ]
+  },
+  {
+   "track": "jeju",
+   "trackName": "제주",
+   "meetCode": 2,
+   "races": [
+    {
+     "raceNo": 1,
+     "startTimeKst": "10:45",
+     "distanceM": 900,
+     "grade": "제6등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 2,
+     "startTimeKst": "11:35",
+     "distanceM": 1000,
+     "grade": "제6등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    },
+    {
+     "raceNo": 3,
+     "startTimeKst": "12:55",
+     "distanceM": 1000,
+     "grade": "제5등급",
+     "raceName": null,
+     "entryCount": 10,
+     "hasPrediction": false,
+     "hasResult": true,
+     "canceled": false
+    }
+   ]
+  }
+ ]
+}
