@@ -1,0 +1,335 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-06",
+ "track": "busan",
+ "raceNo": 3,
+ "startTimeKst": "12:55",
+ "distanceM": 1600,
+ "grade": "국4등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0052896",
+   "horseName": "위대한하트",
+   "age": 3,
+   "sex": "암",
+   "rating": 399.0,
+   "jockey": {
+    "id": "080423",
+    "name": "최시대",
+    "winRate1y": 0.107
+   },
+   "trainer": {
+    "id": "070086",
+    "name": "권승주",
+    "winRate1y": 0.095
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -2.0,
+   "record1y": {
+    "starts": 5,
+    "wins": 2,
+    "seconds": 1,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0051512",
+   "horseName": "해운대파워",
+   "age": 4,
+   "sex": "거",
+   "rating": 431.0,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070141",
+    "name": "이상영",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0054174",
+   "horseName": "밤토리밤밤",
+   "age": 3,
+   "sex": "수",
+   "rating": 363.0,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.135
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -4.5,
+   "record1y": {
+    "starts": 5,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0047492",
+   "horseName": "굿대디",
+   "age": 5,
+   "sex": "거",
+   "rating": 391.0,
+   "jockey": {
+    "id": "080580",
+    "name": "전진구",
+    "winRate1y": 0.035
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.123
+   },
+   "weightCarriedKg": 53.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 10,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0053886",
+   "horseName": "소망의길",
+   "age": 3,
+   "sex": "수",
+   "rating": 381.0,
+   "jockey": {
+    "id": "080431",
+    "name": "이성재",
+    "winRate1y": 0.059
+   },
+   "trainer": {
+    "id": "070128",
+    "name": "임금만",
+    "winRate1y": 0.094
+   },
+   "weightCarriedKg": 52.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 12,
+    "wins": 1,
+    "seconds": 2,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0050728",
+   "horseName": "더윈드",
+   "age": 4,
+   "sex": "거",
+   "rating": 410.0,
+   "jockey": {
+    "id": "080421",
+    "name": "송경윤",
+    "winRate1y": 0.093
+   },
+   "trainer": {
+    "id": "070176",
+    "name": "구영준",
+    "winRate1y": 0.071
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -1.0,
+   "record1y": {
+    "starts": 11,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0054464",
+   "horseName": "용비짱",
+   "age": 3,
+   "sex": "거",
+   "rating": 417.0,
+   "jockey": {
+    "id": "080403",
+    "name": "김어수",
+    "winRate1y": 0.05
+   },
+   "trainer": {
+    "id": "070173",
+    "name": "구민성",
+    "winRate1y": 0.119
+   },
+   "weightCarriedKg": 54.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -2.5,
+   "record1y": {
+    "starts": 9,
+    "wins": 2,
+    "seconds": 3,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0052969",
+   "horseName": "피디스페셜",
+   "age": 3,
+   "sex": "암",
+   "rating": 476.0,
+   "jockey": {
+    "id": "080438",
+    "name": "조인권",
+    "winRate1y": 0.102
+   },
+   "trainer": {
+    "id": "070134",
+    "name": "강형곤",
+    "winRate1y": 0.065
+   },
+   "weightCarriedKg": 55.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 1.5,
+   "record1y": {
+    "starts": 11,
+    "wins": 3,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-11-06T09:25:40+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": null
+  },
+  "rankings": [
+   {
+    "gateNo": 1,
+    "score": 1.0,
+    "winProb": 0.3233,
+    "briefComment": "1년 승률 40% · 입상률 80% · 레이팅 399",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 8,
+    "score": 0.7187,
+    "winProb": 0.1653,
+    "briefComment": "1년 승률 27% · 입상률 55% · 레이팅 476",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 3,
+    "score": 0.6871,
+    "winProb": 0.1533,
+    "briefComment": "1년 승률 0% · 입상률 60% · 레이팅 363",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 2,
+    "score": 0.553,
+    "winProb": 0.1113,
+    "briefComment": "1년 승률 11% · 입상률 33% · 레이팅 431",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 7,
+    "score": 0.5403,
+    "winProb": 0.108,
+    "briefComment": "1년 승률 22% · 입상률 56% · 레이팅 417",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 5,
+    "score": 0.3023,
+    "winProb": 0.0612,
+    "briefComment": "1년 승률 8% · 입상률 42% · 레이팅 381",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 6,
+    "score": 0.1976,
+    "winProb": 0.0477,
+    "briefComment": "1년 승률 9% · 입상률 9% · 레이팅 410",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 4,
+    "score": 0.0,
+    "winProb": 0.0298,
+    "briefComment": "1년 승률 0% · 입상률 10% · 레이팅 391",
+    "predictedRank": 8
+   }
+  ],
+  "aiCommentary": null,
+  "confidence": "high",
+  "topPicks": {
+   "win": 1,
+   "place": [
+    1,
+    8,
+    3
+   ],
+   "exacta": [
+    1,
+    8
+   ]
+  }
+ },
+ "result": null
+}

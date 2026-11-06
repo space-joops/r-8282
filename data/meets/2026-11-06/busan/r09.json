@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "date": "2026-11-06",
+ "track": "busan",
+ "raceNo": 9,
+ "startTimeKst": "17:30",
+ "distanceM": 1400,
+ "grade": "국5등급",
+ "canceled": false,
+ "ageCond": "연령오픈",
+ "weather": null,
+ "trackCond": null,
+ "entries": [
+  {
+   "gateNo": 1,
+   "horseId": "0052075",
+   "horseName": "벌교의봄",
+   "age": 4,
+   "sex": "거",
+   "rating": 230.0,
+   "jockey": {
+    "id": "080605",
+    "name": "서강주",
+    "winRate1y": 0.043
+   },
+   "trainer": {
+    "id": "070141",
+    "name": "이상영",
+    "winRate1y": 0.102
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 17,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 2,
+   "horseId": "0052232",
+   "horseName": "서부이글",
+   "age": 4,
+   "sex": "거",
+   "rating": 230.0,
+   "jockey": {
+    "id": "080566",
+    "name": "최은경",
+    "winRate1y": 0.097
+   },
+   "trainer": {
+    "id": "070137",
+    "name": "조용배",
+    "winRate1y": 0.021
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 14,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 3,
+   "horseId": "0053907",
+   "horseName": "다이아킹덤",
+   "age": 3,
+   "sex": "수",
+   "rating": 261.0,
+   "jockey": {
+    "id": "080431",
+    "name": "이성재",
+    "winRate1y": 0.059
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 4,
+   "horseId": "0045420",
+   "horseName": "커널플라잉",
+   "age": 6,
+   "sex": "거",
+   "rating": 281.0,
+   "jockey": {
+    "id": "",
+    "name": "신형철",
+    "winRate1y": null
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 16,
+    "wins": 0,
+    "seconds": 1,
+    "thirds": 2
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 5,
+   "horseId": "0057762",
+   "horseName": "정문스킵",
+   "age": 3,
+   "sex": "거",
+   "rating": 324.0,
+   "jockey": {
+    "id": "080484",
+    "name": "서승운",
+    "winRate1y": 0.232
+   },
+   "trainer": {
+    "id": "070186",
+    "name": "라이스",
+    "winRate1y": 0.135
+   },
+   "weightCarriedKg": 56.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 3.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 3,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 6,
+   "horseId": "0053962",
+   "horseName": "토함산드래곤",
+   "age": 3,
+   "sex": "수",
+   "rating": 332.0,
+   "jockey": {
+    "id": "080565",
+    "name": "정도윤",
+    "winRate1y": 0.109
+   },
+   "trainer": {
+    "id": "070130",
+    "name": "백광열",
+    "winRate1y": 0.123
+   },
+   "weightCarriedKg": 57.0,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 2.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 0,
+    "seconds": 0,
+    "thirds": 3
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 7,
+   "horseId": "0056263",
+   "horseName": "브레스리스",
+   "age": 2,
+   "sex": "수",
+   "rating": 30.0,
+   "jockey": {
+    "id": "080548",
+    "name": "이현종",
+    "winRate1y": 0.042
+   },
+   "trainer": {
+    "id": "070301",
+    "name": "구현완",
+    "winRate1y": 0.0
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": -0.5,
+   "record1y": {
+    "starts": 1,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 8,
+   "horseId": "0055320",
+   "horseName": "해랑루비",
+   "age": 2,
+   "sex": "수",
+   "rating": 281.0,
+   "jockey": {
+    "id": "080403",
+    "name": "김어수",
+    "winRate1y": 0.05
+   },
+   "trainer": {
+    "id": "070250",
+    "name": "김도현",
+    "winRate1y": 0.082
+   },
+   "weightCarriedKg": 53.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 2,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 9,
+   "horseId": "0053973",
+   "horseName": "태평플렉스",
+   "age": 3,
+   "sex": "암",
+   "rating": 240.0,
+   "jockey": {
+    "id": "080606",
+    "name": "신윤섭",
+    "winRate1y": 0.042
+   },
+   "trainer": {
+    "id": "070143",
+    "name": "하무선",
+    "winRate1y": 0.062
+   },
+   "weightCarriedKg": null,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.0,
+   "record1y": {
+    "starts": 9,
+    "wins": 1,
+    "seconds": 0,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 10,
+   "horseId": "0054586",
+   "horseName": "그랜드히어로",
+   "age": 3,
+   "sex": "수",
+   "rating": 280.0,
+   "jockey": {
+    "id": "080546",
+    "name": "박재이",
+    "winRate1y": 0.11
+   },
+   "trainer": {
+    "id": "070173",
+    "name": "구민성",
+    "winRate1y": 0.119
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 1.0,
+   "record1y": {
+    "starts": 7,
+    "wins": 1,
+    "seconds": 1,
+    "thirds": 0
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  },
+  {
+   "gateNo": 11,
+   "horseId": "0051666",
+   "horseName": "남해매직",
+   "age": 4,
+   "sex": "수",
+   "rating": 281.0,
+   "jockey": {
+    "id": "080551",
+    "name": "진겸",
+    "winRate1y": 0.192
+   },
+   "trainer": {
+    "id": "070128",
+    "name": "임금만",
+    "winRate1y": 0.094
+   },
+   "weightCarriedKg": 54.5,
+   "bodyWeightKg": null,
+   "bodyWeightDiffKg": 0.5,
+   "record1y": {
+    "starts": 8,
+    "wins": 0,
+    "seconds": 2,
+    "thirds": 1
+   },
+   "recentRuns": [],
+   "scratched": false,
+   "jockeyChanged": false
+  }
+ ],
+ "prediction": {
+  "generatedAt": "2026-11-06T09:25:40+09:00",
+  "model": {
+   "statVersion": "v2",
+   "aiModel": null
+  },
+  "rankings": [
+   {
+    "gateNo": 5,
+    "score": 1.0,
+    "winProb": 0.1821,
+    "briefComment": "1년 승률 0% · 입상률 44% · 레이팅 324",
+    "predictedRank": 1
+   },
+   {
+    "gateNo": 7,
+    "score": 0.8684,
+    "winProb": 0.149,
+    "briefComment": "1년 승률 100% · 입상률 100% · 레이팅 30",
+    "predictedRank": 2
+   },
+   {
+    "gateNo": 11,
+    "score": 0.7302,
+    "winProb": 0.1208,
+    "briefComment": "1년 승률 0% · 입상률 38% · 레이팅 281",
+    "predictedRank": 3
+   },
+   {
+    "gateNo": 8,
+    "score": 0.6055,
+    "winProb": 0.0999,
+    "briefComment": "1년 승률 50% · 입상률 50% · 레이팅 281",
+    "predictedRank": 4
+   },
+   {
+    "gateNo": 6,
+    "score": 0.5547,
+    "winProb": 0.0925,
+    "briefComment": "1년 승률 0% · 입상률 33% · 레이팅 332",
+    "predictedRank": 5
+   },
+   {
+    "gateNo": 10,
+    "score": 0.5377,
+    "winProb": 0.0901,
+    "briefComment": "1년 승률 14% · 입상률 29% · 레이팅 280",
+    "predictedRank": 6
+   },
+   {
+    "gateNo": 4,
+    "score": 0.3675,
+    "winProb": 0.0695,
+    "briefComment": "1년 승률 0% · 입상률 19% · 레이팅 281",
+    "predictedRank": 7
+   },
+   {
+    "gateNo": 3,
+    "score": 0.3298,
+    "winProb": 0.0657,
+    "briefComment": "1년 승률 0% · 입상률 38% · 레이팅 261",
+    "predictedRank": 8
+   },
+   {
+    "gateNo": 1,
+    "score": 0.105,
+    "winProb": 0.0467,
+    "briefComment": "1년 승률 0% · 입상률 12% · 레이팅 230",
+    "predictedRank": 9
+   },
+   {
+    "gateNo": 9,
+    "score": 0.0657,
+    "winProb": 0.0439,
+    "briefComment": "1년 승률 11% · 입상률 11% · 레이팅 240",
+    "predictedRank": 10
+   },
+   {
+    "gateNo": 2,
+    "score": 0.0,
+    "winProb": 0.0398,
+    "briefComment": "1년 승률 0% · 입상률 0% · 레이팅 230",
+    "predictedRank": 11
+   }
+  ],
+  "aiCommentary": null,
+  "confidence": "medium",
+  "topPicks": {
+   "win": 5,
+   "place": [
+    5,
+    7,
+    11
+   ],
+   "exacta": [
+    5,
+    7
+   ]
+  }
+ },
+ "result": null
+}
